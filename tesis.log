@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  6 FEB 2021 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  6 FEB 2021 21:50
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1360,13 +1360,13 @@ Package biblatex Info: ... file 'tesis.bbl' found.
  (tesis.bbl)
 Package biblatex Info: Reference section=0 on input line 58.
 Package biblatex Info: Reference segment=0 on input line 58.
-<imagenes/logo_institucion1.png, id=66, 149.05687pt x 148.10596pt>
+<imagenes/logo_institucion1.png, id=62, 149.05687pt x 148.10596pt>
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
 Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 92.
 
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
-<imagenes/logo_udelar.pdf, id=67, 207.28883pt x 59.6364pt>
+<imagenes/logo_udelar.pdf, id=63, 207.28883pt x 59.6364pt>
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
 Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 92.
@@ -1464,108 +1464,112 @@ MS/cmsy/m/n/12   [] \OT1/cmr/bx/n/12 d[]
 
 [6]
 
-LaTeX Warning: Citation 'Battini2002' on page 7 undefined on input line 189.
+LaTeX Warning: Citation 'Battini2002' on page 7 undefined on input line 188.
 
 
-LaTeX Warning: Citation 'Le2014' on page 7 undefined on input line 189.
+LaTeX Warning: Citation 'Le2014' on page 7 undefined on input line 188.
 
 
-Package caption Warning: \label without proper reference on input line 191.
+Package caption Warning: \label without proper reference on input line 190.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 7 undefined on input line 
-189.
+188.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 222.
+put line 221.
 
-Package caption Warning: \label without proper reference on input line 191.
+Package caption Warning: \label without proper reference on input line 190.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 7 undefined on input line 
-225.
+224.
 
 [7]
 
-Package caption Warning: \label without proper reference on input line 231.
+Package caption Warning: \label without proper reference on input line 230.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `Pseudo:MET:elementBeamForces' on page 8 undefined on 
-input line 266.
+input line 265.
 
 
-Package caption Warning: \label without proper reference on input line 191.
+Package caption Warning: \label without proper reference on input line 190.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 8 undefined on input line 
-266.
+265.
 
 [8] [9]
+
+Package caption Warning: \label without proper reference on input line 288.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:MET:Viento:DragLift' on page 10 undefined on inpu
+t line 275.
+
 
 Package caption Warning: \label without proper reference on input line 286.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:MET:Viento:DragLift' on page 10 undefined on inpu
-t line 276.
+LaTeX Warning: Reference `fig:MET:Viento:EsqViento' on page 10 undefined on inp
+ut line 277.
+
+
+LaTeX Warning: Citation 'duranona2009analysis' on page 10 undefined on input li
+ne 277.
+
+
+LaTeX Warning: Citation 'stengel2017measurements' on page 10 undefined on input
+ line 277.
+
+
+LaTeX Warning: Citation 'yang2016nonlinear' on page 10 undefined on input line 
+277.
 
 [10]
 
-Package caption Warning: \label without proper reference on input line 284.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:MET:Viento:EsqViento' on page 11 undefined on inp
-ut line 278.
-
-
-LaTeX Warning: Citation 'duranona2009analysis' on page 11 undefined on input li
-ne 278.
-
-
-LaTeX Warning: Citation 'stengel2017measurements' on page 11 undefined on input
- line 278.
-
-
-LaTeX Warning: Citation 'yang2016nonlinear' on page 11 undefined on input line 
-278.
+LaTeX Warning: Reference `Sec:MET:Amort' on page 11 undefined on input line 279
+.
 
 (imagenes/Metodologia/EsquemaViento.pdf_tex
-<./imagenes/Metodologia/EsquemaViento.pdf, id=272, page=1, 536.0025pt x 470.507
-81pt>
+<./imagenes/Metodologia/EsquemaViento.pdf, id=261, page=1, 558.00475pt x 397.41
+847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page1 used 
 on input line 56.
-(pdftex.def)             Requested size: 170.71652pt x 149.85481pt.
-<./imagenes/Metodologia/EsquemaViento.pdf, id=273, page=2, 536.0025pt x 470.507
-81pt>
+(pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
+<./imagenes/Metodologia/EsquemaViento.pdf, id=262, page=2, 558.00475pt x 397.41
+847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page2 used 
-on input line 61.
-(pdftex.def)             Requested size: 170.71652pt x 149.85481pt.
+on input line 60.
+(pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
 )
 (imagenes/Metodologia/DragLift.pdf_tex
-<./imagenes/Metodologia/DragLift.pdf, id=274, page=1, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=263, page=1, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=275, page=2, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=264, page=2, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=276, page=3, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=265, page=3, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 3>
@@ -1575,7 +1579,7 @@ put line 63.
 )
 
 LaTeX Warning: Citation 'stengel2017measurements' on page 11 undefined on input
- line 298.
+ line 300.
 
 [11 <./imagenes/Metodologia/EsquemaViento.pdf> <./imagenes/Metodologia/EsquemaV
 iento.pdf
@@ -1596,13 +1600,139 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Citation 'Foti2016' on page 12 undefined on input line 311.
+LaTeX Warning: Citation 'Foti2016' on page 12 undefined on input line 313.
 
 
 LaTeX Warning: Citation 'mara2007effects' on page 12 undefined on input line 31
-1.
+3.
 
-) [12]
+(imagenes/Metodologia/FuerzaZY.pdf_tex
+<./imagenes/Metodologia/FuerzaZY.pdf, id=281, page=1, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 1>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page1 used on in
+put line 56.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+<./imagenes/Metodologia/FuerzaZY.pdf, id=282, page=2, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 2>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page2 used on in
+put line 58.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+<./imagenes/Metodologia/FuerzaZY.pdf, id=283, page=3, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 3>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page3 used on in
+put line 60.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+<./imagenes/Metodologia/FuerzaZY.pdf, id=284, page=4, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 4>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page4 used on in
+put line 62.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+<./imagenes/Metodologia/FuerzaZY.pdf, id=285, page=5, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 5>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page5 used on in
+put line 69.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+<./imagenes/Metodologia/FuerzaZY.pdf, id=286, page=6, 330.7165pt x 175.85223pt>
+
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 6>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page6 used on in
+put line 73.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+) (imagenes/Metodologia/VelRel.pdf_tex
+<./imagenes/Metodologia/VelRel.pdf, id=287, page=1, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 1>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+<./imagenes/Metodologia/VelRel.pdf, id=288, page=2, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 2>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+<./imagenes/Metodologia/VelRel.pdf, id=289, page=3, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 3>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+<./imagenes/Metodologia/VelRel.pdf, id=290, page=4, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 4>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
+t line 63.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+<./imagenes/Metodologia/VelRel.pdf, id=291, page=5, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 5>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
+t line 65.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+<./imagenes/Metodologia/VelRel.pdf, id=292, page=6, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 6>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
+t line 70.
+(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
+))
+[12] [13 <./imagenes/Metodologia/FuerzaZY.pdf> <./imagenes/Metodologia/FuerzaZY
+.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
 
 LaTeX Warning: Empty bibliography on input line 125.
 
@@ -1618,7 +1748,7 @@ LaTeX Info: Redefining \% on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: A081E2FC11A7808C7E003BD5A0EB3535;689.
+(rerunfilecheck)             Checksum: 3B48BC944CA5E80DCD61D3357159FC2C;621.
 
 
 LaTeX Warning: There were undefined references.
@@ -1634,10 +1764,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 29973 strings out of 481199
- 573765 string characters out of 2904657
- 1362011 words of memory out of 3000000
- 44880 multiletter control sequences out of 15000+200000
+ 30030 strings out of 481199
+ 576066 string characters out of 2904657
+ 1360288 words of memory out of 3000000
+ 44925 multiletter control sequences out of 15000+200000
  545325 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,20n,107p,1207b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1664,9 +1794,9 @@ ts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (14 pages, 417893 bytes).
+Output written on tesis.pdf (15 pages, 441338 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -182,7 +182,6 @@ Al dividir las Ecuaciones \eqref{Eq:MET:IncrementoVelGlobalBt} y \eqref{Eq:MET:I
 
 Se aclara que una para obtener el valor inceremental en desplazamientos la matriz entre paréntesis curvos debe invertirse y por tanto ser no singular. De lo contrario, el método podría presentar un número de condición nulo arrojando infinitas soluciones o ninguna.  Esto se encuentra garantizado por la naturaleza de las matrices que la integran (de masa, centrifuga y tangente). Las matrices tangentes fueron simetrizadas como se aclaró anteriormente para mantener el orden de convergencia. Las matrices centrifugas y de masa devienen de un potencial asociado (la energía cinética) como los parámetros $\alpha_{HHT}$ son menores a uno, en general en el intervalo $[-0.1;0.1]$, la suma de esta matrices suele ser definidas positivas. Por lo que $\bf{K}_{tot}$ será invertible. Se aclara que para este trabajo, si bien se consideraron las funciones de actualización angulares para los incrementos, el angulo se sumo de forma aditiva. 
 
-\subsection{Amortiguamiento}
 \subsection{Implementación numérica en ONSAS}
 En la sección que prosigue se detallan los códigos implementados en la librería de software libre: \emph{Open Non Linear Structural Analysis Solver} (\href{https://github.com/ONSAS/ONSAS/}{ONSAS}). Se destaca lo valioso de incorporarar el elemento corrotacional a una librería de software abierto. \href{https://github.com/ONSAS/ONSAS/}{ONSAS} es una herramienta general que permite integrar distintos elementos dentro del mismo modelo, resolver mediante diversos algoritmos numéricos y visualizar gráficamente las salidas en 3D a través del programa de código abierto Paraview.
 
@@ -275,9 +274,12 @@ Una vez finalizado estos cálculos se integran las matrices tangentes y el vecto
 \subsection{Modelo de viento}\label{Sec:PRE:Modeloviento}
 Un cuerpo inmerso en un fluido en movimiento sufre determinadas cargas debido al campo de presiones en su superficie. Este campo suele producir fuerzas de arrastre (drag), en la dirección del flujo y fuerzas perpendiculares (lift). Las cargas de drag son el resultado de integrar las tensiones rasantes en la capa limite en toda la frontera del cuerpo. Mientras que las cargas de lift aparecen sobre el sólido debido a la asimetría del campo de presiones entre el intradós y extradós del sólido inmerso. Esta diferencia de presiones entre dos superficies contrarias del cuerpo genera una circulación circundante en el campo de velocidades relativos. Al integrar ese campo  en curva cerrada correspondiente a la silueta del cuerpo, se induce una fuerza. Ambos efectos dinámicos sobre el cable se ilustran en la Figura \ref{fig:MET:Viento:DragLift}. Para este trabajo la competente de lift se desprecia frente al drag.  Esto se debe a la simetría de revolución del cuerpo, esta garantiza que la circulación sea nula, lo que se traduce en que la fuerza lift sea insignificante respecto al arrastre. 
 
-Por otra parte el flujo se consideró unidimensional según el eje $z$ en la Figura \ref{fig:MET:Viento:EsqViento}, siendo este el caso más amenazante para el conductor. Esta hipótesis proviene de diferentes trabajos publicados donde la componente perpendicular a la superficie terrestre o ascendente suele ser significativamente menor a la paralela \citep{duranona2009analysis} \citep{stengel2017measurements} \cite{yang2016nonlinear}. Esta premisa simplificadora supone que el sistema de trasmisión se encuentra completamente perpendicular al sentido del viento, por ende la velocidad descarga su mayor fuerza sobre el sistema. Este escenario es el más peligroso y desafiante para la seguridad e integridad de la línea. Otro argumento posible a favor de esta hipótesis se sustenta en la mayor rigidez del cable en la dirección perpendicular al flujo, además del el peso que se opone a la fuerza de sustentación.
+Por otra parte el flujo se consideró unidimensional según el eje $z$ en la Figura \ref{fig:MET:Viento:EsqViento}, siendo este el caso más amenazante para el conductor. Esta hipótesis proviene de diferentes trabajos publicados donde la componente perpendicular a la superficie terrestre o ascendente suele ser significativamente menor a la paralela \citep{duranona2009analysis} \citep{stengel2017measurements} \cite{yang2016nonlinear}. Esta premisa simplificadora supone que el sistema de trasmisión, en el tiempo inicial, se encuentra completamente perpendicular al sentido del viento, por ende la velocidad descarga su mayor fuerza sobre el sistema. 
+
+Otra hipótesis a clarificar es que no se considera el cambio de orientación del cable respecto al viento. También se deprecia la velocidad relativa que el viento desarrolla respecto al cable y viceversa. Un sucinto análisis de este fenómeno se muestra en \ref{Sec:MET:Amort} 
+
+Este escenario es el más peligroso y desafiante para la seguridad e integridad de la línea. Otro argumento posible a favor de esta hipótesis se sustenta en la mayor rigidez del cable en la dirección perpendicular al flujo, además del el peso que se opone a la fuerza de sustentación.
 \begingroup
-\centering
 \begin{figure}[htbp]
 	\centering
 	\subfigure[Vista en perspetiva ]{	\def\svgwidth{60mm}
@@ -310,6 +312,16 @@ Considerando el aire como un fluido no newtoneano indicado $\rho$ la densidad de
 
 Para este cálculo se asumió como constante a las magnitudes al interior del elemento, es por esto que el valor de la integral es simplemente el producto del integrando por el largo del intervalo. Además se modeló como una fuerza nodal equivalente a la mita de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen se cancelan con los elementos aledaños. Por otra parte los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante tormentas conectivas \citep{mara2007effects}. La densidad $\rho$ se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
 
+\subsubsection{Amortiguamiento aerodinámico}
+ En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento aproximado introducido. Dada una sección arbitraria transversal al cable donde el viento tiene determinada componente axial y tranvseral a el conductor indicadas con el nombre $u$ y $v$.  
 
- 
-
+\begingroup
+\begin{figure}[htbp]
+	\centering
+	\subfigure[[Esquema en sistema de referencias relativo. ]{	\def\svgwidth{80mm}
+		\input{./imagenes/Metodologia/FuerzaZY.pdf_tex}}\label{fig:MET:Viento:FuerzaZY}
+	\subfigure[Esquema en sistema de referencias absoluto. ]{	\def\svgwidth{80mm}
+		\input{./imagenes/Metodologia/VelRel.pdf_tex}}\label{fig:MET:Viento:VelRel}
+	\caption{Ilustración de fuerzas y velocidades} 	\label{fig:Met:Viento:EsquemasAmort}
+\end{figure}
+\endgroup
