@@ -61,7 +61,7 @@
     \put(0.24448106,0.0311656){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_{rel}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{FuerzaZY.pdf}}%
     \put(0.24768474,0.13150341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}%
-    \put(0.9179977,0.25276526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}%
+    \put(0.90908646,0.24846271){\color[rgb]{0,0,0}\rotatebox{13.4792}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}}%
     \put(0.64507926,0.54743889){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_y$\end{tabular}}}}%
     \put(0.99685486,0.17206819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_z$\end{tabular}}}}%
     \put(0.96410086,0.35990049){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_d$\end{tabular}}}}%
@@ -71,6 +71,8 @@
     \put(0.08448368,0.47872344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.2076623,0.34919315){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{FuerzaZY.pdf}}%
-    \put(-0.11187796,0.09847649){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v-W_{ry}$\end{tabular}}}}%
+    \put(-0.12153015,0.09525909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v-W_{ry}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{FuerzaZY.pdf}}%
+    \put(0.5767988,0.4241635){\color[rgb]{0,0,0}\rotatebox{21.429113}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}}%
   \end{picture}%
 \endgroup%

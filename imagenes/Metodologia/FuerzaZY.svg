@@ -241,8 +241,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.83"
-     inkscape:cx="135.96757"
-     inkscape:cy="150.01197"
+     inkscape:cx="232.78736"
+     inkscape:cy="154.60561"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -259,7 +259,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -741,13 +741,37 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="21.53557"
-       y="84.000557"
+       x="20.413662"
+       y="84.374527"
        id="text1881-0-4"><tspan
          sodipodi:role="line"
          id="tspan1879-9-6"
-         x="21.53557"
-         y="84.000557"
+         x="20.413662"
+         y="84.374527"
          style="stroke-width:0.10972433">$v-W_{ry}$</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66499996;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25229361;paint-order:markers fill stroke"
+       id="path4949-4-9"
+       sodipodi:type="arc"
+       sodipodi:cx="65.086761"
+       sodipodi:cy="-111.26959"
+       sodipodi:rx="19.448076"
+       sodipodi:ry="19.448076"
+       sodipodi:start="2.3940991"
+       sodipodi:end="3.1318754"
+       sodipodi:open="true"
+       d="M 50.823638,-98.048738 A 19.448076,19.448076 0 0 1 45.639603,-111.08061"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.9677372px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07419343"
+       x="101.79116"
+       y="45.934776"
+       id="text4953-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan4951-3-0"
+         x="101.79116"
+         y="45.934776"
+         style="stroke-width:0.07419343">$\beta$</tspan></text>
   </g>
 </svg>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  6 FEB 2021 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  7 FEB 2021 23:44
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1606,92 +1606,117 @@ LaTeX Warning: Citation 'Foti2016' on page 12 undefined on input line 313.
 LaTeX Warning: Citation 'mara2007effects' on page 12 undefined on input line 31
 3.
 
+[12] (imagenes/Metodologia/VelRel.pdf_tex
+<./imagenes/Metodologia/VelRel.pdf, id=289, page=1, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 1>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+<./imagenes/Metodologia/VelRel.pdf, id=290, page=2, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 2>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+<./imagenes/Metodologia/VelRel.pdf, id=291, page=3, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 3>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+<./imagenes/Metodologia/VelRel.pdf, id=292, page=4, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 4>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
+t line 63.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+<./imagenes/Metodologia/VelRel.pdf, id=293, page=5, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 5>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
+t line 65.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+<./imagenes/Metodologia/VelRel.pdf, id=294, page=6, 281.43771pt x 182.25304pt>
+File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/VelRel.pdf, page 6>
+Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
+t line 70.
+(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
+)
 (imagenes/Metodologia/FuerzaZY.pdf_tex
-<./imagenes/Metodologia/FuerzaZY.pdf, id=281, page=1, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=296, page=1, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/FuerzaZY.pdf, id=282, page=2, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=297, page=2, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/FuerzaZY.pdf, id=283, page=3, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=298, page=3, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page3 used on in
 put line 60.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/FuerzaZY.pdf, id=284, page=4, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=299, page=4, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 4>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page4 used on in
 put line 62.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/FuerzaZY.pdf, id=285, page=5, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=300, page=5, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 5>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page5 used on in
 put line 69.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/FuerzaZY.pdf, id=286, page=6, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/FuerzaZY.pdf, id=301, page=6, 330.7165pt x 175.85223pt>
 
 File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/FuerzaZY.pdf, page 6>
 Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page6 used on in
 put line 73.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-) (imagenes/Metodologia/VelRel.pdf_tex
-<./imagenes/Metodologia/VelRel.pdf, id=287, page=1, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
-t line 56.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-<./imagenes/Metodologia/VelRel.pdf, id=288, page=2, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
-t line 58.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-<./imagenes/Metodologia/VelRel.pdf, id=289, page=3, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
-t line 60.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-<./imagenes/Metodologia/VelRel.pdf, id=290, page=4, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
-t line 63.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-<./imagenes/Metodologia/VelRel.pdf, id=291, page=5, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
-t line 65.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-<./imagenes/Metodologia/VelRel.pdf, id=292, page=6, 281.43771pt x 182.25304pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
-t line 70.
-(pdftex.def)             Requested size: 227.62204pt x 147.41002pt.
-))
-[12] [13 <./imagenes/Metodologia/FuerzaZY.pdf> <./imagenes/Metodologia/FuerzaZY
-.pdf
+<./imagenes/Metodologia/FuerzaZY.pdf, id=302, page=7, 330.7165pt x 175.85223pt>
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
+File: ./imagenes/Metodologia/FuerzaZY.pdf Graphic file (type pdf)
+<use ./imagenes/Metodologia/FuerzaZY.pdf, page 7>
+Package pdftex.def Info: ./imagenes/Metodologia/FuerzaZY.pdf , page7 used on in
+put line 75.
+(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
+)
+Underfull \vbox (badness 2556) has occurred while \output is active []
+
+ [13 <./imagenes/Metodologia/VelRel.pdf> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/VelRel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
 > <./imagenes/Metodologia/FuerzaZY.pdf
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
@@ -1708,31 +1733,24 @@ clusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
+> <./imagenes/Metodologia/FuerzaZY.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./imagenes/Metodologia/FuerzaZY.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/FuerzaZY.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
 >]
+
+LaTeX Warning: Reference `Eq:MET:FuerzaDragY' on page 14 undefined on input lin
+e 357.
+
+) [14]
 
 LaTeX Warning: Empty bibliography on input line 125.
 
@@ -1764,10 +1782,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 30030 strings out of 481199
- 576066 string characters out of 2904657
- 1360288 words of memory out of 3000000
- 44925 multiletter control sequences out of 15000+200000
+ 30048 strings out of 481199
+ 576413 string characters out of 2904657
+ 1360543 words of memory out of 3000000
+ 44941 multiletter control sequences out of 15000+200000
  545325 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,20n,107p,1207b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1794,9 +1812,9 @@ ts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (15 pages, 441338 bytes).
+Output written on tesis.pdf (16 pages, 449323 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

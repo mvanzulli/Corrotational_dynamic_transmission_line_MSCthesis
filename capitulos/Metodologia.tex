@@ -304,7 +304,7 @@ Considerando el aire como un fluido no newtoneano indicado $\rho$ la densidad de
 \begin{center}
 	\begin{equation}
 		\label{Eq:MET:FuerzaViento}
-		F_v(t)=\int_{l_0}\frac{1}{2}{\rho (T)C_d(Re)d_cu_m(t)^2} dl= \frac{1}{2}\rho C_dd_cu_m(t)^2l_{e}
+		F_d(t)=\int_{l_0}\frac{1}{2}{\rho (T)C_d(Re)d_cu_m(t)^2} dl= \frac{1}{2}\rho C_dd_cu_m(t)^2l_{e}
 	\end{equation}
 \end{center}
 
@@ -313,15 +313,58 @@ Considerando el aire como un fluido no newtoneano indicado $\rho$ la densidad de
 Para este cálculo se asumió como constante a las magnitudes al interior del elemento, es por esto que el valor de la integral es simplemente el producto del integrando por el largo del intervalo. Además se modeló como una fuerza nodal equivalente a la mita de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen se cancelan con los elementos aledaños. Por otra parte los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante tormentas conectivas \citep{mara2007effects}. La densidad $\rho$ se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
 
 \subsubsection{Amortiguamiento aerodinámico}
- En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento aproximado introducido. Dada una sección arbitraria transversal al cable donde el viento tiene determinada componente axial y tranvseral a el conductor indicadas con el nombre $u$ y $v$.  
+ En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección arbitraria transversal al cable, donde el viento tiene determinada componente transversal según $z$) y perpendicular (según $y$) a el conductor indicadas con el nombre $u$ y $v$. Un análisis general desde un sistema de referencias abosultos se muestra en  la Figura \ref{fig:MET:Viento:VelAbs}. En esta imagen se representan las velocidades media y fluctuante $u_m$ y $u_a$ que sumada la velocidad $v$ resulta en el vector de velocidad total $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $W_{ry}$ y $W_{rz}$. 
+% 
+%\begingroup
+%\begin{figure}[htbp]
+%	\subfigure[Esquema en sistema de referencias absoluto. ]{	\def\svgwidth{80mm}
+%		\input{./imagenes/Metodologia/VelRel.pdf_tex}}\label{fig:MET:Viento:VelAbs}
+%	\subfigure[Esquema en sistema de referencias relativo. ]{	\def\svgwidth{90mm}
+%	\input{./imagenes/Metodologia/FuerzaZY.pdf_tex}}\label{fig:MET:Viento:VelRel}
+%	\caption{Ilustración de fuerzas y velocidades} 	\label{fig:Met:Viento:EsquemasAmort}
+%\end{figure}
+%\endgroup
 
-\begingroup
 \begin{figure}[htbp]
 	\centering
-	\subfigure[[Esquema en sistema de referencias relativo. ]{	\def\svgwidth{80mm}
-		\input{./imagenes/Metodologia/FuerzaZY.pdf_tex}}\label{fig:MET:Viento:FuerzaZY}
-	\subfigure[Esquema en sistema de referencias absoluto. ]{	\def\svgwidth{80mm}
-		\input{./imagenes/Metodologia/VelRel.pdf_tex}}\label{fig:MET:Viento:VelRel}
-	\caption{Ilustración de fuerzas y velocidades} 	\label{fig:Met:Viento:EsquemasAmort}
+	\def\svgwidth{60mm}
+	\input{./imagenes/Metodologia/VelRel.pdf_tex}
+	\caption{Esquema en sistema de referencias absoluto.}
+	\label{fig:MET:Viento:VelAbs}
 \end{figure}
-\endgroup
+
+Debido al campo de velocidades del rígido, en un sistema de referencia solidario con el conductor, la velocidad percibida de viento sería la diferencia entre las velocidades absolutas y las rígidas. Esto se muestra en la figura \ref{fig:MET:Viento:VelRel}. Este campo de velocidades relativos origina fuerzas en el sentido paralelo al flujo de drag $F_d$ y perpendicular de lift $F_l$. Estas puede ser proyectada en el sistema de ejes globales ocasionando dos fuerzas $F_z$ y $F_y$.
+
+
+\begin{figure}[htbp]
+	\centering
+	\def\svgwidth{80mm}
+	\input{./imagenes/Metodologia/FuerzaZY.pdf_tex}
+	\caption{Esquema en sistema de referencias relativo.}
+	\label{fig:MET:Viento:VelRel}
+\end{figure}
+
+Habiendo descrito las variables que intervienen en este análisis plano, donde no se consideran cambios de orientación en sentido axial del conductor, resulta natural escudriñar en las fórmulas que vinculan las magnitudes cinemáticas y dinámicas. La velocidad relativa absoluta es el cuadrado de los catetos tal y como se exrepsa en la Ecuación \eqref{Eq:MET:VrelTot}. Tomando como hipótesis que las velocidades relativas, de rígido y la componente vertical son mucho menores que la asociada al flujo medio en el sentido de $z$ se deduce la Ecuación \eqref{Eq:MET:VerlTotRatio}. 
+
+
+\begin{eqnarray}
+	\label{Eq:MET:VrelTot}
+	V_{rel}^2&=&(u_m+u_a-W_{rx})^2+(v-W_{ry})^2\\
+		\label{Eq:MET:VerlTotRatio}
+	\frac{V_{rel}^2}{u_m}&=&u_m + 2 (u_a-W_{rz})
+\end{eqnarray}
+
+La carga de drag postulada la Ecuación \eqref{Eq:MET:ComponentsVel} por unidad de longitud se detalla en \eqref{Eq:MET:DragPerLength}.  Además se descompone esta en los ejes cartesianos $z$ e $y$ y se muestra que para las asunciones de velocidad media predominante, el ángulo de ataque es cercano a 0º. Para formular esto matemáticamente se escriben las Ecacuines  \eqref{Eq:MET:FuerzaDragZ}, \eqref{Eq:MET:FuerzaDragY} y \eqref{Eq:MET:AngleBeta}
+
+\begin{eqnarray}
+	\label{Eq:MET:AngleBeta}
+	\tan (\beta) = \frac{v-W_{ry}}{u_m - W_{rz} + u_a}=\frac{\frac{v-W_{ry}}{u_m}}{1 \frac{- W_{rz} + u_a}{u_m}}\approx 0 \\
+	 \label{Eq:MET:DragPerLength}
+	F_d = \frac{\rho d_c}{2}C_d (u_m + 2 (u_a-W_{rz}))u_m\\
+	\label{Eq:MET:FuerzaDragZ}
+	F_x = \bar{F_x}+Fx'-D_x
+\end{eqnarray}
+
+
+
+
