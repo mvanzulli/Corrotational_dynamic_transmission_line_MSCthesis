@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{280.38625402bp}%
+    \setlength{\unitlength}{329.48095367bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +50,29 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.64757864)%
+  \begin{picture}(1,0.53173105)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{VelRel.pdf}}%
-    \put(0.20527856,0.25191819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_m$\end{tabular}}}}%
+    \put(0.05685234,0.2092071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_m-W_{rz}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{VelRel.pdf}}%
-    \put(0.43237659,0.24761355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_a$\end{tabular}}}}%
+    \put(0.35819425,0.2139693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_a$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{VelRel.pdf}}%
-    \put(0.28919951,0.0595503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_{tot}$\end{tabular}}}}%
-    \put(-0.0033582,0.10045648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v$\end{tabular}}}}%
+    \put(0.24448106,0.0311656){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_{rel}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{VelRel.pdf}}%
-    \put(0.97161115,0.45422159){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W_{rz}$\end{tabular}}}}%
+    \put(0.24768474,0.13150341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta_r$\end{tabular}}}}%
+    \put(0.9179977,0.25276526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}%
+    \put(0.64507926,0.54743889){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_y$\end{tabular}}}}%
+    \put(0.99685486,0.17206819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_z$\end{tabular}}}}%
+    \put(0.96410086,0.35990049){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_d$\end{tabular}}}}%
+    \put(0.45344344,0.4950005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$F_l$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{VelRel.pdf}}%
-    \put(0.82428778,0.61476198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W_{ry}$\end{tabular}}}}%
-    \put(0.02629372,0.43978507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
-    \put(0.06668648,0.58906118){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
-    \put(0.21143327,0.4368506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.03321835,0.34686426){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.08448368,0.47872344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
+    \put(0.2076623,0.34919315){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{VelRel.pdf}}%
-    \put(0.29972234,0.15806597){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}%
+    \put(-0.12153015,0.09525909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v-W_{ry}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{VelRel.pdf}}%
+    \put(0.57859036,0.42597038){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta_r$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -1,8 +1,28 @@
-\BOOKMARK [0][-]{chapter.1}{Metodolog\355a}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Aspectos de modelado computacional}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Ecuaci\363n de equilibrio}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Resoluci\363n num\351rica mediante HHT}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{Implementaci\363n num\351rica en ONSAS}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Aspectos de modelado estructural}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Condiciones iniciales y de borde}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Modelo de viento}{section.1.2}% 8
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{subsection.1.0.1}{Motivaci\363n}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.0.2}{Enfoque}{subsection.1.0.1}% 3
+\BOOKMARK [2][-]{subsection.1.0.3}{Estructura}{subsection.1.0.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Historia de la tem\341tica}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Simulaciones num\351ricas aplicadas a conductores de trasmisi\363n el\351ctrica}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Tormentas convectivas}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{An\341lisis semi-anal\355ticos de conductores}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{An\341lisis corrotacional de vigas}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Preliminares}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Formulaci\363n corrotacional}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.1.1}{Cinem\341tica corrotacional}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.2}{Formulaci\363n local}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.3}{Din\341mica corrotacional}{section.3.1}% 15
+\BOOKMARK [0][-]{chapter.4}{Metodolog\355a}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Aspectos de modelado computacional}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.1.1}{Ecuaci\363n de equilibrio}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.2}{Resoluci\363n num\351rica mediante HHT}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.3}{Implementaci\363n num\351rica en ONSAS}{section.4.1}% 20
+\BOOKMARK [1][-]{section.4.2}{Aspectos de modelado estructural}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Condiciones iniciales y de borde}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.2}{Modelo de viento}{section.4.2}% 23
+\BOOKMARK [0][-]{chapter.5}{Resultados num\351ricos}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Vigas en voladizo con \341ngulo recto}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Modelo simplificado de una linea}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Sistema de transmisi\363n el\351ctrica }{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Consideraciones finales}{}% 28

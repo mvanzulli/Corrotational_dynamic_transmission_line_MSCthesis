@@ -328,7 +328,7 @@ Para este cálculo se asumió como constante a las magnitudes al interior del el
 \begin{figure}[htbp]
 	\centering
 	\def\svgwidth{60mm}
-	\input{./imagenes/Metodologia/VelRel.pdf_tex}
+	\input{./imagenes/Metodologia/VelAbs.pdf_tex}
 	\caption{Esquema en sistema de referencias absoluto.}
 	\label{fig:MET:Viento:VelAbs}
 \end{figure}
@@ -339,7 +339,7 @@ Debido al campo de velocidades del rígido, en un sistema de referencia solidari
 \begin{figure}[htbp]
 	\centering
 	\def\svgwidth{80mm}
-	\input{./imagenes/Metodologia/FuerzaZY.pdf_tex}
+	\input{./imagenes/Metodologia/VelRel.pdf_tex}
 	\caption{Esquema en sistema de referencias relativo.}
 	\label{fig:MET:Viento:VelRel}
 \end{figure}
@@ -354,17 +354,38 @@ Habiendo descrito las variables que intervienen en este análisis plano, donde n
 	\frac{V_{rel}^2}{u_m}&=&u_m + 2 (u_a-W_{rz})
 \end{eqnarray}
 
-La carga de drag postulada la Ecuación \eqref{Eq:MET:ComponentsVel} por unidad de longitud se detalla en \eqref{Eq:MET:DragPerLength}.  Además se descompone esta en los ejes cartesianos $z$ e $y$ y se muestra que para las asunciones de velocidad media predominante, el ángulo de ataque es cercano a 0º. Para formular esto matemáticamente se escriben las Ecacuines  \eqref{Eq:MET:FuerzaDragZ}, \eqref{Eq:MET:FuerzaDragY} y \eqref{Eq:MET:AngleBeta}
+La carga de drag postulada la Ecuación \eqref{Eq:MET:ComponentsVel} por unidad de longitud se detalla en \eqref{Eq:MET:DragPerLength}.  Además se muestra que para las asunciones de velocidad media predominante, el ángulo de ataque es cercano a $0^{\circ}$. Para formular esto matemáticamente se escriben las Ecuaciones \eqref{Eq:MET:DragPerLength} y \eqref{Eq:MET:AngleBeta}.
 
 \begin{eqnarray}
 	\label{Eq:MET:AngleBeta}
 	\tan (\beta) = \frac{v-W_{ry}}{u_m - W_{rz} + u_a}=\frac{\frac{v-W_{ry}}{u_m}}{1 \frac{- W_{rz} + u_a}{u_m}}\approx 0 \\
 	 \label{Eq:MET:DragPerLength}
-	F_d = \frac{\rho d_c}{2}C_d (u_m + 2 (u_a-W_{rz}))u_m\\
-	\label{Eq:MET:FuerzaDragZ}
-	F_x = \bar{F_x}+Fx'-D_x
+	F_d = \frac{\rho d_c C_d}{2} (u_m + 2 (u_a-W_{rz}))u_m
 \end{eqnarray}
 
+Resulta relevante descomponer la fuerza de arrastre según las componentes $z$ e $y$. Estas son importantes ya que permiten, en un sistema de coordenadas absoluto, calcular la carga a la que se somete el conductor. A partir de esta se hallan el campo de desplzamientios, velocidad y aceleraciones. Considerando que ángulo $\beta$ es ínfimo y por lo tanto $\tan(\beta)\approx\sin(\beta)\approx 0$ y $\cos(\beta)=1$ al aplicar trigonometría se obtienen los siguientes valores de fuerza:
 
+\begin{eqnarray}
+	F_z = \frac{\rho d_c C_d}{2} (u_m^2+u_a^2-2u_au_m)\cos(\beta_r)\\
+	F_y = \frac{\rho d_c C_d}{2} (u_m^2+u_a^2+2u_au_m)\sin(\beta_r)\approx 0
+\end{eqnarray}
+
+Al igual que las variables cinemáticas, las dinámicas se pueden desglosar en componentes alternantes y medias. La parte media de cada magnitud es una promedio móvil a lo largo del tiempo y naturalmente se vinculan con las velocidades medias. En contraste, los términos alternantes tienen media nula y emanan de las velocidades fluctuantes. Ahora bien, un tercer termino surge al escindir la Ecuación \eqref{Eq:MET:DragPerLength} que depende del producto entre la velocidad media de viento y la del rígido. Es por esto que se le llama amortiguamiento aerodinámico, pus depende del campo de velocidades del fluido y del sólido y es sorpresivamente en sentido contrario a la sentido del viento.  Esta descomposición de fuerzas según $z$ se le llaman $\bar{F_x}$, $F_a$, $-D$ a la componente media, alternante y de amoritguamentio dinámico respectivamente. Sus expresiones se detallan a continuación: 
+
+\begin{eqnarray}
+\bar{F_x} = = \frac{\rho d_c C_d}{2} (u_m^2)\\
+F_a =  \frac{\rho d_c C_d}{2} (u_a^2)\\
+D  = \frac{\rho d_c C_d}{2} (2u_au_m)
+\end{eqnarray}
+ 
+Una vez descrito el análisis general de los anteriores párrafos se postulan las premisas en las cual se fragua este trabajo para el modelado de la fuerza del viento sobre la linea:
+
+\begin{itemize}
+	\item No se consideran cambios en la orientación axial del conductor.
+	\item La velocidad relativa transversal $v-W_ry$ al igual que la componente alternante son mucho menores en magnitud a la velocidad media en el sentido de $z$ llamada $u_m$.
+	\item La fuerza lift debido a la simetría de revolución del conductor se considera despreciable frente al drag.
+	\item Para la fuerza en el sentido de $z$ se desprecia la componente fluctuante $F_a$.
+	\item Para cálculo del amortiguamiento aerodinámico se promedió la velocidad media en un valor constante igual al valor medio para todo el dominio temporal de simulación. 
+\end{itemize}
 
 
