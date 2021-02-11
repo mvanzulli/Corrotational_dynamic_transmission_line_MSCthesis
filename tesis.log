@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  8 FEB 2021 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  11 FEB 2021 12:48
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1189,27 +1189,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (tesis.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- (capitulos/Introduccion.aux) (capitulos/EstadoDelArte.aux)
-(capitulos/Preliminares.aux) (capitulos/Metodologia.aux)
-(capitulos/ResultadosNumericos.aux) (capitulos/Conclusiones.aux))
+ (capitulos/Metodologia.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
@@ -1234,15 +1232,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
+(lastpage)             ! on input line 60.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 60.
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1256,9 +1254,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count489
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
  (tesis.out) (tesis.out)
 \@outlinefile=\write5
 \openout5 = `tesis.out'.
@@ -1360,18 +1358,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis.bbl' found.
  (tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
-<imagenes/logo_institucion1.png, id=142, 149.05687pt x 148.10596pt>
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+<imagenes/logo_institucion1.png, id=66, 149.05687pt x 148.10596pt>
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
-Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 92.
+Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 94.
 
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
-<imagenes/logo_udelar.pdf, id=143, 207.28883pt x 59.6364pt>
+<imagenes/logo_udelar.pdf, id=67, 207.28883pt x 59.6364pt>
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
-Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 92.
+Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 94.
 (pdftex.def)             Requested size: 179.61234pt x 51.67139pt.
  [1
 
@@ -1390,778 +1388,30 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 ...e {5}Resultados numéricos}{49}{chapter.5}
-                                                  % [1
-
-])
+))
 \tf@toc=\write6
 \openout6 = `tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
- [2]
-\openout2 = `capitulos/Introduccion.aux'.
-
-
-(capitulos/Introduccion.tex
-Cap\'{\i }tulo 1.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-) [1
-
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.112   \mainmatter
+                    % Comando que genera las listas y capítulos. NO COMENTAR
+[1
 
 ]
-\openout2 = `capitulos/EstadoDelArte.aux'.
-
- (capitulos/EstadoDelArte.tex
-Cap\'{\i }tulo 2.
-
-LaTeX Warning: Citation 'Starossek1991' on page 2 undefined on input line 8.
-
-[2
-
-
-
-]
-
-LaTeX Warning: Citation 'Irvine1974' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Routh1955' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Kloppel1942' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Pugsley1949' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Saxon1953' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Irvine1974' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Irvine1974' on page 3 undefined on input line 16.
-
-[3]
-
-LaTeX Warning: Citation 'Irvine1976' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Irvine1978' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Triantafyllou1984' on page 4 undefined on input line 1
-8.
-
-
-LaTeX Warning: Citation 'Davenport1965' on page 4 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Veletsos1983' on page 4 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Starossek1991' on page 4 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Simiu1986' on page 4 undefined on input line 22.
-
-[4]
-
-LaTeX Warning: Citation 'Martinelli2001' on page 5 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Martinelli2004' on page 5 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'koh2004dynamic' on page 5 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'oran1973tangent' on page 5 undefined on input line 29.
-
-
-
-LaTeX Warning: Citation 'di2008corotational' on page 5 undefined on input line 
-31.
-
-
-LaTeX Warning: Citation 'simo1988dynamics' on page 5 undefined on input line 31
-.
-
-[5]
-
-LaTeX Warning: Citation 'Papailiou1997' on page 6 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'Kutterer1992' on page 6 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'Papailiou1997' on page 6 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Foti2016' on page 6 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'costello1990average' on page 6 undefined on input line
- 43.
-
-
-LaTeX Warning: Citation 'rawlins2005flexure' on page 6 undefined on input line 
-43.
-
-[6]
-
-LaTeX Warning: Citation 'fujita1985downburst' on page 7 undefined on input line
- 50.
-
-
-LaTeX Warning: Citation 'darwish2010dynamic' on page 7 undefined on input line 
-50.
-
-[7]
-
-LaTeX Warning: Citation 'ang1984probability' on page 8 undefined on input line 
-52.
-
-
-LaTeX Warning: Citation 'holmes2002re' on page 8 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'abd2013coupled' on page 8 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'stengel2017measurements' on page 8 undefined on input 
-line 54.
-
-
-LaTeX Warning: Citation 'duranona2009analysis' on page 8 undefined on input lin
-e 56.
-
-
-LaTeX Warning: Citation 'duranona2009analysis' on page 8 undefined on input lin
-e 58.
-
-
-LaTeX Warning: Citation 'duranona2015significance' on page 8 undefined on input
- line 58.
-
-
-LaTeX Warning: Citation 'duranona2019first' on page 8 undefined on input line 5
-8.
-
-[8]
-
-LaTeX Warning: Citation 'blevins1990van' on page 9 undefined on input line 62.
-
-
-LaTeX Warning: Citation 'jones1992coupled' on page 9 undefined on input line 62
-.
-
-
-LaTeX Warning: Citation 'chabart1998galloping' on page 9 undefined on input lin
-e 62.
-
-[9]
-
-LaTeX Warning: Citation 'jones1992coupled' on page 10 undefined on input line 6
-8.
-
-
-LaTeX Warning: Citation 'luongo1984planar' on page 10 undefined on input line 7
-0.
-
-
-LaTeX Warning: Citation 'lee1992nonlinear' on page 10 undefined on input line 7
-0.
-
-
-LaTeX Warning: Citation 'luongo1998non' on page 10 undefined on input line 72.
-
-[10]
-
-LaTeX Warning: Citation 'luongo2007linear' on page 11 undefined on input line 7
-5.
-
-
-LaTeX Warning: Citation 'luongo2007linear' on page 11 undefined on input line 7
-7.
-
-
-LaTeX Warning: Citation 'luongo2009effect' on page 11 undefined on input line 7
-9.
-
-[11]
-
-LaTeX Warning: Citation 'Nour-Omid1991' on page 12 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'Nour-Omid1991' on page 12 undefined on input line 88.
-
-[12]
-
-LaTeX Warning: Citation 'Crisfield' on page 13 undefined on input line 93.
-
-
-LaTeX Warning: Citation 'pacoste1997beam' on page 13 undefined on input line 93
-.
-
-
-LaTeX Warning: Citation 'Battini2002' on page 13 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'alsafadie2010corotational' on page 13 undefined on inp
-ut line 95.
-
-
-LaTeX Warning: Citation 'alsafadie2010corotational' on page 13 undefined on inp
-ut line 96.
-
-
-LaTeX Warning: Citation 'behdinan1998co' on page 13 undefined on input line 98.
-
-
-
-LaTeX Warning: Citation 'simo1988dynamics' on page 13 undefined on input line 9
-8.
-
-[13]
-
-LaTeX Warning: Citation 'Le2011' on page 14 undefined on input line 100.
-
-
-LaTeX Warning: Citation 'reddy1997locking' on page 14 undefined on input line 1
-00.
-
-
-LaTeX Warning: Citation 'Le2014' on page 14 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'Battini2002' on page 14 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'hilber1977improved' on page 14 undefined on input line
- 102.
-
-
-LaTeX Warning: Citation 'Le2014' on page 14 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'simo1988dynamics' on page 14 undefined on input line 1
-04.
-
-[14]
-
-LaTeX Warning: Citation 'albino2018co' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'asadi2019multibody' on page 15 undefined on input line
- 106.
-
-
-LaTeX Warning: Citation 'barzanooni2018modeling' on page 15 undefined on input 
-line 106.
-
-
-LaTeX Warning: Citation 'Le2014' on page 15 undefined on input line 106.
-
-) [15]
-\openout2 = `capitulos/Preliminares.aux'.
-
- (capitulos/Preliminares.tex
-Cap\'{\i }tulo 3.
-
-LaTeX Warning: Citation 'Le2014' on page 16 undefined on input line 5.
-
-[16
-
-
-
-] (imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=281, page=1, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=282, page=2, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=283, page=3, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page3 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=284, page=4, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page4 used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=285, page=5, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page5 used on input line 67.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=286, page=6, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page6 used on input line 69.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=287, page=7, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 7>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page7 used on input line 71.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-) [17 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf> <./imagene
-s/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
->]
-
-LaTeX Warning: Citation 'kovzar1995finite' on page 18 undefined on input line 2
-5.
-
-(imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=319, page=1, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=320, page=2, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=321, page=3, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page3 used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=322, page=4, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page4 used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=323, page=5, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page5 used on input line 72.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=324, page=6, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page6 used on input line 76.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=325, page=7, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 7>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page7 used on input line 78.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-) [18 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf> <./imagenes
-/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
->] [19] (imagenes/Preliminares/Corrotacional/IlusDisp.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=363, page=1, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=364, page=2, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age2 used on input line 61.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=365, page=3, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age3 used on input line 65.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=366, page=4, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age4 used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=367, page=5, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age5 used on input line 71.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-<./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, id=368, page=6, 548.84804p
-t x 390.668pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf Graphic file (type pdf
-)
-<use ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusDisp.pdf , p
-age6 used on input line 75.
-(pdftex.def)             Requested size: 284.52756pt x 202.5226pt.
-) [20 <./imagenes/Preliminares/Corrotacional/IlusDisp.pdf> <./imagenes/Prelimin
-ares/Corrotacional/IlusDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusDi
-sp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./imagenes/Preliminares/Corrotacional/IlusDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusDi
-sp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./imagenes/Preliminares/Corrotacional/IlusDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusDi
-sp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./imagenes/Preliminares/Corrotacional/IlusDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusDi
-sp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./imagenes/Preliminares/Corrotacional/IlusDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusDi
-sp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->]
-Underfull \vbox (badness 2213) has occurred while \output is active []
-
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-(imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=451, page=1, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 91.70523pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=452, page=2, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page2 used on input line 60.
-(pdftex.def)             Requested size: 227.62204pt x 91.70523pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=453, page=3, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page3 used on input line 62.
-(pdftex.def)             Requested size: 227.62204pt x 91.70523pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=454, page=4, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page4 used on input line 68.
-(pdftex.def)             Requested size: 227.62204pt x 91.70523pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=455, page=5, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page5 used on input line 72.
-(pdftex.def)             Requested size: 227.62204pt x 91.70523pt.
-)
-(imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=456, page=1, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page1 used on input line 56.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=457, page=2, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page2 used on input line 60.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=458, page=3, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page3 used on input line 64.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=459, page=4, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page4 used on input line 68.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=460, page=5, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page5 used on input line 72.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=461, page=6, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page6 used on input line 74.
-(pdftex.def)             Requested size: 256.0748pt x 112.46284pt.
-) [24 <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf> <./imagenes/Pre
-liminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-
-Package caption Warning: \label without proper reference on input line 240.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:PRE:IlusLocalDisp' on page 26 undefined on input 
-line 321.
-
-[26]
-
-LaTeX Warning: Citation 'Le2014' on page 27 undefined on input line 341.
-
-[27]
-
-LaTeX Warning: Citation 'Le2014' on page 28 undefined on input line 398.
-
-
-LaTeX Warning: Citation 'Le2014' on page 28 undefined on input line 403.
-
-
-LaTeX Warning: Citation 'battini2002co' on page 28 undefined on input line 403.
-
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-[29] [30]
-
-LaTeX Warning: Citation 'Rankin1986' on page 31 undefined on input line 475.
-
-
-LaTeX Warning: Citation 'Rankin1986' on page 31 undefined on input line 476.
-
-
-LaTeX Warning: Citation 'Le2014' on page 31 undefined on input line 480.
-
-
-LaTeX Warning: Citation 'Crisfield' on page 31 undefined on input line 480.
-
-[31]
-
-LaTeX Warning: Citation 'cardona1988beam' on page 32 undefined on input line 50
-7.
-
-
-LaTeX Warning: Citation 'hsiao1999consistent' on page 32 undefined on input lin
-e 507.
-
-
-LaTeX Warning: Citation 'hsiao1999consistent' on page 32 undefined on input lin
-e 507.
-
-
-Underfull \vbox (badness 2150) has occurred while \output is active []
-
- [32]
-[33])
 \openout2 = `capitulos/Metodologia.aux'.
 
  (capitulos/Metodologia.tex
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 1.
 
-LaTeX Warning: Citation 'Le2014' on page 34 undefined on input line 6.
+LaTeX Warning: Citation 'Le2014' on page 1 undefined on input line 6.
 
-[34
+
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [1
 
 
 
@@ -2171,131 +1421,133 @@ Overfull \hbox (3.10307pt too wide) detected at line 31
  []
 
 
-LaTeX Warning: Citation 'quarteroni2010numerical' on page 35 undefined on input
- line 33.
+LaTeX Warning: Citation 'quarteroni2010numerical' on page 2 undefined on input 
+line 33.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [2]
 
-LaTeX Warning: Citation 'newmark1959method' on page 36 undefined on input line 
-78.
-
-
-LaTeX Warning: Citation 'hilber1977improved' on page 36 undefined on input line
- 78.
+LaTeX Warning: Reference `Subsec:PRE:DinamicCorrot' on page 3 undefined on inpu
+t line 56.
 
 
-LaTeX Warning: Citation 'hilber1977improved' on page 36 undefined on input line
- 80.
+LaTeX Warning: Citation 'newmark1959method' on page 3 undefined on input line 7
+7.
 
 
-LaTeX Warning: Citation 'Le2014' on page 36 undefined on input line 80.
+LaTeX Warning: Citation 'hilber1977improved' on page 3 undefined on input line 
+77.
 
-[36]
-Overfull \hbox (34.89063pt too wide) in alignment at lines 85--99
+
+LaTeX Warning: Citation 'hilber1977improved' on page 3 undefined on input line 
+79.
+
+
+LaTeX Warning: Citation 'Le2014' on page 3 undefined on input line 79.
+
+[3]
+Overfull \hbox (34.89063pt too wide) in alignment at lines 84--98
  [][][] []
  []
 
 
-LaTeX Warning: Citation 'ibrahimbegovic1998finite' on page 37 undefined on inpu
-t line 121.
-
-[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Overfull \hbox (8.29066pt too wide) detected at line 181
+ [4]
+
+LaTeX Warning: Citation 'ibrahimbegovic1998finite' on page 5 undefined on input
+ line 120.
+
+
+LaTeX Warning: Citation 'ibrahimbegovic2002energy' on page 5 undefined on input
+ line 120.
+
+
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+ [5]
+Overfull \hbox (8.29066pt too wide) detected at line 178
 []\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 d[]\OT1/cmr/m/n/12 ) = \O
 MS/cmsy/m/n/12   [] \OT1/cmr/bx/n/12 d[]
  []
 
-[39]
 
-LaTeX Warning: Citation 'Battini2002' on page 40 undefined on input line 188.
-
-
-LaTeX Warning: Citation 'Le2014' on page 40 undefined on input line 188.
+LaTeX Warning: Citation 'ahrens2005paraview' on page 6 undefined on input line 
+183.
 
 
-Package caption Warning: \label without proper reference on input line 190.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation 'Battini2002' on page 7 undefined on input line 185.
+
+
+LaTeX Warning: Citation 'Le2014' on page 7 undefined on input line 185.
+
+
+Package caption Warning: \label without proper reference on input line 187.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 40 undefined on input line
- 188.
+LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 7 undefined on input line 
+185.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 221.
+put line 218.
 
-Package caption Warning: \label without proper reference on input line 190.
+Package caption Warning: \label without proper reference on input line 187.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 40 undefined on input line
- 224.
+LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 7 undefined on input line 
+221.
 
-[40]
 
-Package caption Warning: \label without proper reference on input line 230.
+Underfull \vbox (badness 2293) has occurred while \output is active []
+
+ [7]
+[8]
+
+Package caption Warning: \label without proper reference on input line 227.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Pseudo:MET:elementBeamForces' on page 41 undefined on
- input line 265.
+LaTeX Warning: Reference `Pseudo:MET:elementBeamForces' on page 9 undefined on 
+input line 262.
 
 
-Package caption Warning: \label without proper reference on input line 190.
+Package caption Warning: \label without proper reference on input line 187.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 41 undefined on input line
- 265.
+LaTeX Warning: Reference `Pseudo:MET:Corrot' on page 9 undefined on input line 
+262.
 
-[41] [42]
 
-Package caption Warning: \label without proper reference on input line 288.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+
+Package caption Warning: \label without proper reference on input line 281.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:MET:Viento:DragLift' on page 43 undefined on inpu
-t line 275.
-
-
-Package caption Warning: \label without proper reference on input line 286.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:MET:Viento:EsqViento' on page 43 undefined on inp
-ut line 277.
-
-
-LaTeX Warning: Citation 'duranona2009analysis' on page 43 undefined on input li
-ne 277.
-
-
-LaTeX Warning: Citation 'stengel2017measurements' on page 43 undefined on input
- line 277.
-
-
-LaTeX Warning: Citation 'yang2016nonlinear' on page 43 undefined on input line 
-277.
-
-[43]
-
-LaTeX Warning: Reference `Sec:MET:Amort' on page 44 undefined on input line 279
-.
+LaTeX Warning: Reference `fig:MET:Viento:DragLift' on page 11 undefined on inpu
+t line 272.
 
 (imagenes/Metodologia/EsquemaViento.pdf_tex
-<./imagenes/Metodologia/EsquemaViento.pdf, id=748, page=1, 558.00475pt x 397.41
+<./imagenes/Metodologia/EsquemaViento.pdf, id=261, page=1, 558.00475pt x 397.41
 847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page1 used 
 on input line 56.
 (pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
-<./imagenes/Metodologia/EsquemaViento.pdf, id=749, page=2, 558.00475pt x 397.41
+<./imagenes/Metodologia/EsquemaViento.pdf, id=262, page=2, 558.00475pt x 397.41
 847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 2>
@@ -2304,34 +1556,29 @@ on input line 60.
 (pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
 )
 (imagenes/Metodologia/DragLift.pdf_tex
-<./imagenes/Metodologia/DragLift.pdf, id=750, page=1, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=263, page=1, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=751, page=2, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=264, page=2, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=752, page=3, 262.4226pt x 303.64412pt>
+<./imagenes/Metodologia/DragLift.pdf, id=265, page=3, 262.4226pt x 303.64412pt>
 
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page3 used on in
 put line 63.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-)
-
-LaTeX Warning: Citation 'stengel2017measurements' on page 44 undefined on input
- line 300.
-
-[44 <./imagenes/Metodologia/EsquemaViento.pdf> <./imagenes/Metodologia/EsquemaV
-iento.pdf
+) [11 <./imagenes/Metodologia/EsquemaViento.pdf> <./imagenes/Metodologia/Esquem
+aViento.pdf
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaViento.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
@@ -2349,96 +1596,97 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Citation 'Foti2016' on page 45 undefined on input line 313.
+LaTeX Warning: Citation 'stengel2017measurements' on page 12 undefined on input
+ line 294.
 
 
-LaTeX Warning: Citation 'mara2007effects' on page 45 undefined on input line 31
-3.
+LaTeX Warning: Citation 'Foti2016' on page 12 undefined on input line 304.
 
-[45] (imagenes/Metodologia/VelAbs.pdf_tex
-<./imagenes/Metodologia/VelAbs.pdf, id=773, page=1, 281.43771pt x 182.25304pt>
+
+LaTeX Warning: Citation 'mara2007effects' on page 12 undefined on input line 30
+4.
+
+[12] (imagenes/Metodologia/VelAbs.pdf_tex
+<./imagenes/Metodologia/VelAbs.pdf, id=290, page=1, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=774, page=2, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=291, page=2, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=775, page=3, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=292, page=3, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=776, page=4, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=293, page=4, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 4>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page4 used on inpu
 t line 63.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=777, page=5, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=294, page=5, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 5>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page5 used on inpu
 t line 65.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=778, page=6, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=295, page=6, 281.43771pt x 182.25304pt>
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 6>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page6 used on inpu
 t line 70.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
 ) (imagenes/Metodologia/VelRel.pdf_tex
-<./imagenes/Metodologia/VelRel.pdf, id=780, page=1, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=297, page=1, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=781, page=2, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=298, page=2, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=782, page=3, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=299, page=3, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=783, page=4, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=300, page=4, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 4>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
 t line 62.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=784, page=5, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=301, page=5, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 5>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
 t line 69.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=785, page=6, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=302, page=6, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 6>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
 t line 73.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=786, page=7, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=303, page=7, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 7>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page7 used on inpu
 t line 75.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-)
-Underfull \vbox (badness 2556) has occurred while \output is active []
-
- [46 <./imagenes/Metodologia/VelAbs.pdf> <./imagenes/Metodologia/VelAbs.pdf
+) [13 <./imagenes/Metodologia/VelAbs.pdf> <./imagenes/Metodologia/VelAbs.pdf
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -2486,837 +1734,44 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [47]) [48]
-\openout2 = `capitulos/ResultadosNumericos.aux'.
+>] [14] [15]
 
- (capitulos/ResultadosNumericos.tex
-Cap\'{\i }tulo 5.
-
-LaTeX Warning: Citation 'Octave' on page 49 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'squillacote2007paraview' on page 49 undefined on input
- line 3.
-
-
-LaTeX Warning: Citation 'simo1988dynamics' on page 49 undefined on input line 7
-.
-
-
-LaTeX Warning: Citation 'albino2018co' on page 49 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Le2014' on page 49 undefined on input line 7.
-
-(imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=818
-, page=1, 455.53831pt x 425.15889pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
-ge 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dxy.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 170.71652pt x 159.33038pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=819
-, page=2, 455.53831pt x 425.15889pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
-ge 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dxy.pdf , page2 used on input line 63.
-(pdftex.def)             Requested size: 170.71652pt x 159.33038pt.
-)
-(imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=820
-, page=1, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=821
-, page=2, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page2 used on input line 63.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=822
-, page=3, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-)
-[49
-
-
-
-]
-Underfull \vbox (badness 6725) has occurred while \output is active []
-
- [50 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf> <
-./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dxy.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
->] (imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=844, page=1
-, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=845, page=2
-, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=846, page=3
-, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
-)
-
-LaTeX Warning: Citation 'Le2014' on page 51 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:RN:RA:Dispy' on page 51 undefined on input line 4
-4.
-
-
-LaTeX Warning: Reference `fig:RN:RA:Dispz' on page 51 undefined on input line 4
-4.
-
-
-LaTeX Warning: Reference `fig:RN:RA:Dispz' on page 51 undefined on input line 4
-4.
-
-[51 <./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf> <./imagene
-s/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/FuerzaZ.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/FuerzaZ.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png, id=855,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispy_NodeA.png  used on input line 50.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png, id=856,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispz_NodeA.png  used on input line 51.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-
-Package caption Warning: \label without proper reference on input line 50.
+Package caption Warning: \label without proper reference on input line 279.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:RN:RA:DispyA' on page 52 undefined on input line 
-56.
+LaTeX Warning: Reference `fig:MET:Viento:EsqViento' on page 16 undefined on inp
+ut line 387.
 
 
-Package caption Warning: \label without proper reference on input line 50.
-See the caption package documentation for explanation.
+LaTeX Warning: Citation 'duranona2009analysis' on page 16 undefined on input li
+ne 387.
 
 
-LaTeX Warning: Reference `fig:RN:RA:DispyA' on page 52 undefined on input line 
-56.
+LaTeX Warning: Citation 'stengel2017measurements' on page 16 undefined on input
+ line 387.
 
 
-LaTeX Warning: Citation 'Le2014' on page 52 undefined on input line 56.
+LaTeX Warning: Citation 'yang2016nonlinear' on page 16 undefined on input line 
+387.
 
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png, id=861,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispy_NodeB.png  used on input line 63.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png, id=862,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispz_NodeB.png  used on input line 64.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
+) [16]
 
-Package caption Warning: \label without proper reference on input line 64.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:RA:DispzB' on page 52 undefined on input line 
-69.
-
-
-LaTeX Warning: Citation 'Le2014' on page 52 undefined on input line 69.
-
-[52 <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png (PNG
- copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png 
-(PNG copy)>]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png, id=876, 584
-.1825pt x 488.57532pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png Graphic
- file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Def
-ormadas.png  used on input line 77.
-(pdftex.def)             Requested size: 227.62204pt x 190.37213pt.
- [53 <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png (PN
-G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png
- (PNG copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png
->]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png, id=885,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispx_NodeB.png  used on input line 90.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png, id=886,
- 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispx_NodeA.png  used on input line 91.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
- [54 <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png (PN
-G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png
- (PNG copy)>]
-
-LaTeX Warning: Citation 'foti2018finite' on page 55 undefined on input line 100
-.
-
-
-LaTeX Warning: Citation 'luongo1998non' on page 55 undefined on input line 100.
-
-
-
-LaTeX Warning: Citation 'martinelli2001numerical' on page 55 undefined on input
- line 100.
-
-
-LaTeX Warning: Citation 'IEC6081' on page 55 undefined on input line 102.
-
-(imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, id=895, page=1, 23
-0.42435pt x 150.1833pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable
-.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 148.35652pt.
-) [55
-
- <./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf>]
-
-Package caption Warning: \label without proper reference on input line 118.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:RN:FotiCable:propiedadesCable' on page 56 undef
-ined on input line 116.
-
-
-LaTeX Warning: Citation 'foti2018finite' on page 56 undefined on input line 128
-.
-
-(imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=905, page=1, 5
-36.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page1 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=906, page=2, 5
-36.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=907, page=3, 5
-36.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=908, page=4, 5
-36.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page4 used on input line 67.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-)
-
-LaTeX Warning: Citation 'luongo1998non' on page 56 undefined on input line 138.
-
-
-
-LaTeX Warning: Citation 'martinelli2001numerical' on page 56 undefined on input
- line 138.
-
-
-LaTeX Warning: Citation 'euroCode' on page 56 undefined on input line 138.
-
-
-Package caption Warning: \label without proper reference on input line 141.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:RN:propiedadesFlujo' on page 56 undefined on in
-put line 138.
-
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png, id=912, 421.5
-75pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png Graphic f
-ile (type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL
-_Foti.png  used on input line 154.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
-[56]
-
-LaTeX Warning: Citation 'lee1992nonlinear' on page 57 undefined on input line 1
-59.
-
-
-LaTeX Warning: Citation 'Foti2016' on page 57 undefined on input line 159.
-
-
-LaTeX Warning: Citation 'Papailiou1997' on page 57 undefined on input line 159.
-
-
-
-LaTeX Warning: Citation 'luongo1984planar' on page 57 undefined on input line 1
-59.
-
-
-LaTeX Warning: Citation 'foti2018finite' on page 57 undefined on input line 159
-.
-
-[57 <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf> <./imagenes/R
-esultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
->]
-
-LaTeX Warning: Citation 'foti2018finite' on page 58 undefined on input line 161
-.
-
-<./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png, id=929, 42
-1.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png Graphi
-c file (type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodal
-Z_TLFoti.png  used on input line 166.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
-[58 <./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png (PNG copy)
-> <./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png (PNG copy
-)>]
-<./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png, id=937, 421.575pt
- x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png Graphic file 
-(type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Fot
-i.png  used on input line 181.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png, id=938, 421.575pt
- x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png Graphic file 
-(type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Fot
-i.png  used on input line 182.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-
-LaTeX Warning: Citation 'foti2018finite' on page 59 undefined on input line 188
-.
-
-(imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=940, page=1, 35
-1.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=941, page=2, 35
-1.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=942, page=3, 35
-1.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=943, page=4, 35
-1.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page4 used on input line 65.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-)
-
-LaTeX Warning: Citation 'foti2018finite' on page 59 undefined on input line 200
-.
-
-
-LaTeX Warning: Citation 'foti2018finite' on page 59 undefined on input line 200
-.
-
-[59 <./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png (PNG copy)> <.
-/imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png, id=955, 421.575pt 
-x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png Graphic file (
-type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti
-.png  used on input line 205.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
-
-Underfull \vbox (badness 1472) has occurred while \output is active []
-
- [60 <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf> <./imagenes/R
-esultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png (PNG copy)>]
-[61]
-
-Package caption Warning: \label without proper reference on input line 118.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:RN:FotiCable:propiedadesCable' on page 62 undef
-ined on input line 216.
-
-(imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1238, page=1, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1239, page=2, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1240, page=3, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1241, page=4, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page4 used on input line 67.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1242, page=5, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 5>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page5 used on input line 71.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-)
-
-LaTeX Warning: Citation 'TesisMexicano' on page 62 undefined on input line 227.
-
-
-[62
-
- <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf> 
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
->] (imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, id=1251, pa
-ge=1, 624.86476pt x 758.37306pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf Graphic
- file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, page 1>
-
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-usTorre.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 276.25421pt.
-)
-
-LaTeX Warning: Citation 'matheson1981simulation' on page 63 undefined on input 
-line 240.
-
-[63 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf>]
-
-LaTeX Warning: Citation 'Stengel2017a' on page 64 undefined on input line 242.
-
-
-LaTeX Warning: Citation 'fujita1985downburst' on page 64 undefined on input lin
-e 242.
-
-
-Package caption Warning: \label without proper reference on input line 250.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:ForceVelTormentaX' on page 64 und
-efined on input line 242.
-
-<./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png, id=12
-62, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png G
-raphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
-erzaNodalX_TS.png  used on input line 248.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png, id
-=1263, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.pn
-g Graphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png
->
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Ve
-locidadNodalX_TS.png  used on input line 249.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-LaTeX Warning: Citation 'fujita1985downburst' on page 64 undefined on input lin
-e 254.
-
-
-Package caption Warning: \label without proper reference on input line 249.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:VelocidadTormentaX' on page 64 un
-defined on input line 254.
-
-
-LaTeX Warning: Citation 'Foti2016' on page 64 undefined on input line 254.
-
-[64 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png (P
-NG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_
-TS.png (PNG copy)>]
-(imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1276, page=1, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1277, page=2, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1278, page=3, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-)
-[65 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf>
- <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionAngulo.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionAngulo.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->]
-
-Package caption Warning: \label without proper reference on input line 276.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:DispXAD' on page 66 undefined on 
-input line 269.
-
-
-Package caption Warning: \label without proper reference on input line 277.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:DispZAD' on page 66 undefined on 
-input line 269.
-
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png, id=128
-8, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spXTS_NodeAD.png  used on input line 276.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png, id=128
-9, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spZTS_NodeAD.png  used on input line 277.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png, id=129
-1, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spXTS_NodeCB.png  used on input line 289.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png, id=129
-2, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spZTS_NodeCB.png  used on input line 290.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-Package caption Warning: \label without proper reference on input line 289.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:DispXCB' on page 66 undefined on 
-input line 295.
-
-
-Package caption Warning: \label without proper reference on input line 290.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:DispZCB' on page 66 undefined on 
-input line 295.
-
-[66 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png (PN
-G copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.pn
-g (PNG copy)>]
-
-Package caption Warning: \label without proper reference on input line 303.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Trnsmission:CurvaCargaDisp' on page 67 undefin
-ed on input line 297.
-
-
-LaTeX Warning: Citation 'Stengel2017a' on page 67 undefined on input line 297.
-
-
-LaTeX Warning: Citation 'duranona2009analysis' on page 67 undefined on input li
-ne 297.
-
-
-LaTeX Warning: Citation 'yang2016nonlinear' on page 67 undefined on input line 
-297.
-
-<./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png, id=13
-08, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png G
-raphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
-erzaAngulo_TS.png  used on input line 302.
-(pdftex.def)             Requested size: 284.52756pt x 213.31737pt.
-
-LaTeX Warning: Reference `fig:RN:Trnamission:CurvaCargaDisp' on page 67 undefin
-ed on input line 307.
-
-
-Package caption Warning: \label without proper reference on input line 313.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:RN:Transmission:Deformadas' on page 67 undefined 
-on input line 307.
-
-[67 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png (PN
-G copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.pn
-g (PNG copy)>]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png, id=1317, 8
-32.91174pt x 413.74574pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png Graphi
-c file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/De
-formadas.png  used on input line 312.
-(pdftex.def)             Requested size: 341.43306pt x 169.60529pt.
-) [68 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png 
-(PNG copy)>] [69 <./imagenes/ResultadosNumericos/TransmissionTormenta/Deformada
-s.png>]
-\openout2 = `capitulos/Conclusiones.aux'.
-
- (capitulos/Conclusiones.tex
-Cap\'{\i }tulo 6.
-) [70
-
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 125.
+LaTeX Warning: Empty bibliography on input line 127.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
 (tesis.aux
 LaTeX Info: Redefining \sptext on input line 28.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- (capitulos/Introduccion.aux) (capitulos/EstadoDelArte.aux)
-(capitulos/Preliminares.aux) (capitulos/Metodologia.aux)
-(capitulos/ResultadosNumericos.aux) (capitulos/Conclusiones.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
+ (capitulos/Metodologia.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7F32CD773F34AFCDDB01878F799168E0;2086.
+(rerunfilecheck)             Checksum: AC71594DB1A01963FDC1493DFC5735A2;697.
 
 
 LaTeX Warning: There were undefined references.
@@ -3329,16 +1784,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 30986 strings out of 481199
- 611258 string characters out of 2904657
- 1389513 words of memory out of 3000000
- 45591 multiletter control sequences out of 15000+200000
- 551139 words of font info for 87 fonts, out of 3000000 for 9000
+ 30068 strings out of 481199
+ 576790 string characters out of 2904657
+ 1363489 words of memory out of 3000000
+ 44950 multiletter control sequences out of 15000+200000
+ 545325 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,20n,107p,1539b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,19n,107p,1359b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1200.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type
@@ -3348,29 +1803,23 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Usuario/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Usuar
 io/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
 Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Usuario/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Usu
-ario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Usuario/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Usua
-rio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (73 pages, 1712915 bytes).
+nts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Usuario/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Usu
+ario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
+8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tesis.pdf (18 pages, 459270 bytes).
 PDF statistics:
- 1475 PDF objects out of 1728 (max. 8388607)
- 271 named destinations out of 1000 (max. 500000)
- 818 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
