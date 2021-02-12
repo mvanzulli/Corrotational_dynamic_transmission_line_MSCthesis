@@ -70,5 +70,6 @@
     \put(0.24319319,0.80977506){\rotatebox{-18.800968}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\overline{R}}_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{IlusCorrotacional2.pdf}}%
     \put(0.74658743,0.68787881){\rotatebox{-18.800968}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\overline{R}}_2$\\\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{IlusCorrotacional2.pdf}}%
   \end{picture}%
 \endgroup%

@@ -1,23 +1,41 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Metodología}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Preliminares}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Aspectos de modelado computacional}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Formulación corrotacional}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Ecuación de equilibrio}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Cinemática corrotacional}{1}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Resolución numérica mediante HHT}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Formulación local}{9}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Implementación numérica en ONSAS}{7}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}Variaciones en desplazamientos}{11}{subsubsection.1.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Aspectos de modelado estructural}{11}{section.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Velocidades y aceleraciones}{12}{subsubsection.1.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Condiciones iniciales y de borde}{11}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.1.3}Dinámica corrotacional}{14}{subsection.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Modelo de viento}{11}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Fuerza interna y matriz tangente}{14}{subsubsection.1.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.1}Campo de velocidades relativos, absolutos y fuerzas asociadas.}{12}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Fuerza inercial y matrices de masa tangentes}{16}{subsubsection.1.1.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Hipótesis de trabajo}{15}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Metodología}{19}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Aspectos de modelado computacional}{19}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Ecuación de equilibrio}{19}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Resolución numérica mediante HHT}{21}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Implementación numérica en ONSAS}{25}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Aspectos de modelado estructural}{29}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Condiciones iniciales y de borde}{29}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Modelo de viento}{29}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.1}Campo de velocidades relativos, absolutos y fuerzas asociadas.}{30}{subsubsection.2.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Hipótesis de trabajo}{33}{subsection.2.2.3}%
 \contentsfinish 

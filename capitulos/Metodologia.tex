@@ -364,10 +364,10 @@ Resulta relevante descomponer la fuerza de arrastre según las componentes $z$ e
 Al igual que las variables cinemáticas, las dinámicas se pueden desglosar en componentes alternantes y medias. La parte media de cada magnitud, es una promedio móvil a lo largo del tiempo y naturalmente, las fuerzas de este tipo, se vinculan con las velocidades medias. En contraste, los términos alternantes tienen media nula y emanan de las velocidades fluctuantes. Ahora bien, un tercer termino surge al desarrollar la Ecuación \eqref{Eq:MET:DragPerLength}. Este factor depende del producto entre la velocidad media de viento y la del rígido. Vinculando al fluido y al sólido, es por esto que recibe el nombre de amortiguamiento aerodinámico. Por otra parte, desde la perspectiva del autor resulta sporepresivo el sentido de esta fuerza, siendo contrario a la ejercida por el viento.  A esta descomposición de fuerzas según $z$ se le llaman $\bar{F_x}$, $F_a$, $-D$ a la componente media, alternante y de amoritguamentio dinámico respectivamente. Sus expresiones se detallan a continuación: 
 
 \begin{eqnarray}
-\bar{F_x} = = \frac{\rho d_c C_d}{2} (u_m^2)\\
-F_a =  \frac{\rho d_c C_d}{2} (u_a^2)\\
+\bar{F_x} &=&  \frac{\rho d_c C_d}{2} (u_m^2)\\
+F_a &=&  \frac{\rho d_c C_d}{2} (u_a^2)\\
 \label{Eq:MET:AmortAerodniamic}
-D  = \frac{\rho d_c C_d}{2} (2u_au_m)
+D  &=& \frac{\rho d_c C_d}{2} (2u_au_m)
 \end{eqnarray}
 
 \subsection{Hipótesis de trabajo} 
@@ -382,12 +382,10 @@ Una vez descrito el análisis general de los anteriores párrafos, se postulan l
 	\item Para cálculo del amortiguamiento aerodinámico se promedió la velocidad media en un valor constante igual al valor medio para todo el dominio temporal de simulación. 
 \end{enumerate}
 
-El primer supuesto parte del modelo figurado en \ref{fig:MET:Viento:VelRel}, para poder realizar este análisis plano, se obvian las fluctuaciones espaciales en el sentido axial del conductor. Esta asunción no es del todo correcta, pues la turbulencia del fenómeno provoca fluctuaciones en las cargas a lo largo del cable, también así su orientación.  Esto se asocia directamente con la hipótesis 4, donde la fuerza alternante, que proviene de la presencia de vórtices, se desprecia. 
+El primer supuesto parte del modelo figurado en \ref{fig:MET:Viento:VelRel}, para poder realizar este análisis plano, se obvian las fluctuaciones espaciales en el sentido axial del conductor. Esta asunción no es del todo correcta, pues la turbulencia del fenómeno provoca fluctuaciones en las cargas a lo largo dela linea, cambiando así, su orientación.  Esto se asocia directamente con la hipótesis 4, donde la fuerza alternante proveniente de la presencia de vórtices se desprecia. 
 
-Por otra parte el flujo se consideró unidimensional según el eje $z$ en la Figura \ref{fig:MET:Viento:EsqViento}, siendo este el caso más amenazante para el conductor. Esta hipótesis proviene de diferentes trabajos publicados donde la componente perpendicular a la superficie terrestre o ascendente suele ser significativamente menor a la paralela \citep{duranona2009analysis} \citep{stengel2017measurements} \cite{yang2016nonlinear}. Si bien simplifica, es conservadora ya que supone al sistema de trasmisión, en el tiempo inicial, dispuesto completamente perpendicular al sentido del viento, es así que el viento descarga su mayor fuerza sobre el sistema (Hipótesis 2). 
+Por otra parte el flujo se consideró unidimensional según el eje $z$ en la Figura \ref{fig:MET:Viento:EsqViento}, siendo este el caso más amenazante para el conductor. Esta hipótesis proviene de diferentes trabajos publicados, donde la componente perpendicular a la superficie terrestre o ascendente (según $y$ ) suele ser significativamente menor a la paralela (en el sentido de $z$) \citep{duranona2009analysis} \citep{stengel2017measurements} \cite{yang2016nonlinear}. Si bien simplifica lo hace de forma conservadora.  Puesto que supone al sistema de trasmisión, en el tiempo inicial, dispuesto completamente perpendicular al sentido del viento, es así que este descarga su mayor fuerza sobre el sistema (Hipótesis 2). 
 
-Este escenario es el más peligroso y desafiante para la seguridad e integridad de la línea. Otro argumento posible a favor de esta hipótesis se sustenta en la mayor rigidez del cable en la dirección perpendicular al flujo, además del el peso que se opone a la fuerza de sustentación. De todos modos, esta fuerza en sentido ascendente se despreció frente al drag, consecuencia de la simetría de revolución tangencial del conductor. Esto de escribe en la Hipótesis 4. 
+Este escenario es el más peligroso y desafiante para la seguridad e integridad de la línea. Otro argumento posible a favor de esta hipótesis, se sustenta en la mayor rigidez del cable en la dirección perpendicular al flujo, además del peso que se opone a la fuerza de sustentación. De todos modos, esta fuerza en sentido ascendente se despreció frente al drag, consecuencia de la simetría de revolución tangencial del conductor. Esto de establece en la Hipótesis 4. 
  
-Otra hipótesis a clarificar refiere al amortiguamiento aerodinámico (Hipótesis 6) se utilizó una simplificación adicional en la velocidad de viento para su cálculo. Se utilizó una velocidad promedio de viento en todo el dominio temporal para el cálculo de D en ecuación \eqref{Eq:MET:AmortAerodniamic}.
-
-Por último se explicitan las premisas 3 y 5 que fueron consideradas para calcular el campo de velocidades relativo y sus fuerzas asociadas.  
+Otra hipótesis a clarificar refiere al amortiguamiento aerodinámico (Hipótesis 6). Se utilizó una simplificación adicional en la velocidad de viento para su cálculo. Se consideró una velocidad constante, igual al promedio de viento en todo el dominio temporal. Este es el valor que insertó para el cálculo de D según la Ecuación \eqref{Eq:MET:AmortAerodniamic}. Por último se explicitan las premisas 3 y 5 que fueron consideradas para calcular el campo de velocidades relativo y sus fuerzas asociadas.  

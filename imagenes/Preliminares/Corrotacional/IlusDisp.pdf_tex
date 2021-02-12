@@ -76,5 +76,6 @@
     \put(0.65661179,0.31126475){\rotatebox{-2.091176}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^P_3$\\\end{tabular}}}}}%
     \put(0.59086647,0.45020472){\rotatebox{-0.306622}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^P_3$\\\end{tabular}}}}}%
     \put(0.74089009,0.53866674){\rotatebox{-2.0629432}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^P_2$\\\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{IlusDisp.pdf}}%
   \end{picture}%
 \endgroup%
