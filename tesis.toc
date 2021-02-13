@@ -1,41 +1,71 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Preliminares}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Formulación corrotacional}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.0.1}Motivación}{1}{subsection.1.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Cinemática corrotacional}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.0.2}Enfoque}{1}{subsection.1.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Formulación local}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.0.3}Estructura}{1}{subsection.1.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.1}Variaciones en desplazamientos}{11}{subsubsection.1.1.2.1}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.2}Velocidades y aceleraciones}{12}{subsubsection.1.1.2.2}%
+\contentsline {section}{\numberline {2.1}Historia de la temática}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Dinámica corrotacional}{14}{subsection.1.1.3}%
+\contentsline {section}{\numberline {2.2}Simulaciones numéricas aplicadas a conductores de trasmisión eléctrica}{5}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.1}Fuerza interna y matriz tangente}{14}{subsubsection.1.1.3.1}%
+\contentsline {section}{\numberline {2.3}Tormentas convectivas}{7}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.2}Fuerza inercial y matrices de masa tangentes}{16}{subsubsection.1.1.3.2}%
+\contentsline {section}{\numberline {2.4}Análisis semi-analíticos de conductores}{9}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Metodología}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.5}Análisis corrotacional de vigas}{12}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Aspectos de modelado computacional}{19}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Preliminares}{16}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Ecuación de equilibrio}{19}{subsection.2.1.1}%
+\contentsline {section}{\numberline {3.1}Formulación corrotacional}{16}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Resolución numérica mediante HHT}{21}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {3.1.1}Cinemática corrotacional}{16}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Implementación numérica en ONSAS}{25}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {3.1.2}Formulación local}{24}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Aspectos de modelado estructural}{29}{section.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Variaciones en desplazamientos}{26}{subsubsection.3.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Condiciones iniciales y de borde}{29}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Velocidades y aceleraciones}{27}{subsubsection.3.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Modelo de viento}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {3.1.3}Dinámica corrotacional}{29}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Campo de velocidades relativos, absolutos y fuerzas asociadas.}{30}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Fuerza interna y matriz tangente}{29}{subsubsection.3.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Hipótesis de trabajo}{33}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Fuerza inercial y matrices de masa tangentes}{31}{subsubsection.3.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Metodología}{34}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Aspectos de modelado computacional}{34}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Ecuación de equilibrio}{34}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Resolución numérica mediante HHT}{36}{subsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Implementación numérica en ONSAS}{40}{subsection.4.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Aspectos de modelado estructural}{44}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Condiciones iniciales y de borde}{44}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Modelo de viento}{45}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Campo de velocidades relativos, absolutos y fuerzas asociadas.}{47}{subsubsection.4.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Hipótesis de trabajo}{50}{subsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Resultados numéricos}{52}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Vigas en voladizo con ángulo recto}{52}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Modelo simplificado de una linea}{58}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Sistema de transmisión eléctrica }{64}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Consideraciones finales}{72}{chapter.6}%
 \contentsfinish 

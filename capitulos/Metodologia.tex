@@ -267,6 +267,36 @@ Una vez finalizado estos pasos, se integran las matrices tangentes y el vector d
  
 \section{Aspectos de modelado estructural}
 \subsection{Condiciones iniciales y de borde}
+El abordaje científico computacional consiste en abstraer un fenómeno de la realidad, para crear un modelo en el computador, que se comporte de forma análoga. Permitiendo emular y controlar determinadas variables de estudio relevantes al observador. En este acto de representación existen simplificaciones inherentes, que reducen los factores incidentes al sistema como objeto de estudio. 
+
+Una vez aislado el objeto de su entorno, es necesario imponer determinadas condiciones que representan la interacción del entorno sobre el sistema. Estas imposiciones efectuadas por el contexto, del cual el objeto esta siendo desvinculado, se nominan condiciones de borde o contorno. En particular, para esta investigación, se consideraron las siguientes condiciones de borde cinemáticas:
+
+\begin{enumerate}
+	\item Las torres del sistema de transmisión se encuentran a la misma altura, ignorándose cualquier variación en el perfil tipográfico del terreno. Como consecuencia, los puntos de anclaje que unen las cadenas a las torres (D y A), pertenecen a un mismo plano paralelo a la superficie terrestre.
+	\item  El conductor es conformado por un único cable continuo que discurre el espacio sujetado por aisladores eléctricos. Su proceso de fabricación es mediante una trenza con lingas de acero y aluminio, que poseen una significativa rigidez a flexión. Esta razón conduce inevitablemente a modelarlo con elementos de vigas, las cuales tienen un variación de ángulo continuo. Consecuentemente, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $x$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impostadas por la geometría del sistema. \item Como el conductor no presenta fuerzas en el sentido axial, los puntos B y C no se deforman según el eje $x$, ergo sus trayectoria pertencen al plano $z$-$y$. Esto debe forzarse en los nodos B y C. 
+	\item La exigua resistencia a flexión de los elementos aisladores DC y AB, obliga a instalarlos con sus extremos articulados. Es por esto que se modelaron a partir de barras de Green. Las condiciones de borde dependen del ejemplo al que se haga referencia. Para el Ejemplo 3 los puntos D y A se encuentran anclados a la torre, acompañando sus movimientos, mientas que para el 2 se encuentran fijos.
+	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento $\bf{u}_0$. Esta se corresponde con la solución estática del sistema sometido por el preso propio en la dirección de $z$ de la gravedad.
+\end{enumerate} 
+
+
+\begin{figure}[htbp]
+	\centering
+	\def\svgwidth{80mm}
+	\input{./imagenes/Metodologia/EsquemaInicial.pdf_tex}
+	\caption{Esquema de condición inicial y de borde.}
+	\label{fig:MET:EsquemaCondiciones}
+\end{figure}
+
+Una vez plasmadas las condiciones de borde cinemáticas anteriores. Se establecen a continuación las principales condiciones de borde dinámicas:
+
+\begin{enumerate}
+	\item  No se consideran las fuerzas internas trasmitidas por los vanos aledaños.
+	\item  Se desprecian las fuerzas de tensado y las condiciones de desplazamiento no homogéneas durante el proceso de instalación en la línea.
+	\item Las simulaciones se realizan en dos etapas sucesivas, primeramente se imponen la condiciones iniciales de desplazamientos y una vez estabilizada la respuesta por el amortiguamiento interno y aerodinámico se ejerce la fuerza del viento sobre el cable. 
+	\item Los vínculos dinámicos entre los elementos de vigas y de barra se implementaron de forma tal, que no se trasmiten los momentos de unos a otros. Por lo tanto, en los nodos de sujeción los elementos de barra CD y AB trasmiten unicamente fuerzas direccionales en C y B . 
+\end{enumerate} 
+
+ 
 
 \subsection{Modelo de viento}\label{Sec:PRE:Modeloviento}
 Un cuerpo inmerso en un fluido en movimiento sufre determinadas cargas debido al campo de presiones en su superficie. Este campo suele producir fuerzas de arrastre (drag), en la dirección del flujo y fuerzas perpendiculares (lift). Las cargas de drag son el resultado de integrar las tensiones rasantes, en la capa limite a lo largo de la frontera del cuerpo. Y luego proyectarla la fuerza neta en la dirección del flujo medio. A diferencia de estas, las fuerzas lift que aparecen sobre el sólido, se deben a la asimetría del campo de presiones entre el intradós (sona de menor presión) y el extradós del sólido inmerso. Esta diferencia de presiones puntales entre dos superficies contrarias, genera una circulación circundante en el campo de velocidades relativos. Al integrar ese campo en curva cerrada, correspondiente a la silueta del cuerpo, se induce una fuerza. Ambos efectos dinámicos sobre el cable se ilustran en la Figura \ref{fig:MET:Viento:DragLift}. Para cuerpos perfectamente simétricos, en términos tangenciales, la competente de lift es nula.  Esto se debe a la simetría de revolución del cuerpo, garantiza que la circulación sea nula, pues no hay diferencias, ni geométricas, ni dinámicas entre las superficies del sólido. 
@@ -304,7 +334,7 @@ Considerando el aire como un fluido no newtoneano, $\rho$ su densidad asociada a
 Para este cálculo se asumió constantes las magnitudes al interior del elemento, es por esto, que el valor de la integral, es simplemente el producto del integrando por el largo del intervalo. Además se para este trabajo la carga del viento sobre el elemento se modeló como una fuerza nodal equivalente a la mitad de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen, se cancelan con los elementos aledaños. Por otra parte, los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante tormentas conectivas \citep{mara2007effects}. La densidad $\rho$ del aire se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
 
 \subsubsection{Campo de velocidades relativos, absolutos y fuerzas asociadas.}\label{SubSec:MET:CampoVelRealt}
- En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección  transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre $u$ y $v$. En esta figura las velocidades se referncian a un observador solidario con la tierra y por tanto  absoluto. Asimismo en esta imagen se representan las velocidades media y fluctuante $u_m$ y $u_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor, este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $W_{ry}$ y $W_{rz}$. 
+ En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección  transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre $u$ y $v$. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto  absoluto. Asimismo en esta imagen se representan las velocidades media y fluctuante $u_m$ y $u_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor, este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $W_{ry}$ y $W_{rz}$. 
 % 
 %\begingroup
 %\begin{figure}[htbp]
