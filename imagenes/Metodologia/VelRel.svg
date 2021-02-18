@@ -241,8 +241,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.83"
-     inkscape:cx="171.65662"
-     inkscape:cy="154.60561"
+     inkscape:cx="288.97111"
+     inkscape:cy="159.55261"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -525,15 +525,15 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="41.147694"
-       y="71.129944"
+       style="font-style:normal;font-weight:normal;font-size:2.44311595px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0610779"
+       x="43.218204"
+       y="71.502396"
        id="text1881-0"><tspan
          sodipodi:role="line"
          id="tspan1879-9"
-         x="41.147694"
-         y="71.129944"
-         style="stroke-width:0.10972433">$u_m-W_{rz}$</tspan></text>
+         x="43.218204"
+         y="71.502396"
+         style="stroke-width:0.0610779">$w_m-\bf{\dot{u}}_{rz}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-0)"
        d="M 76.714177,73.058789 H 89.24255"
@@ -542,15 +542,15 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="76.173737"
-       y="70.576416"
+       style="font-style:normal;font-weight:normal;font-size:3.10392356px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07759809"
+       x="78.234337"
+       y="71.363884"
        id="text1881-0-3"><tspan
          sodipodi:role="line"
          id="tspan1879-9-1"
-         x="76.173737"
-         y="70.576416"
-         style="stroke-width:0.10972433">$u_a$</tspan></text>
+         x="78.234337"
+         y="71.363884"
+         style="stroke-width:0.07759809">$w_a$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2826)"
        d="m 41.467894,73.058789 v 21.87358"
@@ -625,7 +625,7 @@
          id="tspan4951-3"
          x="141.24168"
          y="66.067024"
-         style="stroke-width:0.07419343">$\beta$</tspan></text>
+         style="stroke-width:0.07419343">$\beta_r$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.90972233px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17274305"
@@ -748,7 +748,7 @@
          id="tspan1879-9-6"
          x="20.413662"
          y="84.374527"
-         style="stroke-width:0.10972433">$v-W_{ry}$</tspan></text>
+         style="stroke-width:0.10972433">$q-\bf{\dot{u}}_{ry}$</tspan></text>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66499996;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25229361;paint-order:markers fill stroke"
        id="path4949-4-9"
@@ -765,13 +765,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.9677372px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07419343"
-       x="101.79116"
-       y="45.934776"
+       x="100.29528"
+       y="44.719376"
        id="text4953-7-1"><tspan
          sodipodi:role="line"
          id="tspan4951-3-0"
-         x="101.79116"
-         y="45.934776"
+         x="100.29528"
+         y="44.719376"
          style="stroke-width:0.07419343">$\beta_r$</tspan></text>
   </g>
 </svg>

@@ -54,16 +54,16 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{VelAbs.pdf}}%
-    \put(0.20527856,0.25191819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_m$\end{tabular}}}}%
+    \put(0.20336793,0.24618631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_m$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{VelAbs.pdf}}%
-    \put(0.43237659,0.24761355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u_a$\end{tabular}}}}%
+    \put(0.43237659,0.24761355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_a$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{VelAbs.pdf}}%
-    \put(0.28919951,0.0595503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_{tot}$\end{tabular}}}}%
-    \put(-0.0033582,0.10045648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v$\end{tabular}}}}%
+    \put(0.29875264,0.04904181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_{tot}$\end{tabular}}}}%
+    \put(0.01288216,0.10523308){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{VelAbs.pdf}}%
-    \put(0.97161115,0.45422159){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W_{rz}$\end{tabular}}}}%
+    \put(0.97161115,0.45422159){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\dot{u}}_{rz}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{VelAbs.pdf}}%
-    \put(0.82428778,0.61476198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W_{ry}$\end{tabular}}}}%
+    \put(0.82428778,0.61476198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\dot{u}}_{ry}$\end{tabular}}}}%
     \put(0.02629372,0.43978507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
     \put(0.06668648,0.58906118){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.21143327,0.4368506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%

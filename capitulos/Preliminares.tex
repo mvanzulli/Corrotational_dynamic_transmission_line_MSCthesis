@@ -1,10 +1,10 @@
 \chapter{Preliminares}\label{Cap:Preliminares}
 \linenumbers
-\section{Formulación corrotacional}\label{Sec:PRE:CorrotFormul}
 
-A continuación se presenta una descripción metodológica de la formulación corrotacional según lo propuesto en \citep{Le2014}. La temática se abordara progresivamente según la naturaleza de las variables. En primera instancia se describen las caracterización de magnitudes cinemáticas para luego exponer como, a partir de estas, se deducen las variables dinámicas. 
+A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto en \citep{Le2014}. La temática se abordara progresivamente según la naturaleza de las variables. En primera instancia se describen la caracterización de magnitudes cinemáticas globales y locales en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez ahondadas las variables asociadas al movimiento se expone como, a partir de estas, se deducen las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
 
-\subsection{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
+
+\section{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
 
 El planteo corrotacional para elementos de viga 3D binodales, se basa en escindir la cinemática del movimiento en dos componentes. La primera de ellas representa grandes rotaciones y desplazamientos dados por la dinámica de un elemento rígido. La segunda componente tiene en cuenta los desplazamientos locales asociados a la flexibilidad del material. Este enfoque suele aplicarse al analizar deformaciones estáticas. Resulta intuitivo imaginar en un inicio como se deformaría la estructura de manera rígida para luego aplicarle la componente deformable. Ahora bien, en este tipo de formulaciones, hace falta introducir una serie de sistemas de coordenadas que permiten representar los desplazamientos de cada una de las componentes.
 
@@ -228,7 +228,7 @@ Análogamente se debe transcribir la fuerza axial en función de las coordenadas
 \delta \overline{u} = \bf{r}~ d_g ~~~~~~\bf{r} = [ -\bf{r}_1^T~ \bf{0}_{1,3}~ \bf{r}_1^T~ \bf{0}_{1,3}  ]
 \end{equation}
 
-\subsection{Formulación local}\label{Sec:PRE:LocalFormul}
+\section{Formulación local}\label{Sec:PRE:LocalFormul}
 La fundamental ventaja y atractivo de la formulación corrotacional es su versatilidad ante diferentes tipos de elementos. Esto se debe al desacoplamiento analítico en la caracterización de los desplazamientos locales y globales. En este apartado. se detallan las magnitudes cinemáticas en la configuración local para el cálculo de los vectores y matrices dinámicas de la Sección \ref{Subsec:PRE:DinamicCorrot}. 
 
 El movimiento local de una sección ubicada a una distancia $x$ de la viga, desde su configuración inicial, se define a partir de la rotación y traslación de la sección correspondiente a su centroide G. Una ilustración de esto se muestra en la Figura \ref{fig:PRE:IlusLocal}, donde la configuración rígida se identifica en punteado y la deformada en color naranja.
@@ -317,7 +317,7 @@ Debido a que la matriz anterior presenta una gran cantidad de entradas nulas es 
 
 Las hipótesis de Bernoulli desprecian las deformaciones por fuerzas cortantes, esto se refleja en sus polinomios de interpolación. Esta premisa no tiene perjucios sobre la aplicación con la que se modelará el elemento. La estructura de cables es extremadamente esbelta, con relaciones de diámetro respecto a largo ínfimas. Por la tanto, las deformaciones por cortante son efectivamente despreciables respecto a las inducidas por los momentos flectores. 
 
-\subsubsection{Variaciones en desplazamientos} \label{Sec:PRE:VariacionesDesplazamientos}
+\subsection{Variaciones en desplazamientos} \label{Sec:PRE:VariacionesDesplazamientos}
 Ya se ha remarcado en reiteradas ocasiones la importancia de los desplazamientos diferenciales para el desarrollo de matrices tangentes y fuerzas. Antes de introducir al lector en la siguiente Sección, es preciso realizar una descripción previa para el cálculo de variaciones. En función de la Figura \ref{fig:PRE:IlusLocalDisp} queda definida la ubicación del baricentro OG partiendo desde el nodo 1. Esto se expresa en según la siguiente ecuación con notación simplificada:
  
 \begin{equation}\label{Eqn:PRE:DispsOG}
@@ -348,7 +348,7 @@ Sustituyendo los polinomios interpolantes anteriormente definidos en \eqref{Eqn:
  
  
  
-\subsubsection{Velocidades y aceleraciones}\label{Sec:PRE:VelAc} ~~\\
+\subsection{Velocidades y aceleraciones}\label{Sec:PRE:VelAc}
 
 Las magnitudes dinámicas despeñan un papel primordial en el análisis implementado. Tanto velocidades como aceleraciones deben ser calculadas en términos globales. De igual modo, que en la Sección \ref{Sec:PRE:VariacionesDesplazamientos}, se obtienen sus diferenciales asociados. Derivando respecto al tiempo la Ecuación \eqref{Eqn:PRE:DifUDefH} se deducen las velocidades traslacionales según la Expresión \eqref{Eqn:PRE:Udot}. Al aplicar la regla del producto en \eqref{Eqn:PRE:Udot} se halla la aceleración lineal del centro de masa del elemento en \eqref{Eqn:PRE:Udotdot}. 
 
@@ -397,13 +397,13 @@ Al igual que para las velocidades de traslación, por practicidad se simplificó
 
 Una descripción detallada puede encontrarse en \cite{Le2014}. Dentro del apéndice de este trabajo, se desglosa las operaciones para calcular las derivadas temporales de las matrices $\bf{H}_1$ y $\bf{H}_2$. También es posible escudriñar la deducción de las matrices $\bf{C_1}$, $\bf{C_2}$, $\bf{C_3}$ y $\bf{C_4}$.   
 
-\subsection{Dinámica corrotacional}\label{Subsec:PRE:DinamicCorrot}
+\section{Dinámica corrotacional}\label{Subsec:PRE:DinamicCorrot}
 
 Una vez descritas las magnitudes cinemáticas de la Sección \label{Subsec:PRE:CinematicCorrot} resulta plausible calcular los efectos dinámicos que generan sus variaciones. A continuación se presentan brevemente las variables más relevantes y una explicación concisa de su obtención. Estas
 variables son el vector de fuerzas internas, inerciales y sus respectivas matrices tangentes según las referencias \citep{Le2014} y \citep{battini2002co}. Acompasando con el avance histórico de la materia, resulta natural analizar primeramente los vectores de fuerza interna y su matriz de rigidez asociada, para luego ahondar en la incorporación de términos dinámicos. 
 
 
-\subsubsection{Fuerza interna y matriz tangente}\label{Sec:PRE:Interna}
+\subsection{Fuerza interna y matriz tangente}\label{Sec:PRE:Interna}
 
 En este apartado se buscan obtener las expresiones de fuerza interna del elemento y su matriz tangente estática. El vector de fuerza interna se compone, de acuerdo a la nomenclatura desplazamiento-ángulo, por la fuerza axial $fl_1$, dos momentos flectores $M^1_1$, $M^1_2$ y un momento torsor $M^1_3$ para cada nodo en su configuración deformada. Esta elección análoga a los desplazamientos locales para las fuerzas internas, se presenta en la Ecuación \eqref{Eqn:PRE:FuerzElem}. 
 
@@ -475,7 +475,7 @@ En la Ecuación \eqref{Eqn:PRE:MatrizKest2} la matriz  $\bf{D}$ es anti-simétri
 Se destaca que la matriz tangente de la Ecuación  \eqref{Eqn:PRE:MatrizKest2} es asimétrica, sin embargo según \cite{Rankin1986} esta puede ser simetrizada sin perder la convergencia cuadrática 
 para el método de  Newton Raphson (N-R), siempre y cuando momentos externos nodales no sean aplicados. En este trabajo se simetrizó la matriz tangente, ya que en la aplicación los elementos serán cargados con fuerzas, esto conlleva a un numero mayor de iteraciones en converger para un determinado nivel de carga. No obstante, debido a la precisión y consistencia del vector de fuerza interna el método debe converger \cite{Rankin1986}. 
 
-\subsubsection{Fuerza inercial y matrices de masa tangentes}\label{Sec:PRE:Inercial}
+\subsection{Fuerza inercial y matrices de masa tangentes}\label{Sec:PRE:Inercial}
 
 A continuación se explayan las ecuaciones y razonamientos fundamentales para la deducción del vector de fuerzas inerciales y sus matrices tangentes asociadas. El atractivo principal de la referencia \citet{Le2014} se fragua en la consistencia de las matrices tangentes. Según el autor y otros el grado de complejidad matemático no permitía desarrollarlas \cite{Crisfield}. Esta coherencia se debe a la cabal derivación analítica del vector de fuerzas inerciales según el planteo cinemático de las variables descritas en \ref{Subsec:PRE:CinematicCorrot}. El abordaje será análogo al desarrollado para fuerzas internas y su matriz tangente. Se calculará primeramente la fuerza inercial y luego sus derivadas, con la salvedad que la magnitud primaria será la energía cinética del elemento. Esta propiedad escalar depende de las velocidades y aceleraciones de traslación globales ($\dot{\bf{u}}$,$\ddot{\bf{u}}$) como también angulares ($\dot{\bf{w}}$,$\ddot{\bf{w}}$). En las ecuaciones \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} a continuación, se presentan la energía cinética de un elemento y su diferencial. Para la obtención de la Expresión se aplicó \eqref{Eqn:PRE:DifEnergiaCinetica} la regla del producto de diferenciales y el teorema de Leibiniz para integrales de extremos fijos. 
 

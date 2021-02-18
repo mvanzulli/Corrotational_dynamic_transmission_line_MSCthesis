@@ -151,8 +151,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="205.95289"
-     inkscape:cy="134.1475"
+     inkscape:cx="312.20744"
+     inkscape:cy="148.79036"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -436,14 +436,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="59.677448"
-       y="58.379692"
+       x="59.488461"
+       y="58.946655"
        id="text1881-0"><tspan
          sodipodi:role="line"
          id="tspan1879-9"
-         x="59.677448"
-         y="58.379692"
-         style="stroke-width:0.10972433">$u_m$</tspan></text>
+         x="59.488461"
+         y="58.946655"
+         style="stroke-width:0.10972433">$w_m$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-0)"
        d="M 81.547148,60.909888 H 94.07552"
@@ -460,7 +460,7 @@
          id="tspan1879-9-1"
          x="82.140633"
          y="58.805481"
-         style="stroke-width:0.10972433">$u_a$</tspan></text>
+         style="stroke-width:0.10972433">$w_a$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2826)"
        d="M 46.300866,60.909887 V 82.783473"
@@ -474,25 +474,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="67.978409"
-       y="77.407578"
+       x="68.923347"
+       y="78.447014"
        id="text1881-0-3-3"><tspan
          sodipodi:role="line"
          id="tspan1879-9-1-6"
-         x="67.978409"
-         y="77.407578"
+         x="68.923347"
+         y="78.447014"
          style="stroke-width:0.10972433">$V_{tot}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.38897276px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10972433"
-       x="39.040344"
-       y="73.361382"
+       x="40.646744"
+       y="72.888908"
        id="text1881-0-3-3-2"><tspan
          sodipodi:role="line"
          id="tspan1879-9-1-6-8"
-         x="39.040344"
-         y="73.361382"
-         style="stroke-width:0.10972433">$v$</tspan></text>
+         x="40.646744"
+         y="72.888908"
+         style="stroke-width:0.10972433">$q$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2964)"
        d="M 118.5647,36.995851 V 19.756971"
@@ -508,7 +508,7 @@
          id="tspan3014"
          x="135.4785"
          y="38.369045"
-         style="stroke-width:0.13470156">$W_{rz}$</tspan></text>
+         style="stroke-width:0.13470156">$\bf{\dot{u}}_{rz}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2964-3)"
        d="m 118.5647,36.995851 h 17.23888"
@@ -524,7 +524,7 @@
          id="tspan3014-4"
          x="120.90615"
          y="22.489347"
-         style="stroke-width:0.13470156">$W_{ry}$</tspan></text>
+         style="stroke-width:0.13470156">$\bf{\dot{u}}_{ry}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.46834612px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13670866"
