@@ -1,11 +1,37 @@
-\BOOKMARK [0][-]{chapter.1}{Resultados num\351ricos}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Vigas en voladizo con \341ngulo recto}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Modelo simplificado de una linea}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Sistema de transmisi\363n el\351ctrica }{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Conclusiones}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Conclusiones t\351cnicas}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.1.1}{Sobre el fen\363meno}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{Sobre los resultados}{section.2.1}% 8
-\BOOKMARK [1][-]{section.2.2}{Conclusiones de formaci\363n}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.3}{Limitaciones }{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.4}{Trabajos a futuro}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{subsection.1.0.1}{Motivaci\363n}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.0.2}{Enfoque}{subsection.1.0.1}% 3
+\BOOKMARK [2][-]{subsection.1.0.3}{Estructura}{subsection.1.0.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Historia de la tem\341tica}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Simulaciones num\351ricas aplicadas a conductores de trasmisi\363n el\351ctrica}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Tormentas convectivas}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{An\341lisis semi-anal\355ticos de conductores}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{An\341lisis corrotacional de vigas}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Preliminares}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Cinem\341tica corrotacional}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Formulaci\363n local}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Variaciones en desplazamientos}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.2}{Velocidades y aceleraciones}{section.3.2}% 15
+\BOOKMARK [1][-]{section.3.3}{Din\341mica corrotacional}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.1}{Fuerza interna y matriz tangente}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.2}{Fuerza inercial y matrices de masa tangentes}{section.3.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Metodolog\355a}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Aspectos de modelado f\355sico}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Condiciones iniciales y de borde para la estructura}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Modelo de viento}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Aspectos de modelado computacional}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Ecuaci\363n de equilibrio}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Resoluci\363n num\351rica mediante HHT}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.3}{Implementaci\363n num\351rica en ONSAS}{section.4.2}% 26
+\BOOKMARK [0][-]{chapter.5}{Resultados num\351ricos}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Vigas en voladizo con \341ngulo recto}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Modelo simplificado de una linea}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{Sistema de transmisi\363n el\351ctrica }{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 31
+\BOOKMARK [1][-]{section.6.1}{Conclusiones t\351cnicas}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.1.1}{Sobre el fen\363meno}{section.6.1}% 33
+\BOOKMARK [2][-]{subsection.6.1.2}{Sobre los resultados}{section.6.1}% 34
+\BOOKMARK [1][-]{section.6.2}{Conclusiones de formaci\363n}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{Limitaciones }{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.4}{Trabajos a futuro}{chapter.6}% 37

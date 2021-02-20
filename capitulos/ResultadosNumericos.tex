@@ -111,7 +111,7 @@ El modelo del conductor esta estandarizado bajo la norma IEC europea \cite{IEC60
 
 
 
-El vano tiene un largo Lc=$267$ m mientras que el cable en su configuración deformada mide $269$ m.  Esta diferencia de longitudes del conductor en su eje axial, responde a un tensado que se realiza durante su instalación. En la etapa de montaje del conductor, se ajusta la pre-tensión de manera tal que la altura ratifique los requerimientos de seguridad según la urbanización, contaminación magnética y tipografía del terreno. Para esta simulación no se tendrá en cuenta la tensión previa al momento de la colocación pero si la tensión debida a la carga del peso. Vale notar que el valor de los esfuerzos generados durante la instalación es menor a un 2\% respecto a los esfuerzos axiales desarrollados durante su movimiento. 
+El vano tiene un largo Lc=$267$ m mientras que el cable en su configuración deformada mide $269$ m.  Esta diferencia de longitudes del conductor en su eje axial, responde a un tensado que se realiza durante su instalación. En la etapa de montaje del conductor, se ajusta la pre-tensión de manera tal que la altura ratifique los requerimientos de seguridad según la urbanización, contaminación magnética y tipografía del terreno. Para esta simulación no se tendrá en cuenta la tensión previa al momento de la colocación pero si la tensión debida a la carga del peso. Vale notar que el valor de los esfuerzos iniciales generados durante la instalación es menor a un 2\% respecto a los esfuerzos axiales desarrollados durante su movimiento. De igual manera se resalta que para este ejemplo no se consideró amortiguamiento aerodinámico de fuerzas viscosas. 
 
 El material que constituye al cable tiene un módulo de elasticidad $E$, módulo de poisson $\nu$, una densidad similar $\rho$ y una rigidez flexional y torsional $EI$ y $GJ$ respectivamente. Estas propiedades descritas se obtuvieron de la norma $\textit{ISO:9001}$ y se presentan en La Tabla \ref{table:RN:FotiCable:propiedadesCable}.
 
@@ -207,7 +207,7 @@ Por otra parte, en comparación con los resultados presentados por \cite{foti201
 \label{fig:CableAngulo}
 \end{figure}
 
-El ejemplo permite conjeturar que la respuesta numéricas del modelo representan de manera acorde y aceptable las dinámicas del fenómeno para conductores de trasmisión eléctrica bajo ciertas hipótesis. Dada la semejada en los resultados arrojados por la formulación, respecto a la bibliografía estudiada, es posible aventurarse a la aplicación de casos más complejos. 
+El ejemplo permite inferir que la respuesta numéricas del modelo representan de manera acorde y aceptable las dinámicas del fenómeno para conductores de trasmisión eléctrica bajo ciertas hipótesis. Dada la semejada en los resultados arrojados por la formulación, respecto a la bibliografía estudiada, es posible aventurarse a la aplicación de casos más complejos. 
 
 
 
@@ -226,7 +226,7 @@ Este apartado ataca el objetivo central de este trabajo: modelar sistemas de tra
  En Uruguay los tendidos eléctricos de alta tensión son aquellos que transportan un voltaje mayor a 72.5 $kV$. Este valor de tensión es eminentemente peligroso y para asegurar que la torre se encuentre aterrada se utilizan elementos aisladores. Estas cadenas aisladoras tradicionalmente de vidrio y cerámicas han ido mutando a poliméricas con un núcleo sólido, aumentando así su tenacidad y flexibilidad. Según la normativa Norma IEC 60815, para alta tensión, deben medir un largo de $10$ in. Para el modelo las cadenas se modelaron como barras de Green, debido a su exigua rigidez a flexión y su articulación de anclaje en ambos extremos. Además se consideró un modulo de elasticidad aproximado E = 70 $GPa$ según los estudios experimentales realizados por la referencia \cite{TesisMexicano}.
 
 
-Al igual que los aisladores, las barras de la estructura metálica se modelaron con elementos de tipo green, con una ley materialsaint venant kirchhoff con $E= 300$ GPa y $\nu=0.3$. Estos valores se corresponden con un acero  ASTM A 572 laminado en caliente, usual en este tipo de estructuras, junto al A36 y ASTM º65. Estas torres tienen una altura máxima de 44 $m$ y un ancho entre los opuestos de la cercha 14.8 $m$. Además son capaces de sostener 6 lineas, estas se corresponden a cada altura, con cada una de las fases eléctricas. Las lineas se encuentran colocadas a tres cotas distintas $L_1=$ 31.75 $m$, $L_2=$ 26.03 $m$,$L_3=$ 39.76 $m$, tal y como se muestra en \ref{fig:RN:Transmission:Torre}. 
+Al igual que los aisladores, las barras de la estructura metálica se modelaron con elementos de tipo green, con una ley material Saint-Venant-Kirchhoff con $E= 300$ GPa y $\nu=0.3$. Estos valores se corresponden con un acero  ASTM A 572 laminado en caliente, usual en este tipo de estructuras, junto al A36 y ASTM º65. Estas torres tienen una altura máxima de 44 $m$ y un ancho entre los opuestos de la cercha 14.8 $m$. Además son capaces de sostener 6 lineas, estas se corresponden a cada altura, con cada una de las fases eléctricas. Las lineas se encuentran colocadas a tres cotas distintas $L_1=$ 31.75 $m$, $L_2=$ 26.03 $m$,$L_3=$ 39.76 $m$, tal y como se muestra en \ref{fig:RN:Transmission:Torre}. 
 
 \begin{figure}[h]
 	\centering
@@ -246,7 +246,7 @@ La simulación consta de dos etapas, primeramente partiendo de la configuración
 	\centering
 	\subfigure[Carga aplicada sobre los nodos. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png}}\label{fig:RN:Transmission:FuerzaTormentaX}
 	\subfigure[Perfil de velocidades de viento.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png}}\label{fig:RN:Transmission:VelocidadTormentaX}
-    \label{fig:RN:Transmission:ForceVelTormentaX}
+    \label{fig:RN:Transmission:ForceVelTormenta}
 \end{figure}
 \endgroup
 
