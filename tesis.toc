@@ -1,5 +1,11 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
+\babel@toc {english}{}
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de figuras}{\es@scroman {x}}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de tablas}{\es@scroman {xii}}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -75,11 +81,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Sobre el fenómeno}{76}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Sobre los resultados}{77}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Sobre la metodología}{77}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Conclusiones de formación}{80}{section.6.2}%
+\contentsline {subsection}{\numberline {6.1.3}Sobre los resultados}{78}{subsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Limitaciones }{80}{section.6.3}%
+\contentsline {section}{\numberline {6.2}Conclusiones de formación}{81}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Trabajos a futuro}{80}{section.6.4}%
+\contentsline {section}{\numberline {6.3}Trabajos a futuro}{82}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Limitaciones }{83}{section.6.4}%
 \contentsfinish 

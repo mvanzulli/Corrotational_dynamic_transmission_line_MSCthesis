@@ -353,7 +353,7 @@ Se esclarecen las premisas y simplificaciones durante la implementación numéri
 \end{enumerate}
 
 
-\subsection{Implementación numérica en ONSAS}
+\subsection{Implementación numérica en ONSAS}\label{Sec:MET:ImplementNumeric}
 En la sección que prosigue se detallan los códigos implementados en el software: \emph{An Open Non Linear Structural Analysis Solver} (\href{https://github.com/ONSAS/ONSAS/}{ONSAS}). Este código de carácter abierto y se desarrolló de forma general integrando distintos elementos, materiales y geometrías dentro del mismo modelo. Además permite resolver mediante diversos algoritmos numéricos y visualizar gráficamente sus salida en 3D a través del programa de código abierto \emph{Paraview} difundido en \citep{ahrens2005paraview}.
 
 Las líneas de código relacionadas con la formulación local, las funciones matemáticas de rotación, las fuerzas internas y sus matrices tangentes fueron aportadas por el Dr. Jean Mark Battini. Su intervención constituye uno de los pilares fundamentales en la construcción de este trabajo, no solo por ser pionero dela formulación corrotacional aplicada a estructuras, publicadas en los trabajos \citep{Battini2002} \citep{Le2014}, sino también por su predisposición a difundir los códigos de su investigación, cuyo valor es invaluable. A continuación en \ref{Pseudo:MET:Corrot} se detalla un pseudo-código panorámico sobre el esqueleto ejecutado en \href{https://github.com/ONSAS/ONSAS/}{ONSAS}. 
