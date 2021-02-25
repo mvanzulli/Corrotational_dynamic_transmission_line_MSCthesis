@@ -3,9 +3,9 @@
 \babel@toc {english}{}
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de figuras}{\es@scroman {x}}{chapter*.2}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xi}}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de tablas}{\es@scroman {xii}}{chapter*.3}%
+\contentsline {chapter}{Lista de tablas}{\es@scroman {xiii}}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
