@@ -2820,9 +2820,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliografia/SimuConductores.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliografia/TormentasConvectivas.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliografia/MetodosNumericos_Softwares.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliografia/Filosofia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">DNM2002</bcf:citekey>
+    <bcf:citekey order="1">tormenta2002</bcf:citekey>
     <bcf:citekey order="2">duranona2015significance</bcf:citekey>
     <bcf:citekey order="3">duranona2019first</bcf:citekey>
     <bcf:citekey order="4">stengel2017measurements</bcf:citekey>
@@ -2838,8 +2839,11 @@
     <bcf:citekey order="14">asadi2019multibody</bcf:citekey>
     <bcf:citekey order="15">viana2020formulation</bcf:citekey>
     <bcf:citekey order="16">foti2013corotational</bcf:citekey>
+    <bcf:citekey order="17">foti2013corotational</bcf:citekey>
     <bcf:citekey order="18">foti2018finite</bcf:citekey>
+    <bcf:citekey order="19">foti2018finite</bcf:citekey>
     <bcf:citekey order="20">Le2014</bcf:citekey>
+    <bcf:citekey order="21">Le2014</bcf:citekey>
     <bcf:citekey order="22">Le2014</bcf:citekey>
     <bcf:citekey order="23">Foti2016</bcf:citekey>
     <bcf:citekey order="24">stengel2017measurements</bcf:citekey>
@@ -2870,18 +2874,25 @@
     <bcf:citekey order="49">costello1990average</bcf:citekey>
     <bcf:citekey order="50">rawlins2005flexure</bcf:citekey>
     <bcf:citekey order="51">fujita1985downburst</bcf:citekey>
+    <bcf:citekey order="52">fujita1985downburst</bcf:citekey>
     <bcf:citekey order="53">darwish2010dynamic</bcf:citekey>
+    <bcf:citekey order="54">darwish2010dynamic</bcf:citekey>
     <bcf:citekey order="55">ang1984probability</bcf:citekey>
+    <bcf:citekey order="56">ang1984probability</bcf:citekey>
     <bcf:citekey order="57">holmes2002re</bcf:citekey>
+    <bcf:citekey order="58">holmes2002re</bcf:citekey>
     <bcf:citekey order="59">abd2013coupled</bcf:citekey>
     <bcf:citekey order="60">stengel2017measurements</bcf:citekey>
+    <bcf:citekey order="61">stengel2017measurements</bcf:citekey>
     <bcf:citekey order="62">duranona2009analysis</bcf:citekey>
     <bcf:citekey order="63">duranona2009analysis</bcf:citekey>
     <bcf:citekey order="64">duranona2015significance</bcf:citekey>
     <bcf:citekey order="65">duranona2019first</bcf:citekey>
+    <bcf:citekey order="66">duranona2019first</bcf:citekey>
     <bcf:citekey order="67">blevins1990van</bcf:citekey>
     <bcf:citekey order="68">jones1992coupled</bcf:citekey>
     <bcf:citekey order="69">chabart1998galloping</bcf:citekey>
+    <bcf:citekey order="70">chabart1998galloping</bcf:citekey>
     <bcf:citekey order="71">jones1992coupled</bcf:citekey>
     <bcf:citekey order="72">luongo1984planar</bcf:citekey>
     <bcf:citekey order="73">lee1992nonlinear</bcf:citekey>
@@ -2898,6 +2909,7 @@
     <bcf:citekey order="84">alsafadie2010corotational</bcf:citekey>
     <bcf:citekey order="85">behdinan1998co</bcf:citekey>
     <bcf:citekey order="86">simo1988dynamics</bcf:citekey>
+    <bcf:citekey order="87">simo1988dynamics</bcf:citekey>
     <bcf:citekey order="88">Le2011</bcf:citekey>
     <bcf:citekey order="89">reddy1997locking</bcf:citekey>
     <bcf:citekey order="90">Le2014</bcf:citekey>
@@ -2918,6 +2930,7 @@
     <bcf:citekey order="105">Rankin1986</bcf:citekey>
     <bcf:citekey order="106">Rankin1986</bcf:citekey>
     <bcf:citekey order="107">Le2014</bcf:citekey>
+    <bcf:citekey order="108">Le2014</bcf:citekey>
     <bcf:citekey order="109">Crisfield</bcf:citekey>
     <bcf:citekey order="110">cardona1988beam</bcf:citekey>
     <bcf:citekey order="111">hsiao1999consistent</bcf:citekey>
@@ -2940,20 +2953,27 @@
     <bcf:citekey order="128">Battini2002</bcf:citekey>
     <bcf:citekey order="129">Le2014</bcf:citekey>
     <bcf:citekey order="130">eaton2007gnu</bcf:citekey>
+    <bcf:citekey order="131">eaton2007gnu</bcf:citekey>
     <bcf:citekey order="132">ahrens2014image</bcf:citekey>
+    <bcf:citekey order="133">ahrens2014image</bcf:citekey>
     <bcf:citekey order="134">simo1988dynamics</bcf:citekey>
     <bcf:citekey order="135">albino2018co</bcf:citekey>
     <bcf:citekey order="136">Le2014</bcf:citekey>
     <bcf:citekey order="137">Le2014</bcf:citekey>
     <bcf:citekey order="138">Le2014</bcf:citekey>
+    <bcf:citekey order="139">Le2014</bcf:citekey>
     <bcf:citekey order="140">Le2014</bcf:citekey>
+    <bcf:citekey order="141">Le2014</bcf:citekey>
     <bcf:citekey order="142">foti2018finite</bcf:citekey>
     <bcf:citekey order="143">luongo1998non</bcf:citekey>
     <bcf:citekey order="144">martinelli2001numerical</bcf:citekey>
     <bcf:citekey order="145">IEC60826</bcf:citekey>
     <bcf:citekey order="146">foti2018finite</bcf:citekey>
+    <bcf:citekey order="147">foti2018finite</bcf:citekey>
     <bcf:citekey order="148">luongo1998non</bcf:citekey>
+    <bcf:citekey order="149">luongo1998non</bcf:citekey>
     <bcf:citekey order="150">martinelli2001numerical</bcf:citekey>
+    <bcf:citekey order="151">martinelli2001numerical</bcf:citekey>
     <bcf:citekey order="152">IEC60826</bcf:citekey>
     <bcf:citekey order="153">lee1992nonlinear</bcf:citekey>
     <bcf:citekey order="154">Foti2016</bcf:citekey>
@@ -2962,14 +2982,17 @@
     <bcf:citekey order="157">foti2018finite</bcf:citekey>
     <bcf:citekey order="158">foti2018finite</bcf:citekey>
     <bcf:citekey order="159">foti2018finite</bcf:citekey>
+    <bcf:citekey order="160">foti2018finite</bcf:citekey>
     <bcf:citekey order="161">foti2018finite</bcf:citekey>
     <bcf:citekey order="162">foti2018finite</bcf:citekey>
     <bcf:citekey order="163">MoralesAisladores</bcf:citekey>
     <bcf:citekey order="164">matheson1981simulation</bcf:citekey>
     <bcf:citekey order="165">stengel2017measurements</bcf:citekey>
     <bcf:citekey order="166">fujita1985downburst</bcf:citekey>
+    <bcf:citekey order="167">fujita1985downburst</bcf:citekey>
     <bcf:citekey order="168">fujita1985downburst</bcf:citekey>
     <bcf:citekey order="169">Foti2016</bcf:citekey>
+    <bcf:citekey order="170">Foti2016</bcf:citekey>
     <bcf:citekey order="171">stengel2017measurements</bcf:citekey>
     <bcf:citekey order="172">duranona2009analysis</bcf:citekey>
     <bcf:citekey order="173">yang2016nonlinear</bcf:citekey>
@@ -2978,7 +3001,7 @@
     <bcf:citekey order="176">simo1988dynamics</bcf:citekey>
     <bcf:citekey order="177">Le2014</bcf:citekey>
     <bcf:citekey order="178">Foti2016</bcf:citekey>
-    <bcf:citekey order="179">euroCode</bcf:citekey>
+    <bcf:citekey order="179">IEC60826</bcf:citekey>
     <bcf:citekey order="180">stengel2017measurements</bcf:citekey>
     <bcf:citekey order="181">duranona2009analysis</bcf:citekey>
     <bcf:citekey order="182">duranona2019first</bcf:citekey>
@@ -2986,6 +3009,9 @@
     <bcf:citekey order="184">duranona2009analysis</bcf:citekey>
     <bcf:citekey order="185">yan2009numerical</bcf:citekey>
     <bcf:citekey order="186">mendina2014general</bcf:citekey>
+    <bcf:citekey order="187">descartes2004discurso</bcf:citekey>
+    <bcf:citekey order="188">nietzsche2018voluntad</bcf:citekey>
+    <bcf:citekey order="189">kuhn2019estructura</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
