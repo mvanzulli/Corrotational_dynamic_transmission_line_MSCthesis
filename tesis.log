@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  25 FEB 2021 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  27 FEB 2021 13:09
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1190,13 +1190,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
  (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux)
-(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (resumen/abstract.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-)
-(capitulos/Introduccion.aux) (capitulos/EstadoDelArte.aux)
-(capitulos/Preliminares.aux) (capitulos/Metodologia.aux)
-(capitulos/ResultadosNumericos.aux) (capitulos/Conclusiones.aux))
+(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
+(capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
+(capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
+(capitulos/Conclusiones.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -1453,39 +1450,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-]
+] [7]
 \openout2 = `ded_agr_epi/epigrafe.aux'.
 
- (ded_agr_epi/epigrafe.tex) [7
+ (ded_agr_epi/epigrafe.tex) [8
 
 
 
 ]
 \openout2 = `resumen/resumen.aux'.
 
- (resumen/resumen.tex [8
+ (resumen/resumen.tex [9
 
 
 
-]) [9]
-\openout2 = `resumen/abstract.aux'.
-
-
-(resumen/abstract.tex
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-) [10
-
-
-
-] (tesis.lof
+]) [10]
+(tesis.lof
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \sptext on input line 4.
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
  [11
 
 
@@ -1497,9 +1480,6 @@ LaTeX Info: Redefining \% on input line 4.
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \sptext on input line 4.
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
 )
 \tf@lot=\write7
 \openout7 = `tesis.lot'.
@@ -1510,11 +1490,7 @@ LaTeX Info: Redefining \% on input line 4.
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \sptext on input line 4.
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
-
-[14
+ [14
 
 ])
 \tf@toc=\write8
@@ -1523,7 +1499,8 @@ LaTeX Info: Redefining \% on input line 4.
  [15]
 \openout2 = `capitulos/Introduccion.aux'.
 
- (capitulos/Introduccion.tex
+
+(capitulos/Introduccion.tex
 Cap\'{\i }tulo 1.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -3034,8 +3011,12 @@ Cap\'{\i }tulo 6.
 
 ] [78]
 
-LaTeX Warning: Reference `fig:RN:RA:Dispz' on page 79 undefined on input line 2
-7.
+Package caption Warning: \label without proper reference on input line 51.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:RN:RA:DispzA' on page 79 undefined on input line 
+27.
 
 
 Package caption Warning: \label without proper reference on input line 50.
@@ -3096,6 +3077,14 @@ LaTeX Warning: Reference `fig:RN:FotiCable:DispZ' on page 80 undefined on input
 
 [80]
 
+Package caption Warning: \label without proper reference on input line 312.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:RN:Transmission:Deformadas' on page 81 undefined 
+on input line 39.
+
+
 Package caption Warning: \label without proper reference on input line 249.
 See the caption package documentation for explanation.
 
@@ -3103,15 +3092,16 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:RN:Transmission:ForceVelTormenta' on page 81 unde
 fined on input line 39.
 
+[81]
 
 Package caption Warning: \label without proper reference on input line 302.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:RN:Trnsmission:CurvaCargaDisp' on page 81 undefin
+LaTeX Warning: Reference `fig:RN:Trnsmission:CurvaCargaDisp' on page 82 undefin
 ed on input line 41.
 
-[81] [82] [83] [84] [85]) [86] [87
+[82] [83] [84] [85]) [86] [87
 
 
 
@@ -3126,14 +3116,10 @@ LaTeX Info: Redefining \sptext on input line 28.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
  (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux)
-(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (resumen/abstract.aux
-LaTeX Info: Redefining \sptext on input line 6.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-)
-(capitulos/Introduccion.aux) (capitulos/EstadoDelArte.aux)
-(capitulos/Preliminares.aux) (capitulos/Metodologia.aux)
-(capitulos/ResultadosNumericos.aux) (capitulos/Conclusiones.aux))
+(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
+(capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
+(capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
+(capitulos/Conclusiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
@@ -3148,16 +3134,16 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 31801 strings out of 481199
- 630637 string characters out of 2904657
- 1413743 words of memory out of 3000000
- 46204 multiletter control sequences out of 15000+200000
+ 31787 strings out of 481199
+ 630125 string characters out of 2904657
+ 1410676 words of memory out of 3000000
+ 46196 multiletter control sequences out of 15000+200000
  551697 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,22n,107p,1652b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi720\cmbc
-sc10.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm1200.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+ 76i,22n,107p,1636b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi
+720\cmbcsc10.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/Usuario/AppData/Local
@@ -3185,9 +3171,9 @@ fb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (108 pages, 1907489 bytes).
+Output written on tesis.pdf (108 pages, 1909592 bytes).
 PDF statistics:
- 2136 PDF objects out of 2487 (max. 8388607)
+ 2139 PDF objects out of 2487 (max. 8388607)
  425 named destinations out of 1000 (max. 500000)
  957 words of extra memory for PDF output out of 10000 (max. 10000000)
 

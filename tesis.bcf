@@ -3007,16 +3007,19 @@
     <bcf:citekey order="182">Le2014</bcf:citekey>
     <bcf:citekey order="183">Foti2016</bcf:citekey>
     <bcf:citekey order="184">IEC60826</bcf:citekey>
-    <bcf:citekey order="185">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="186">duranona2009analysis</bcf:citekey>
-    <bcf:citekey order="187">duranona2019first</bcf:citekey>
-    <bcf:citekey order="188">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="189">duranona2009analysis</bcf:citekey>
-    <bcf:citekey order="190">yan2009numerical</bcf:citekey>
-    <bcf:citekey order="191">mendina2014general</bcf:citekey>
-    <bcf:citekey order="192">descartes2004discurso</bcf:citekey>
-    <bcf:citekey order="193">nietzsche2018voluntad</bcf:citekey>
-    <bcf:citekey order="194">kuhn2019estructura</bcf:citekey>
+    <bcf:citekey order="185">IEC60826</bcf:citekey>
+    <bcf:citekey order="186">Foti2016</bcf:citekey>
+    <bcf:citekey order="187">stengel2017measurements</bcf:citekey>
+    <bcf:citekey order="188">duranona2009analysis</bcf:citekey>
+    <bcf:citekey order="189">duranona2019first</bcf:citekey>
+    <bcf:citekey order="190">stengel2017measurements</bcf:citekey>
+    <bcf:citekey order="191">stengel2017measurements</bcf:citekey>
+    <bcf:citekey order="192">duranona2009analysis</bcf:citekey>
+    <bcf:citekey order="193">yan2009numerical</bcf:citekey>
+    <bcf:citekey order="194">mendina2014general</bcf:citekey>
+    <bcf:citekey order="195">descartes2004discurso</bcf:citekey>
+    <bcf:citekey order="196">nietzsche2018voluntad</bcf:citekey>
+    <bcf:citekey order="197">kuhn2019estructura</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
