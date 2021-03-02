@@ -18,9 +18,6 @@
 
 \hypersetup{ colorlinks = true } % Hipervínculos: escribir "false" para imprimir o "true" para ver en digital.
 
-
-
-
 % Cargar estilo bibliográfico copiando del documento "Estilos bibliográficos UdelaRTeX.pdf"
 
 \usepackage[backend=biber,style=apa,sortcites,natbib=true]{biblatex}
@@ -32,7 +29,8 @@
 \addbibresource{bibliografia/HistoriaCables.bib} % Se coloca una línea por archivo 
 \addbibresource{bibliografia/SimuConductores.bib} % Se coloca una línea por archivo 
 \addbibresource{bibliografia/TormentasConvectivas.bib} % Se coloca una línea por 
-\addbibresource{bibliografia/MetodosNumericos&Softwares.bib}
+\addbibresource{bibliografia/MetodosNumericos_Softwares.bib}
+\addbibresource{bibliografia/Filosofia.bib}
 %\loadglossary % No comentar esta línea
 
 % A su vez, la clase udelar.cls ya tiene los siguientes paquetes cargados automáticamente, que podrían ser de interés saber para el usuario:
@@ -60,55 +58,49 @@
 \begin{document}
 %
 \title{Implementación de una formulación corrotacional en dinámica no lineal y aplicación al modelado de líneas de transmisión eléctrica}
-\subtitle{}
+
 \institutelogo{1} % Carga cantidad de logos seleccionados, con máximo de 3 logos.
 \author{Mauricio Camilo}{Vanzulli Pena}
-\escritura{en Ingniería Estructural} % Se indica que el programa de Posgrado sea "en" o "de" tal área.
-%
-\director{Dr.}{Jorge}{Perez Zerpa}{Dr.}
-%\director{Prof.}{Nombre del Director de Tesis}{Apellido}{D.Sc.} % Comentar esta línea si se tiene solo un director de tesis.
-%  \codirector{Prof.}{Nombre del 1er Codirector}{Apellido}{D.Sc.}  % Comentar estas líneas si no son necesarias.
-% \codirector{Prof.}{Nombre del 2do Codirector}{Apellido}{D.Sc.}
-%\codirector{Prof.}{Nombre del 3er Codirector}{Apellido}{D.Sc.}
-\directoracademico{Dr.}{Gabriel Usera}{Apellido}{D.Sc.}
-%
-\examiner{Prof.}{Nombre del 1er Examinador}{Apellido}{D.Sc.}
-\examiner{Prof.}{Nombre del 2do Examinador}{Apellido}{Ph.D.}
-\examiner{Prof.}{Nombre del 3er Examinador}{Apellido}{D.Sc.}
-\examiner{Prof.}{Nombre del 4to Examinador}{Apellido}{Ph.D.}
-\examiner{Prof.}{Nombre del 5to Examinador}{Apellido}{Ph.D.} % Comentar los que no son necesarios.
-%
-\graduatename{Instituo de Estructuras y Transporte}
-\institute{Instituto de Ingeniaría Mecánica y Producción Industrial}{Facultad de Ingeniaría de la Universidad de la Repíblica del Uruguay}  % La primer institución es la principal.
-%\seconduniversity{} % Se agrega el nombre de otra universidad. Comentar esta linea si no es necesaria.
-% \thirduniversity{Universidad YYYYY} % Se agrega el nombre de otra universidad. Comentar esta linea si no es necesaria.
+\escritura{Maestría en Ingeniería Estrucutral} % Se indica que el programa de Posgrado sea "en" o "de" tal área.
+%%
+\director{Prof.}{Jorge}{Pérez Zerpa}{Dr.}
+\directoracademico{Prof.}{Gabriel}{Usera}{D.Sc.}
+%%
+\examiner{Prof.}{Gonzalo}{Cetrángolo}{D.Sc.}
+\examiner{Prof.}{Bruno}{Bazzano}{M.Sc.}
+\examiner{Prof.}{Marcelo}{Forets}{D.Sc.}
+%%
+\graduatename{Ingeniería Estructural}
+\institute{Instituto de Estructuras y Transporte}{Facultad de Ingeniaría de la Universidad de la Repíblica del Uruguay}  % La primer institución es la principal.
+
 \graduatelocation{Montevideo}{Uruguay}
-%
-\date{02}{02}{2021} % Fecha del documento: día/mes/año
+%%
+\date{02}{03}{2021} % Fecha del documento: día/mes/año
 % Palabras claves en español
 \keyword{Elementos de viga corrotacional}
-\keyword{Cables de alta tensión}
-\keyword{Elementos Finitos}
-\keyword{Trasimisión electrica}
+\keyword{Método de los Elementos Finitos}
 \keyword{Dinámica estructural} 
-  \maketitle  % Comando que genera el título de la tesis.
+\keyword{Cables de alta tensión}
+\keyword{Transmisión electrica}
+%
+\maketitle  % Comando que genera el título de la tesis.
+%  %
+  \frontmatter  % Comando que genera la portadilla, el catalogo y el tribunal de evaluación. NO COMENTAR
   %
-%  \frontmatter  % Comando que genera la portadilla, el catalogo y el tribunal de evaluación. NO COMENTAR
-%  %
-%  \include{ded_agr_epi/dedicacion}
-%  \include{ded_agr_epi/agradecimientos}
-%  \include{ded_agr_epi/epigrafe}
-%  \include{resumen/resumen}
+  \include{ded_agr_epi/dedicacion}
+  \include{ded_agr_epi/agradecimientos}
+  \include{ded_agr_epi/epigrafe}
+  \include{resumen/resumen}
 %  \include{resumen/abstract}
-%  %
-%  \listoffigures	         % Lista de figuras
-%  \listoftables	         % Lista de tablas
+  %
+  \listoffigures	         % Lista de figuras
+  \listoftables	         % Lista de tablas
 %  \listadesimbolos 		 % Lista de símbolos
 %  \listadenotaciones 	     % Lista de notaciones
 %  \listadesiglas 		     % Lista de siglas
-  %
+  
   \tableofcontents           % Tabla de contenidos. Compilar dos veces para ver los cambios completos.
-  %
+  
   \mainmatter % Comando que genera las listas y capítulos. NO COMENTAR
   % 
   % Se incluyen los capítulos. Se pueden comentar los capítlos en los cuales no se está trabajando, para que el documento de trabajo sea más pequeño y compile más rápido.
@@ -118,30 +110,33 @@
   \include{capitulos/Metodologia}	% Se carga el capítulo 04  
   \include{capitulos/ResultadosNumericos} 		% Se carga el capítulo 05
   \include{capitulos/Conclusiones} 		% Se carga el capítulo 06
-
-  % Seguir copiando la linea de arriba para agregar más capítulos.
-  
-%  \backmatter % Comando que generalos apéndices, anexos y bibliografía. NO COMENTAR
-  
-
+%
+%  % Seguir copiando la linea de arriba para agregar más capítulos.
+%  
+  \backmatter % Comando que generalos apéndices, anexos y bibliografía. NO COMENTAR
+%  
+%
   \printbibliography[heading=bibintoc]		% Se imprimen las referencias bibliográficas
-%  \bibend % NO comentar
-  % 
-%  \glosario 		         % Glosario, NO comentar
-  %
-%  \apenarabicnumbering
-%  \apenmatter				 % Apéndices, NO comentar
-%  \input{apendice/apendice_A}
-%  \input{apendice/apendice_B}
-%  \input{apendice/apendice_C}
-  % Seguir copiando la linea de arriba para agregar más apéndices.
-  %
-%  \anexarabicnumbering
-%  \anexmatter				 % Anexos, NO comentar
-%  \input{anexo/anexo_A}
-%  \input{anexo/anexo_B}
-  % Seguir copiando la linea de arriba para agregar más anexos.
-  % 
+  \bibend % NO comentar
+%  % 
+%%  \glosario 		         % Glosario, NO comentar
+%  %
+%%  \apenarabicnumbering
+%%  \apenmatter				 % Apéndices, NO comentar
+%%  \input{apendice/apendice_A}
+%%  \input{apendice/apendice_B}
+%%  \input{apendice/apendice_C}
+%  % Seguir copiando la linea de arriba para agregar más apéndices.
+%  %
+%%  \anexarabicnumbering
+%%  \anexmatter				 % Anexos, NO comentar
+%%  \input{anexo/anexo_A}
+%%  \input{anexo/anexo_B}
+%  % Seguir copiando la linea de arriba para agregar más anexos.
+
+
+
+
 \end{document}
 
 % ===== FIN DEL DOCUMENTO =====
