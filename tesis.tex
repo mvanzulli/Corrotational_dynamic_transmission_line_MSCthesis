@@ -1,14 +1,14 @@
 % ===== INICIO DEL PREÁMBULO =====
 %
 \documentclass[msc,oneside]{udelar} % Poner msc para Maestría, dsc para Doctorado.
-%
-%\usepackage[
-%acronyms, 											 % Utiliza el glosario de acronimos.
-%nohypertypes={acronym,notacion,simbolos,glosario},   % Quita los links en el texto al glosario.
-%%nonumberlist,                                       % Quita los links en los glosarios al texto.
-%nogroupskip,                                         % Quita los espacios entre diferentes grupos dentro de un glosario.
-%nopostdot 											 % Quita el punto final en los acrónimos.
-%]{glossaries}
+
+\usepackage[
+acronyms, 											 % Utiliza el glosario de acronimos.
+nohypertypes={acronym,notacion,simbolos,glosario},   % Quita los links en el texto al glosario.
+nonumberlist,                                       % Quita los links en los glosarios al texto.
+nogroupskip,                                         % Quita los espacios entre diferentes grupos dentro de un glosario.
+nopostdot 											 % Quita el punto final en los acrónimos.
+]{glossaries}
 
 
 %Agrega número de lineas
@@ -20,8 +20,15 @@
 
 % Cargar estilo bibliográfico copiando del documento "Estilos bibliográficos UdelaRTeX.pdf"
 
+%%%%%%%%%BIBLOGRAFIA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%APA%%%%%%%%%
 \usepackage[backend=biber,style=apa,sortcites,natbib=true]{biblatex}
 \usepackage{estilos_bibliograficos/udelartex_apa}
+
+%VANCOUVER%%%%%%%%%%
+%\usepackage[backend=biber,style=numeric,sortcites,natbib=true,%
+%terseinits=true,firstinits=true]{biblatex}
+%\usepackage{estilos_bibliograficos/udelartex_vancouver}
 
 %archivos .bib que se tengan para la bibliografía:
 \addbibresource{bibliografia/AnalyticConductores.bib} % Agregar la cantidad de 
@@ -31,19 +38,23 @@
 \addbibresource{bibliografia/TormentasConvectivas.bib} % Se coloca una línea por 
 \addbibresource{bibliografia/MetodosNumericos_Softwares.bib}
 \addbibresource{bibliografia/Filosofia.bib}
-%\loadglossary % No comentar esta línea
+\addbibresource{bibliografia/Anexo.bib}
+\loadglossary % No comentar esta línea
 
 % A su vez, la clase udelar.cls ya tiene los siguientes paquetes cargados automáticamente, que podrían ser de interés saber para el usuario:
 %{color},{hyphenat},{appendix},{lastpage},{babel},{inputenc},{amsmath,amssymb},{ifthen},{graphicx},{caption}{setspace},{tabularx},{eqparbox},{ltxcmds},{titletoc},{xcolor},{lineno},{xwatermark}
 
 % Si se quieren agregar más paquetes, se recomienda colocarlos a partir de esta linea y antes de \begin{document}.
 % ===========  INICIO PAQUETES ===============
-\graphicspath{{./imagenes/ResultadosNumericos/RightAngeCantilever/},{./imagenes/ResultadosNumericos/SimpleCable/},{./imagenes/ResultadosNumericos/TransmissionTormenta/}, {./imagenes/Preliminares/Corrotacional/},{./imagenes/Metodologia/} }
+\graphicspath{{./imagenes/ResultadosNumericos/RightAngeCantilever/},{./imagenes/ResultadosNumericos/SimpleCable/},{./imagenes/ResultadosNumericos/TransmissionTormenta/}, {./imagenes/Preliminares/Corrotacional/},{./imagenes/Metodologia/},{./imagenes/Anexo/}{./imagenes/Introduccion/}}
 % Paquetes adicionales
 \usepackage{subfigure}
 \usepackage{hyperref}
 \usepackage{algorithm}
 \usepackage{algorithmic}
+\usepackage{multirow} 
+\usepackage{multicol} 
+%\usepackage[dvipsnames]{xcolor}
 %\usepackage[noend]{algpseudocode}
 %\makeatletter
 %\def\BState{\State\hskip-\ALG@thistlm}
@@ -95,9 +106,9 @@
   %
   \listoffigures	         % Lista de figuras
   \listoftables	         % Lista de tablas
-%  \listadesimbolos 		 % Lista de símbolos
+  \listadesimbolos 		 % Lista de símbolos
 %  \listadenotaciones 	     % Lista de notaciones
-%  \listadesiglas 		     % Lista de siglas
+  \listadesiglas 		     % Lista de siglas
   
   \tableofcontents           % Tabla de contenidos. Compilar dos veces para ver los cambios completos.
   
@@ -110,7 +121,7 @@
   \include{capitulos/Metodologia}	% Se carga el capítulo 04  
   \include{capitulos/ResultadosNumericos} 		% Se carga el capítulo 05
   \include{capitulos/Conclusiones} 		% Se carga el capítulo 06
-%
+
 %  % Seguir copiando la linea de arriba para agregar más capítulos.
 %  
   \backmatter % Comando que generalos apéndices, anexos y bibliografía. NO COMENTAR
@@ -119,23 +130,20 @@
   \printbibliography[heading=bibintoc]		% Se imprimen las referencias bibliográficas
   \bibend % NO comentar
 %  % 
-%%  \glosario 		         % Glosario, NO comentar
+ \glosario 		         % Glosario, NO comentar
 %  %
-%%  \apenarabicnumbering
-%%  \apenmatter				 % Apéndices, NO comentar
-%%  \input{apendice/apendice_A}
+%  \apenarabicnumbering
+%  \apenmatter				 % Apéndices, NO comentar
+%  \input{apendice/apendice_A}
 %%  \input{apendice/apendice_B}
 %%  \input{apendice/apendice_C}
 %  % Seguir copiando la linea de arriba para agregar más apéndices.
 %  %
-%%  \anexarabicnumbering
-%%  \anexmatter				 % Anexos, NO comentar
-%%  \input{anexo/anexo_A}
-%%  \input{anexo/anexo_B}
+  \anexarabicnumbering
+  \anexmatter				 % Anexos, NO comentar
+  \input{anexo/anexo_A}
+  \input{anexo/anexo_B}
 %  % Seguir copiando la linea de arriba para agregar más anexos.
-
-
-
 
 \end{document}
 

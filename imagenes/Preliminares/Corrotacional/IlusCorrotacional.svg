@@ -287,9 +287,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-91.778677"
-     inkscape:cy="491.42832"
+     inkscape:zoom="1.979899"
+     inkscape:cx="395.48395"
+     inkscape:cy="512.29629"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -586,7 +586,7 @@
          x="103.81697"
          y="65.228134"
          style="stroke-width:0.135528"
-         dx="0 0 0 0 0 0 0">$\bf{t}^1_3$</tspan><tspan
+         dx="0 0 0 0 0 0 0">$\bf{t}^1_1$</tspan><tspan
          sodipodi:role="line"
          x="103.81697"
          y="72.004547"
@@ -613,12 +613,12 @@
     <path
        inkscape:connector-curvature="0"
        id="path1402-2-8-1-4-59"
-       d="m 158.97293,125.88608 14.5182,-9.98401"
+       d="m 158.97293,125.88608 7.20092,-16.08121"
        style="fill:none;stroke:#000000;stroke-width:0.340635;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-8-0-2-1-9)" />
     <path
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:0.340635;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-8-0-2-1-7-0)"
-       d="M 158.97293,125.88608 148.48695,111.72621"
+       d="M 158.9764,126.05857 144.99572,115.33485"
        id="path1402-2-8-1-4-5-6" />
     <path
        inkscape:connector-curvature="0"
@@ -648,20 +648,20 @@
     <text
        transform="rotate(14.951072)"
        id="text2122-3-1-6-4-2"
-       y="66.936943"
-       x="201.71735"
+       y="65.169037"
+       x="191.85597"
        style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
        xml:space="preserve"><tspan
          style="stroke-width:0.135528"
-         y="66.936943"
-         x="201.71735"
+         y="65.169037"
+         x="191.85597"
          id="tspan2120-2-2-6-7-25"
          sodipodi:role="line"
-         dx="0 0 0 0 0 0 0">$\bf{t}^2_3$</tspan><tspan
+         dx="0 0 0 0 0 0 0">$\bf{t}^2_1$</tspan><tspan
          id="tspan2124-7-6-0-3-0"
          style="stroke-width:0.135528"
-         y="73.713356"
-         x="201.71735"
+         y="71.94545"
+         x="191.85597"
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
@@ -703,22 +703,22 @@
     <text
        transform="rotate(31.735626)"
        id="text2122-7-3-4-4-6"
-       y="122.23008"
-       x="208.3788"
+       y="126.37971"
+       x="204.72328"
        style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
        xml:space="preserve"
        inkscape:transform-center-x="-0.21802154"
        inkscape:transform-center-y="19.892074"><tspan
          dx="0 0 0 0 0 0 0"
          style="stroke-width:0.135528"
-         y="122.23008"
-         x="208.3788"
+         y="126.37971"
+         x="204.72328"
          id="tspan2120-3-6-1-1-1"
          sodipodi:role="line">$\bf{2}$</tspan><tspan
          id="tspan2124-5-6-5-7-7"
          style="stroke-width:0.135528"
-         y="129.00648"
-         x="208.3788"
+         y="133.15613"
+         x="204.72328"
          sodipodi:role="line" /></text>
     <circle
        r="1.7008928"
@@ -762,5 +762,65 @@
        d="m 145.68613,122.49745 13.29027,3.56112"
        id="path1142"
        inkscape:connector-curvature="0" />
+    <text
+       transform="rotate(1.2190344)"
+       id="text2122-7-3-4-4-6-1"
+       y="130.02451"
+       x="146.65349"
+       style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
+       xml:space="preserve"
+       inkscape:transform-center-x="-10.288773"
+       inkscape:transform-center-y="17.029438"><tspan
+         dx="0 0 0 0 0 0 0"
+         style="stroke-width:0.135528"
+         y="130.02451"
+         x="146.65349"
+         id="tspan2120-3-6-1-1-1-2"
+         sodipodi:role="line">$\bf{2}$</tspan><tspan
+         id="tspan2124-5-6-5-7-7-2"
+         style="stroke-width:0.135528"
+         y="136.80092"
+         x="146.65349"
+         sodipodi:role="line" /></text>
+    <text
+       transform="rotate(1.2190344)"
+       id="text2122-7-3-4-4-6-1-0"
+       y="111.66959"
+       x="70.611198"
+       style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
+       xml:space="preserve"
+       inkscape:transform-center-x="-10.288773"
+       inkscape:transform-center-y="17.029438"><tspan
+         dx="0 0 0 0 0 0 0"
+         style="stroke-width:0.135528"
+         y="111.66959"
+         x="70.611198"
+         id="tspan2120-3-6-1-1-1-2-9"
+         sodipodi:role="line">$\bf{1}$</tspan><tspan
+         id="tspan2124-5-6-5-7-7-2-4"
+         style="stroke-width:0.135528"
+         y="118.44601"
+         x="70.611198"
+         sodipodi:role="line" /></text>
+    <text
+       transform="rotate(1.2190344)"
+       id="text2122-7-3-4-4-6-1-0-3"
+       y="172.35431"
+       x="23.446991"
+       style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
+       xml:space="preserve"
+       inkscape:transform-center-x="-10.288773"
+       inkscape:transform-center-y="17.029438"><tspan
+         dx="0 0 0 0 0 0 0"
+         style="stroke-width:0.135528"
+         y="172.35431"
+         x="23.446991"
+         id="tspan2120-3-6-1-1-1-2-9-9"
+         sodipodi:role="line">$\bf{1}$</tspan><tspan
+         id="tspan2124-5-6-5-7-7-2-4-6"
+         style="stroke-width:0.135528"
+         y="179.13072"
+         x="23.446991"
+         sodipodi:role="line" /></text>
   </g>
 </svg>

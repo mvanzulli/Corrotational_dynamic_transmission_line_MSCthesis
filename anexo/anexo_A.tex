@@ -1,3 +1,167 @@
-\chapter{Material legislativo}\label{Ane1}
+\chapter{}\label{Ane1}
+Se acoplan al tesis una revisión bibliográfica realizada en el marco del curso Elementos de Aerodinámica y Aeroelasticidad de Estructuras en su edición 2019 sobre la norma \cite{IEC60826}.
+\section{Norma IEC 60826} \label{NormaIEC}
+En este apartado se exponen las secciones destacadas de la norma internacional IEC 60826: \cite{IEC60826}, explicitándose las hipótesis fundamentales y  formulaciones para el desarrollo de condiciones de diseño. 
 
-XXXXX
+\subsubsection{Campo de aplicación}
+En primera medida esta aplica para geometrías del conductor y terreno con las siguientes condiciones:
+
+\begin{itemize}
+	\item La longitud de vano debe pertenecer al intervalo (200\vspace{0.1cm}m, 800\vspace{0.1cm}m). Para longitudes fuera de ese rango deben analizarse coeficientes de racha diferentes a los presentados, sin embargo para vanos más largos a 800m el análisis de la norma resulta sobrestimado.
+	\item Altura de soportes menores a 60 \vspace{0.1cm}m. Soportes de mayor altura podrían inducir factores de amplificación dinámicos de la respuesta.
+	\item Altitud del área transversal de la línea no sobrepase los 1300\vspace{0.1cm}m sobre el nivel de altura medio topográfica del terreno circundante.
+	\item Terrenos  sin características topográficas singulares cuyo tamaño y forma puedan afectar las consideraciones del flujo. Se aclara que esta norma \ textit{no permite dimensionar para efectos de vientos extremos como tornados, encause de vientos entre montañas y terrenos de alta pendiente. }
+\end{itemize}
+
+\subsubsection{Velocidad de referencia y rugosidad del terreno}
+Como primera instancia se establecen diferentes tipos de terrenos según las condiciones topográficas del mismo, esto afecta la forma del flujo considerado para el diseño. Para un perfil tipo ley potencial, terrenos más rugosos acentúan el gradiente de la velocidad en altura para $z=0$,  aumentan la intensidad de turbulencia e incrementan el $Z_G$ (valor donde el perfil alcanza las condiciones de atmósfera libre). 
+
+
+\begin{table}[h] 
+	\begin{footnotesize} 
+		\begin{center} 
+			\begin{tabular}{|c||c|}
+				\hline
+				\textbf{Categoría de terrenos}& \textbf{Características del terreno}  \\\hline
+				A & Largos y estrechos viento de ultramar,  \\
+				& área costera llana, llanura desértica.    \\ \hline
+				B & Campo abierto con escasa densidad de obstáculos. \\
+				& áreas cultivadas con pocos árboles y edificios     \\ \hline
+				C &  Terreno con numerosos obstáculos pequeños de baja altura \\
+				& (matorrales, árboles y edificios)  \\ \hline
+				D & Áreas sub-urbanas con pequeños arboles     \\ \hline
+			\end{tabular}
+		\end{center} 
+		\caption{Categorización de terrenos Tablas A.8 IEC 60826}
+	\end{footnotesize} 
+	\label{TablaTerrenos} 
+\end{table}
+
+
+
+
+Considerando un flujo medio plano tipo capa límite potencial, que se desarrolla en una atmósfera neutra, la velocidad media $v(z)$ en función de la altura para diferentes constantes de terreno $\alpha$ puede calcularse de la siguiente manera:
+
+\begin{equation}\label{LeyPotencial}
+	V(z)=V_{G}\left(\frac{z}{z_{G}}\right)^\alpha
+\end{equation}
+
+Medidas de la velocidad a través de equipos como pueden ser anemómetros o sensores de ultra sonido permiten obtener, para determinado periodo de adquisición de datos, valores de velocidad media e intensidad de turbulencia entre otras. Es por esto que es clave relacionar la velocidad a diferentes alturas y para cambios de terreno a lo largo del sentido del flujo, nombrando dos puntos 1 y 2 podemos relacionar la velocidad media entre estos operando con la Ecuación \eqref{LeyPotencial}.
+
+\begin{equation}\label{RelacionPotencial}
+	V(z)=V_{ref1}\left(\frac{z_{G1}}{z_{ref}}\right)^{\alpha_1}\left(\frac{z}{z_{G2}}\right)^{\alpha_2}
+\end{equation}
+
+En la Ecuación \ref{ elacionPotencial} anterior la velocidad de referencia $V_{ref}$ es definida, en general como la velocidad media del viento a una altura de $z=10\vspace{.1cm}m$ para un tipo de terreno categoría B. En la norma se presenta la siguiente tabla para calcular las variaciones de velocidad $V_{ref}$, se introduce un factor $K_R$ el cual permite obtener la relación entre las velocidades de referencia para distintos terrenos $V_{rX}=K_RV_{rB}$. Se presentan las diferentes alturas de rugosidad media de obstáculos $z_0$.
+
+
+\begin{table}[h] 
+	\begin{footnotesize} 
+		\begin{center} 
+			\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} \hline
+				\multirow{2}{*}{\textbf{Factor}}  & \multicolumn{4}{|c|}{ \textbf{Categoría de terreno} }  \\ 
+				& \textbf{A}& \textbf{B} &\textbf{C}&\textbf{D}\\
+				\hline
+				$z_0(m)$   & 0.01    &0.05&  0.30 & 1.00\\ \hline
+				$\alpha$& 0.1 a 0.12  & 0.16 & 0.22 &0.28\\ \hline
+				$K_R$ & 1.08 &1.00 &0.85&  0.67\\ \hline
+			\end{tabular}
+		\end{center} 
+		\caption{Tabla de factores para terrenos Tabla A.8 IEC 60826.}
+	\end{footnotesize} 
+	\label{TablaValoresTerrenos} 
+\end{table}
+
+Los datos presentados en la Tabla \eqref{TablaValoresTerrenos} se corresponden con los conocimientos dictados en el curso, en primera parte los valores de $\alpha$ se asemejan con lo presentado por \cite{Davenport1960}, para la categoría A y B el numero de $\alpha$ considerado por la norma es menor, esto se relaciona con que valores más chicos de $\alpha$, es decir terrenos menos rugosos inducen una velocidad mayor para la misma cota. En el caso de la categoría C y D el valor es exactamente idéntico a \cite{Davenport1960} . El termino $z_0$ se coincide con la tabla publicada en \cite{Oke2000}.
+
+Desglosando el factor $K_R$ para dos puntos de referencia, colocados a una cota de $z_{ref1}=z_{ref2}=10m$ en función de la Ecuación \eqref{RelacionPotencial} y combinándola con la definición de $K_r$ se obtiene la siguiente expresión: 
+
+
+\begin{equation}\label{ValorKR}
+	V_{ref2}(10m)=V_{ref1}\left(\frac{z_{G1}}{z_{ref1}}\right)^{\alpha_1}\left(\frac{z_{ref2}}{z_{G2}}\right)^{\alpha_2}\rightarrow K_r=\left(\frac{z_{G1}}{z_{ref1}}\right)^{\alpha_1}\left(\frac{z_{ref2}}{z_{G2}}\right)^{\alpha_2}
+\end{equation}
+Utilizando la Ecuación \ref{ValorKR}  y considerando los valores de $Z_G$ según la referencia \cite{Oke2000} se expresan los resultados obtenidos los cuales coinciden con un error menor al $8\%$ con los estipulados por la norma en la Tabla \ref{TablaValoresTerrenos}.
+
+\begin{table}[h] 
+	\begin{footnotesize} 
+		\begin{center} 
+			\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} \hline
+				\multirow{2}{*}{\textbf{Factor}}  & \multicolumn{4}{|c|}{ \textbf{Categoría de terreno} }  \\ 
+				& \textbf{A}& \textbf{B} &\textbf{C}&\textbf{D}\\
+				\hline
+				$z_G(m)$   & 250     &305&  365 &410\\ \hline
+				$\alpha$& 0.12  & 0.15 & 0.22 &0.28\\ \hline
+				$K_R$ & 1.13 &1.00 &0.77&  0.61\\ \hline
+			\end{tabular}
+		\end{center} 
+		\caption{Tabla de factores para terrenos según referencia \cite{Davenport1960} }
+	\end{footnotesize} 
+	\label{TablaValoresTerrenos} 
+\end{table}
+
+\subsubsection{Acción del viento sobre los elementos}
+
+El valor significativo del problema es la fuerza por unidad de área (Pa) se denota con la letra $a$ además se define, al igual que lo visto en el curso en la sección 2.1 del repartido "Bluff-Body aero dynamics"  $q0$, el coeficiente de presión dinámica de referencia $(N/m^3)$. Para elementos conductores, cadenas y gran cantidad de elementos de soportes se calcula:
+
+\begin{eqnarray} \label{CoficienteDin1}  
+	a&=&q_0C_xG \\\label{CoefDin2}
+	q_0&=&\frac{1}{2}\rho_{ref} \tau \left ( K_rV_{rB}\right )^{2}
+\end{eqnarray}
+
+En las Ecuaciones \ref{CoficienteDin1} y \ref{CoefDin2} $\rho$ es la densidad del aire en $kg/m^{3}$ y se toma en $1.225 \vspace{0.1cm} kg/m^{3}$ para una temperatura de $15^{\circ}C$  y una presión atmosférica de $101.3 \vspace{0.1cm} kPa$. La constante $\tau$ es un factor que permite corregir las variaciones de densidad del fluido con la presión medida en altura y la temperatura a la que operará el sistema. Los valores de densidad se corroboraron con la referencia \cite{cengel2007termodinamica}, como también el factor de corrección $\tau=\frac{\rho_{P,T}}{\rho_{ref}}$.
+
+El parámetro $C_x$ es el coeficiente de drag dependiendo de la figura transversal al flujo, se desprecian por las grandes longitudes de vanos las condiciones de borde no homogéneas del flujo en los extremos. Por último el factor restante $G$ toma en consideración la altura y el tipo de terreno, el incremento en la velocidad de acuerdo a ráfagas de viento y la respuesta dinámica, para elementos de cable debe separarse en $G_L$ y $G_c$. Estos últimos factores se vincularán  en la siguiente sección con los conocimientos presentados en el curso. 
+
+
+
+
+\subsubsection{Elementos de cable}\label{ElemCableNorma}
+Los efectos dinámicos que afectan a los conductores específicamente se asocian: al arrastre producido por el viento y la tensión mecánica incrementada durante la instalación. Considerando la hipótesis de baja turbulencia, la fuerza media en Newton de arrastre ($A_c$) sobre un elemento de largo $L$ y diámetro $d$, formando un ángulo de balanceo $\Omega$ es dada por la expresión:
+
+\begin{equation} \label{EqnFuerzaCable}
+	A_c=q_0C_{xc}G_cG_L d L \sin(\Omega) ^{2}
+\end{equation}
+
+En la Ecuación \ref{EqnFuerzaCable} el factor de presión de referencia ($q_0$) se calcula según la Ecuación  \ref{CoficienteDin1}. El valor de $C_{xc}$ es el coeficiente de drag del conductor, su utiliza a menos de obtenerse datos experimentales, un valor unitario para conductores y velocidades de viento estándar. Esto se corresponde con lo presentado en el curso en la figura 19 de \cite{Duranona2018} a velocidades equivalentes de $5m/s$ para un conductor usual de alta tensión. Según \cite{Son2016} se hallan valores medios del coeficiente de drag para Reynolds de aproximadamente igual $350$ $C_{xc}$ y resulta ser 1. Es por esto que considerar un valor unitario para valores los valores Reynolds de trabajo induciendo una fuerza de mayor magnitud sobre el cable, lo cual es conservador. 
+
+Existe un efecto en la dirección perpendicular al flujo  llamado "Aeolian". En dicha dirección se generan desprendimientos de vórtices asociados con la frecuencia de Strouhal $f_s=0.0925\frac{v_m}{d_c}$, cuando estos vórtices se acercan a la frecuencias naturales del cable podrían producirse resonancias, magnificándose las amplitudes del movimiento. Según \cite{Belloli2006} estos efectos deben ser considerados para velocidades medias de viento menores $6\frac{m}{s}$ , para el estudio de \gls{TC} las velocidades alcanzan valores de hasta $30\frac{m}{s}$ estando el efecto antes mencionado fuera de rango. 
+
+
+El coeficiente $G_c$ es el factor de viento combinado, el cual se halla con la Figura 3 de la Sección 6.2.6.1,  este depende de la altura y el tipo de terreno.
+Según de lo visto en el curso este debe contener el factor de ráfaga el cual relaciona la presión media con la máxima puntual. Por último $G_l$ es el factor de separación según el largo de vano, este tiene en cuenta la distribución de presiones para distintos largos de vano, para vanos largos la presión máxima se da simultáneamente en pocos puntos por tanto decrece, tal como se ve en la Figura 4 de la Sección 6.2.6.1 y se corresponde con lo visto en el curso para el valor de B.
+
+
+
+Para cadenas aisladoras múltiples que transporten  más de un cable, estos deben tratarse por separado, las solicitaciones totales sobre los soportes deben considerarse la suma de cada una de las partes. La altura considerada para el cálculo de los factores debe ser el centro de gravedad de los conductores cuando este se encuentra a 2/3 de la deflexión máxima. También puede considerarse la altura como la cota del punto de anclaje entre la cadena y el cable, esto inducirá velocidades mayores y por tanto el diseño estará sobredimensionado. 
+
+
+\subsubsection{Cargas del viento sobre la cadena aisladora}
+Las cargas actuando en el elemento aislador cerámico se originan sobre el área proyectada de la cadena en el sentido del flujo, la cual se nombra $A_c$. Esta carga se corresponde a la suma de las cargas debido al campo de presiones sobre el cable y la fuerza distribuida directamente sobre la cadena aisladora. La carga aplicada sobre el soporte $A_l$ en N se expresa: 
+\begin{equation} \label{FuerzaSoprotes}
+	A_l=q_0C_{xl}G_tS_i
+\end{equation}
+En la Ecuación \ref{FuerzaSoprotes} el factor $q_0$ es la presión dinámica de referencia calculada según \ref{CoficienteDin1}, $C_{xl}$ se asocia con el Coeficiente de Drag y se suele considerar $1,2$, valor mayor que para el cilindro. Se aclara que en general el peso relativo de la fuerza sobre los soportes debido a las cadenas aisladoras es significativamente menor respecto a las cargas del viento ejercidas sobre el conductor. 
+
+
+
+El termino $G_t$ es el factor de viento correlativo que se corresponde con la Figura 5 de la norma de la sección 6.2.6.3, este se ve afectado por el tipo de terreno y la altura del centro del gravedad de la cadena, este al igual que en la Sección \ref{ElemCableNorma} el combinado de los factores vistos en el curso. Esta presión es multiplicada por el valor $S_i$ del área de la cadena proyectada horizontalmente en un plano paralelo al eje de la torre en $m^2$.
+
+
+\subsection{Tensión en el conductor}\label{TensionConductor}
+La tensión que debe ser aplicada sobre los conductores se determina a partir del método de deflexión, considérese el caso donde las cadenas aisladoras se encuentra a la misma cota, el conductor tiene un largo L y un peso W por unidad de longitud en N/m, se ilustra un esquema en la siguiente figura:
+
+
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.6\textwidth]{cuerda.png}
+%	\caption{Esquema de un elemento tipo cuerda sobre su propio peso}
+%\end{figure}
+
+
+Considerando el cable como un elemento extensible que no posee rigidez a flexión,  entonces la tensión interna a para cualquier punto de este debe ser tangente a la curva. Sea P un punto cualquiera con coordenadas (x,y) en el cable, tomando equilibrio estático sobre la mitad del conductor y planteado la segunda cardinal o el principio de los trabajos virtuales para un giro arbitrario, desde P, se obtiene la catenaria, y de esta la deflexión máxima en función de la tensión:
+
+
+\begin{equation}
+	Ty=W\frac{x^{2}}{2} \rightarrow \delta= \frac{WL^{2}}{8T}
+\end{equation}

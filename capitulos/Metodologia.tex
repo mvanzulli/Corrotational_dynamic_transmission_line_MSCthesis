@@ -1,20 +1,20 @@
 \chapter{Metodología}\label{Cap:Metodologia}
 \linenumbers
 
-En este capitulo se exponen los fundamentos para la obtención de resultados numéricos. El problema de modelado computacional de lineas eléctricas afectadas por fenómenos de vientos extremos se construyó sobre dos etapas sucesivas. En primer lugar, se explican cuestiones sobre el modelado físico. Los protagonistas del fenómeno son el viento y la estructura. Respecto al primero se describe  en la Sección \ref{Sec:PRE:Modeloviento} el campo de velocidades absoluto, relativo y las fuerzas que el viento genera sobre el conductor. Análogamente se despliegan las condiciones iniciales y de borde consideradas para el modelado estructural en la Sección \ref{Sec:MET:ModeladoEstructural}.  Posteriormente, dentro de la Sección \ref{Sec:MET:ModeladoComput} se describe la deducción del algoritmo de HHT aplicado a la formulación corrotacional para modelado de conductores con fuerzas aerodinámicas. Este desarrollo no se ha registrado en la biografía consultada y tampoco los pseudocódigo que permiten incorporar dicha formulación al software \href{https://github.com/ONSAS/ONSAS/}{ONSAS}. Por último una vez explicada la deducción se postulan las hipótesis del modelado físico y computacional en las Secciones \ref{Sec:MET:HipotesisdeTrabajo}  y \ref{Sec:MET:HipotesisModeladoNumerico} respectivamente. 
- 
+En este capitulo se exponen los métodos centrales desarrollados durante este trabajo de tesis. Este desarrollo metodológico es el principal atractivo de esta investigación, ya que constituye un aporte original e innovador respecto a la bibliografía consultada. El problema de modelado computacional de lineas eléctricas afectadas por fenómenos de vientos extremos se construyó sobre dos etapas sucesivas. En primer lugar, se explican cuestiones sobre el modelado físico. Los protagonistas del fenómeno son el viento y la estructura. Respecto al primero se describe  en la Sección \ref{Sec:PRE:Modeloviento} el campo de velocidades absoluto, relativo y las fuerzas que el viento genera sobre el conductor. Análogamente se despliegan las condiciones iniciales y de borde consideradas para el modelado estructural en la Sección \ref{Sec:MET:ModeladoEstructural}.  Posteriormente, dentro de la Sección \ref{Sec:MET:ModeladoComput} se describe la deducción del algoritmo de HHT aplicado a la formulación corrotacional para modelado de conductores con fuerzas aerodinámicas. Este desarrollo no se ha registrado en la biografía consultada y tampoco los pseudocódigo que permiten incorporar dicha formulación al software \href{https://github.com/ONSAS/ONSAS/}{ONSAS}. Por último una vez explicada la deducción se postulan las hipótesis del modelado físico y computacional en las Secciones \ref{Sec:MET:HipotesisdeTrabajo}  y \ref{Sec:MET:HipotesisModeladoNumerico} respectivamente. 
+
 \section{Aspectos de modelado físico}
 \subsection{Condiciones iniciales y de borde para la estructura}\label{Sec:MET:ModeladoEstructural}
 El abordaje científico computacional consiste en abstraer un fenómeno de la realidad, para crear un modelo en el computador, que se comporte de forma análoga. Permitiendo emular y controlar determinadas variables de estudio relevantes al observador. En este acto de representación existen simplificaciones inherentes, que reducen los factores incidentes al sistema como objeto de estudio. 
 
-Una vez aislado el objeto de su entorno, es necesario imponer determinadas condiciones que representan la interacción del entorno sobre el sistema. Estas imposiciones efectuadas por el contexto, del cual el objeto esta siendo desvinculado, se nominan condiciones de borde o contorno. En particular, para esta investigación, se consideraron las siguientes hipótesis del modelado estructural respecto a sus condiciones de contorno y de borde.
+Una vez aislado el objeto de su entorno, es necesario imponer determinadas condiciones que representan la interacción del entorno sobre el sistema. Estas imposiciones efectuadas por el contexto, del cual el objeto está siendo desvinculado, se nominan condiciones de borde. En particular, para esta investigación, se consideraron las siguientes hipótesis del modelado estructural respecto a sus condiciones de borde y e iniciales.
 
-\subsubsection{Hipótesis de modelado estructural}
+%\subsubsection{Hipótesis de modelado estructural}
 \begin{enumerate}
 	\item Las torres del sistema de transmisión se encuentran a la misma altura, ignorándose cualquier variación en el perfil tipográfico del terreno. Como consecuencia, los puntos de anclaje que unen las cadenas a las torres (D y A), pertenecen a un mismo plano paralelo a la superficie terrestre.
 	\item  El conductor es conformado por un único cable continuo que discurre el espacio sujetado por aisladores eléctricos. Su proceso de fabricación es mediante una trenza con lingas de acero y aluminio, que poseen una significativa rigidez a flexión. Esta razón conduce inevitablemente a modelarlo con elementos de vigas, las cuales tienen un variación de ángulo continuo. Consecuentemente, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $x$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impostadas por la geometría del sistema. \item Como el conductor no presenta fuerzas en el sentido axial, los puntos B y C no se deforman según el eje $x$, ergo sus trayectoria pertenecen al plano $z$-$y$. Esto debe forzarse en los nodos B y C. 
 	\item La exigua resistencia a flexión de los elementos aisladores DC y AB, obliga a instalarlos con sus extremos articulados. Es por esto que se modelaron a partir de barras de Green. Las condiciones de borde dependen del ejemplo al que se haga referencia. Para el Ejemplo 3 los puntos D y A se encuentran anclados a la torre, acompañando sus movimientos, mientas que para el 2 se encuentran fijos.
-	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento $\bf{u}_0$. Esta se corresponde con la solución estática del sistema sometido por el preso propio en la dirección de $z$ de la gravedad.
+	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento $\bf{u}_0$. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $z$ de la gravedad.
 \end{enumerate} 
 
 
@@ -26,14 +26,15 @@ Una vez aislado el objeto de su entorno, es necesario imponer determinadas condi
 	\label{fig:MET:EsquemaCondiciones}
 \end{figure}
 
-Una vez plasmadas las condiciones de borde cinemáticas anteriores. Se establecen a continuación las principales condiciones de borde dinámicas:
+Una vez plasmadas las condiciones de borde cinemáticas (referidas a los desplazamientos) anteriores. Se establecen a continuación las principales condiciones de borde (referidas a las fuerzas, momentos) dinámicas:
 
 \begin{enumerate}
 	\item  No se consideran las fuerzas internas trasmitidas por los vanos aledaños.
-	\item  Se desprecian las fuerzas de tensado y las condiciones de desplazamiento no homogéneas durante el proceso de instalación en la línea.
+	\item  Se desprecian las fuerzas de tensado y las condiciones de desplazamiento no homogéneas durante el proceso de instalación en la línea. Vale aclarar que este caso de pretensión refiere a la configuración punteada en la Figura \ref{fig:MET:EsquemaCondiciones}, en ese estado la tensión es 0 $N$. No obstante, al aplicarse el peso propio la tensión en el conductor se incrementa hasta que se equilibre las fuerzas externas de la gravedad con las internas. 
 	\item Las simulaciones se realizan en dos etapas sucesivas, primeramente se imponen la condiciones iniciales de desplazamientos y una vez estabilizada la respuesta por el amortiguamiento interno y aerodinámico se ejerce la fuerza del viento sobre el cable. 
-	\item Los vínculos dinámicos entre los elementos de vigas y de barra se implementaron de forma tal, que no se trasmiten los momentos de unos a otros. Por lo tanto, en los nodos de sujeción los elementos de barra CD y AB trasmiten unicamente fuerzas direccionales en C y B . 
+	\item Los vínculos dinámicos entre los elementos de vigas y de barra se implementaron de forma tal, que no se trasmiten los momentos de unos a otros. Por lo tanto, en los nodos de sujeción los elementos de barra CD y AB trasmiten únicamente fuerzas direccionales en C y B. 
 \end{enumerate} 
+
 
 
 
@@ -70,7 +71,7 @@ Considerando el aire como un fluido no newtoneano, $\rho$ su densidad asociada a
 	F_d(t)=\int_{l_0}\frac{\rho (T)C_d(Re)}{2}{d_c w_m(t)^2} dl= \frac{\rho C_d}{2}d_c w_m(t)^2l_{e}
 \end{equation}
 
-Para este cálculo se asumió constantes las magnitudes al interior del elemento, es por esto, que el valor de la integral, es simplemente el producto del integrando por el largo del intervalo. Además se para este trabajo la carga del viento sobre el elemento se modeló como una fuerza nodal equivalente a la mitad de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen, se cancelan con los elementos aledaños. Por otra parte, los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante tormentas conectivas \citep{mara2007effects}. La densidad $\rho$ del aire se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
+Para este cálculo se asumió constantes las magnitudes al interior del elemento, es por esto, que el valor de la integral, es simplemente el producto del integrando por el largo del intervalo. Además se para este trabajo la carga del viento sobre el elemento se modeló como una fuerza nodal equivalente a la mitad de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen, se cancelan con los elementos aledaños. Por otra parte, los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante TC \citep{mara2007effects}. La densidad $\rho$ del aire se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
 
 \subsubsection{Campo de velocidades relativos, absolutos y fuerzas asociadas.}\label{SubSec:MET:CampoVelRealt}
 En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección  transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre $w$ y $q$. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto  absoluto. Asimismo en esta imagen se representan las velocidades media y fluctuante $w_m$ y $w_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor, este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $\bf{\dot{u}}_{ry}$ y $\bf{\dot{u}}_{rz}$. 
@@ -163,16 +164,25 @@ Otra hipótesis a clarificar refiere al amortiguamiento aerodinámico (Hipótesi
 
 En esta sección se desarrolla la ecuación de equilibrio del sistema dinámico con valores de fuerzas externas, internas e inerciales. No se ha encontrado registros de este planteo analítico en la referencia consultada. Resulta imprescindible formular esta deducción para comprender los argumentos e hipótesis que subyacen a las expresiones postuladas en \citep{Le2014}. Por añadidura, se construye paso a paso la linealización aplicada a la ecuación de movimiento no lineal, insumo fundamental para el abordaje numérico. 
 
-Para cada punto del cuerpo debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico $f_{vis}$ que depende de la velocidad lineal del rígido. Este termino debe tratarse aparte ya que su naturaleza función de el estado cinemático del problema, lo que es la incógnita a resolver.
-
- El equilibrio de fuerzas es equivalente al postulado de PTV donde el incremento diferencial en la energía interna y cinética se debe a un trabajo externo. La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta_t$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: el desplazamientos $\bf{d}$ $(t+\Delta_t)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta_t)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta_t)$. Es plausible entonces plasmarlo matemáticamente de manera exacta en la Ecuación \eqref{Eq:MET:EquilibrioExacto}.
+ El postulado de PTV presentado en \cite{Crisfield} establece que el incremento diferencial de la energía interna y cinética se origina a partir de un incremento en el trabajo externo. Esto junto con los incrementos asociados a cada una de las energías definidas en el Capítulo \ref{Cap:Preliminares} se presenta a continuación:
+ 
+ \begin{equation}
+ 	\delta W_{ext}=\delta W_{int} +\delta K
+ \end{equation}
+La fuerza externa es la responsable del cambio de trabajo aportando al sistema por lo que $\delta W_{ext}=(\delta \bf{d}^g)^T\bf{f}_{ext}$, análogamente $\delta W_{int}=(\delta \bf{d}^g)^T\bf{f}_{int}$ y también así para la fuerza inercial definidas en la Ecuación \eqref{Eqn:PRE:defFuerzaInercial}. Sustituyendo estas expresiones para el instante $t + \Delta_t$ y partiendo que debe satisfacerse para todo desplazamiento $ \delta \bf{d}^g$, se obtiene la ecuación de equilibrio: 
 
 \begin{equation}\label{Eq:MET:EquilibrioExacto}
 	\begin{split}
-	\bf{f}_{ext,t+\Delta_t}+&\bf{f}_{vis,}(\dot{\bf{d}}\text{$(t+\Delta_t)$})-\bf{f}_{int}(\bf{d}\text{$(t+\Delta_t)$})...\\
-	...~&-\bf{f}_{ine}(\bf{d} \text{$(t+\Delta_t)$},\dot{\bf{d}}\text{$(t+\Delta_t)$},\ddot{\bf{d}}\text{$(t+\Delta_t)$})=0
+		\bf{f}_{ext,t+\Delta_t}+&\bf{f}_{vis,}(\dot{\bf{d}}\text{$(t+\Delta_t)$})-\bf{f}_{int}(\bf{d}\text{$(t+\Delta_t)$})...\\
+		...~&-\bf{f}_{ine}(\bf{d} \text{$(t+\Delta_t)$},\dot{\bf{d}}\text{$(t+\Delta_t)$},\ddot{\bf{d}}\text{$(t+\Delta_t)$})=0
 	\end{split}
 \end{equation}
+ 
+Para cada punto del cuerpo debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico $f_{vis}$ que depende de la velocidad lineal del rígido. Este termino debe tratarse aparte ya que su naturaleza función de el estado cinemático del problema, lo que es la incógnita a resolver.
+
+La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta_t$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: el desplazamientos $\bf{d}$ $(t+\Delta_t)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta_t)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta_t)$. Es plausible entonces plasmarlo matemáticamente de manera exacta en la Ecuación \eqref{Eq:MET:EquilibrioExacto}.
+
+
 Los métodos numéricos, a groso modo, si son consistentes y estables construyen una sucesión que al discretizar infinitamente converge a la solución exacta. El método de Newton-Raphson (N-R) vectorial consiste en linealizar una ecuación a través de su diferencial de primer orden. Esta aproximación tiene como consecuencia que la Ecuación \eqref{Eq:MET:EquilibrioExacto} ya no será nula sino igual a un resto $\bf{r}$. A su vez, tal y como se detalla en las Ecuaciones \eqref{Eq:MET:AproxVel} y \eqref{Eq:MET:AproxAcel}, los métodos numéricos para la solución de problemas dinámicos, escriben las variables de aceleración y velocidad, en el instante $t +\Delta_t$, en función de los desplazamientos para ese tiempo y las magnitudes cinemáticas en el paso anterior. Como los vectores desplazamiento, velocidad y aceleración para el paso anterior se encuentran dados, el vector resto depende indirectamente de los desplazamientos. Para diferenciar las variables aproximadas de las exactas, se introduce la siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta_t)$}$ $\rightarrow$ $\bf{d}_{t+\Delta_t}$), ($\dot{\bf{d}}\text{$(t+\Delta_t)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta_t}$) y ($\ddot{\bf{d}}\text{$(t+\Delta_t)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta_t}$). 
 
 

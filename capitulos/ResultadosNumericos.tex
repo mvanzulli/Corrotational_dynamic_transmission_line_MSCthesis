@@ -49,7 +49,7 @@ Para comparar con el paper de referencia se plasmaron gráficamente determinados
 	\centering
 	\subfigure[Desplazamiento vertical según $y$ ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png}}\label{fig:RN:RA:DispyA}
 	\subfigure[Desplazamiento transversal según $z$ ] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png}}\label{fig:RN:RA:DispzA}
-	\caption{Desplazamientos de control del nodo A} \label{fig:RN:RA:DispsA}
+	\caption{Desplazamientos de control del nodo A.} \label{fig:RN:RA:DispsA}
 \end{figure}
 \endgroup
 
@@ -62,7 +62,7 @@ Por otra parte al analizar en la Figura \ref{fig:RN:RA:DispyA} se observa que lo
 	\centering
 	\subfigure[Desplazamiento vertical según $y$ ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png}}\label{fig:RN:RA:DispyB}
 	\subfigure[Desplazamiento transversal según $z$ ] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png}}\label{fig:RN:RA:DispzB}
-	\caption{Desplazamientos de control del nodo B} \label{fig:RN:RA:DispsB}
+	\caption{Desplazamientos de control del nodo B.} \label{fig:RN:RA:DispsB}
 \end{figure}
 \endgroup
 
@@ -75,7 +75,7 @@ Para ilustrar al lector en la cinemática del movimiento, se visualizaron median
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=80mm]{./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png}
-	\caption{Estructura deformada en los instantes $4$ s, $11$ s y $21$ s}
+	\caption{Estructura deformada en los instantes $4$ s, $11$ s y $21$ s.}
 	\label{fig:RN:RA:Deformadas}
 \end{figure}
 
@@ -180,7 +180,7 @@ A continuación se exponen los desplazamientos verticales y horizontales del nod
 	\subfigure[Desplazamiento según $z$ del nodo A]
 	{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png}}\label{fig:RN:FotiCable:DispZ}
 	\subfigure[Desplazamiento según $y$ del nodo A ] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png}}\label{fig:RN:FotiCable:DispY}
-	\caption{Desplazamientos del nodo A} \label{fig:RN:FotiCable:DispsA}
+	\caption{Desplazamientos del nodo A.} \label{fig:RN:FotiCable:DispsA}
 \end{figure}
 \endgroup
 
@@ -212,7 +212,7 @@ El ejemplo permite inferir que la respuesta numéricas del modelo representan de
 
 
 \section{Sistema de transmisión eléctrica }\label{Sec:RN:TransmissionSystem}
-Este apartado ataca el objetivo central de este trabajo: modelar sistemas de transmisión eléctricas afectados por vientos extremos no sinópticos, en particular, tormentas conectivas. Las estructuras de suministro en alta tensión constan de un tendido eléctrico anclado mediante torres, las que sostienen el conductor garantizando un traslado de la corriente de manera segura y confiable. El dominio del ejemplo consta de tres torres equiespaciadas colocadas consecutivamente y dos vanos de idéntico largo $D_v$= 206.5 $m$ tal cual se índica el Esquema \ref{fig:Transmission:EsquemaGeneral}.  Para el conductor de control se etiquetan los puntos de fijación $\text{A}$ y $\text{D}$ a la torre 1 y 2 respectivamente. También, se identifican los nodos en el punto medio del primer y segundo vano con los literales $\text{C}$ y $\text{B}$ respectivamente. Con el objetivo de representar una geometría real de una línea de alta tensión y no aborrcer al lector con descripciones de propiedades, los conductores de la simulación se corresponden con el Ejemplo \ref{Sec:RN:FotiCable} y cuyas propiedades mecánicas se explicitan en la Tabla \ref{table:RN:FotiCable:propiedadesCable}.  
+Este apartado ataca el objetivo central de este trabajo: modelar sistemas de transmisión eléctricas afectados por vientos extremos no sinópticos, en particular, TC. Las estructuras de suministro en alta tensión constan de un tendido eléctrico anclado mediante torres, las que sostienen el conductor garantizando un traslado de la corriente de manera segura y confiable. El dominio del ejemplo consta de tres torres equiespaciadas colocadas consecutivamente y dos vanos de idéntico largo $D_v$= 206.5 $m$ tal cual se índica el Esquema \ref{fig:Transmission:EsquemaGeneral}.  Para el conductor de control se etiquetan los puntos de fijación $\text{A}$ y $\text{D}$ a la torre 1 y 2 respectivamente. También, se identifican los nodos en el punto medio del primer y segundo vano con los literales $\text{C}$ y $\text{B}$ respectivamente. Con el objetivo de representar una geometría real de una línea de alta tensión y no aborrcer al lector con descripciones de propiedades, los conductores de la simulación se corresponden con el Ejemplo \ref{Sec:RN:FotiCable} y cuyas propiedades mecánicas se explicitan en la Tabla \ref{table:RN:FotiCable:propiedadesCable}.  
 
 
 \begin{figure}[htbp]
@@ -250,7 +250,7 @@ La simulación consta de dos etapas, primeramente partiendo de la configuración
 \end{figure}
 \endgroup
 
-Las tormentas severas generan corrientes descendentes donde las velocidades aumentan vertiginosamente en pequeños intervalos de tiempo, alcanzando umbrales de hasta 270 km/h \cite{fujita1985downburst}. Para este modelo, el perfil representado es menor tenor, mas no el aumento súbito del fenómeno. La velocidad se eleva del valor nulo a 80 km/h en menos de 3 minutos, tal y como se observa en la Figura \ref{fig:RN:Transmission:VelocidadTormentaX}. Debido al impacto de del viento sobre el conductor se generan fuerzas, estas se calcularon con los valores de coeficiente drag y fórmula detalladas en el Ejemplo \ref{Sec:RN:FotiCable} anterior extraídos de la referencia \textcite{Foti2016}.
+Las tormentas severas generan CD donde las velocidades aumentan vertiginosamente en pequeños intervalos de tiempo, alcanzando umbrales de hasta 270 km/h \cite{fujita1985downburst}. Para este modelo, el perfil representado es menor tenor, mas no el aumento súbito del fenómeno. La velocidad se eleva del valor nulo a 80 km/h en menos de 3 minutos, tal y como se observa en la Figura \ref{fig:RN:Transmission:VelocidadTormentaX}. Debido al impacto de del viento sobre el conductor se generan fuerzas, estas se calcularon con los valores de coeficiente drag y fórmula detalladas en el Ejemplo \ref{Sec:RN:FotiCable} anterior extraídos de la referencia \textcite{Foti2016}.
 
 
 Ya se ha resaltado en retiradas ocasiones los posibles daños severos que puede ocasionar un excesivo balanceo del conductor. Volores desmedidios de esta variable deben controlarse en todos los aisladores rotulados en el Esquema \ref{fig:RN:Transmission:Torre}. Consecuentemente, se compararon cuantitativamente las oscilaciones entre fases (A-A', X-X', Z-Z'), no apreciándose sensibles diferencias, tanto en desplazamientos lineales como angulares. Por otra parte, no existen apreciables variaciones a ambos lados del plano transversal de simetría (entre A-A'). Esto se explica debido a la distribución espejada de la geometría y el hecho de omitir las variaciones en el flujo de aire aguas abajo del cable que recibe antes el impacto del flujo. Aclarados los aspectos mencionados, y considerando que los desplazamientos de la torre aumentan con la cota, se eligió el nodo \textit{A} como variable de control. Para este nodo se registraron su desplazamiento en los ejes $x$ y $z$ como también el ángulo de oscilación $\Phi$ tal y cual se observa en la Figura \ref{fig:RN:Transmission:Angulo}.
@@ -274,7 +274,7 @@ A continuación se figuran los desplazamientos verticales y horizontales de los 
 	\centering
 	\subfigure[Desplazamientos en $x$ nodos \text{A}, \text{D}. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png}}\label{fig:RN:Transmission:DispXAD}
 	\subfigure[Desplazamientos en $z$ nodo \text{A}, \text{D}.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png}}\label{fig:RN:Transmission:DispZAD}
-	\caption{Desplazamientos de las cadenas aisladoras \text{A} y \text{D}} \label{fig:RN:Transmission:DispsAD}
+	\caption{Desplazamientos de las cadenas aisladoras \text{A} y \text{D}.} \label{fig:RN:Transmission:DispsAD}
 \end{figure}
 \endgroup
 
@@ -287,7 +287,7 @@ Además de los elementos aisladores, los puntos medios en el vano del conductor 
 	\centering
 	\subfigure[Desplazamientos en $x$ nodos B,C. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png}}\label{fig:RN:Transmission:DispXCB}
 	\subfigure[Desplazamientos en $z$ nodo B, C.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png}}\label{fig:RN:Transmission:DispZCB}
-	\caption{Desplazamientos de los nodos medios B y C} \label{fig:RN:Transmission:DispsCB}
+	\caption{Desplazamientos de los nodos medios B y C.} \label{fig:RN:Transmission:DispsCB}
 \end{figure}
 \endgroup
 

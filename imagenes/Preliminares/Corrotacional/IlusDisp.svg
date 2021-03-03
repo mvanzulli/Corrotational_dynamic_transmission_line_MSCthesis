@@ -195,16 +195,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="471.06749"
-     inkscape:cy="331.47404"
+     inkscape:cx="609.63892"
+     inkscape:cy="250.40261"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
+     inkscape:window-width="960"
      inkscape:window-height="1001"
-     inkscape:window-x="-9"
+     inkscape:window-x="951"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata2543">
     <rdf:RDF>
@@ -451,22 +451,22 @@
     <text
        transform="rotate(1.735626)"
        id="text2122-7-3-4-4-6-7-0"
-       y="112.48518"
-       x="155.92218"
+       y="114.80924"
+       x="157.22159"
        style="font-size:5.42113018px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.135528"
        xml:space="preserve"
        inkscape:transform-center-x="-10.13485"
        inkscape:transform-center-y="17.11803"><tspan
          dx="0 0 0 0 0 0 0"
          style="stroke-width:0.135528"
-         y="112.48518"
-         x="155.92218"
+         y="114.80924"
+         x="157.22159"
          id="tspan2120-3-6-1-1-1-0-5"
          sodipodi:role="line">$\bf{P}$</tspan><tspan
          id="tspan2124-5-6-5-7-7-3-4"
          style="stroke-width:0.135528"
-         y="119.2616"
-         x="155.92218"
+         y="121.58566"
+         x="157.22159"
          sodipodi:role="line" /></text>
     <path
        inkscape:connector-curvature="0"
@@ -498,7 +498,7 @@
          id="tspan7441"
          x="148.14191"
          y="180.55109"
-         style="stroke-width:0.08548425">$\bf{d_P}^g$</tspan></text>
+         style="stroke-width:0.08548425">$\bf{d}_g^P$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.66656971px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14166424"
@@ -509,7 +509,7 @@
          id="tspan7441-9"
          x="156.47871"
          y="138.25128"
-         style="stroke-width:0.14166424">$\bf{d_P}^l$</tspan></text>
+         style="stroke-width:0.14166424">$\bf{d}_l^P$</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path1402-0"

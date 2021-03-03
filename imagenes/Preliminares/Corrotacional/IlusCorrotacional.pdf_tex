@@ -67,14 +67,17 @@
     \put(0.39758468,0.7383704){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{IlusCorrotacional.pdf}}%
     \put(0.32573419,0.62178398){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_3$\\\end{tabular}}}}}%
-    \put(0.40470325,0.79409117){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_3$\\\end{tabular}}}}}%
+    \put(0.40470325,0.79409117){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_1$\\\end{tabular}}}}}%
     \put(0.22101726,0.80646837){\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_2$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{IlusCorrotacional.pdf}}%
     \put(0.74543626,0.51430718){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_3$\\\end{tabular}}}}}%
-    \put(0.82922461,0.67275409){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_3$\\\end{tabular}}}}}%
+    \put(0.7883196,0.69192833){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_1$\\\end{tabular}}}}}%
     \put(0.63833765,0.69421651){\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_2$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{IlusCorrotacional.pdf}}%
-    \put(0.53752612,0.23603934){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{2}$\\\end{tabular}}}}}%
+    \put(0.51366484,0.22879579){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{2}$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{IlusCorrotacional.pdf}}%
+    \put(0.67697049,0.5987926){\rotatebox{-1.2190344}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{2}$\\\end{tabular}}}}}%
+    \put(0.3359177,0.68883502){\rotatebox{-1.2190344}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{1}$\\\end{tabular}}}}}%
+    \put(0.11747059,0.41978092){\rotatebox{-1.2190344}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{1}$\\\end{tabular}}}}}%
   \end{picture}%
 \endgroup%

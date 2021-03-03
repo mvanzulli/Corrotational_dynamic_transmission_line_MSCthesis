@@ -64,10 +64,10 @@
     \put(0.45154658,0.57734905){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{IlusDisp.pdf}}%
     \put(0.47991483,0.09063023){\rotatebox{-1.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{P}$\\\end{tabular}}}}}%
-    \put(0.77758134,0.50905163){\rotatebox{-1.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{P}$\\\end{tabular}}}}}%
+    \put(0.78394959,0.49680501){\rotatebox{-1.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{P}$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{IlusDisp.pdf}}%
-    \put(0.75528036,0.18040661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{d_P}^g$\end{tabular}}}}%
-    \put(0.79849909,0.39969244){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{d_P}^l$\end{tabular}}}}%
+    \put(0.75528036,0.18040661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{d}_g^P$\end{tabular}}}}%
+    \put(0.79849909,0.39969244){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{d}_l^P$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{IlusDisp.pdf}}%
     \put(0.00079674,0.22193216){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}_3$\\\end{tabular}}}}}%
     \put(0.19376621,0.3700839){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}_2$\\\end{tabular}}}}}%

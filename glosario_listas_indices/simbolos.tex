@@ -1,40 +1,340 @@
-\setglossarypreamble[simbolos]{
-Lista de los símbolos más relevantes de la tesis.
-}
+\setglossarypreamble[simbolos]{}
 
-
-\longnewglossaryentry{Real}
+\longnewglossaryentry{R0}
 {
 	type={simbolos},
-	name={$\mathbb{R}$}, %Aparece en la lista
-	text={Real}, %Aparece en el texto utilizando gls
-	symbol={$\mathbb{R}$}, %Aparece en el texto utilizando glssymbol
-	sort={real} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+	name={$\bf{R}_0$}, %Aparece en la lista
+	sort={R0} %Nombre para ordenar los simbolos en el glosario alfabéticamente
 }
-{Conjunto de los números reales} % Descripción
+{Matriz de rotación de referencia.}
 
-\longnewglossaryentry{sigma}
+\longnewglossaryentry{R1g}
 {
 	type={simbolos},
-	name={\ensuremath{\boldsymbol{\sigma}}}, %Aparece en la lista y en el texto
-	sort={sigma} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+	name={$\bf{R}_1^g$}, %Aparece en la lista
+	sort={R1g} %Nombre para ordenar los simbolos en el glosario alfabéticamente
 }
-{Tensor simétrico de tensiones de Cauchy.} % Descripción
+{Matriz de global del nodo 1.}
 
-\longnewglossaryentry{alph}
+\longnewglossaryentry{R2g}
 {
 	type={simbolos},
-	name={$\alpha$},  %Aparece en la lista y en el texto
-	sort={alpha} %Nombre para ordenar los simbolos en el glosario alfabéticamente
-} 
-{Escalar} % Descripción
-
-
-\longnewglossaryentry{emptyset}
-{
-type={simbolos},
-name={$\emptyset$}, %Aparece en la lista y en el texto
-sort={emptyset} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+	name={$\bf{R}_2^g$}, %Aparece en la lista
+	sort={R2g} %Nombre para ordenar los simbolos en el glosario alfabéticamente
 }
-{Conjunto que carece de elementos} % Descripción
+{Matriz de global del nodo 2.}
 
+\longnewglossaryentry{Rr}
+{
+	type={simbolos},
+	name={$\bf{R}_r$}, %Aparece en la lista
+	sort={Rr} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Matriz de rotación de configuración rígida.}
+
+
+\longnewglossaryentry{Rroof}
+{
+	type={simbolos},
+	name={$\bf{\overline{R}}_i$}, %Aparece en la lista
+	sort={Rroof} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Matriz de rotación de configuración local del nodo i.}
+
+
+\longnewglossaryentry{Rroof1}
+{
+	type={simbolos},
+	name={$\bf{\overline{R}}_1$}, %Aparece en la lista
+	sort={Rroof1} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Matriz de rotación de configuración local del nodo 1.}
+
+\longnewglossaryentry{Rroof2}
+{
+	type={simbolos},
+	name={$\bf{\overline{R}}_2$}, %Aparece en la lista
+	sort={Rroof2} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Matriz de rotación de configuración local del nodo 2.}
+
+\longnewglossaryentry{E1}
+{
+	type={simbolos},
+	name={$\bf{E_1}$}, %Aparece en la lista
+	sort={E1} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector 1 de la base isoparamétrica.}
+
+\longnewglossaryentry{E2}
+{
+	type={simbolos},
+	name={$\bf{E_2}$}, %Aparece en la lista
+	sort={E2} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector 2 de la base isoparamétrica..}
+
+\longnewglossaryentry{E3}
+{
+	type={simbolos},
+	name={$\bf{E_3}$}, %Aparece en la lista
+	sort={E3} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector 2 de la base isoparamétrica.}
+
+\longnewglossaryentry{e1}
+{
+	type={simbolos},
+	name={$\bf{e_1}$}, %Aparece en la lista
+	sort={e1} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector tangente de la configuración de referencia.}
+
+\longnewglossaryentry{e2}
+{
+	type={simbolos},
+name={$\bf{e_2}$}, %Aparece en la lista
+	sort={e2} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector normal de la configuración de referencia.}
+
+\longnewglossaryentry{e3}
+{
+	type={simbolos},
+	name={$\bf{e_3}$}, %Aparece en la lista
+	sort={e3} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector bi-normal de la configuración de referencia.}
+
+
+\longnewglossaryentry{r1}
+{
+	type={simbolos},
+	name={$\bf{r_1}$}, %Aparece en la lista
+	sort={r1} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector tangente de la configuración de deformación rígida.}
+
+\longnewglossaryentry{r2}
+{
+	type={simbolos},
+	name={$\bf{r_2}$}, %Aparece en la lista
+	sort={r2} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector normal de la configuración de deformación rígida.}
+
+\longnewglossaryentry{r3}
+{
+	type={simbolos},
+	name={$\bf{r_3}$}, %Aparece en la lista
+	sort={r3} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector bi-normal de la configuración de deformación rígida.}
+
+\longnewglossaryentry{t11}
+{
+	type={simbolos},
+	name={$\bf{t_1^1}$}, %Aparece en la lista
+	sort={t11} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector tangente de la configuración de deformación no rígida del nodo 1.}
+
+\longnewglossaryentry{t21}
+{
+	type={simbolos},
+	name={$\bf{t_2^1}$}, %Aparece en la lista
+	sort={t21} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector normal de la configuración de deformación no rígida del nodo 1.}
+
+\longnewglossaryentry{t31}
+{
+	type={simbolos},
+	name={$\bf{t_3^1}$}, %Aparece en la lista
+	sort={t31} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector bi-normal de la configuración de deformación no rígida del nodo 1.}
+
+\longnewglossaryentry{t12}
+{
+	type={simbolos},
+	name={$\bf{t_1^2}$}, %Aparece en la lista
+	sort={t12} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector tangente de la configuración de deformación no rígida del nodo 2.}
+
+\longnewglossaryentry{t22}
+{
+	type={simbolos},
+	name={$\bf{t_2^2}$}, %Aparece en la lista
+	sort={t22} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector normal de la configuración de deformación no rígida del nodo 2.}
+
+\longnewglossaryentry{t33}
+{
+	type={simbolos},
+	name={$\bf{t_3^2}$}, %Aparece en la lista
+	sort={t31} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector bi-normal de la configuración de deformación no rígida del nodo 2.}
+
+\longnewglossaryentry{t1i}
+{
+	type={simbolos},
+	name={$\bf{t_1^i}$}, %Aparece en la lista
+	sort={t12} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector tangente de la configuración de deformación no rígida del nodo i.}
+
+\longnewglossaryentry{t2i}
+{
+	type={simbolos},
+	name={$\bf{t_2^i}$}, %Aparece en la lista
+	sort={t22} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector normal de la configuración de deformación no rígida del nodo i.}
+
+\longnewglossaryentry{t3i}
+{
+	type={simbolos},
+	name={$\bf{t_3^i}$}, %Aparece en la lista
+	sort={t31} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Vector bi-normal de la configuración de deformación no rígida del nodo i.}
+
+\longnewglossaryentry{uP}
+{
+	type={simbolos},
+	name={$\bar{u}$}, %Aparece en la lista
+	sort={up} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamiento axial en coordenadas locales del nodo P.}
+
+\longnewglossaryentry{thetaP}
+{
+	type={simbolos},
+	name={$\bf{\overline{\theta_i^P}}$}, %Aparece en la lista
+	sort={thetaP} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos angulares en coordenadas locales del nodo P.}
+
+\longnewglossaryentry{DispLocal}
+{
+	type={simbolos},
+	name={$\bf{d}_l^P$}, %Aparece en la lista
+	sort={DispLocal} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos locales del nodo P.}
+
+\longnewglossaryentry{dispAxialLocalRigid}
+{
+	type={simbolos},
+	name={$\bf{d}_r^P$}, %Aparece en la lista
+	sort={DispLocalRigid} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos lineales locales del nodo P referenciados a la configuración de deformación rígida.}
+
+
+\longnewglossaryentry{GlobalDisp}
+{
+	type={simbolos},
+	name={$\bf{d}_g^P$}, %Aparece en la lista
+	sort={DispGlobal} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos globales para un punto P.}
+
+\longnewglossaryentry{GlobalDispU}
+{
+	type={simbolos},
+	name={$\bf{u}_g^P$}, %Aparece en la lista
+	sort={DispGlobalU} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos lineales globales para un punto P.}
+
+\longnewglossaryentry{GlobalDispW}
+{
+	type={simbolos},
+	name={$\bf{w}_g^P$}, %Aparece en la lista
+	sort={DispGlobalW} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Desplazamientos angulares globales para un punto P.}
+
+
+\longnewglossaryentry{CoordX1}
+{
+	type={simbolos},
+	name={$\bf{x}_1$}, %Aparece en la lista
+	sort={CoordX1} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Coordenadas del nodo 1 en el sistema de referencia global.}
+
+\longnewglossaryentry{CoordX2}
+{
+	type={simbolos},
+	name={$\bf{x}_2$}, %Aparece en la lista
+	sort={CoordX2} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Coordenadas del nodo 1 en el sistema de referencia global.}
+\longnewglossaryentry{LargoLn}
+{
+	type={simbolos},
+	name={$l_n$}, %Aparece en la lista
+	sort={largoLn} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Largo del elemento deformado.}
+
+\longnewglossaryentry{Skew}
+{
+	type={simbolos},
+	name={$\widetilde{\bf{A}}$}, %Aparece en la lista
+	sort={Skew} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Operador Skew aplicado al variable A.}
+
+\longnewglossaryentry{CentroideG}
+{
+	type={simbolos},
+	name={G}, %Aparece en la lista
+	sort={Centroide} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Centroide de la sección G.}
+
+
+\longnewglossaryentry{CentroideX}
+{
+	type={simbolos},
+	name={$x$}, %Aparece en la lista
+	sort={CentroideX} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Distancia respecto al nodo 1 de la sección con centroide G.}
+
+\longnewglossaryentry{VeloicdadLineal}
+{
+	type={simbolos},
+	name={$\dot{\bf{u}}$}, %Aparece en la lista
+	sort={VelcidadLineal} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Velcoidad lineal en coordenadas globales.}
+
+\longnewglossaryentry{AceleracionLineal}
+{
+	type={simbolos},
+	name={$\ddot{\bf{u}}$}, %Aparece en la lista
+	sort={AceleraciónLineal} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Aceleración lineal en coordenadas globales.}
+\longnewglossaryentry{VelocidadAngular}
+{
+	type={simbolos},
+	name={$\dot{\bf{w}}$}, %Aparece en la lista
+	sort={VelcidadAngular} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Velcoidad angular en coordenadas globales.}
+\longnewglossaryentry{AceleracionAngular}
+{
+	type={simbolos},
+	name={$\ddot{\bf{w}}$}, %Aparece en la lista
+	sort={AceleraciónAngular} %Nombre para ordenar los simbolos en el glosario alfabéticamente
+}
+{Aceleración angular en coordenadas globales.}
