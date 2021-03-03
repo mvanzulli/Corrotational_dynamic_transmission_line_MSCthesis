@@ -14,7 +14,7 @@ Una vez aislado el objeto de su entorno, es necesario imponer determinadas condi
 	\item Las torres del sistema de transmisión se encuentran a la misma altura, ignorándose cualquier variación en el perfil tipográfico del terreno. Como consecuencia, los puntos de anclaje que unen las cadenas a las torres (D y A), pertenecen a un mismo plano paralelo a la superficie terrestre.
 	\item  El conductor es conformado por un único cable continuo que discurre el espacio sujetado por aisladores eléctricos. Su proceso de fabricación es mediante una trenza con lingas de acero y aluminio, que poseen una significativa rigidez a flexión. Esta razón conduce inevitablemente a modelarlo con elementos de vigas, las cuales tienen un variación de ángulo continuo. Consecuentemente, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $x$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impostadas por la geometría del sistema. \item Como el conductor no presenta fuerzas en el sentido axial, los puntos B y C no se deforman según el eje $x$, ergo sus trayectoria pertenecen al plano $z$-$y$. Esto debe forzarse en los nodos B y C. 
 	\item La exigua resistencia a flexión de los elementos aisladores DC y AB, obliga a instalarlos con sus extremos articulados. Es por esto que se modelaron a partir de barras de Green. Las condiciones de borde dependen del ejemplo al que se haga referencia. Para el Ejemplo 3 los puntos D y A se encuentran anclados a la torre, acompañando sus movimientos, mientas que para el 2 se encuentran fijos.
-	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento $\bf{u}_0$. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $z$ de la gravedad.
+	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento \gls{InitialConditionU0}. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $z$ de la gravedad.
 \end{enumerate} 
 
 
@@ -63,7 +63,7 @@ La componente unidireccional del flujo a una altura dada, puede ser desglosada e
 
 El valor del periodo $T$ debe ajustarse minimizando la desviación estándar asociada a la intensidad de turbulencia, esta se define como el cociente entre la desviación estándar de la velocidad fluctuante y la media para un instante de tiempo dado. Sin embargo, para este trabajo no se consideran las fluctuaciones debido a la presencia de vórtices en el flujo, por lo que el valor de $T=1/30$ s y de velocidad media, se extrajo del artículo \citep{stengel2017measurements}.
 
-Considerando el aire como un fluido no newtoneano, $\rho$ su densidad asociada a determinada temperatura, $C_d$ el coeficiente de drag para como función del número de Reynolds, entonces la fuerza media en el sentido del flujo (``drag'') para un elemento cilíndrico de diámetro $d_c$ y largo $l_e$ se calcula según la Expresión \eqref{Eq:MET:FuerzaViento}:
+Considerando el aire como un fluido no newtoneano, \gls{DenisdadAire} su densidad asociada a determinada temperatura, \gls{Drag} el coeficiente de drag para como función del número de Reynolds, entonces la fuerza media en el sentido del flujo (``drag'') para un elemento cilíndrico de diámetro \gls{DiametroConductor} y largo $l_e$ se calcula según la Expresión \eqref{Eq:MET:FuerzaViento}:
 
 
 \begin{equation}
@@ -74,7 +74,7 @@ Considerando el aire como un fluido no newtoneano, $\rho$ su densidad asociada a
 Para este cálculo se asumió constantes las magnitudes al interior del elemento, es por esto, que el valor de la integral, es simplemente el producto del integrando por el largo del intervalo. Además se para este trabajo la carga del viento sobre el elemento se modeló como una fuerza nodal equivalente a la mitad de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas inducen, se cancelan con los elementos aledaños. Por otra parte, los valores de $C_d$ se extrajeron de las referencias \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante TC \citep{mara2007effects}. La densidad $\rho$ del aire se consideró la usual para presión atmosférica y una temperatura de $20$ ºC.
 
 \subsubsection{Campo de velocidades relativos, absolutos y fuerzas asociadas.}\label{SubSec:MET:CampoVelRealt}
-En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección  transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre $w$ y $q$. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto  absoluto. Asimismo en esta imagen se representan las velocidades media y fluctuante $w_m$ y $w_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor, este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $\bf{\dot{u}}_{ry}$ y $\bf{\dot{u}}_{rz}$. 
+En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstante, es preciso notar determinadas consideraciones sobre el amortiguamiento introducido. Dada una sección  transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre \gls{VelocidadW} y \gls{VelocidadQ}. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto  absoluto. Asimismo en esta imagen se representan las velocidades media y fluctuante $w_m$ y $w_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Debido a la fuerza que el viento ejerce sobre el conductor, este despliega una determinada velocidad rígida en ambas direcciones identificadas con las letras $\bf{\dot{u}}_{ry}$ y $\bf{\dot{u}}_{rz}$. 
 % 
 %\begingroup
 %\begin{figure}[htbp]
@@ -94,7 +94,7 @@ En este trabajo no se resuelve un sistema acoplado fluido-estructura. No obstant
 	\label{fig:MET:Viento:VelAbs}
 \end{figure}
 
-Si el observador se encuentra solidario al rígido, en un sistema de referencia anidado a el, la velocidad percibida de viento, sería la diferencia entre las velocidades absolutas y las rígidas. Esto se muestra en la figura \ref{fig:MET:Viento:VelRel}. Este campo de velocidades relativos es el responsable de las fuerzas de drag $F_d$ y  de lift $F_l$. Estas pueden ser proyectada en el sistema de ejes globales, ocasionando dos fuerzas $F_z$ y $F_y$.
+Si el observador se encuentra solidario al rígido, en un sistema de referencia anidado a el, la velocidad percibida de viento, sería la diferencia entre las velocidades absolutas y las rígidas. Esto se muestra en la figura \ref{fig:MET:Viento:VelRel}. Este campo de velocidades relativos es el responsable de las fuerzas de drag \gls{FuerzaDrag} y  de lift \gls{FuerzaLift}. Estas pueden ser proyectada en el sistema de ejes globales, ocasionando dos fuerzas $F_z$ y $F_y$.
 
 
 \begin{figure}[htbp]
@@ -178,7 +178,7 @@ La fuerza externa es la responsable del cambio de trabajo aportando al sistema p
 	\end{split}
 \end{equation}
  
-Para cada punto del cuerpo debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico $f_{vis}$ que depende de la velocidad lineal del rígido. Este termino debe tratarse aparte ya que su naturaleza función de el estado cinemático del problema, lo que es la incógnita a resolver.
+Para cada punto del cuerpo debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico \gls{FuerzaViscosa} que depende de la velocidad lineal del rígido. Este termino debe tratarse aparte ya que su naturaleza función de el estado cinemático del problema, lo que es la incógnita a resolver.
 
 La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta_t$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: el desplazamientos $\bf{d}$ $(t+\Delta_t)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta_t)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta_t)$. Es plausible entonces plasmarlo matemáticamente de manera exacta en la Ecuación \eqref{Eq:MET:EquilibrioExacto}.
 
@@ -192,7 +192,7 @@ Los métodos numéricos, a groso modo, si son consistentes y estables construyen
 \ddot{\bf{d}}_{t+\Delta_t}&=&F_a(\bf{d_{t+\Delta_t}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})
 \end{eqnarray}
 
-Según el procedimiento descrito en el párrafo anterior, se buscan las aproximaciones cinemáticas tal que el residuo para un instante $t +\Delta_t$ sea próximo al vector nulo. Esto se expresa matemáticamente en Ecuación \eqref{Eq:MET:Resto}.
+Según el procedimiento descrito en el párrafo anterior, se buscan las aproximaciones cinemáticas tal que el residuo \gls{Residuo} para un instante $t +\Delta_t$ sea próximo al vector nulo. Esto se expresa matemáticamente en Ecuación \eqref{Eq:MET:Resto}.
 \begin{equation}\label{Eq:MET:Resto}
 \begin{split}
 	\bf{r}(\bf{d}_{t+\Delta_t})&=(-\bf{f}_{ext,t+\Delta_t}+\bf{f}_{int}(\bf{d}_{t+\Delta_t})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta_t})...\\	
@@ -225,7 +225,7 @@ Para calcular la derivada del residuo, se utiliza la regla de la cadena aplicada
 	\end{split}
 \end{equation}
 
-En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de: desplazamientos, velocidades y aceleraciones. Estas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual  aparece un termino $\bf{C}_{vis}$ correspondiente la derivada de la fuerza viscosa respecto de la velocidad del viento. Esto resulta una matriz diagonal esparsa con valores nulas salvo las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$. Incorporando estas matrices se obtiene a la Ecuación \eqref{Eq:PRE:DerivadaResiduo}.
+En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de: desplazamientos, velocidades y aceleraciones. Estas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual  aparece un termino \gls{MatrizViscosa} correspondiente la derivada de la fuerza viscosa respecto de la velocidad del viento. Esto resulta una matriz diagonal esparsa con valores nulas salvo las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$. Incorporando estas matrices se obtiene a la Ecuación \eqref{Eq:PRE:DerivadaResiduo}.
 
 \begin{equation}\label{Eq:PRE:DerivadaResiduo}
 	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta_t})}{\partial \bf{d}_{t+\Delta_t}}\Big|_k~
@@ -248,9 +248,9 @@ Una vez planteada la ecuación de equilibrio no lineal y su método de resoluci�
 %
  Este método consiste en una innovadora propuesta respecto del algoritmo de Newmark presentado en \cite{newmark1959method}. Según el articulo \cite{hilber1977improved} el método de HHT, es incondicionalmente estable para la integración de ecuaciones dinámicas en el área estructural. Esto implica que el paso de tiempo puede incrementarse considerablemente conservando la convergencia numérica del método. Además de esta ventaja, cuando se buscan representar modos de baja frecuencia, el factor de disipación que atenúa la energía del sistema, no depende del incremento de tiempo elegido. Complementario a esto,  evita la aparición indeseada de altas frecuencias numéricas, sin eliminar los modos de baja frecuencia endógenos a la estructura. 
  
- En la publicación \citep{hilber1977improved} se compara el método de HHT con otros métodos del clásicos en el área de análisis numérico estructural, como ser: el Método del Trapecio, el de Wilson y la familia de algoritmos de Newmark:. El autor concluye que HHT además de su mayor grado de ajuste, es mas preciso para bajas frecuencias. Dado que esto se ajusta a la perfección para la aplicación de conductores, superpuesto que este se implementó en \cite{Le2014}, resulta oportuno aplicarlo a esta investigación.
+ En la publicación \citep{hilber1977improved} se compara el método de HHT con otros métodos del clásicos en el área de análisis numérico estructural, como ser: el Método del Trapecio, el de Wilson y la familia de algoritmos de Newmark. El autor concluye que HHT además de su mayor grado de ajuste, es mas preciso para bajas frecuencias. Dado que esto se ajusta a la perfección para la aplicación de conductores, superpuesto que este se implementó en \cite{Le2014}, resulta oportuno aplicarlo a esta investigación.
  
- Para este abordaje inicialmente se deben distinguir las magnitudes lineales de las angulares, para esto se utiliza la nomenclatura $\bf{d}=(\bf{u},\bf{w}$). Se presentan entonces las funciones de aproximación para aceleraciones y velocidades lineales globales en función de los desplazamientos. Estas ecuaciones se escribirán inicialmente en términos de los parámetros de Newmark $\alpha$ y $\beta$ para luego vincularlo con el método de HHT. Esto permite ejecutar fácilmente uno u otro, dependiendo de las necesidades. Consecuentemente, las funciones de actualización para el instante $t+\Delta_T$ se escriben:
+ Para este abordaje inicialmente se deben distinguir las magnitudes lineales de las angulares, para esto se utiliza la nomenclatura $\bf{d}=(\bf{u},\bf{w}$). Se presentan entonces las funciones de aproximación para aceleraciones y velocidades lineales globales en función de los desplazamientos. Estas ecuaciones se escribirán inicialmente en términos de los parámetros de Newmark \gls{AlphaNW} y \gls{BetaNW} para luego vincularlo con el método de HHT. Esto permite ejecutar fácilmente uno u otro, dependiendo de las necesidades. Consecuentemente, las funciones de actualización para el instante $t+\Delta_T$ se escriben:
  
 \begin{align}
 	 \ddot{\bf{u}}_{t+\Delta t} &=
@@ -270,7 +270,7 @@ Una vez planteada la ecuación de equilibrio no lineal y su método de resoluci�
 \end{align}
 
 
-Para implementar HHT basta unicamente con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de $\alpha_{HHT}$. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las equivalencias, parentescos y similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
+Para implementar HHT basta unicamente con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de \gls{AlphaHHT}. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las equivalencias, parentescos y similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
 
 \begin{eqnarray}
 	\label{Eq:MET:betaNW}
@@ -279,7 +279,7 @@ Para implementar HHT basta unicamente con definir los parámetros $\alpha_{NW}$ 
  	\alpha_{NW} &=& \frac{(1-\alpha_{HHT})^2}{4}
 \end{eqnarray}
 
-Se calculan entonces las derivadas respecto al desplazamiento para las funciones de aproximación. Estas se expresan a partir del parámetro $\alpha_{HHT}$ y el incremento $\Delta_T$ ente dos tiempos consecutivos $t$ y $t+\Delta_t$.
+Se calculan entonces las derivadas respecto al desplazamiento para las funciones de aproximación. Estas se expresan a partir del parámetro $\alpha_{HHT}$ y el incremento \gls{DeltaT} ente dos tiempos consecutivos $t$ y $t+\Delta_t$.
 
 \begin{eqnarray}
 \label{Eq:Met:DerivadasAcelLinear}
@@ -381,7 +381,7 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
 			\STATE Evaluar $\bf{f_{ext,t+\Delta t}}$	
 			\WHILE{FinDisp = 0}
 				\STATE Calcular fuerzas: $\bf{f}_{ine}^k(\bf{d}^k,\bf{\dot{d}}^k,\bf{\ddot{d}}^k)$,  $\bf{f}_{int}^k(\bf{d}^k)$ y $\bf{res}^{k}(\bf{d}^k,\bf{\dot{d}}^k,\bf{\ddot{d}}^k)$. 
-				\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^k$ $\bf{M}^k$  $\bf{C}_k^k$. 
+				\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^k$ $\bf{M}^k$  $\bf{C}_k^k$, $\bf{C}_{vis}$. 
 				\STATE Despejar $\Delta \bf{d}^{k+1}$ 
 				\STATE Actualizar desplazamientos globales:  $\bf{d}^{k+1} = \bf{d}^{k} + \Delta\bf{d}^{k+1}$ 
 				\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^{k+1}$), ($\bf{\ddot{u}}^{k+1}$).

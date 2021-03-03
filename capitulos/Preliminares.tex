@@ -421,16 +421,16 @@ variables son el vector de fuerzas internas, inerciales y sus respectivas matric
 
 \subsection{Fuerza interna y matriz tangente}\label{Sec:PRE:Interna}
 
-En este apartado se buscan obtener las expresiones de fuerza interna del elemento y su matriz tangente estática. El vector de fuerza interna se compone, de acuerdo a la nomenclatura desplazamiento-ángulo, por la fuerza axial $fl_1$, dos momentos flectores $M^1_1$, $M^1_2$ y un momento torsor $M^1_3$ para cada nodo en su configuración deformada. Esta elección análoga a los desplazamientos locales para las fuerzas internas, se presenta en la Ecuación \eqref{Eqn:PRE:FuerzElem}.
+En este apartado se buscan obtener las expresiones de fuerza interna del elemento y su matriz tangente estática. El vector de fuerza interna \gls{FuerzaIntLocal} para el nodo $i$ se compone, de acuerdo a la nomenclatura desplazamiento-ángulo, por la fuerza axial \gls{FuerzaAxial}, dos momentos flectores \gls{MomentoFlector1}, \gls{MomentoFlector2} y un momento torsor \gls{MomentoTorsor} para cada nodo en su configuración deformada. Esta elección análoga a los desplazamientos locales para las fuerzas internas, se presenta en la Ecuación \eqref{Eqn:PRE:FuerzElem}.
 
 \begin{equation}\label{Eqn:PRE:FuerzElem}
-\boldsymbol{f_l} =[~fl_1 ~M^1_1~ M^1_2~ M^1_3~ M^2_1~ M^2_2~ M^2_3~] = [~fl_1~\boldsymbol{m}]
+bf{ f_l^{int}} =[~fl_1 ~M^1_1~ M^1_2~ M^1_3~ M^2_1~ M^2_2~ M^2_3~] = [~fl_1~\boldsymbol{m}]
 \end{equation}
 
-Tanto las magnitudes de fuerza interna como inercial se calcularán inicialmente para coordenadas locales, donde su cálculo es relativamente sencillo, para luego transcribir estos resultados en términos globales. Con este cometido se define la matriz $\bf{B}$ según se expresa en la Ecuación \eqref{Eqn:PRE:CambioCoord}.
+Tanto las magnitudes de fuerza interna como inercial se calcularán inicialmente para coordenadas locales \gls{FuerzaIntLocal}, donde su cálculo es relativamente sencillo, para luego transcribir estos resultados en términos globales \gls{FuerzaIntGlobal}. Con este cometido se define la matriz $\bf{B}$ según se expresa en la Ecuación \eqref{Eqn:PRE:CambioCoord}.
 
 \begin{equation}\label{Eqn:PRE:CambioCoord}
-	\bf{\delta d_l}=\bf{B}~\bf{\delta d_g} ~~~~~~ \bf{ F_g}=\bf{B}^T~\bf{ f_l}.
+	\bf{\delta d_l}=\bf{B}~\bf{\delta d_g} ~~~~~~ 	\bf{f_g^{int}}=\bf{B}^T~\bf{ f_l^{int}}.
 \end{equation}
 
 
@@ -441,15 +441,15 @@ Con la ayuda algebraica de la matrices auxiliares $\bf{G}$ y $\bf{E}$, en las Ec
 Análogamente el vector auxiliar $\bf{r}$ contiene a $\bf{r}_1$ según el sentido axial de la barra, por lo que reescribir este permite expresar la fuerza de directa $fa1$  en términos de la base $\bf{E_i}$. Al unir los razonamientos detallados en los párrafos anteriores, se obtienen las Ecuaciones \eqref{Eqn:PRE:FuerzaInterna} y \eqref{Eqn:PRE:DifFuerzaInterna} para el cálculo de la fuerza interna y su diferencial:
 
 \begin{eqnarray}\label{Eqn:PRE:FuerzaInterna}
-	\bf{f^g}_{int}&=&\bf{B}^T\bf{f_l}= \begin{bmatrix}
+	\bf{f_g^{int}}&=&\bf{B}^T\bf{f_l^{int}}= \begin{bmatrix}
 		\bf{r}\\
 		\bf{PE^T}
 	\end{bmatrix}\bf{f_a}\\
     \label{Eqn:PRE:DifFuerzaInterna}
-	\bf{f^g}_{int}&=&\bf{B}^T\delta\bf{f_l}+\delta\bf{r}^T \text{$f_{a1}$}+\delta(\bf{EP^T}) \boldsymbol{m}
+	\bf{f_g^{int}}&=&\bf{B}^T\delta\bf{f_l^{int}}+\delta\bf{r}^T \text{$f_{a1}$}+\delta(\bf{EP^T}) \boldsymbol{m}
 \end{eqnarray}
 
-Una vez calculadas las fuerzas internas es de sumo interés obtener sus derivadas recepto de los desplazamientos. La matriz tangente representa esta magnitud y es un operador indispensable para la resolución mediante métodos numéricos iterativos. Este cálculo de derivadas respecto a desplazamientos globales de la expresión \eqref{Eqn:PRE:FuerzaInterna} concluye en la Ecuación \eqref{Eqn:PRE:MatrizKest1} a continuación:
+Una vez calculadas las fuerzas internas es de sumo interés obtener sus derivadas recepto de los desplazamientos. La matriz tangente \gls{MatrizTangenteGlobal} representa esta magnitud y es un operador indispensable para la resolución mediante métodos numéricos iterativos. Este cálculo de derivadas respecto a desplazamientos globales de la expresión \eqref{Eqn:PRE:FuerzaInterna} concluye en la Ecuación \eqref{Eqn:PRE:MatrizKest1} a continuación:
 
 \begin{equation}\label{Eqn:PRE:MatrizKest1}
 \bf{K_g}=\bf{B}^T\bf{K_l}\bf{B}+\frac{\partial (\bf{B}^T\bf{f}_l)}{\partial \bf{d}_g}
@@ -457,11 +457,11 @@ Una vez calculadas las fuerzas internas es de sumo interés obtener sus derivada
 
 Operando con la regla del producto y sustituyendo la Ecuación \eqref{Eqn:PRE:DifFuerzaInterna} para el diferencial para la fuerza interna la matriz tangente resulta :
 \begin{equation} \label{Eqn:PRE:MatrizKest2}
-	\bf{K}^g=\bf{B}^T\bf{K_l}\bf{B}+\bf{D} f_{a1}-\bf{E}\bf{Q}\bf{G^T}\bf{E^T} +\bf{EGar}
+	\bf{K_g}=\bf{B}^T\bf{K_l}\bf{B}+\bf{D} f_{a1}-\bf{E}\bf{Q}\bf{G^T}\bf{E^T} +\bf{EGar}
 \end{equation}
 
 
-La matriz $\bf{B}$ permite realizar el cambio de coordenadas $\delta \bf{d_a}$ a  $\delta \bf{d_g}$, de acuerdo con lo definido en \eqref{Eqn:PRE:CambioCoord}. Esta transformación de cambio de base multiplica la variable $\bf{K_l}$ correspondiente al aporte de rigidez local del elemento. Esta depende de los estiramientos y rotaciones de la viga en su configuración local y también de la ley material implementada. Esto evidencia la versatilidad del planteo corrotacional ante diferentes tipos de elementos, donde solo hace falta modificar la matriz $\bf{K_l}$.
+La matriz $\bf{B}$ permite realizar el cambio de coordenadas $\delta \bf{d_a}$ a  $\delta \bf{d_g}$, de acuerdo con lo definido en \eqref{Eqn:PRE:CambioCoord}. Esta transformación de cambio de base multiplica la variable \gls{MatrizTangenteLocal} correspondiente al aporte de rigidez local del elemento. Esta depende de los estiramientos y rotaciones de la viga en su configuración local y también de la ley material implementada. Esto evidencia la versatilidad del planteo corrotacional ante diferentes tipos de elementos, donde solo hace falta modificar la matriz $\bf{K_l}$.
 
 
 En la Ecuación \eqref{Eqn:PRE:MatrizKest2} la matriz  $\bf{D}$ es anti-simétrica y se calcula en función de los productos internos de los vectores $\bf{e_i}$, esta aporta la rigidez no lineal correspondiente al a fuerza axial $f_l1$ de la barra. Por otra parte, la matriz auxiliar $\bf{Q}$ se halla a partir del producto de $\bf{P}$ y los momentos nodales respecto de las coordenadas globales, y proviene de la componente no lineal de los momentos. Por último, se define el vector $\bf{a}$ agrupando así el resto. Dichas defunciones se encuentran en las siguientes Ecuaciones:
@@ -493,7 +493,7 @@ para el método de  Newton Raphson (N-R), siempre y cuando momentos externos nod
 
 \subsection{Fuerza inercial y matrices de masa tangentes}\label{Sec:PRE:Inercial}
 
-A continuación se explayan las ecuaciones y razonamientos fundamentales para la deducción del vector de fuerzas inerciales y sus matrices tangentes asociadas. El atractivo principal de la referencia \citet{Le2014} se fragua en la consistencia de las matrices tangentes. Según el autor y otros el grado de complejidad matemático no permitía desarrollarlas \cite{Crisfield}. Esta coherencia se debe a la cabal derivación analítica del vector de fuerzas inerciales según el planteo cinemático de las variables descritas en \ref{Subsec:PRE:CinematicCorrot}. El abordaje será análogo al desarrollado para fuerzas internas y su matriz tangente. Se calculará primeramente la fuerza inercial y luego sus derivadas, con la salvedad que la magnitud primaria será la energía cinética del elemento. Esta propiedad escalar depende de las velocidades y aceleraciones de traslación globales ($\dot{\bf{u}}$,$\ddot{\bf{u}}$) como también angulares ($\dot{\bf{w}}$,$\ddot{\bf{w}}$). En las ecuaciones \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} a continuación, se presentan la energía cinética de un elemento y su diferencial. Para la obtención de la Expresión se aplicó \eqref{Eqn:PRE:DifEnergiaCinetica} la regla del producto de diferenciales y el teorema de Leibiniz para integrales de extremos fijos.
+A continuación se explayan las ecuaciones y razonamientos fundamentales para la deducción del vector de fuerzas inerciales y sus matrices tangentes asociadas. El atractivo principal de la referencia \citet{Le2014} se fragua en la consistencia de las matrices tangentes. Según el autor y otros el grado de complejidad matemático no permitía desarrollarlas \cite{Crisfield}. Esta coherencia se debe a la cabal derivación analítica del vector de fuerzas inerciales según el planteo cinemático de las variables descritas en \ref{Subsec:PRE:CinematicCorrot}. El abordaje será análogo al desarrollado para fuerzas internas y su matriz tangente. Se calculará primeramente la fuerza inercial y luego sus derivadas, con la salvedad que la magnitud primaria será la energía cinética del elemento \gls{EnergiaCineticaElem}. Esta propiedad escalar depende de las velocidades y aceleraciones de traslación globales ($\dot{\bf{u}}$,$\ddot{\bf{u}}$) como también angulares ($\dot{\bf{w}}$,$\ddot{\bf{w}}$). En las ecuaciones \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} a continuación, se presentan la energía cinética de un elemento y su diferencial. Para la obtención de la Expresión se aplicó \eqref{Eqn:PRE:DifEnergiaCinetica} la regla del producto de diferenciales y el teorema de Leibiniz para integrales de extremos fijos.
 
 \begin{eqnarray}
 		\textit{K}&=&\frac{1}{2}\int_{l_0} \dot{\bf{u}}^T A_{\rho} \dot{\bf{u}} +
@@ -506,21 +506,20 @@ A continuación se explayan las ecuaciones y razonamientos fundamentales para la
 \end{eqnarray}
 
 
-Se hace notar que por conveniencia se omitieron los subindices "g" para las magnitudes dinámicas ($\bf{u}$,$\bf{w}$)  y sus respectivas derivadas. De igual forma, las variables del integrando en las Ecuaciones  \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} se omitió la nomenclatura OG referida al centroide del área transversal a la viga. Los elementos serán de área constante siendo  $A_{\rho}$  el producto del área transversal  y la densidad del material, análogamente la matriz $\bf{I_{\rho}}$ es el tensor de inercia en la configuración deformada. Si se conoce el tensor en la configuración de referencia este se puede obtener al aplicarle las rotaciones $\bf{R}^g$ y $\bf{R}_o$ consecutivamente.
+Se hace notar que por conveniencia se omitieron los subindices "g" para las magnitudes dinámicas ($\bf{u}$,$\bf{w}$)  y sus respectivas derivadas. De igual forma, las variables del integrando en las Ecuaciones  \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} se omitió la nomenclatura OG referida al centroide del área transversal a la viga. Los elementos serán de área constante siendo  $A_{\rho}$  el producto del área transversal  y la densidad del material, análogamente la matriz \gls{Inercia} es el tensor de inercia en la configuración deformada. Si se conoce el tensor en la configuración de referencia este se puede obtener al aplicarle las rotaciones $\bf{R}^g$ y $\bf{R}_o$ consecutivamente.
 
-Análogo al vector de fuerzas internas, los términos dinámicos son responsables del cambio de energía cinética del elemento. De igual forma, al diferenciar el vector de fuerza inercial se obtienen las matrices tangentes dinámicas. Esto se expresa en las Ecuaciones \eqref{Eqn:PRE:defFuerzaInercial} y \eqref{Eqn:DefFuerzaInercial}.
+Análogo al vector de fuerzas internas, los términos dinámicos son responsables del cambio de energía cinética del elemento. De igual forma, al diferenciar el vector de fuerza inercial \gls{FuerzaInercial} se obtienen las matrices tangentes dinámicas. Esto se expresa en las Ecuaciones \eqref{Eqn:PRE:defFuerzaInercial} y \eqref{Eqn:DefFuerzaInercial}.
 
 \begin{eqnarray}
 		\label{Eqn:PRE:defFuerzaInercial}
-	\delta\textit{K}&=&\bf{f_k^T}\delta\bf{d}^g\\
+	\delta\textit{K}&=&\bf{f_k^T}\delta\bf{d}_g\\
 	\label{Eqn:DefFuerzaInercial}
 	\delta\bf{f_k}&=& \bf{M}\delta \ddot{\bf{d_g}}+\bf{C}\delta
 	\dot{\bf{d_g}}+\bf{K}\delta{\bf{d_g}}
 \end{eqnarray}
 
 
-En la Ecuación \ref{Eqn:DefFuerzaInercial} se diferencian tres matrices tangentes. Cada una de ellas asociada a la derivada parcial de la energía cinética respecto de los desplazamientos, velocidades y aceleraciones. Evidentemente, la matriz de masa consistente $\bf{M}$ se corresponde con la derivada respecto de la aceleración, consecutivamente la matriz $\bf{C_k}$
-giroscópica se asocia la velocidad. Por ultimo $\bf{K}$, se le llama a la derivada en desplazamientos y recibe el nombre de matriz centrifuga. Determinados autores \cite{cardona1988beam} y \cite{hsiao1999consistent} proponen considerar unicamente $\bf{M}$, sin embargo exhaustivos estudios en \citep{hsiao1999consistent} prueban que agregar la matriz $\bf{C_k}$ mejora el desempeño computacional para numerosos casos.
+En la Ecuación \ref{Eqn:DefFuerzaInercial} se diferencian tres matrices tangentes. Cada una de ellas asociada a la derivada parcial de la energía cinética respecto de los desplazamientos, velocidades y aceleraciones. Evidentemente, la matriz de masa consistente \gls{MatrizMasa} se corresponde con la derivada respecto de la aceleración, consecutivamente la matriz \gls{MatrizGiroscopica} giroscópica se asocia la velocidad. Por ultimo \gls{MatrizCentrifuga}, se le llama a la derivada en desplazamientos y recibe el nombre de matriz centrifuga. Determinados autores \cite{cardona1988beam} y \cite{hsiao1999consistent} proponen considerar unicamente $\bf{M}$, sin embargo exhaustivos estudios en \citep{hsiao1999consistent} prueban que agregar la matriz $\bf{C_k}$ mejora el desempeño computacional para numerosos casos.
 
 Las expresiones detalladas de estas matrices, en conjunto con el vector de fuerzas, se deducen aplicando cambios de variables sucesivos. Esto resulta idéntico a la metodología aplicada para fuerzas internas. A diferencia de la energía elástica, la energía cinética depende, no solo de desplazamientos sino también de velocidades y aceleraciones del elemento, detalladas en la Sección \ref{Sec:PRE:VelAc}.
 
