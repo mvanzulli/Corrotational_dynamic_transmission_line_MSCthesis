@@ -445,7 +445,7 @@ top=4cm,bottom=3cm,left=4.0cm,right=3.0cm]{geometry} %showframe para ver los mar
 	  \begin{center}
 	      \vspace*{3cm}
 	      \doublespacing
-		  \nohyphens{\huge{\local@title}}\par
+		  \nohyphens{\LARGE{\local@title}}\par
 		  \vspace*{0.3cm}
 		  \ifnum\@subtitle>0
 			  \nohyphens{\Large{\local@subtitle}}\par
@@ -523,7 +523,7 @@ top=4cm,bottom=3cm,left=4.0cm,right=3.0cm]{geometry} %showframe para ver los mar
 \vspace{1.05cm}
 \begin{center}
      \doublespacing
-	 \nohyphens{\huge{\local@title}}\par
+	 \nohyphens{\LARGE{\local@title}}\par
 	 \vspace*{0.3cm}
 	 \ifnum\@subtitle>0
 	 \nohyphens{\Large{\local@subtitle}}\par
