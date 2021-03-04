@@ -30,6 +30,7 @@ Una vez plasmadas las condiciones de borde cinemáticas (referidas a los desplaz
 
 \begin{enumerate}
 	\item  No se consideran las fuerzas internas trasmitidas por los vanos aledaños.
+	\item Se supone que  no existe deslizamiento relativo entre las hebras que componen al conductor.
 	\item  Se desprecian las fuerzas de tensado y las condiciones de desplazamiento no homogéneas durante el proceso de instalación en la línea. Vale aclarar que este caso de pretensión refiere a la configuración punteada en la Figura \ref{fig:MET:EsquemaCondiciones}, en ese estado la tensión es 0 $N$. No obstante, al aplicarse el peso propio la tensión en el conductor se incrementa hasta que se equilibre las fuerzas externas de la gravedad con las internas. 
 	\item Las simulaciones se realizan en dos etapas sucesivas, primeramente se imponen la condiciones iniciales de desplazamientos y una vez estabilizada la respuesta por el amortiguamiento interno y aerodinámico se ejerce la fuerza del viento sobre el cable. 
 	\item Los vínculos dinámicos entre los elementos de vigas y de barra se implementaron de forma tal, que no se trasmiten los momentos de unos a otros. Por lo tanto, en los nodos de sujeción los elementos de barra CD y AB trasmiten únicamente fuerzas direccionales en C y B. 
@@ -46,9 +47,9 @@ Un cuerpo inmerso en un fluido en movimiento sufre determinadas cargas debido al
 \begin{figure}[htbp]
 	\centering
 	\subfigure[Vista en perspetiva ]{	\def\svgwidth{60mm}
-		\input{./imagenes/Metodologia/EsquemaViento.pdf_tex}}\label{fig:MET:Viento:EsqViento}
+		\input{./imagenes/Metodologia/EsquemaViento.pdf_tex}\label{fig:MET:Viento:EsqViento}}
 	\subfigure[Vista lateral ]{	\def\svgwidth{50mm}
-		\input{./imagenes/Metodologia/DragLift.pdf_tex}}\label{fig:MET:Viento:DragLift}
+		\input{./imagenes/Metodologia/DragLift.pdf_tex}\label{fig:MET:Viento:DragLift}}
 	\caption{Ilustración del viento y sus efectos.} 	\label{fig:Met:Viento:Esquemas}
 \end{figure}
 \endgroup
@@ -366,9 +367,9 @@ Se esclarecen las premisas y simplificaciones durante la implementación numéri
 \subsection{Implementación numérica en ONSAS}\label{Sec:MET:ImplementNumeric}
 En la sección que prosigue se detallan los códigos implementados en el software (\href{https://github.com/ONSAS/ONSAS/}{ONSAS}). Este código de carácter abierto y se desarrolló de forma general integrando distintos elementos, materiales y geometrías dentro del mismo modelo. Además permite resolver mediante diversos algoritmos numéricos y visualizar gráficamente sus salida en 3D a través del programa de código abierto \emph{Paraview} difundido en \citep{ahrens2005paraview}.
 
-Las líneas de código relacionadas con la formulación local, las funciones matemáticas de rotación, las fuerzas internas y sus matrices tangentes fueron aportadas por el Dr. Jean Mark Battini. Su intervención constituye uno de los pilares fundamentales en la construcción de este trabajo, no solo por ser pionero dela formulación corrotacional aplicada a estructuras, publicadas en los trabajos \citep{Battini2002} \citep{Le2014}, sino también por su predisposición a difundir los códigos de su investigación, cuyo valor es invaluable. A continuación en \ref{Pseudo:MET:Corrot} se detalla un pseudo-código panorámico sobre el esqueleto ejecutado en \href{https://github.com/ONSAS/ONSAS/}{ONSAS}. 
+Las líneas de código relacionadas con la formulación local, las funciones matemáticas de rotación, las fuerzas internas y sus matrices tangentes fueron aportadas por el Dr. Jean Mark Battini. Su intervención constituye uno de los pilares fundamentales en la construcción de este trabajo, no solo por ser pionero dela formulación corrotacional aplicada a estructuras, publicadas en los trabajos \citep{Battini2002} \citep{Le2014}, sino también por su predisposición a difundir los códigos de su investigación, cuyo valor es invaluable. A continuación en el Algoritmo \ref{Pseudo:MET:Corrot} se detalla un pseudo-código panorámico sobre el esqueleto ejecutado en \href{https://github.com/ONSAS/ONSAS/}{ONSAS}. 
 
-\begin{algorithm}\label{Pseudo:MET:Corrot}
+\begin{algorithm}
 	\begin{algorithmic} 
 		\REQUIRE: $tol_r$, $tol_u$, $\text{maxIter}$, $\Delta_T$, $\alpha_{HHT}$
 		\STATE Iniciar cinemáticas: $\bf{d_t}\xleftarrow[]{}\bf{d_0}$
@@ -400,6 +401,7 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
  		\ENDWHILE
 	\end{algorithmic}
 \caption{Pseudocódigo de iteración general. }
+\label{Pseudo:MET:Corrot}
 \end{algorithm}
 
 En la estructura de códigos anterior se observan dos bucles en simultaneo. Inicialmente se ejecuta un primer $\bf{while}$ de avance cronológico, que permite incrementar la variable temporal en pasos de $Delta_T$. Además debe evaluar los valores que son constantes en el tiempo, como ser: la magnitud de $\bf{f}_{ext}$. Para resolver el estado del sistema en el tiempo $t+\Delta T$, hace falta resolver la ecuación no lineal del resto descrita en la Expresión \eqref{Eq:MET:Resto}. Con este cometido, se construye una sucesión en desplazamientos que tienda a la solución para ese paso, esto se realiza mediante (N-R) en el segundo $\bf{while}$ en desplazamientos. Para este bucle en el pseudocódigo \ref{Pseudo:MET:Corrot} se omitió la notación en $t+\Delta T$ para simplificar, mas todas las variables se corresponden a dicho tiempo.
@@ -408,7 +410,7 @@ Esta parte del código se pudría subdividir en dos estructuras, primeramente el
 
 Habiendo explicado la estructura general del código, resulta importante profundizar y desplegar el cálculo de la función de fuerzas inerciales y matrices dinámicas tangentes. Este código se agregó a \href{https://github.com/ONSAS/ONSAS/}{ONSAS} procurando su versatilidad. De esta forma será posible aplicarlo a futuras aplicaciones que trascienden al alcance y foco de este trabajo. Se presenta a continuación un esquema tipo pseudocódigo de la función \href{https://github.com/ONSAS/ONSAS/blob/master/src/elementBeamForces.m}{elementbeamforces.m} implementada.
 
-\begin{algorithm}\label{Pseudo:MET:elementBeamForces}
+\begin{algorithm}
 	\begin{algorithmic} 
 	\REQUIRE $A_{\rho}$ $\bf{I}_{\rho}^{ref}$ $E$ $\nu$ $G$ $\bf{X}_1$ $\bf{X}_2$ $\bf{d}_g^e$
 		 \FOR{1 \TO $N_{elem}$ } 
@@ -441,6 +443,7 @@ Habiendo explicado la estructura general del código, resulta importante profund
 		\ENDFOR 
 	\end{algorithmic}
 	\caption{Pseudocódigo elementBeamForces. }
+	\label{Pseudo:MET:elementBeamForces}
 \end{algorithm}
 
 El diagrama presentado en el Pseudocódigo \ref{Pseudo:MET:elementBeamForces}, puede dividirse en tres divisiones principales. Esto ordena el código consecutivamente según el desarrollo constructivo de las variables intervinientes. Primeramente se hallan las matrices de rotación, que vinculan las configuraciones: de referencia, rígida y deformada. Una vez representadas estas transformaciones, se procede a calcular las fuerzas internas y las matrices tangentes en la configuración local a través de la función \href{https://github.com/ONSAS/ONSAS/blob/master/src/beamLocalStaticForces.m}{beamLocalStaticForces}. Desafortunadamente, tanto entradas como salidas de esta función, se encuentran referidas al sistema de coordenadas locales. Es por esto, que resulta inevitable calcular los ángulos y desplazamientos locales. Asimismo transformar las salidas a coordenadas globales, para luego integrarlas al código general expuesto en \ref{Pseudo:MET:Corrot}.
