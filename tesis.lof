@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Ilustración de balanceos excesivos.\relax }}{2}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Ilustración de balanceos excesivos. Fuente: \href {https://www.noticias24.com.uy/2019/06/dos-trabajadores-cayeron-de-una-altura.html}{Noticias24}\relax }}{2}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -49,11 +49,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{61}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Desplazamientos de control del nodo B.\relax }}{62}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Desplazamientos de control del nodo B.\relax }}{61}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{62}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{61}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{62}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{61}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Estructura deformada en los instantes $4$ s, $11$ s y $21$ s.\relax }}{62}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
@@ -65,11 +65,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Esquema del conductor ASCR 7/26.\relax }}{64}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{66}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{65}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Perfil de velocidad progresiva $z$.\relax }}{67}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Perfil de fuerza nodal según el eje $z$.\relax }}{68}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Perfil de fuerza nodal según el eje $z$.\relax }}{67}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Desplazamientos del nodo A.\relax }}{68}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
@@ -79,23 +79,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{69}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Angulo de balanceo $\Phi $ en función de la velocidad media $W(t)$.\relax }}{70}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Angulo de balanceo $\Phi $ en función de la velocidad media $W(t)$.\relax }}{69}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Ilustración de desplazamientos y ángulos de balanceo.\relax }}{71}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Ilustración de desplazamientos y ángulos de balanceo.\relax }}{70}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Esquema geométrico de cotas principales en la torre. \relax }}{72}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carga aplicada sobre los nodos. }}}{73}{subfigure.5.16.2}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carga aplicada sobre los nodos. }}}{72}{subfigure.5.16.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Perfil de velocidades de viento.}}}{73}{subfigure.5.16.2}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Perfil de velocidades de viento.}}}{72}{subfigure.5.16.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Ilustración de magnitudes de balanceo.\relax }}{74}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Ilustración de magnitudes de balanceo.\relax }}{73}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Desplazamientos de las cadenas aisladoras \text {A} y \text {D}.\relax }}{75}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Desplazamientos de las cadenas aisladoras \text {A} y \text {D}.\relax }}{74}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos \text {A}, \text {D}. }}}{75}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos \text {A}, \text {D}. }}}{74}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo \text {A}, \text {D}.}}}{75}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo \text {A}, \text {D}.}}}{74}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Desplazamientos de los nodos medios B y C.\relax }}{75}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo B, C.}}}{75}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{77}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{76}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.20}{\ignorespaces Estructura indeformada y deformada para $t=400$ s.\relax }}{77}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
@@ -135,7 +135,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Datos del ángulo sin procesar y luego de aplicarle una media móvil\relax }}{116}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraste de los modelos 2D/3D\relax }}{118}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraste de los modelos 2D/3D\relax }}{117}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Respuesta del ángulo para tormenta convectiva utilizando una media móvil y masas sobre el cable\relax }}{118}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \contentsfinish 

@@ -55,6 +55,36 @@ nopostdot 											 % Quita el punto final en los acrónimos.
 \usepackage{algorithmic}
 \usepackage{multirow} 
 \usepackage{multicol} 
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
 %\usepackage[dvipsnames]{xcolor}
 %\usepackage[noend]{algpseudocode}
 %\makeatletter
@@ -144,6 +174,8 @@ nopostdot 											 % Quita el punto final en los acrónimos.
   \anexmatter				 % Anexos, NO comentar
   \input{anexo/anexo_A}
   \input{anexo/anexo_B}
+%  \input{anexo/anexo_D}
+  \input{anexo/anexo_C}
 %  % Seguir copiando la linea de arriba para agregar más anexos.
 
 \end{document}

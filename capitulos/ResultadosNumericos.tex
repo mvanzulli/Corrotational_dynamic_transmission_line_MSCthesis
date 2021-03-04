@@ -1,9 +1,9 @@
 \chapter{Resultados numéricos}\label{Cap:ResultadosNumericos}
 \linenumbers
-En este capítulo se presentan los resultados numéricos obtenidos durante el desarrollo de este trabajo. En primera instancia,  se valida la implementación corrotacional detallada en el Capítulo \ref{Cap:Preliminares}, para luego aplicarse a modelos específicos de conductores. Todas las simulaciones fueron realizadas utilizando un computador portátil con un procesador i7 6700HQ y una memoria ram de 8 Gb. La formulación se implementó en el software de código abierto ONSAS \footnote{https://github.com/ONSAS/ONSAS/} el cual se ejecutó en GNU-Octave  \textcite{eaton2007gnu}y visualizándose los resultados haciendo uso del la herramienta Paraview \textcite{ahrens2014image}. Vale notar que el hilo conductual de este capítulo fue ideado con un aumento progresivo de complejidad. Capturando en modelos simples y académicos los movimientos fundamentales de los elementos, para garantizar así una representación cabal del fenómeno de oscilación del conductor en servicio. 
+En este capítulo se presentan los resultados numéricos obtenidos durante el desarrollo de este trabajo. En primera instancia,  se valida la implementación corrotacional detallada en el Capítulo \ref{Cap:Preliminares}, para luego aplicarse a modelos específicos de conductores. Todas las simulaciones fueron realizadas utilizando un computador portátil con un procesador i7 6700HQ y una memoria ram de 8 Gb. La formulación se implementó en el software de código abierto \href{https://github.com/ONSAS/ONSAS/}{ONSAS} el cual se ejecutó en GNU-Octave  \textcite{eaton2007gnu}y visualizándose los resultados haciendo uso del la herramienta Paraview \textcite{ahrens2014image}. Vale notar que el hilo conductual de este capítulo fue ideado con un aumento progresivo de complejidad. Capturando en modelos simples y académicos los movimientos fundamentales de los elementos, para garantizar así una representación cabal del fenómeno de oscilación del conductor en servicio. 
 
 
-\section{Vigas en voladizo con ángulo recto}\label{Sec:RN:RightAngle}
+\section{Viga en voladizo con ángulo recto}\label{Sec:RN:RightAngle}
 Este ejemplo fue publicado por primera vez en \cite{simo1988dynamics} y es usualmente considerado en la literatura para validar formulaciones de elementos de viga tridimensionales aplicadas a estructuras no lineales (\cite{albino2018co} \cite{Le2014}). El mismo consta de dos barra idénticas en ángulo recto formando una forma de L. Cada miembro que la integra, mide un largo $L=10$ m tal y como se ilustra en las Figuras \ref{fig:RN:RA:esquemas}.
 
 
@@ -39,7 +39,7 @@ La estructura se encuentra empotrada en su base imponiendo desplazamientos y án
 	\label{fig:RN:RA:Force}
 \end{figure}
 
-El objetivo principal del ejemplo es el validar la librería de códigos corrotacional incorporados en el software ONSAS \footnote{https://github.com/ONSAS/ONSAS/}, por ende, tanto el método de resolución, como los parámetros, se ajustaron idénticos a los explicitados en el artículo \cite{Le2014}, comparando así resultados semejantes. Consecuentemente se implementó un algoritmo que lleva el nombre de sus creadores (HHT) y se selecciono un valor característico $\alpha=-0.05$ y un valor de parada en desplazamientos de $10^{-7}$ m. Se fraccionaron 20 $s$ de simulación en intervalos de $\Delta T=0.25$ s.
+El objetivo principal del ejemplo es el validar la librería de códigos corrotacional incorporados en el software \href{https://github.com/ONSAS/ONSAS/}{ONSAS}, por ende, tanto el método de resolución, como los parámetros, se ajustaron idénticos a los explicitados en el artículo \cite{Le2014}, comparando así resultados semejantes. Consecuentemente se implementó un algoritmo que lleva el nombre de sus creadores (HHT) y se selecciono un valor característico $\alpha=-0.05$ y un valor de parada en desplazamientos de $10^{-7}$ m. Se fraccionaron 20 $s$ de simulación en intervalos de $\Delta T=0.25$ s.
 
 Para comparar con el paper de referencia se plasmaron gráficamente determinados grados de libertad correspondientes al nodo A. Estos son: el desplazamiento lineal vertical (según el eje $y$) y el transversales (según $z$). Los resultados extraídos del modelo se muestran en las Figuras \ref{fig:RN:RA:DispsA} en función de la variable temporal. En estas se constata efectivamente la significativa magnitud de los desplazamientos en comparación con las dimensiones de la estructura. En particular, la Figura \ref{fig:RN:RA:DispzA} denota oscilaciones que alcanzan varios metros en menos de 30 segundos, esto muestra el carácter exigente en términos dinámicos del ejemplo. Con respecto a este movimiento no armónico  de vaivén en el eje $z$, se puede notar la presencia no conservativa de la formulación corrotacional, ya que las amplitudes prestan una tendencia atenuante con el tiempo.  
 
@@ -74,7 +74,7 @@ Para ilustrar al lector en la cinemática del movimiento, se visualizaron median
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=80mm]{./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png}
+	\includegraphics[width=120mm]{./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.png}
 	\caption{Estructura deformada en los instantes $4$ s, $11$ s y $21$ s.}
 	\label{fig:RN:RA:Deformadas}
 \end{figure}
@@ -92,9 +92,6 @@ Habiéndose ahondado en las variables cinemáticas, resta por analizar las magni
 	\caption{Desplazamientos en x de los nodos A y B} \label{fig:RN:RA:DispsXAB}
 \end{figure}
 \endgroup
-
-\clearpage
-
 
 \section{Modelo simplificado de una linea}\label{Sec:RN:FotiCable}
 En este apartado se presenta un primer modelo simplificado del enfoque central de esta tesis. El mismo fue contrastado con el trabajo de \cite{foti2018finite} mas ha sido abordado por destacados investigadores en el pasado, como ser el caso de: \cite{luongo1998non} y \cite{martinelli2001numerical}. El ejemplo consiste en un conductor de trasmisión eléctrica reforzado con núcleo de acero. La raíz de acero forjado tiene como propósito aportar rigidez mecánica al componente, disminuyendo la deflexión y flexibilidad del conjunto. Esto suele ser ventajoso para largos vanos donde la rigidez del conductor es una variable decisiva. Además su construcción no afecta significativamente la resistividad eléctrica debido al efecto de reluctancia radial variable. que obliga a la corriente a fluir principalmente en la superficie. 

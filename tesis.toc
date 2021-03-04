@@ -15,7 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Enfoque}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Estructura}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Estructura de la tesis}{4}{section.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Estado del arte}{6}{chapter.2}%
 \defcounter {refsection}{0}\relax 
@@ -69,9 +69,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Resultados numéricos}{58}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Vigas en voladizo con ángulo recto}{58}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Viga en voladizo con ángulo recto}{58}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Modelo simplificado de una linea}{64}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Modelo simplificado de una linea}{63}{section.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Sistema de transmisión eléctrica }{70}{section.5.3}%
 \defcounter {refsection}{0}\relax 
@@ -146,4 +146,6 @@
 \contentsline {subsection}{\numberline {2.1.4}Frecuencias naturales}{112}{subsection.Anexo.2.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Respuesta a tormenta convectiva}{116}{subsection.Anexo.2.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}}{119}{appendix.Anexo.3}%
 \contentsfinish 
