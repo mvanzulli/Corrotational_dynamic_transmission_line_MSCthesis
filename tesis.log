@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  9 MAR 2021 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  10 MAR 2021 00:32
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1470,7 +1470,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
  (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux)
-(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Preliminares.aux))
+(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
+(capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
+(capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
+(capitulos/Conclusiones.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -1649,13 +1652,13 @@ Package biblatex Info: ... file 'tesis.bbl' found.
 Package biblatex Info: Reference section=0 on input line 100.
 Package biblatex Info: Reference segment=0 on input line 100.
 \c@lstlisting=\count535
-<imagenes/logo_institucion1.png, id=145, 149.05687pt x 148.10596pt>
+<imagenes/logo_institucion1.png, id=265, 149.05687pt x 148.10596pt>
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
 Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 128
 .
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
-<imagenes/logo_udelar.pdf, id=146, 207.28883pt x 59.6364pt>
+<imagenes/logo_udelar.pdf, id=266, 207.28883pt x 59.6364pt>
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
 Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 128.
@@ -1723,14 +1726,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
-\tf@lof=\write6
-\openout6 = `tesis.lof'.
-
  [11
 
 
-] (tesis.lot
+])
+\tf@lof=\write6
+\openout6 = `tesis.lof'.
+
+ [12] (tesis.lot
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1740,659 +1743,49 @@ LaTeX Info: Redefining \% on input line 2.
 
 
 Using TeX to sort glossary entries---this may take a while
-[12
+[13
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [14
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
 Using TeX to sort glossary entries---this may take a while
-[14] [15
+[16] [17
 
 
 ] (tesis.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [16
+ [18
 
-])
+] [19])
 \tf@toc=\write8
 \openout8 = `tesis.toc'.
 
- [17]
-\openout2 = `capitulos/Preliminares.aux'.
+ [20]
+\openout2 = `capitulos/Introduccion.aux'.
 
- (capitulos/Preliminares.tex
+ (capitulos/Introduccion.tex
 Cap\'{\i }tulo 1.
-[1
 
+Underfull \vbox (badness 1342) has occurred while \output is active []
 
-
-] (imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=410, page=1, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=411, page=2, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=412, page=3, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page3 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=413, page=4, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page4 used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=414, page=5, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page5 used on input line 67.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=415, page=6, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page6 used on input line 69.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=416, page=7, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 7>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page7 used on input line 71.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=417, page=8, 
-683.51215pt x 564.35127pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
- (type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, page 8>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l2.pdf , page8 used on input line 73.
-(pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-) [2 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf> <./imagenes
-/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
->] (imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=450, page=1, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=451, page=2, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=452, page=3, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page3 used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=453, page=4, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page4 used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=454, page=5, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page5 used on input line 72.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=455, page=6, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page6 used on input line 76.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=456, page=7, 6
-30.99098pt x 555.44887pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
-(type pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, page 7>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
-l.pdf , page7 used on input line 78.
-(pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-) [3 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf> <./imagenes/
-Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \vbox (badness 2443) has occurred while \output is active []
-
- [5]
-[6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-(imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=527, page=1, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=528, page=2, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page2 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=529, page=3, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page3 used on input line 62.
-(pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=530, page=4, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page4 used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=531, page=5, 622.6
-63pt x 250.86653pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
-e pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
-f , page5 used on input line 72.
-(pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-)
-(imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=532, page=1, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page1 used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=533, page=2, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page2 used on input line 60.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=534, page=3, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page3 used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=535, page=4, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page4 used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=536, page=5, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page5 used on input line 72.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=537, page=6, 621.17
-244pt x 272.80539pt>
-File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
- pdf)
-<use ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
- , page6 used on input line 74.
-(pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-) [8] [9 <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf> <./imagenes/
-Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
->]
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
- [10]
-[11] [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [17]
-[18]) [19
-\FN@pp@footnotehinttrue 
+ [1
 
 
 
 ]
-
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={glosar
-io}]. Rerun may be required (or you may have forgotten to use commands like \gl
-s) on input line 164.
-
-[20] [21
-
-] (anexo/anexo_A.tex
-Anexo 1.
-[22
-
-] [23]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24] [25]
-Underfull \vbox (badness 4279) has occurred while \output is active []
-
- [26]
-[27]) (anexo/anexo_B.tex [28]
-Anexo 2.
-[29
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-[31] [32] [33]
-<./imagenes/Anexo/Pendulo.png, id=836, 351.3125pt x 418.56375pt>
-File: ./imagenes/Anexo/Pendulo.png Graphic file (type png)
-<use ./imagenes/Anexo/Pendulo.png>
-Package pdftex.def Info: ./imagenes/Anexo/Pendulo.png  used on input line 150.
-(pdftex.def)             Requested size: 107.55312pt x 128.14395pt.
-<./imagenes/Anexo/velocidad.jpg, id=841, 578.16pt x 432.6564pt>
-File: ./imagenes/Anexo/velocidad.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/velocidad.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/velocidad.jpg  used on input line 164
-.
-(pdftex.def)             Requested size: 239.00558pt x 178.85587pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[34 <./imagenes/Anexo/Pendulo.png>]
-Underfull \vbox (badness 1112) has occurred while \output is active []
-
- [35 <./imagenes/Anexo/velocidad.jpg>]
-<./imagenes/Anexo/Angulomedio.jpg, id=860, 562.1pt x 421.575pt>
-File: ./imagenes/Anexo/Angulomedio.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/Angulomedio.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/Angulomedio.jpg  used on input line 1
-90.
-(pdftex.def)             Requested size: 239.00558pt x 179.25383pt.
- [36 <./imagenes/Anexo/Angulomedio.jpg>]
-<./imagenes/Anexo/FuerzaAngulo.jpg, id=870, 1927.2pt x 966.61125pt>
-File: ./imagenes/Anexo/FuerzaAngulo.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/FuerzaAngulo.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/FuerzaAngulo.jpg  used on input line 
-204.
-(pdftex.def)             Requested size: 318.67209pt x 159.82321pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37 <./imagenes/Anexo/FuerzaAngulo.jpg>]
-<./imagenes/Anexo/1.jpg, id=877, 717.43031pt x 374.14781pt>
-File: ./imagenes/Anexo/1.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/1.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/1.jpg  used on input line 224.
-(pdftex.def)             Requested size: 318.67209pt x 166.19551pt.
- [38 <./imagenes/Anexo/1.jpg>]
-<./imagenes/Anexo/2.png, id=883, 1445.4pt x 724.95844pt>
-File: ./imagenes/Anexo/2.png Graphic file (type png)
-<use ./imagenes/Anexo/2.png>
-Package pdftex.def Info: ./imagenes/Anexo/2.png  used on input line 254.
-(pdftex.def)             Requested size: 338.59023pt x 169.82321pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./imagenes/Anexo/cable_masas.jpg, id=884, 803.0pt x 572.1375pt>
-File: ./imagenes/Anexo/cable_masas.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/cable_masas.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/cable_masas.jpg  used on input line 2
-75.
-(pdftex.def)             Requested size: 199.1693pt x 141.90784pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39]
-<./imagenes/Anexo/34.png, id=892, 824.32968pt x 323.70938pt>
-File: ./imagenes/Anexo/34.png Graphic file (type png)
-<use ./imagenes/Anexo/34.png>
-Package pdftex.def Info: ./imagenes/Anexo/34.png  used on input line 291.
-(pdftex.def)             Requested size: 318.67209pt x 125.13972pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./imagenes/Anexo/56.jpg, id=893, 797.98125pt x 338.01282pt>
-File: ./imagenes/Anexo/56.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/56.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/56.jpg  used on input line 298.
-(pdftex.def)             Requested size: 318.67209pt x 134.9861pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[40 <./imagenes/Anexo/2.png> <./imagenes/Anexo/cable_masas.jpg>] [41 <./imagene
-s/Anexo/34.png> <./imagenes/Anexo/56.jpg>]
-<./imagenes/Anexo/7.png, id=905, 421.575pt x 316.18124pt>
-File: ./imagenes/Anexo/7.png Graphic file (type png)
-<use ./imagenes/Anexo/7.png>
-Package pdftex.def Info: ./imagenes/Anexo/7.png  used on input line 332.
-(pdftex.def)             Requested size: 199.1693pt x 149.37712pt.
-<./imagenes/Anexo/89.png, id=907, 828.84656pt x 341.77687pt>
-File: ./imagenes/Anexo/89.png Graphic file (type png)
-<use ./imagenes/Anexo/89.png>
-Package pdftex.def Info: ./imagenes/Anexo/89.png  used on input line 342.
-(pdftex.def)             Requested size: 338.59023pt x 139.61833pt.
- [42 <./imagenes/Anexo/7.png> <./imagenes/Anexo/89.png>]
-<./imagenes/Anexo/superpesta.jpg, id=916, 421.575pt x 316.18124pt>
-File: ./imagenes/Anexo/superpesta.jpg Graphic file (type jpg)
-<use ./imagenes/Anexo/superpesta.jpg>
-Package pdftex.def Info: ./imagenes/Anexo/superpesta.jpg  used on input line 35
-4.
-(pdftex.def)             Requested size: 199.1693pt x 149.37712pt.
-<./imagenes/Anexo/10.png, id=918, 421.575pt x 316.18124pt>
-File: ./imagenes/Anexo/10.png Graphic file (type png)
-<use ./imagenes/Anexo/10.png>
-Package pdftex.def Info: ./imagenes/Anexo/10.png  used on input line 368.
-(pdftex.def)             Requested size: 199.1693pt x 149.37712pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (anexo/anexo_C.tex [43 <./imagenes/Anexo/superpesta.jpg>] [44 <./imagenes/Ane
-xo/10.png>]
-Anexo 3.
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 22.
- (elementBeamForces.m
-Underfull \vbox (badness 3260) has occurred while \output is active []
-
- [45
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]))
-
-AED: lastpage setting LastPage
-[57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
- (tesis.aux
-LaTeX Info: Redefining \sptext on input line 34.
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
- (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux)
-(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Preliminares.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: B0DAC5E5670FFDA661356CB731CCC3A1;2100.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                tesis
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'tesis.run.xml'.
-\openout1 = `tesis.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
- ) 
-Here is how much of TeX's memory you used:
- 42186 strings out of 481199
- 798012 string characters out of 2904657
- 1819077 words of memory out of 3000000
- 56133 multiletter control sequences out of 15000+200000
- 550448 words of font info for 85 fonts, out of 3000000 for 9000
- 1151 hyphenation exceptions out of 8191
- 114i,17n,107p,1411b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi720\cmbc
-sc10.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/Usuario/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Usuario/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Usuario
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Us
-ers/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Usuario/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/U
-sers/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Usuari
-o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Us
-ers/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (74 pages, 1328665 bytes).
-PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 792 named destinations out of 1000 (max. 500000)
- 546 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(imagenes/Introduccion/Torre.pdf_tex
+<./imagenes/Introduccion/Torre.pdf, id=645, page=1, 273.34819pt x 222.53104pt>
+File: ./imagenes/Introduccion/Torre.pdf Graphic file (type pdf)
+<use ./imagenes/Introduccion/Torre.pdf, page 1>
+Package pdftex.def Info: ./imagenes/Introduccion/Torre.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 284.52756pt x 231.63393

@@ -2830,92 +2830,61 @@
     <bcf:citekey order="4">IEC60826</bcf:citekey>
     <bcf:citekey order="5">Foti2016</bcf:citekey>
     <bcf:citekey order="6">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="10">Le2014</bcf:citekey>
-    <bcf:citekey order="11">Battini2002</bcf:citekey>
-    <bcf:citekey order="12">kovzar1995finite</bcf:citekey>
-    <bcf:citekey order="13">Le2014</bcf:citekey>
-    <bcf:citekey order="14">Le2014</bcf:citekey>
-    <bcf:citekey order="15">Battini2002</bcf:citekey>
-    <bcf:citekey order="16">Le2014</bcf:citekey>
-    <bcf:citekey order="17">Nour-Omid1991</bcf:citekey>
-    <bcf:citekey order="18">rankin1988use</bcf:citekey>
+    <bcf:citekey order="10">tormenta2002</bcf:citekey>
+    <bcf:citekey order="11">duranona2015significance</bcf:citekey>
+    <bcf:citekey order="12">duranona2019first</bcf:citekey>
+    <bcf:citekey order="13">desai1995finite</bcf:citekey>
+    <bcf:citekey order="14">yan2009numerical</bcf:citekey>
+    <bcf:citekey order="15">gani2010dynamic</bcf:citekey>
+    <bcf:citekey order="16">yang2016nonlinear</bcf:citekey>
+    <bcf:citekey order="17">Le2011</bcf:citekey>
+    <bcf:citekey order="18">Battini2002</bcf:citekey>
     <bcf:citekey order="19">Le2014</bcf:citekey>
-    <bcf:citekey order="20">Crisfield</bcf:citekey>
-    <bcf:citekey order="21">cardona1988beam</bcf:citekey>
-    <bcf:citekey order="22">hsiao1999consistent</bcf:citekey>
-    <bcf:citekey order="23">hsiao1999consistent</bcf:citekey>
-    <bcf:citekey order="24">IEC60826</bcf:citekey>
-    <bcf:citekey order="25">IEC60826</bcf:citekey>
-    <bcf:citekey order="26">Davenport1960</bcf:citekey>
-    <bcf:citekey order="27">Davenport1960</bcf:citekey>
-    <bcf:citekey order="28">Oke2000</bcf:citekey>
-    <bcf:citekey order="29">Oke2000</bcf:citekey>
-    <bcf:citekey order="30">Davenport1960</bcf:citekey>
-    <bcf:citekey order="31">Davenport1960</bcf:citekey>
-    <bcf:citekey order="32">cengel2007termodinamica</bcf:citekey>
-    <bcf:citekey order="33">Duranona2018</bcf:citekey>
-    <bcf:citekey order="34">Son2016</bcf:citekey>
-    <bcf:citekey order="35">Belloli2006</bcf:citekey>
-    <bcf:citekey order="36">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="37">Belloli2006</bcf:citekey>
-    <bcf:citekey order="38">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="39">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="40">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="41">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="42">Riera2012</bcf:citekey>
-    <bcf:citekey order="43">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="44">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="45">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="46">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="47">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="48">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="49">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="50">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="51">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="52">stengel2017measurements</bcf:citekey>
-    <bcf:citekey order="53">stengel2017measurements</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="apa">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">groupauthor</bcf:sortitem>
-      <bcf:sortitem order="4">editor</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">pubstate</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">-2000000000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="7">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="apa/global//global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="20">Le2014</bcf:citekey>
+    <bcf:citekey order="21">albino2018co</bcf:citekey>
+    <bcf:citekey order="22">asadi2019multibody</bcf:citekey>
+    <bcf:citekey order="23">viana2020formulation</bcf:citekey>
+    <bcf:citekey order="24">Le2014</bcf:citekey>
+    <bcf:citekey order="25">foti2013corotational</bcf:citekey>
+    <bcf:citekey order="26">foti2013corotational</bcf:citekey>
+    <bcf:citekey order="27">foti2018finite</bcf:citekey>
+    <bcf:citekey order="28">foti2018finite</bcf:citekey>
+    <bcf:citekey order="29">Le2014</bcf:citekey>
+    <bcf:citekey order="30">Le2014</bcf:citekey>
+    <bcf:citekey order="31">Le2014</bcf:citekey>
+    <bcf:citekey order="32">Foti2016</bcf:citekey>
+    <bcf:citekey order="33">stengel2017measurements</bcf:citekey>
+    <bcf:citekey order="34">Starossek1991</bcf:citekey>
+    <bcf:citekey order="35">Irvine1974</bcf:citekey>
+    <bcf:citekey order="36">routh1955dynamics</bcf:citekey>
+    <bcf:citekey order="37">Kloppel1942</bcf:citekey>
+    <bcf:citekey order="38">Pugsley1949</bcf:citekey>
+    <bcf:citekey order="39">Saxon1953</bcf:citekey>
+    <bcf:citekey order="40">Irvine1974</bcf:citekey>
+    <bcf:citekey order="41">Irvine1974</bcf:citekey>
+    <bcf:citekey order="42">Irvine1976</bcf:citekey>
+    <bcf:citekey order="43">Irvine1978</bcf:citekey>
+    <bcf:citekey order="44">Triantafyllou1984</bcf:citekey>
+    <bcf:citekey order="45">Davenport1965</bcf:citekey>
+    <bcf:citekey order="46">Starossek1991</bcf:citekey>
+    <bcf:citekey order="47">Simiu1986</bcf:citekey>
+    <bcf:citekey order="48">martinelli2001numerical</bcf:citekey>
+    <bcf:citekey order="49">Martinelli2004</bcf:citekey>
+    <bcf:citekey order="50">koh2004dynamic</bcf:citekey>
+    <bcf:citekey order="51">oran1973tangent</bcf:citekey>
+    <bcf:citekey order="52">di2008corotational</bcf:citekey>
+    <bcf:citekey order="53">simo1988dynamics</bcf:citekey>
+    <bcf:citekey order="54">Papailiou1997</bcf:citekey>
+    <bcf:citekey order="55">Kutterer1992</bcf:citekey>
+    <bcf:citekey order="56">Papailiou1997</bcf:citekey>
+    <bcf:citekey order="57">Foti2016</bcf:citekey>
+    <bcf:citekey order="58">costello1990average</bcf:citekey>
+    <bcf:citekey order="59">rawlins2005flexure</bcf:citekey>
+    <bcf:citekey order="60">fujita1985downburst</bcf:citekey>
+    <bcf:citekey order="61">fujita1985downburst</bcf:citekey>
+    <bcf:citekey order="62">darwish2010dynamic</bcf:citekey>
+    <bcf:citekey order="63">darwish2010dynamic</bcf:citekey>
+    <bcf:citekey order="64">ang1984probability</bcf:citekey>
+    <bcf:citekey order="65">ang1984probability</bcf:citekey>
+    <bcf:citekey order="66">holmes2002re</bcf:citekey>
+    <bc
