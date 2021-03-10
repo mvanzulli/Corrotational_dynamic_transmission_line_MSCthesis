@@ -241,8 +241,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.83"
-     inkscape:cx="288.97111"
-     inkscape:cy="159.55261"
+     inkscape:cx="221.8333"
+     inkscape:cy="106.19572"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -533,7 +533,7 @@
          id="tspan1879-9"
          x="43.218204"
          y="71.502396"
-         style="stroke-width:0.0610779">$w_m-\bf{\dot{u}}_{rz}$</tspan></text>
+         style="stroke-width:0.0610779">$w_m-\bf{\dot{u}}_{z}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-0)"
        d="M 76.714177,73.058789 H 89.24255"
@@ -748,7 +748,7 @@
          id="tspan1879-9-6"
          x="20.413662"
          y="84.374527"
-         style="stroke-width:0.10972433">$q-\bf{\dot{u}}_{ry}$</tspan></text>
+         style="stroke-width:0.10972433">$q-\bf{\dot{u}}_{y}$</tspan></text>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66499996;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25229361;paint-order:markers fill stroke"
        id="path4949-4-9"

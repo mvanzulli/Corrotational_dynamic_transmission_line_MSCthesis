@@ -19,123 +19,123 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Esquema de condición inicial y de borde.\relax }}{40}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Esquema del objeto de estudio.\relax }}{39}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ilustración del viento y sus efectos.\relax }}{41}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Esquema simplificado de la acción del viento sobre el cable y sus fuerzas correspondientes.\relax }}{41}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vista en perspetiva }}}{41}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vista en perspectiva. }}}{41}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vista lateral }}}{41}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vista transversal. }}}{41}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Esquema en sistema de referencias absoluto.\relax }}{43}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Esquema en sistema de referencias absoluto.\relax }}{42}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Esquema en sistema de referencias relativo.\relax }}{43}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Disposición geométrica de la estructura.\relax }}{59}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Disposición geométrica de la estructura.\relax }}{57}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vista frontal }}}{59}{figure.caption.19}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vista frontal }}}{57}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vista lateral }}}{59}{figure.caption.19}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vista lateral }}}{57}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Perfil de fuerza transversal en el nodo A.\relax }}{60}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Perfil de fuerza transversal en el nodo A.\relax }}{58}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Desplazamientos de control del nodo A.\relax }}{61}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Estructura deformada en los instantes $4$ s, $11$ s y $21$ s.\relax }}{59}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{61}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Desplazamientos de control del nodo A.\relax }}{60}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{61}{figure.caption.21}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{60}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Desplazamientos de control del nodo B.\relax }}{61}{figure.caption.22}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{60}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{61}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Desplazamientos de control del nodo B.\relax }}{60}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{61}{figure.caption.22}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento vertical según $y$ }}}{60}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Estructura deformada en los instantes $4$ s, $11$ s y $21$ s.\relax }}{62}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento transversal según $z$ }}}{60}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Desplazamientos en x de los nodos A y B\relax }}{63}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Desplazamientos en x de los nodos A y B\relax }}{61}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento según $x$ del nodo B}}}{63}{figure.caption.24}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento según $x$ del nodo B}}}{61}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento según $x$ del nodo A }}}{63}{figure.caption.24}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento según $x$ del nodo A }}}{61}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Esquema del conductor ASCR 7/26.\relax }}{64}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{62}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{65}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Esquema del conductor ASCR 7/26.\relax }}{63}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Perfil de velocidad progresiva $z$.\relax }}{67}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Perfil de velocidad progresiva $z$.\relax }}{64}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Perfil de fuerza nodal según el eje $z$.\relax }}{67}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Perfil de fuerza nodal según el eje $z$.\relax }}{65}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Desplazamientos del nodo A.\relax }}{68}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Desplazamientos del nodo A.\relax }}{65}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento según $z$ del nodo A}}}{68}{figure.caption.31}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamiento según $z$ del nodo A}}}{65}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento según $y$ del nodo A }}}{68}{figure.caption.31}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamiento según $y$ del nodo A }}}{65}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{69}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Esquema ilustrativo del ejemplo de un conductor simplificado.\relax }}{66}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Angulo de balanceo $\Phi $ en función de la velocidad media $W(t)$.\relax }}{69}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Angulo de balanceo $\Phi $ en función de la velocidad media $W(t)$.\relax }}{66}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Ilustración de desplazamientos y ángulos de balanceo.\relax }}{70}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Ilustración de desplazamientos y ángulos de balanceo.\relax }}{67}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Esquema geométrico de cotas principales en la torre. \relax }}{72}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Esquema geométrico de cotas principales en la torre. \relax }}{68}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carga aplicada sobre los nodos. }}}{72}{subfigure.5.16.2}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carga aplicada sobre los nodos. }}}{69}{subfigure.5.16.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Perfil de velocidades de viento.}}}{72}{subfigure.5.16.2}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Perfil de velocidades de viento.}}}{69}{subfigure.5.16.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Ilustración de magnitudes de balanceo.\relax }}{73}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Ilustración de magnitudes de balanceo.\relax }}{70}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Desplazamientos de las cadenas aisladoras \text {A} y \text {D}.\relax }}{74}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Desplazamientos de las cadenas aisladoras \text {A} y \text {D}.\relax }}{71}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos \text {A}, \text {D}. }}}{74}{figure.caption.38}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos \text {A}, \text {D}. }}}{71}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo \text {A}, \text {D}.}}}{74}{figure.caption.38}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo \text {A}, \text {D}.}}}{71}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Desplazamientos de los nodos medios B y C. \relax }}{75}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Desplazamientos de los nodos medios B y C. \relax }}{72}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos B,C. }}}{75}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos B,C. }}}{72}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo B, C.}}}{75}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo B, C.}}}{72}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{76}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{73}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Estructura indeformada y deformada para $t=400$ s.\relax }}{77}{figure.caption.41}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Estructura indeformada y deformada para $t=400$ s.\relax }}{74}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Esquema simplificado del problema\relax }}{108}{figure.caption.47}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Perfil de velocidad media a lo largo del cable según \cite {stengel2017measurements}\relax }}{109}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Esquema simplificado del problema\relax }}{105}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Angulo medio del modelo en contraste con \cite {stengel2017measurements} \relax }}{110}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Perfil de velocidad media a lo largo del cable según \cite {stengel2017measurements}\relax }}{106}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva desfajase ángulo fuerza\relax }}{111}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Angulo medio del modelo en contraste con \cite {stengel2017measurements} \relax }}{107}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Esquema simplificado del problema 3D\relax }}{112}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva desfajase ángulo fuerza\relax }}{108}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Configuración adoptada por el primer modo.\relax }}{114}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Esquema simplificado del problema 3D\relax }}{109}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Distribución de masas colocadas.\relax }}{114}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Configuración adoptada por el primer modo.\relax }}{111}{figure.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Desplazamiento horizontal de la cadena de aisladora en función del tiempo con y sin masas.\relax }}{115}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Distribución de masas colocadas.\relax }}{111}{figure.caption.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Ángulo de la cadena de aisladora en función del tiempo con y sin masas.\relax }}{115}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Desplazamiento horizontal de la cadena de aisladora en función del tiempo con y sin masas.\relax }}{112}{figure.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Respuesta del angulo de la cadena de aisladora en función del tiempo.\relax }}{116}{figure.caption.56}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Ángulo de la cadena de aisladora en función del tiempo con y sin masas.\relax }}{112}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Datos del ángulo sin procesar y luego de aplicarle una media móvil\relax }}{116}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Respuesta del angulo de la cadena de aisladora en función del tiempo.\relax }}{113}{figure.caption.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraste de los modelos 2D/3D\relax }}{117}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Datos del ángulo sin procesar y luego de aplicarle una media móvil\relax }}{113}{figure.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Respuesta del ángulo para tormenta convectiva utilizando una media móvil y masas sobre el cable\relax }}{118}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraste de los modelos 2D/3D\relax }}{114}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Respuesta del ángulo para tormenta convectiva utilizando una media móvil y masas sobre el cable\relax }}{115}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

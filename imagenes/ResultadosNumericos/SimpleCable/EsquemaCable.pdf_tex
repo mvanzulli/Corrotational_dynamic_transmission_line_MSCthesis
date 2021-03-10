@@ -63,7 +63,7 @@
     \put(0.05971373,0.37202771){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.09926111,0.17822506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{EsquemaCable.pdf}}%
-    \put(0.57638751,0.25494856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
+    \put(0.57638751,0.25494856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_v(t)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{EsquemaCable.pdf}}%
     \put(0.45607436,0.6212089){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L_c$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{EsquemaCable.pdf}}%

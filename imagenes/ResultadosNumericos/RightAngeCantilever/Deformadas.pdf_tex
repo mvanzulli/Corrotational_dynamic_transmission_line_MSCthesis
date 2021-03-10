@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'rac.pdf' (pdf, eps, ps)
+%% Accompanies image file 'Deformadas.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{95.90019981bp}%
+    \setlength{\unitlength}{582bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,11 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.92332212)%
+  \begin{picture}(1,0.83634021)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{rac.pdf}}%
-    \put(0.82436914,0.77532601){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{rac.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Deformadas.pdf}}%
+    \put(0.95670374,0.50328209){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t = 4$ s\end{tabular}}}}%
+    \put(0.74111333,0.64485141){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t = 21$ s\end{tabular}}}}%
+    \put(0.19266783,0.62335071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t = 11$ s\end{tabular}}}}%
   \end{picture}%
 \endgroup%

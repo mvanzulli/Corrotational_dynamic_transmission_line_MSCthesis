@@ -53,105 +53,105 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Metodología}{38}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Aspectos de modelado físico}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Aspectos de modelado físico}{38}{section.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}Condiciones iniciales y de borde para la estructura}{39}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Modelo de viento}{41}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Modelo de viento}{40}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.1.2.1}Campo de velocidades relativos, absolutos y fuerzas asociadas.}{42}{subsubsection.4.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.2}Hipótesis aplicadas al modelado de viento}{45}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Hipótesis de modelado del viento}{44}{subsubsection.4.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Aspectos de modelado computacional}{46}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Aspectos de modelado computacional}{45}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Ecuación de equilibrio}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Ecuación de equilibrio}{45}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Resolución numérica mediante HHT}{49}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Resolución numérica mediante HHT}{48}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Hipótesis de modelado numérico}{53}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Hipótesis de modelado numérico}{51}{subsubsection.4.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Implementación numérica en ONSAS}{53}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Implementación numérica en ONSAS}{52}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Resultados numéricos}{58}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Resultados numéricos}{56}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Viga en voladizo con ángulo recto}{58}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Viga en voladizo con ángulo recto}{56}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Modelo simplificado de una linea}{63}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Modelo simplificado de una linea}{61}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Sistema de transmisión eléctrica }{70}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Sistema de transmisión eléctrica }{67}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusiones}{78}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Conclusiones}{75}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Conclusiones técnicas}{78}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Conclusiones técnicas}{75}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Sobre el fenómeno}{78}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.1}Sobre el fenómeno}{75}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Sobre la metodología}{79}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Sobre la metodología}{76}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Sobre los resultados}{80}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.3}Sobre los resultados}{77}{subsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Conclusiones de formación}{83}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Conclusiones de formación}{80}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Trabajos a futuro}{84}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Trabajos a futuro}{81}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Reflexión}{85}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Reflexión}{82}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{88}{chapter*.42}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{85}{chapter*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glosario}{94}{chapter*.42}%
+\contentsline {chapter}{Glosario}{91}{chapter*.42}%
 \defcounter {refsection}{0}\relax 
 \ttl@change@i {\@ne }{chapter}{0pt}{\vspace *{0.45cm}}{\thecontentslabel \quad }{}{\bfseries \hfill \contentspage }\relax 
 \defcounter {refsection}{0}\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textbf {Anexos}}{95}{section*.43}%
+\contentsline {chapter}{\textbf {Anexos}}{92}{section*.43}%
 \defcounter {refsection}{0}\relax 
 \ttl@change@i {\@ne }{chapter}{13pt}{}{ Anexo\ \thecontentslabel \quad }{}{\titlerule *[1pc]{.}\contentspage }\relax 
 \defcounter {refsection}{0}\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}}{96}{appendix.Anexo.1}%
+\contentsline {chapter}{\numberline {1}}{93}{appendix.Anexo.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Norma IEC 60826}{96}{section.Anexo.1.1}%
+\contentsline {section}{\numberline {1.1}Norma IEC 60826}{93}{section.Anexo.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.0.1}Campo de aplicación}{96}{subsubsection.Anexo.1.1.0.1}%
+\contentsline {subsubsection}{\numberline {1.1.0.1}Campo de aplicación}{93}{subsubsection.Anexo.1.1.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.0.2}Velocidad de referencia y rugosidad del terreno}{97}{subsubsection.Anexo.1.1.0.2}%
+\contentsline {subsubsection}{\numberline {1.1.0.2}Velocidad de referencia y rugosidad del terreno}{94}{subsubsection.Anexo.1.1.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.0.3}Acción del viento sobre los elementos}{98}{subsubsection.Anexo.1.1.0.3}%
+\contentsline {subsubsection}{\numberline {1.1.0.3}Acción del viento sobre los elementos}{95}{subsubsection.Anexo.1.1.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.0.4}Elementos de cable}{99}{subsubsection.Anexo.1.1.0.4}%
+\contentsline {subsubsection}{\numberline {1.1.0.4}Elementos de cable}{96}{subsubsection.Anexo.1.1.0.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.0.5}Cargas del viento sobre la cadena aisladora}{101}{subsubsection.Anexo.1.1.0.5}%
+\contentsline {subsubsection}{\numberline {1.1.0.5}Cargas del viento sobre la cadena aisladora}{98}{subsubsection.Anexo.1.1.0.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Tensión en el conductor}{101}{subsection.Anexo.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Tensión en el conductor}{98}{subsection.Anexo.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}}{103}{appendix.Anexo.2}%
+\contentsline {chapter}{\numberline {2}}{100}{appendix.Anexo.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Modelado dinámico de un conductor de alta tensión utilizando elementos de barra}{103}{section.Anexo.2.1}%
+\contentsline {section}{\numberline {2.1}Modelado dinámico de un conductor de alta tensión utilizando elementos de barra}{100}{section.Anexo.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Fundamentos teóricos}{103}{subsection.Anexo.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fundamentos teóricos}{100}{subsection.Anexo.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Ecuación de movimiento}{103}{subsubsection.Anexo.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Ecuación de movimiento}{100}{subsubsection.Anexo.2.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.2}Método de diferencias centradas}{105}{subsubsection.Anexo.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Método de diferencias centradas}{102}{subsubsection.Anexo.2.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.3}Modos normales}{106}{subsubsection.Anexo.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Modos normales}{103}{subsubsection.Anexo.2.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.4}Modelo de viento}{107}{subsubsection.Anexo.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Modelo de viento}{104}{subsubsection.Anexo.2.1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Resultados numéricos 2D}{108}{subsection.Anexo.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Resultados numéricos 2D}{105}{subsection.Anexo.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}Perfil de velocidad de viento}{108}{subsubsection.Anexo.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Perfil de velocidad de viento}{105}{subsubsection.Anexo.2.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.2}Resultados del modelo}{109}{subsubsection.Anexo.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Resultados del modelo}{106}{subsubsection.Anexo.2.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Resultados numéricos 3D}{112}{subsection.Anexo.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Resultados numéricos 3D}{109}{subsection.Anexo.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Frecuencias naturales}{112}{subsection.Anexo.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Frecuencias naturales}{109}{subsection.Anexo.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Respuesta a tormenta convectiva}{116}{subsection.Anexo.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}Respuesta a tormenta convectiva}{113}{subsection.Anexo.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}}{119}{appendix.Anexo.3}%
+\contentsline {chapter}{\numberline {3}}{116}{appendix.Anexo.3}%
 \contentsfinish 

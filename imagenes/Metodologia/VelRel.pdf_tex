@@ -54,7 +54,7 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{VelRel.pdf}}%
-    \put(0.0746657,0.20600276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_m-\bf{\dot{u}}_{rz}$\end{tabular}}}}%
+    \put(0.0746657,0.20600276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_m-\bf{\dot{u}}_{z}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{VelRel.pdf}}%
     \put(0.37592235,0.20719443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$w_a$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{VelRel.pdf}}%
@@ -71,7 +71,7 @@
     \put(0.08448368,0.47872344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.2076623,0.34919315){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{VelRel.pdf}}%
-    \put(-0.12153015,0.09525909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q-\bf{\dot{u}}_{ry}$\end{tabular}}}}%
+    \put(-0.12153015,0.09525909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q-\bf{\dot{u}}_{y}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{VelRel.pdf}}%
     \put(0.56572075,0.43642692){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\beta_r$\end{tabular}}}}%
   \end{picture}%
