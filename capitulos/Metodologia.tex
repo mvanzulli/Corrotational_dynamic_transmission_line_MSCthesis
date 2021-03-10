@@ -143,39 +143,30 @@ Una vez descrito el análisis general de los anteriores párrafos, se postulan l
 \end{enumerate}
 
 \section{Aspectos de modelado computacional}\label{Sec:MET:ModeladoComput}
-\subsection{Ecuación de equilibrio}\label{Sec:MET:EqEquilibrio}
+\subsection{Métodos iterativos para la resolución de problemas dinámicos }\label{Sec:MET:EqEquilibrio}
 
-En esta sección se desarrolla la ecuación de equilibrio del sistema dinámico con valores de fuerzas externas, internas e inerciales. El autor no ha encontrado en la literatura un desarrollo de la formulación integrando la fuerza viscosa de viento presentada en la Ecuación \eqref{Eq:MET:AmortAerodniamic}. Resulta imprescindible formular esta deducción para comprender los argumentos e hipótesis que subyacen a las expresiones postuladas en \citep{Le2014}. Por añadidura, se construye paso a paso la linealización aplicada a la ecuación de movimiento no lineal, insumo fundamental para el abordaje numérico. 
+%En esta sección se desarrolla la ecuación de equilibrio del sistema dinámico con valores de fuerzas externas, internas e inerciales. El autor no ha encontrado en la literatura un desarrollo de la formulación integrando la fuerza viscosa de viento presentada en la Ecuación \eqref{Eq:MET:AmortAerodniamic}. Resulta imprescindible formular esta deducción para comprender los argumentos e hipótesis que subyacen a las expresiones postuladas en \citep{Le2014}. Por añadidura, se construye paso a paso la linealización aplicada a la ecuación de movimiento no lineal, insumo fundamental para el abordaje numérico. 
+%
+%El postulado de PTV presentado en \cite{Crisfield} establece que el incremento diferencial de la energía interna $\delta W_{int}$ y cinética es igual al incremento del trabajo externo $\delta W_{ext}$. Esto se escribe en términos de variaciones según la siguiente ecuación:
+%
+%\begin{equation}
+%	\delta W_{ext}=\delta W_{int} +\delta K
+%\end{equation}
+%
+%La fuerza externa es la responsable del cambio de trabajo aportando al sistema por lo que $\delta W_{ext}=(\delta \bf{d}^g)^T\bf{f}_{ext}$, análogamente $\delta W_{int}=(\delta \bf{d}^g)^T\bf{f}_{int}$ y también así para la fuerza inercial definida en la Ecuación \eqref{Eqn:PRE:defFuerzaInercial}. Sustituyendo estas expresiones para el instante $t + \Delta T$ y partiendo que debe satisfacerse para todo desplazamiento $ \delta \bf{d}^g$, se obtiene la ecuación de equilibrio: 
 
-El postulado de PTV presentado en \cite{Crisfield} establece que el incremento diferencial de la energía interna $\delta W_{int}$ y cinética es igual al incremento del trabajo externo $\delta W_{ext}$. Esto se escribe en términos de variaciones según la siguiente ecuación:
-
-\begin{equation}
-	\delta W_{ext}=\delta W_{int} +\delta K
-\end{equation}
-
-La fuerza externa es la responsable del cambio de trabajo aportando al sistema por lo que $\delta W_{ext}=(\delta \bf{d}^g)^T\bf{f}_{ext}$, análogamente $\delta W_{int}=(\delta \bf{d}^g)^T\bf{f}_{int}$ y también así para la fuerza inercial definida en la Ecuación \eqref{Eqn:PRE:defFuerzaInercial}. Sustituyendo estas expresiones para el instante $t + \Delta T$ y partiendo que debe satisfacerse para todo desplazamiento $ \delta \bf{d}^g$, se obtiene la ecuación de equilibrio: 
+Discretizando el cuerpo mediante el MEF, para cada nodo y en cada instante, debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico \gls{FuerzaViscosa} que depende de la velocidad lineal del rígido. Este término debe tratarse aparte ya que su naturaleza, a pesar de ser externa, es una función de el estado cinemático del sólido. La ecuación de equilibrio de fuerzas en el instante $t+\Delta T$ resulta:
 
 \begin{equation}\label{Eq:MET:EquilibrioExacto}
 	\begin{split}
 		\bf{f}_{ext,t+\Delta T}+&\bf{f}_{vis,}(\dot{\bf{d}}\text{$(t+\Delta T)$})-\bf{f}_{int}(\bf{d}\text{$(t+\Delta T)$})...\\
 		...~&-\bf{f}_{ine}(\bf{d} \text{$(t+\Delta T)$},\dot{\bf{d}}\text{$(t+\Delta T)$},\ddot{\bf{d}}\text{$(t+\Delta T)$})=0
-	\end{split}
+	\end{split}.
 \end{equation}
-
-Para cada punto del cuerpo debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico \gls{FuerzaViscosa} que depende de la velocidad lineal del rígido. Este termino debe tratarse aparte ya que su naturaleza función de el estado cinemático del problema, lo que es la incógnita a resolver.
 
 La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta T$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: el desplazamientos $\bf{d}$ $(t+\Delta T)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta T)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta T)$.
 
-Los métodos numéricos, a groso modo, si son consistentes y estables construyen una sucesión que al discretizar infinitamente converge a la solución exacta. El método de Newton-Raphson (N-R) vectorial consiste en linealizar una ecuación a través de su diferencial de primer orden. Esta aproximación tiene como consecuencia que la Ecuación \eqref{Eq:MET:EquilibrioExacto} ya no será nula sino igual a un resto $\bf{r}$. A su vez, tal y como se detalla en las Ecuaciones \eqref{Eq:MET:AproxVel} y \eqref{Eq:MET:AproxAcel}, los métodos numéricos para la solución de problemas dinámicos, escriben las variables de aceleración y velocidad, en el instante $t +\Delta T$, en función de los desplazamientos para ese tiempo y las magnitudes cinemáticas en el paso anterior. Como los vectores desplazamiento, velocidad y aceleración para el paso anterior se encuentran dados, el vector resto depende indirectamente de los desplazamientos. Para diferenciar las variables aproximadas de las exactas, se introduce la siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta T)$}$ $\rightarrow$ $\bf{d}_{t+\Delta T}$), ($\dot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta T}$) y ($\ddot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta T}$). 
-
-
-\begin{eqnarray}\label{Eq:MET:AproxVel}
-	\dot{\bf{d}}_{t+\Delta T}&=&F_v(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})\\
-	\label{Eq:MET:AproxAcel}
-	\ddot{\bf{d}}_{t+\Delta T}&=&F_a(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})
-\end{eqnarray}
-
-Según el procedimiento descrito en el párrafo anterior, se buscan las aproximaciones cinemáticas tal que el residuo \gls{Residuo} para un instante $t +\Delta T$ sea próximo al vector nulo. Esto se expresa matemáticamente en Ecuación \eqref{Eq:MET:Resto}.
+Los métodos numéricos, a groso modo, si son consistentes y estables construyen una sucesión que al iterar infinitamente deben converge a la solución exacta. Al realizar una aproximación de Taylor de primer orden en la Ecuación \eqref{Eq:MET:EquilibrioExacto} esta ya no será nula sino igual a un resto $\bf{r}$. Para diferenciar las variables aproximadas de las exactas, se distingue con la siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta T)$}$ $\rightarrow$ $\bf{d}_{t+\Delta T}$), ($\dot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta T}$) y ($\ddot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta T}$). Rescribiendo acorde a esto la Ecuación \eqref{Eq:MET:EquilibrioExacto} se obtiene:
 \begin{equation}\label{Eq:MET:Resto}
 	\begin{split}
 		\bf{r}(\bf{d}_{t+\Delta T})&=(-\bf{f}_{ext,t+\Delta T}+\bf{f}_{int}(\bf{d}_{t+\Delta T})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta T})...\\	
@@ -184,13 +175,18 @@ Según el procedimiento descrito en el párrafo anterior, se buscan las aproxima
 		\approx 0
 	\end{split}
 \end{equation}
-
-Por otro lado, según el método de N-R presentado en \cite{quarteroni2010numerical} es posible construir una sucesión iterativa en  $k$, de forma tal que en el paso siguiente, el vector resto se acerque al nulo. Para aplicar esto se utiliza el teorema de Taylor aplicado a la función resto, obteniéndose la siguiente expresión:
+Los métodos numéricos para la solución de problemas dinámicos, escriben las variables de aceleración y velocidad, en el instante $t +\Delta T$, en función de los desplazamientos para ese tiempo y las magnitudes cinemáticas del paso anterior. Para esto, se definen las funciones $F_a$ y $F_v$ según se establece en las siguientes expresiones:
+\begin{eqnarray}\label{Eq:MET:AproxVel}
+	\dot{\bf{d}}_{t+\Delta T}&=&F_v(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})\\
+	\label{Eq:MET:AproxAcel}
+	\ddot{\bf{d}}_{t+\Delta T}&=&F_a(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}).
+\end{eqnarray}
+Dadas las funciones de las Ecuaciones \eqref{Eq:MET:AproxVel} y \eqref{Eq:MET:AproxAcel}, como los vectores desplazamiento, velocidad y aceleración para el instante $t$ se encuentran dados, la única incógnita en el vector resto para el instante $t+\Delta T$ es el vector desplazamientos para ese mismo tiempo. Por lo tanto, al aplicar el método iterativo de Newton en $k$, para ecuaciones no lineales, al vector residuo definido en la Ecuación \eqref{Eq:MET:Resto} se obtiene:
 
 \begin{equation}\label{Eq:MET:Residuo}
 	\bf{r}(\bf{d}^{k+1}_{t+\Delta T})=\bf{r}(\bf{d}^k_{t+\Delta T}) +
 	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial
-		\bf{d}_{t+\Delta T}}|_k~\Delta \bf{d}^{k+1}_{t+\Delta T}=0
+		\bf{d}_{t+\Delta T}}|_k~\Delta \bf{d}^{k+1}_{t+\Delta T}=0.
 \end{equation}
 
 Para calcular la derivada del residuo, se utiliza la regla de la cadena aplicada a las funciones de velocidades y aceleraciones, expresando las derivadas en función de los desplazamientos. Esta operatoria en términos analíticos, se presenta en la siguientes ecuaciones: 
@@ -208,23 +204,22 @@ Para calcular la derivada del residuo, se utiliza la regla de la cadena aplicada
 	\end{split}
 \end{equation}
 
-En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de: desplazamientos, velocidades y aceleraciones. Estas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual  aparece un termino \gls{MatrizViscosa} correspondiente la derivada de la fuerza viscosa respecto de la velocidad del viento. Esto resulta una matriz diagonal esparsa con valores nulas salvo las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$. Incorporando estas matrices se obtiene a la Ecuación \eqref{Eq:PRE:DerivadaResiduo}.
+En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de las magnitudes globales: desplazamientos, velocidades y aceleraciones. Según el vector residuo de la Ecuación \eqref{Eq:MET:Residuo}, estas derivadas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual presentada en la Ecuación \eqref{Eq:MET:Residuo} aparece un termino \gls{MatrizViscosa} correspondiente la derivada de la fuerza viscosa respecto de la velocidad del sólido. Esto resulta una matriz diagonal con valores principalmente nulos, salvo en las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$.
+
+Incorporando estas matrices se obtiene a la siguiente ecuación:
 
 \begin{equation}\label{Eq:PRE:DerivadaResiduo}
 	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial \bf{d}_{t+\Delta T}}\Big|_k~
 	= \left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis}) \right)\Big|_k
 \end{equation}
 
-Sustituyendo la expresión anterior en la Ecuación \eqref{Eq:PRE:DerivadaResiduo} de N-R se halla el paso en desplazamientos en $k+1$ a partir de las magnitudes en k $\Delta \bf{d}^{k+1}_{t+\Delta T}$. Matemáticamente:
-
-
+Sustituyendo la expresión anterior en la Ecuación \eqref{Eq:MET:Residuo} se halla el paso en desplazamientos en $k+1$ a partir de las magnitudes en k $\Delta \bf{d}^{k+1}_{t+\Delta T}$. Matemáticamente:
 
 \begin{equation}\label{Eq:Pre:Incremento}
 	\left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis} )  \right)\Big|_k^{-1} \left(-\bf{r}(\bf{d}^k_{t+\Delta T})\right)=  \Delta\bf{d}^{k+1}_{t+\Delta T}
 \end{equation}
 
-Una vez planteada la ecuación de equilibrio no lineal y su método de resolución numérico hace falta conocer explícitamente las funciones $F_a$ y $F_v$. Para esto se implementó el Método de HHT presentado a continuación en La sección \ref{Sec:MET:HHT}. 
-
+Esta sección se desarrolló para determinada función de residuo, sin embargo el Método de HHT implementado considera una expresión diferente. Además, propone determinadas funciones de aproximación para las velocidades y aceleraciones que se describen en la sección a continuación. 
 
 
 \subsection{Resolución numérica mediante HHT}\label{Sec:MET:HHT}
@@ -233,7 +228,14 @@ Este método consiste en una innovadora propuesta respecto del algoritmo de Newm
 
 En la publicación \citep{hilber1977improved} se compara el método de HHT con otros métodos del clásicos en el área de análisis numérico estructural, como ser: el Método del Trapecio, el de Wilson y la familia de algoritmos de Newmark. El autor concluye que HHT además de su mayor grado de ajuste, es mas preciso para bajas frecuencias. Dado que esto se ajusta a la perfección para la aplicación de conductores, superpuesto que este se implementó en \cite{Le2014}, resulta oportuno aplicarlo a esta investigación.
 
-Para este abordaje inicialmente se deben distinguir las magnitudes lineales de las angulares, para esto se utiliza la nomenclatura $\bf{d}=(\bf{u},\bf{w}$). Se presentan entonces las funciones de aproximación para aceleraciones y velocidades lineales globales en función de los desplazamientos. Estas ecuaciones se escribirán inicialmente en términos de los parámetros de Newmark \gls{AlphaNW} y \gls{BetaNW} para luego vincularlo con el método de HHT. Esto permite ejecutar fácilmente uno u otro, dependiendo de las necesidades. Consecuentemente, las funciones de actualización para el instante $t+\Delta T$ se escriben:
+El parámetro característico del método se lo identifica con el nombre $\alpha_{HHT}$. Este permite expresar el vector de fuerzas residuales de HHT al ponderar el vector residuo definido en la Ecuación \eqref{Eq:MET:Residuo} en $t+\Delta T$ y $t$ según la siguiente expresión:
+
+\begin{equation}
+	\label{Eq:MET:ResHHT}
+	\bf{r}^{\text{$HHT$}}(\bf{d}_{t+\Delta T})=(1+\alpha_\text{$HHT$})\bf{r}(\bf{d}_{t+\Delta T})-\alpha_\text{$HHT$}\bf{r}(\bf{d}_{t})
+\end{equation}
+
+Se presentan las funciones de aproximación para aceleraciones y velocidades lineales globales en función de los desplazamientos. Estas ecuaciones se escribirán inicialmente en términos de los parámetros de Newmark \gls{AlphaNW} y \gls{BetaNW} para luego vincularlo con el método de HHT. Esto permite ejecutar fácilmente uno u otro, dependiendo de las necesidades. Consecuentemente, las funciones de actualización para el instante $t+\Delta T$ se escriben:
 
 \begin{align}
 	\ddot{\bf{u}}_{t+\Delta t} &=
@@ -253,7 +255,7 @@ Para este abordaje inicialmente se deben distinguir las magnitudes lineales de l
 \end{align}
 
 
-Para implementar HHT basta unicamente con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de \gls{AlphaHHT}. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las equivalencias, parentescos y similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
+Para implementar HHT basta con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de \gls{AlphaHHT} y calcular las matrices tangentes del según el vector de fuerzas residuales definidas en \ref{Eq:MET:ResHHT}. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
 
 \begin{eqnarray}
 	\label{Eq:MET:betaNW}
@@ -273,26 +275,16 @@ Se calculan entonces las derivadas respecto al desplazamiento para las funciones
 	\frac{1-\alpha_{HHT}}{2\Delta T}
 \end{eqnarray}
 
-A diferencia de la aproximación para velocidades y aceleraciones lineales, las magnitudes angulares deben actualizarse mediante otras funciones. Este tipo de variables no cumple la propiedad de conmutativiad. Es por esto, que los vector de velocidades y aceleraciones angulares para el paso $k+1$, en el instante $t+\Delta T$, deben calcularse según  las Ecuaciones \eqref{Eq:MET:ActualizacionesAngulares1} y \eqref{Eq:MET:ActualizacionesAngulares2} presentadas en la referencias \citep{ibrahimbegovic1998finite} y \citep{ibrahimbegovic2002energy}. % y la aditividad aunque no se hizo asi en este trabajo
-
-
+A diferencia de la aproximación para velocidades y aceleraciones lineales, las magnitudes angulares deben actualizarse mediante otras funciones. Este tipo de variables no cumple la propiedad de conmutativiad. De acuerdo con los artículos publicados por \cite{ibrahimbegovic1998finite} y \cite{ibrahimbegovic2002energy}, los vectores de velocidades y aceleraciones angulares para el paso $k+1$, en el instante $t+\Delta T$, deben calcularse según las siguientes Ecuaciones:
 \begin{eqnarray}\label{Eq:MET:ActualizacionesAngulares1}
-	\dot{\bf{w}}_{t+\Delta t}&=&\bf{\Lambda}_{t+\Delta
-		t}^g\left[\frac{\alpha}{\beta\Delta T}\bf{\theta}_{t+\Delta T}+
+	\dot{\bf{w}}_{t+\Delta t}&=&\bf{R}^g_{t+\Delta T}(\bf{R}^g_{t})^T\left[\frac{\alpha}{\beta\Delta T}\bf{\theta}_{t+\Delta T}+
 	\frac{\beta-\alpha}{\beta}\bf{\dot{w_t}+\frac{(\beta-0.5\alpha)\Delta T}{\beta}}
-	\ddot{\bf{w}}_{t} \right ]\\\label{Eq:MET:ActualizacionesAngulares2}
-	\ddot{\bf{w}}_{t+\Delta t}&=&\bf{\Lambda}_{t+\Delta
-		t}^g\left[\frac{1}{\beta\Delta T^2}\bf{\theta}_{t+\Delta T}-
+	\ddot{\bf{w}}_{t} \right ]\\
+	\label{Eq:MET:ActualizacionesAngulares2}
+	\ddot{\bf{w}}_{t+\Delta t}&=&\bf{R}^g_{t+\Delta T}(\bf{R}^g_{t})^T\left[\frac{1}{\beta\Delta T^2}\bf{\theta}_{t+\Delta T}-
 	\frac{1}{\beta\Delta T}\bf{\dot{w_t}-\frac{(0.5-\beta)}{\beta}}
 	\ddot{\bf{w}}_{t+\Delta t} \right ]
 \end{eqnarray}
-
-En las Ecuaciones \eqref{Eq:MET:ActualizacionesAngulares1} y \eqref{Eq:MET:ActualizacionesAngulares2} la transformación $\bf{\Lambda}_{t+\Delta t}^g$ es la composición de las rotaciones globales para dos instantes consecutivos: 
-
-\begin{equation}\label{Eq:Met:CalculodeLamda}
-	\bf{\Lambda}_{t+\Delta
-		t}^g=\exp({\widetilde{\bf{\theta_{t+\Delta T}^g}}})=\bf{R}^g_{t+\Delta T}(\bf{R}^g_{t})^T
-\end{equation}
 
 Un procedimiento análogo al de las funciones angulares se aplican a las lineales. Esto se obtiene a partir de la derivación analítica de las Ecuaciones expresadas en \eqref{Eq:MET:ActualizacionesAngulares1} y \eqref{Eq:MET:ActualizacionesAngulares2}.
 
