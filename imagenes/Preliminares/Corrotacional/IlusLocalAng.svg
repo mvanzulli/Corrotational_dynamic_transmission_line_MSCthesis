@@ -181,8 +181,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="244.87515"
-     inkscape:cy="172.80753"
+     inkscape:cx="340.83964"
+     inkscape:cy="179.8786"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -490,10 +490,10 @@
          x="139.87093"
          y="-5.9821472"
          style="stroke:#000000;stroke-width:0.135528;stroke-opacity:1"
-         dx="0 0 0 0 0 0 0">$\bf{t}^G_1$</tspan><tspan
+         dx="0 0 0 0 0 0 0">$\bf{t}^G_2$</tspan><tspan
          sodipodi:role="line"
          x="139.87093"
-         y="0.79426527"
+         y="0.79426551"
          style="stroke:#000000;stroke-width:0.135528;stroke-opacity:1"
          id="tspan2124-7-6-0-3" /></text>
     <text
@@ -508,7 +508,7 @@
          y="44.530769"
          x="89.726624"
          id="tspan2120-2-2-6-7-2"
-         sodipodi:role="line">$\bf{t}^G_2$</tspan><tspan
+         sodipodi:role="line">$\bf{t}^G_1$</tspan><tspan
          id="tspan2124-7-6-0-3-2"
          style="stroke:#000000;stroke-width:0.135528;stroke-opacity:1"
          y="51.307182"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  3 MAR 2021 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  9 MAR 2021 16:15
 entering extended mode
 **./simbolos.tex
 (simbolos.tex
@@ -3261,7 +3261,7 @@ Overfull \hbox (2.77779pt too wide) in paragraph at lines 198--205
 
 ! Undefined control sequence.
 l.206 \longnewglossaryentry
-                           {uP}
+                           {uloc}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3276,12 +3276,14 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.206 \longnewglossaryentry{u
-                             P}
+                             loc}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no u in font nullfont!
-Missing character: There is no P in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3308,7 +3310,9 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3351,11 +3355,14 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 206--213
@@ -3369,7 +3376,7 @@ Overfull \hbox (5.72458pt too wide) in paragraph at lines 206--213
 
 ! Undefined control sequence.
 l.214 \longnewglossaryentry
-                           {thetaP}
+                           {theta1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3384,7 +3391,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.214 \longnewglossaryentry{t
-                             hetaP}
+                             heta1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3393,7 +3400,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no P in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3414,10 +3421,10 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-<recently read> \bf 
-                    
-l.217 	name={$\bf
-                 {\overline{\theta_i^P}}$}, %Aparece en la lista
+<recently read> \boldsymbol 
+                            
+l.217 	name={$\boldsymbol
+                         {\overline{\theta_1}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3435,7 +3442,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no P in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3487,20 +3494,135 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.221 \longnewglossaryentry
+                           {theta2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.224 	name={$\boldsymbol
+                         {\overline{\theta_2}}$}, %Aparece en la lista
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 214--221
+Overfull \hbox (20.0pt too wide) in paragraph at lines 214--228
 []
  []
 
 
-Overfull \hbox (11.63994pt too wide) in paragraph at lines 214--221
+Overfull \hbox (9.18057pt too wide) in paragraph at lines 214--228
+[]$
+ []
+
+
+Overfull \hbox (9.18057pt too wide) in paragraph at lines 214--228
 []$
  []
 
 ! Undefined control sequence.
-l.222 \longnewglossaryentry
+l.229 \longnewglossaryentry
                            {DispLocal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3515,7 +3637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.222 \longnewglossaryentry{D
+l.229 \longnewglossaryentry{D
                              ispLocal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3551,8 +3673,8 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.225 	name={$\bf
-                 {d}_l^P$}, %Aparece en la lista
+l.232 	name={$\bf
+                 {d}_l$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3599,24 +3721,27 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 222--229
+Overfull \hbox (20.0pt too wide) in paragraph at lines 229--236
 []
  []
 
 
-Overfull \hbox (11.87257pt too wide) in paragraph at lines 222--229
+Overfull \hbox (8.27432pt too wide) in paragraph at lines 229--236
 \OML/cmm/m/it/10 d[]$
  []
 
 ! Undefined control sequence.
-l.230 \longnewglossaryentry
+l.237 \longnewglossaryentry
                            {dispAxialLocalRigid}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3631,7 +3756,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \longnewglossaryentry{d
+l.237 \longnewglossaryentry{d
                              ispAxialLocalRigid}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3677,8 +3802,8 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.233 	name={$\bf
-                 {d}_r^P$}, %Aparece en la lista
+l.240 	name={$\bf
+                 {d}_r$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3735,14 +3860,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -3790,32 +3907,32 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 230--237
+Overfull \hbox (20.0pt too wide) in paragraph at lines 237--244
 []
  []
 
 
-Overfull \hbox (11.87257pt too wide) in paragraph at lines 230--237
+Overfull \hbox (9.63312pt too wide) in paragraph at lines 237--244
 \OML/cmm/m/it/10 d[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 230--237
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 237--244
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 230--237
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 237--244
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 230--237
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 237--244
 \/cmr/m/n/10  
  []
 
 ! Undefined control sequence.
-l.239 \longnewglossaryentry
+l.246 \longnewglossaryentry
                            {GlobalDisp}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3830,7 +3947,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \longnewglossaryentry{G
+l.246 \longnewglossaryentry{G
                              lobalDisp}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3867,8 +3984,8 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.242 	name={$\bf
-                 {d}_g^P$}, %Aparece en la lista
+l.249 	name={$\bf
+                 {d}_g$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3914,31 +4031,30 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 239--246
+Overfull \hbox (20.0pt too wide) in paragraph at lines 246--253
 []
  []
 
 
-Overfull \hbox (11.87257pt too wide) in paragraph at lines 239--246
+Overfull \hbox (9.85732pt too wide) in paragraph at lines 246--253
 \OML/cmm/m/it/10 d[]$
  []
 
 ! Undefined control sequence.
-l.247 \longnewglossaryentry
+l.254 \longnewglossaryentry
                            {GlobalDispU}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3953,7 +4069,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \longnewglossaryentry{G
+l.254 \longnewglossaryentry{G
                              lobalDispU}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3991,8 +4107,8 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.250 	name={$\bf
-                 {u}_g^P$}, %Aparece en la lista
+l.257 	name={$\bf
+                 {u}_g$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4047,31 +4163,30 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 247--254
+Overfull \hbox (20.0pt too wide) in paragraph at lines 254--261
 []
  []
 
 
-Overfull \hbox (12.39229pt too wide) in paragraph at lines 247--254
+Overfull \hbox (10.37703pt too wide) in paragraph at lines 254--261
 \OML/cmm/m/it/10 u[]$
  []
 
 ! Undefined control sequence.
-l.255 \longnewglossaryentry
+l.262 \longnewglossaryentry
                            {GlobalDispW}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4086,7 +4201,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 \longnewglossaryentry{G
+l.262 \longnewglossaryentry{G
                              lobalDispW}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4124,8 +4239,8 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.258 	name={$\bf
-                 {w}_g^P$}, %Aparece en la lista
+l.265 	name={$\bf
+                 {w}_g$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4181,31 +4296,30 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 255--262
+Overfull \hbox (20.0pt too wide) in paragraph at lines 262--269
 []
  []
 
 
-Overfull \hbox (14.09596pt too wide) in paragraph at lines 255--262
+Overfull \hbox (11.81161pt too wide) in paragraph at lines 262--269
 \OML/cmm/m/it/10 w[]$
  []
 
 ! Undefined control sequence.
-l.264 \longnewglossaryentry
+l.271 \longnewglossaryentry
                            {CoordX1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4220,7 +4334,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \longnewglossaryentry{C
+l.271 \longnewglossaryentry{C
                              oordX1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4254,7 +4368,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.267 	name={$\bf
+l.274 	name={$\bf
                  {x}_1$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4325,17 +4439,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 264--271
+Overfull \hbox (20.0pt too wide) in paragraph at lines 271--278
 []
  []
 
 
-Overfull \hbox (10.2014pt too wide) in paragraph at lines 264--271
+Overfull \hbox (10.2014pt too wide) in paragraph at lines 271--278
 \OML/cmm/m/it/10 x[]$
  []
 
 ! Undefined control sequence.
-l.272 \longnewglossaryentry
+l.279 \longnewglossaryentry
                            {CoordX2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4350,7 +4464,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 \longnewglossaryentry{C
+l.279 \longnewglossaryentry{C
                              oordX2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4384,7 +4498,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.275 	name={$\bf
+l.282 	name={$\bf
                  {x}_2$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4455,7 +4569,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.279 \longnewglossaryentry
+l.286 \longnewglossaryentry
                            {LargoLn}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4529,22 +4643,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 272--286
+Overfull \hbox (20.0pt too wide) in paragraph at lines 279--293
 []
  []
 
 
-Overfull \hbox (10.2014pt too wide) in paragraph at lines 272--286
+Overfull \hbox (10.2014pt too wide) in paragraph at lines 279--293
 \OML/cmm/m/it/10 x[]$
  []
 
 
-Overfull \hbox (8.42712pt too wide) in paragraph at lines 272--286
+Overfull \hbox (8.42712pt too wide) in paragraph at lines 279--293
 \OML/cmm/m/it/10 l[]$
  []
 
 ! Undefined control sequence.
-l.287 \longnewglossaryentry
+l.294 \longnewglossaryentry
                            {Skew}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4559,7 +4673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.287 \longnewglossaryentry{S
+l.294 \longnewglossaryentry{S
                              kew}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4588,7 +4702,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.290 	name={$\widetilde{\bf
+l.297 	name={$\widetilde{\bf
                             {A}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4639,17 +4753,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 287--294
+Overfull \hbox (20.0pt too wide) in paragraph at lines 294--301
 []
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 287--294
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 294--301
 []$
  []
 
 ! Undefined control sequence.
-l.295 \longnewglossaryentry
+l.302 \longnewglossaryentry
                            {CentroideG}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4664,7 +4778,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295 \longnewglossaryentry{C
+l.302 \longnewglossaryentry{C
                              entroideG}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4736,17 +4850,17 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 295--302
+Overfull \hbox (20.0pt too wide) in paragraph at lines 302--309
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 295--302
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 302--309
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.304 \longnewglossaryentry
+l.311 \longnewglossaryentry
                            {CentroideX}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4761,7 +4875,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.304 \longnewglossaryentry{C
+l.311 \longnewglossaryentry{C
                              entroideX}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4860,22 +4974,22 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 304--311
+Overfull \hbox (20.0pt too wide) in paragraph at lines 311--318
 []
  []
 
 
-Overfull \hbox (5.71527pt too wide) in paragraph at lines 304--311
+Overfull \hbox (5.71527pt too wide) in paragraph at lines 311--318
 \OML/cmm/m/it/10 x$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 304--311
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 311--318
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.312 \longnewglossaryentry
+l.319 \longnewglossaryentry
                            {VeloicdadLineal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4890,7 +5004,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.312 \longnewglossaryentry{V
+l.319 \longnewglossaryentry{V
                              eloicdadLineal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4930,7 +5044,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.315 	name={$\dot{\bf
+l.322 	name={$\dot{\bf
                       {u}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4996,17 +5110,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 312--319
+Overfull \hbox (20.0pt too wide) in paragraph at lines 319--326
 []
  []
 
 
-Overfull \hbox (5.72458pt too wide) in paragraph at lines 312--319
+Overfull \hbox (5.72458pt too wide) in paragraph at lines 319--326
 []$
  []
 
 ! Undefined control sequence.
-l.320 \longnewglossaryentry
+l.327 \longnewglossaryentry
                            {AceleracionLineal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5021,7 +5135,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.320 \longnewglossaryentry{A
+l.327 \longnewglossaryentry{A
                              celeracionLineal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5063,7 +5177,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.323 	name={$\ddot{\bf
+l.330 	name={$\ddot{\bf
                        {u}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5132,7 +5246,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.327 \longnewglossaryentry
+l.334 \longnewglossaryentry
                            {VelocidadAngular}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5176,7 +5290,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.330 	name={$\dot{\bf
+l.337 	name={$\dot{\bf
                       {w}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5244,7 +5358,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.334 \longnewglossaryentry
+l.341 \longnewglossaryentry
                            {AceleracionAngular}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5290,7 +5404,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.337 	name={$\ddot{\bf
+l.344 	name={$\ddot{\bf
                        {w}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5361,47 +5475,47 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 320--341
+Overfull \hbox (20.0pt too wide) in paragraph at lines 327--348
 []
  []
 
 
-Overfull \hbox (5.72458pt too wide) in paragraph at lines 320--341
+Overfull \hbox (5.72458pt too wide) in paragraph at lines 327--348
 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 320--341
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 327--348
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 320--341
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 327--348
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (7.42825pt too wide) in paragraph at lines 320--341
+Overfull \hbox (7.42825pt too wide) in paragraph at lines 327--348
 []$
  []
 
 
-Overfull \hbox (7.42825pt too wide) in paragraph at lines 320--341
+Overfull \hbox (7.42825pt too wide) in paragraph at lines 327--348
 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 320--341
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 327--348
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 320--341
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 327--348
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.342 \longnewglossaryentry
+l.349 \longnewglossaryentry
                            {MomentoFlector1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5416,7 +5530,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.342 \longnewglossaryentry{M
+l.349 \longnewglossaryentry{M
                              omentoFlector1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5518,22 +5632,22 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 342--349
+Overfull \hbox (20.0pt too wide) in paragraph at lines 349--356
 []
  []
 
 
-Overfull \hbox (14.18753pt too wide) in paragraph at lines 342--349
+Overfull \hbox (14.18753pt too wide) in paragraph at lines 349--356
 \OML/cmm/m/it/10 M[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 342--349
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 349--356
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.351 \longnewglossaryentry
+l.358 \longnewglossaryentry
                            {MomentoFlector2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5548,7 +5662,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 \longnewglossaryentry{M
+l.358 \longnewglossaryentry{M
                              omentoFlector2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5650,22 +5764,22 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 351--358
+Overfull \hbox (20.0pt too wide) in paragraph at lines 358--365
 []
  []
 
 
-Overfull \hbox (14.18753pt too wide) in paragraph at lines 351--358
+Overfull \hbox (14.18753pt too wide) in paragraph at lines 358--365
 \OML/cmm/m/it/10 M[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 351--358
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 358--365
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.359 \longnewglossaryentry
+l.366 \longnewglossaryentry
                            {MomentoTorsor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5680,7 +5794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.359 \longnewglossaryentry{M
+l.366 \longnewglossaryentry{M
                              omentoTorsor}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5759,17 +5873,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 359--366
+Overfull \hbox (20.0pt too wide) in paragraph at lines 366--373
 []
  []
 
 
-Overfull \hbox (14.18753pt too wide) in paragraph at lines 359--366
+Overfull \hbox (14.18753pt too wide) in paragraph at lines 366--373
 \OML/cmm/m/it/10 M[]$
  []
 
 ! Undefined control sequence.
-l.368 \longnewglossaryentry
+l.375 \longnewglossaryentry
                            {FuerzaAxial}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5784,7 +5898,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.368 \longnewglossaryentry{F
+l.375 \longnewglossaryentry{F
                              uerzaAxial}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5877,17 +5991,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 368--375
+Overfull \hbox (20.0pt too wide) in paragraph at lines 375--382
 []
  []
 
 
-Overfull \hbox (13.44218pt too wide) in paragraph at lines 368--375
+Overfull \hbox (13.44218pt too wide) in paragraph at lines 375--382
 \OML/cmm/m/it/10 fl[]$
  []
 
 ! Undefined control sequence.
-l.376 \longnewglossaryentry
+l.383 \longnewglossaryentry
                            {FuerzaIntLocal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5902,7 +6016,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.376 \longnewglossaryentry{F
+l.383 \longnewglossaryentry{F
                              uerzaIntLocal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5943,7 +6057,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.379 	name={$\bf
+l.386 	name={$\bf
                  { f_l^{int}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6017,17 +6131,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 376--383
+Overfull \hbox (20.0pt too wide) in paragraph at lines 383--390
 []
  []
 
 
-Overfull \hbox (17.26572pt too wide) in paragraph at lines 376--383
+Overfull \hbox (17.26572pt too wide) in paragraph at lines 383--390
 []$
  []
 
 ! Undefined control sequence.
-l.384 \longnewglossaryentry
+l.391 \longnewglossaryentry
                            {FuerzaIntGlobal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6042,7 +6156,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 \longnewglossaryentry{F
+l.391 \longnewglossaryentry{F
                              uerzaIntGlobal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6084,7 +6198,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.387 	name={$\bf
+l.394 	name={$\bf
                  {f_g}^{int}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6159,17 +6273,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 384--391
+Overfull \hbox (20.0pt too wide) in paragraph at lines 391--398
 []
  []
 
 
-Overfull \hbox (20.84177pt too wide) in paragraph at lines 384--391
+Overfull \hbox (20.84177pt too wide) in paragraph at lines 391--398
 [][]$
  []
 
 ! Undefined control sequence.
-l.392 \longnewglossaryentry
+l.399 \longnewglossaryentry
                            {FuerzaViscosa}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6184,7 +6298,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.392 \longnewglossaryentry{F
+l.399 \longnewglossaryentry{F
                              uerzaViscosa}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6224,7 +6338,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.395 	name={$\bf
+l.402 	name={$\bf
                  {f_{vis}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6276,17 +6390,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 392--399
+Overfull \hbox (20.0pt too wide) in paragraph at lines 399--406
 []
  []
 
 
-Overfull \hbox (16.25066pt too wide) in paragraph at lines 392--399
+Overfull \hbox (16.25066pt too wide) in paragraph at lines 399--406
 []$
  []
 
 ! Undefined control sequence.
-l.400 \longnewglossaryentry
+l.407 \longnewglossaryentry
                            {MatrizTangenteGlobal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6301,7 +6415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \longnewglossaryentry{M
+l.407 \longnewglossaryentry{M
                              atrizTangenteGlobal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6348,7 +6462,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.403 	name={$\bf
+l.410 	name={$\bf
                  {K_g}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6430,17 +6544,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 400--407
+Overfull \hbox (20.0pt too wide) in paragraph at lines 407--414
 []
  []
 
 
-Overfull \hbox (13.14551pt too wide) in paragraph at lines 400--407
+Overfull \hbox (13.14551pt too wide) in paragraph at lines 407--414
 []$
  []
 
 ! Undefined control sequence.
-l.408 \longnewglossaryentry
+l.415 \longnewglossaryentry
                            {MatrizTangenteLocal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6455,7 +6569,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 \longnewglossaryentry{M
+l.415 \longnewglossaryentry{M
                              atrizTangenteLocal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6501,7 +6615,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.411 	name={$\bf
+l.418 	name={$\bf
                  {K_l}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6586,17 +6700,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 408--415
+Overfull \hbox (20.0pt too wide) in paragraph at lines 415--422
 []
  []
 
 
-Overfull \hbox (11.56252pt too wide) in paragraph at lines 408--415
+Overfull \hbox (11.56252pt too wide) in paragraph at lines 415--422
 []$
  []
 
 ! Undefined control sequence.
-l.416 \longnewglossaryentry
+l.423 \longnewglossaryentry
                            {EnergiaCineticaElem}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6611,7 +6725,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.416 \longnewglossaryentry{E
+l.423 \longnewglossaryentry{E
                              nergiaCineticaElem}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6705,27 +6819,27 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 416--423
+Overfull \hbox (20.0pt too wide) in paragraph at lines 423--430
 []
  []
 
 
-Overfull \hbox (9.20833pt too wide) in paragraph at lines 416--423
+Overfull \hbox (9.20833pt too wide) in paragraph at lines 423--430
 \OML/cmm/m/it/10 K$
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 416--423
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 423--430
 \/cmr/m/n/10 
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 416--423
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 423--430
 \/cmr/m/n/10 e
  []
 
 ! Undefined control sequence.
-l.425 \longnewglossaryentry
+l.432 \longnewglossaryentry
                            {Inercia}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6740,7 +6854,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.425 \longnewglossaryentry{I
+l.432 \longnewglossaryentry{I
                              nercia}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6774,7 +6888,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.428 	name={$\bf
+l.435 	name={$\bf
                  {I_{\rho}}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6848,22 +6962,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 425--432
+Overfull \hbox (20.0pt too wide) in paragraph at lines 432--439
 []
  []
 
 
-Overfull \hbox (9.04483pt too wide) in paragraph at lines 425--432
+Overfull \hbox (9.04483pt too wide) in paragraph at lines 432--439
 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 425--432
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 432--439
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.433 \longnewglossaryentry
+l.440 \longnewglossaryentry
                            {FuerzaInercial}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6878,7 +6992,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.433 \longnewglossaryentry{F
+l.440 \longnewglossaryentry{F
                              uerzaInercial}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6919,7 +7033,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.436 	name={$\bf
+l.443 	name={$\bf
                  {f_k}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6977,17 +7091,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 433--440
+Overfull \hbox (20.0pt too wide) in paragraph at lines 440--447
 []
  []
 
 
-Overfull \hbox (9.81602pt too wide) in paragraph at lines 433--440
+Overfull \hbox (9.81602pt too wide) in paragraph at lines 440--447
 []$
  []
 
 ! Undefined control sequence.
-l.441 \longnewglossaryentry
+l.448 \longnewglossaryentry
                            {MatrizMasa}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7002,7 +7116,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.441 \longnewglossaryentry{M
+l.448 \longnewglossaryentry{M
                              atrizMasa}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7039,7 +7153,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.444 	name={$\bf
+l.451 	name={$\bf
                  {M}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7120,17 +7234,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 441--448
+Overfull \hbox (20.0pt too wide) in paragraph at lines 448--455
 []
  []
 
 
-Overfull \hbox (10.79166pt too wide) in paragraph at lines 441--448
+Overfull \hbox (10.79166pt too wide) in paragraph at lines 448--455
 \OML/cmm/m/it/10 M$
  []
 
 ! Undefined control sequence.
-l.449 \longnewglossaryentry
+l.456 \longnewglossaryentry
                            {MatrizGiroscopica}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7145,7 +7259,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.449 \longnewglossaryentry{M
+l.456 \longnewglossaryentry{M
                              atrizGiroscopica}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7189,7 +7303,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.452 	name={$\bf
+l.459 	name={$\bf
                  {C}_k$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7282,7 +7396,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.456 \longnewglossaryentry
+l.463 \longnewglossaryentry
                            {MatrizCentrifuga}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7328,7 +7442,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.459 	name={$\bf
+l.466 	name={$\bf
                  {K}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7421,32 +7535,32 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 449--463
+Overfull \hbox (20.0pt too wide) in paragraph at lines 456--470
 []
  []
 
 
-Overfull \hbox (12.06738pt too wide) in paragraph at lines 449--463
+Overfull \hbox (12.06738pt too wide) in paragraph at lines 456--470
 \OML/cmm/m/it/10 C[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 449--463
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 456--470
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (9.20833pt too wide) in paragraph at lines 449--463
+Overfull \hbox (9.20833pt too wide) in paragraph at lines 456--470
 \OML/cmm/m/it/10 K$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 449--463
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 456--470
 \/cmr/m/n/10 o
  []
 
 ! Undefined control sequence.
-l.464 \longnewglossaryentry
+l.471 \longnewglossaryentry
                            {MatrizViscosa}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7461,7 +7575,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.464 \longnewglossaryentry{M
+l.471 \longnewglossaryentry{M
                              atrizViscosa}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7501,7 +7615,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.467 	name={$\bf
+l.474 	name={$\bf
                  {C}_{vis}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7543,17 +7657,17 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 464--471
+Overfull \hbox (20.0pt too wide) in paragraph at lines 471--478
 []
  []
 
 
-Overfull \hbox (18.50201pt too wide) in paragraph at lines 464--471
+Overfull \hbox (18.50201pt too wide) in paragraph at lines 471--478
 \OML/cmm/m/it/10 C[]$
  []
 
 ! Undefined control sequence.
-l.472 \longnewglossaryentry
+l.479 \longnewglossaryentry
                            {Residuo}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7568,7 +7682,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.472 \longnewglossaryentry{R
+l.479 \longnewglossaryentry{R
                              esiduo}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7602,7 +7716,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.475 	name={$\bf
+l.482 	name={$\bf
                  {r}$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7650,17 +7764,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 472--479
+Overfull \hbox (20.0pt too wide) in paragraph at lines 479--486
 []
  []
 
 
-Overfull \hbox (4.78937pt too wide) in paragraph at lines 472--479
+Overfull \hbox (4.78937pt too wide) in paragraph at lines 479--486
 \OML/cmm/m/it/10 r$
  []
 
 ! Undefined control sequence.
-l.480 \longnewglossaryentry
+l.487 \longnewglossaryentry
                            {AlphaNW}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7675,7 +7789,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 \longnewglossaryentry{A
+l.487 \longnewglossaryentry{A
                              lphaNW}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7764,27 +7878,27 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 480--487
+Overfull \hbox (20.0pt too wide) in paragraph at lines 487--494
 []
  []
 
 
-Overfull \hbox (22.579pt too wide) in paragraph at lines 480--487
+Overfull \hbox (22.579pt too wide) in paragraph at lines 487--494
 \OML/cmm/m/it/10 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 480--487
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 487--494
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 480--487
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 487--494
 \/cmr/m/n/10 
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 480--487
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 487--494
 \/cmr/m/n/10 e
  []
 
@@ -7796,7 +7910,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.487 
+l.494 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7804,7 +7918,7 @@ or  <return>  to continue without it.
 
 [1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ! Undefined control sequence.
-l.488 \longnewglossaryentry
+l.495 \longnewglossaryentry
                            {BetaNW}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7819,7 +7933,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.488 \longnewglossaryentry{B
+l.495 \longnewglossaryentry{B
                              etaNW}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7905,32 +8019,32 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 488--495
+Overfull \hbox (20.0pt too wide) in paragraph at lines 495--502
 []
  []
 
 
-Overfull \hbox (21.83823pt too wide) in paragraph at lines 488--495
+Overfull \hbox (21.83823pt too wide) in paragraph at lines 495--502
 \OML/cmm/m/it/10 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 488--495
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 495--502
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 488--495
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 495--502
 \/cmr/m/n/10 
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 488--495
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 495--502
 \/cmr/m/n/10 e
  []
 
 ! Undefined control sequence.
-l.496 \longnewglossaryentry
+l.503 \longnewglossaryentry
                            {AlphaHHT}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7945,7 +8059,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 \longnewglossaryentry{A
+l.503 \longnewglossaryentry{A
                              lphaHHT}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8035,32 +8149,32 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 496--503
+Overfull \hbox (20.0pt too wide) in paragraph at lines 503--510
 []
  []
 
 
-Overfull \hbox (26.86613pt too wide) in paragraph at lines 496--503
+Overfull \hbox (26.86613pt too wide) in paragraph at lines 503--510
 \OML/cmm/m/it/10 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 496--503
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 503--510
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 496--503
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 503--510
 \/cmr/m/n/10 
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 496--503
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 503--510
 \/cmr/m/n/10 e
  []
 
 ! Undefined control sequence.
-l.504 \longnewglossaryentry
+l.511 \longnewglossaryentry
                            {DeltaT}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8075,7 +8189,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.504 \longnewglossaryentry{D
+l.511 \longnewglossaryentry{D
                              eltaT}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8137,17 +8251,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 504--511
+Overfull \hbox (20.0pt too wide) in paragraph at lines 511--518
 []
  []
 
 
-Overfull \hbox (14.63301pt too wide) in paragraph at lines 504--511
+Overfull \hbox (14.63301pt too wide) in paragraph at lines 511--518
 \/cmr/m/n/10 []$
  []
 
 ! Undefined control sequence.
-l.512 \longnewglossaryentry
+l.519 \longnewglossaryentry
                            {DenisdadAire}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8162,7 +8276,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 \longnewglossaryentry{D
+l.519 \longnewglossaryentry{D
                              enisdadAire}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8270,7 +8384,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.519 \longnewglossaryentry
+l.526 \longnewglossaryentry
                            {Drag}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8375,7 +8489,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.526 \longnewglossaryentry
+l.533 \longnewglossaryentry
                            {DiametroConductor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8486,57 +8600,57 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 512--533
+Overfull \hbox (20.0pt too wide) in paragraph at lines 519--540
 []
  []
 
 
-Overfull \hbox (5.17015pt too wide) in paragraph at lines 512--533
+Overfull \hbox (5.17015pt too wide) in paragraph at lines 519--540
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 512--533
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 519--540
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 512--533
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 519--540
 \/cmr/m/n/10 e
  []
 
 
-Overfull \hbox (4.44336pt too wide) in paragraph at lines 512--533
+Overfull \hbox (4.44336pt too wide) in paragraph at lines 519--540
 \TS1/cmr/m/n/10 º
  []
 
 
-Overfull \hbox (31.9143pt too wide) in paragraph at lines 512--533
+Overfull \hbox (31.9143pt too wide) in paragraph at lines 519--540
 \OML/cmm/m/it/10 C[]\/cmr/m/n/10 (\OML/cmm/m/it/10 Re\/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 512--533
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 519--540
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (9.27861pt too wide) in paragraph at lines 512--533
+Overfull \hbox (9.27861pt too wide) in paragraph at lines 519--540
 \OML/cmm/m/it/10 d[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 512--533
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 519--540
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 512--533
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 519--540
 \/cmr/m/n/10  
  []
 
 ! Undefined control sequence.
-l.534 \longnewglossaryentry
+l.541 \longnewglossaryentry
                            {VelocidadW}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8551,7 +8665,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 \longnewglossaryentry{V
+l.541 \longnewglossaryentry{V
                              elocidadW}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8653,17 +8767,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 534--541
+Overfull \hbox (20.0pt too wide) in paragraph at lines 541--548
 []
  []
 
 
-Overfull \hbox (7.42825pt too wide) in paragraph at lines 534--541
+Overfull \hbox (7.42825pt too wide) in paragraph at lines 541--548
 \OML/cmm/m/it/10 w$
  []
 
 ! Undefined control sequence.
-l.542 \longnewglossaryentry
+l.549 \longnewglossaryentry
                            {VelocidadQ}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8678,7 +8792,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 \longnewglossaryentry{V
+l.549 \longnewglossaryentry{V
                              elocidadQ}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8782,17 +8896,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 542--549
+Overfull \hbox (20.0pt too wide) in paragraph at lines 549--556
 []
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 542--549
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 549--556
 \OML/cmm/m/it/10 q$
  []
 
 ! Undefined control sequence.
-l.550 \longnewglossaryentry
+l.557 \longnewglossaryentry
                            {FuerzaDrag}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8807,7 +8921,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.550 \longnewglossaryentry{F
+l.557 \longnewglossaryentry{F
                              uerzaDrag}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8887,7 +9001,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.557 \longnewglossaryentry
+l.564 \longnewglossaryentry
                            {FuerzaLift}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8970,7 +9084,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.564 \longnewglossaryentry
+l.571 \longnewglossaryentry
                            {InitialConditionU0}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9018,7 +9132,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.567 	name={$\bf
+l.574 	name={$\bf
                  {u}_0$}, %Aparece en la lista
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9108,7 +9222,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.571 \longnewglossaryentry
+l.578 \longnewglossaryentry
                            {AnguloEj3}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9209,11 +9323,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 37 strings out of 481199
- 641 string characters out of 2904657
+ 38 strings out of 481199
+ 651 string characters out of 2904657
  251111 words of memory out of 3000000
- 15736 multiletter control sequences out of 15000+200000
+ 15737 multiletter control sequences out of 15000+200000
  535423 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,4n,16p,148b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,4n,16p,137b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

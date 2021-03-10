@@ -58,9 +58,9 @@
     \put(0.08602566,0.19392135){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{E}_2$\\\end{tabular}}}}%
     \put(0.19421987,0.0910697){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{E}_1$\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{IlusCorrotacional.pdf}}%
-    \put(0.00069302,0.4340428){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}^0_3$\\\end{tabular}}}}}%
-    \put(0.16854155,0.56290794){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}^0_2$\\\end{tabular}}}}}%
-    \put(0.2031835,0.4520848){\rotatebox{-31.735627}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}^0_1$\\\end{tabular}}}}}%
+    \put(0.00069302,0.4340428){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}_3$\\\end{tabular}}}}}%
+    \put(0.16854155,0.56290794){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}_2$\\\end{tabular}}}}}%
+    \put(0.2031835,0.4520848){\rotatebox{-31.735627}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{e}_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{IlusCorrotacional.pdf}}%
     \put(0.22213093,0.67687193){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_3$\\\end{tabular}}}}}%
     \put(0.34108891,0.83761805){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_2$\\\end{tabular}}}}}%
@@ -70,8 +70,8 @@
     \put(0.40470325,0.79409117){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_1$\\\end{tabular}}}}}%
     \put(0.22101726,0.80646837){\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^1_2$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{IlusCorrotacional.pdf}}%
-    \put(0.74543626,0.51430718){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_3$\\\end{tabular}}}}}%
-    \put(0.7883196,0.69192833){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_1$\\\end{tabular}}}}}%
+    \put(0.75371331,0.5148209){\rotatebox{1.1339028}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_3$\\\end{tabular}}}}}%
+    \put(0.78530669,0.69253091){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_1$\\\end{tabular}}}}}%
     \put(0.63833765,0.69421651){\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^2_2$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{IlusCorrotacional.pdf}}%
     \put(0.51366484,0.22879579){\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{2}$\\\end{tabular}}}}}%

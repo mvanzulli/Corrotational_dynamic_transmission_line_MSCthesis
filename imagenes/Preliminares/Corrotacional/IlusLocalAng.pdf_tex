@@ -67,8 +67,8 @@
     \put(0.17754094,0.23893765){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{IlusLocalAng.pdf}}%
     \put(0.48489099,0.19313637){\color[rgb]{0,0,0}\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_3$\\\end{tabular}}}}}%
-    \put(0.67249331,0.30431319){\color[rgb]{0,0,0}\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_1$\\\end{tabular}}}}}%
-    \put(0.50148601,0.38440737){\color[rgb]{0,0,0}\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_2$\\\end{tabular}}}}}%
+    \put(0.67249331,0.30431319){\color[rgb]{0,0,0}\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_2$\\\end{tabular}}}}}%
+    \put(0.50148601,0.38440737){\color[rgb]{0,0,0}\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_1$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{IlusLocalAng.pdf}}%
     \put(0.37124075,0.29950606){\rotatebox{30.301341}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\overline{R}}_G$\\\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{IlusLocalAng.pdf}}%

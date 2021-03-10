@@ -2,55 +2,28 @@
 \BOOKMARK [0][-]{chapter*.3}{Lista de tablas}{}% 2
 \BOOKMARK [0][-]{chapter*.5}{Lista de s\355mbolos}{}% 3
 \BOOKMARK [0][-]{chapter*.7}{Lista de siglas}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 5
-\BOOKMARK [1][-]{section.1.1}{Motivaci\363n}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Enfoque}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Estructura de la tesis}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Historia de la tem\341tica}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{Simulaciones num\351ricas aplicadas a conductores de trasmisi\363n el\351ctrica}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.3}{Tormentas convectivas}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.4}{An\341lisis semi-anal\355ticos de conductores}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{An\341lisis corrotacional de vigas}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Preliminares}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Cinem\341tica corrotacional}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Formulaci\363n local}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{Variaciones en desplazamientos}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{Velocidades y aceleraciones}{section.3.2}% 19
-\BOOKMARK [1][-]{section.3.3}{Din\341mica corrotacional}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.1}{Fuerza interna y matriz tangente}{section.3.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.2}{Fuerza inercial y matrices de masa tangentes}{section.3.3}% 22
-\BOOKMARK [0][-]{chapter.4}{Metodolog\355a}{}% 23
-\BOOKMARK [1][-]{section.4.1}{Aspectos de modelado f\355sico}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.1.1}{Condiciones iniciales y de borde para la estructura}{section.4.1}% 25
-\BOOKMARK [2][-]{subsection.4.1.2}{Modelo de viento}{section.4.1}% 26
-\BOOKMARK [1][-]{section.4.2}{Aspectos de modelado computacional}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.2.1}{Ecuaci\363n de equilibrio}{section.4.2}% 28
-\BOOKMARK [2][-]{subsection.4.2.2}{Resoluci\363n num\351rica mediante HHT}{section.4.2}% 29
-\BOOKMARK [2][-]{subsection.4.2.3}{Implementaci\363n num\351rica en ONSAS}{section.4.2}% 30
-\BOOKMARK [0][-]{chapter.5}{Resultados num\351ricos}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Viga en voladizo con \341ngulo recto}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Modelo simplificado de una linea}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{Sistema de transmisi\363n el\351ctrica }{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 35
-\BOOKMARK [1][-]{section.6.1}{Conclusiones t\351cnicas}{chapter.6}% 36
-\BOOKMARK [2][-]{subsection.6.1.1}{Sobre el fen\363meno}{section.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.1.2}{Sobre la metodolog\355a}{section.6.1}% 38
-\BOOKMARK [2][-]{subsection.6.1.3}{Sobre los resultados}{section.6.1}% 39
-\BOOKMARK [1][-]{section.6.2}{Conclusiones de formaci\363n}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.3}{Trabajos a futuro}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.4}{Reflexi\363n}{chapter.6}% 42
-\BOOKMARK [0][-]{chapter*.43}{Bibliograf\355a}{}% 43
-\BOOKMARK [0][-]{chapter*.43}{Glosario}{}% 44
-\BOOKMARK [0][-]{section*.44}{Anexos}{}% 45
-\BOOKMARK [0][-]{appendix.Anexo.1}{}{}% 46
-\BOOKMARK [1][-]{section.Anexo.1.1}{Norma IEC 60826}{appendix.Anexo.1}% 47
-\BOOKMARK [2][-]{subsection.Anexo.1.1.1}{Tensi\363n en el conductor}{section.Anexo.1.1}% 48
-\BOOKMARK [0][-]{appendix.Anexo.2}{}{}% 49
-\BOOKMARK [1][-]{section.Anexo.2.1}{Modelado din\341mico de un conductor de alta tensi\363n utilizando elementos de barra}{appendix.Anexo.2}% 50
-\BOOKMARK [2][-]{subsection.Anexo.2.1.1}{Fundamentos te\363ricos}{section.Anexo.2.1}% 51
-\BOOKMARK [2][-]{subsection.Anexo.2.1.2}{Resultados num\351ricos 2D}{section.Anexo.2.1}% 52
-\BOOKMARK [2][-]{subsection.Anexo.2.1.3}{Resultados num\351ricos 3D}{section.Anexo.2.1}% 53
-\BOOKMARK [2][-]{subsection.Anexo.2.1.4}{Frecuencias naturales}{section.Anexo.2.1}% 54
-\BOOKMARK [2][-]{subsection.Anexo.2.1.5}{Respuesta a tormenta convectiva}{section.Anexo.2.1}% 55
-\BOOKMARK [0][-]{appendix.Anexo.3}{}{}% 56
+\BOOKMARK [0][-]{chapter.1}{Preliminares}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Cinem\341tica corrotacional}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Matrices de rotaci\363n}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Sistemas de coordenadas}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.3}{Desplazamientos lineales y angulares}{section.1.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Formulaci\363n local}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{Variaciones en desplazamientos}{section.1.2}% 11
+\BOOKMARK [1][-]{section.1.3}{Din\341mica corrotacional}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.3.1}{Velocidades y aceleraciones}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.2}{Fuerza interna y matriz tangente}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.3}{Fuerza inercial y matrices de masa tangentes}{section.1.3}% 15
+\BOOKMARK [0][-]{chapter*.14}{Bibliograf\355a}{}% 16
+\BOOKMARK [0][-]{chapter*.14}{Glosario}{}% 17
+\BOOKMARK [0][-]{section*.15}{Anexos}{}% 18
+\BOOKMARK [0][-]{appendix.Anexo.1}{}{}% 19
+\BOOKMARK [1][-]{section.Anexo.1.1}{Norma IEC 60826}{appendix.Anexo.1}% 20
+\BOOKMARK [2][-]{subsection.Anexo.1.1.1}{Tensi\363n en el conductor}{section.Anexo.1.1}% 21
+\BOOKMARK [0][-]{appendix.Anexo.2}{}{}% 22
+\BOOKMARK [1][-]{section.Anexo.2.1}{Modelado din\341mico de un conductor de alta tensi\363n utilizando elementos de barra}{appendix.Anexo.2}% 23
+\BOOKMARK [2][-]{subsection.Anexo.2.1.1}{Fundamentos te\363ricos}{section.Anexo.2.1}% 24
+\BOOKMARK [2][-]{subsection.Anexo.2.1.2}{Resultados num\351ricos 2D}{section.Anexo.2.1}% 25
+\BOOKMARK [2][-]{subsection.Anexo.2.1.3}{Resultados num\351ricos 3D}{section.Anexo.2.1}% 26
+\BOOKMARK [2][-]{subsection.Anexo.2.1.4}{Frecuencias naturales}{section.Anexo.2.1}% 27
+\BOOKMARK [2][-]{subsection.Anexo.2.1.5}{Respuesta a tormenta convectiva}{section.Anexo.2.1}% 28
+\BOOKMARK [0][-]{appendix.Anexo.3}{}{}% 29
