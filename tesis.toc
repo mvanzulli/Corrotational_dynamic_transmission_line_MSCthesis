@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Historia de la temática}{5}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Simulaciones numéricas aplicadas a conductores de trasmisión eléctrica}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Simulaciones numéricas aplicadas a conductores de transmisión eléctrica}{8}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Tormentas convectivas}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -107,13 +107,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}}{102}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.0.0.1}Campo de aplicación}{102}{subsubsection.Alph2.0.0.1}%
+\contentsline {section}{\numberline {2.1}Campo de aplicación}{102}{section.Alph2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.0.0.2}Velocidad de referencia y rugosidad del terreno}{103}{subsubsection.Alph2.0.0.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.0.0.3}Acción del viento sobre los elementos}{105}{subsubsection.Alph2.0.0.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.0.0.4}Elementos de cable}{105}{subsubsection.Alph2.0.0.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.0.0.5}Cargas del viento sobre la cadena aisladora}{107}{subsubsection.Alph2.0.0.5}%
+\contentsline {section}{\numberline {2.2}Velocidad de referencia y rugosidad del terreno}{103}{section.Alph2.2}%
 \contentsfinish 

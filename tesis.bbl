@@ -456,61 +456,6 @@
       \field{pages}{151\bibrangedash 161}
       \range{pages}{11}
     \endentry
-    \entry{Belloli2006}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=459fbaef28aa27ee5088faa9e012a178}{%
-           family={Belloli},
-           familyi={B\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c3ec0866da37e5573f1f1084aeec0ddd}{%
-           family={Collina},
-           familyi={C\bibinitperiod},
-           given={a},
-           giveni={a\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8490b3f9141c2c31b085c45c8ce893d5}{%
-           family={Resta},
-           familyi={R\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b8fc23bdc6d91737df22b8532f779795}{%
-           family={Milano},
-           familyi={M\bibinitperiod},
-           given={Politecnico},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9706c57d999e6276aea483b2dc9c6cff}{%
-           family={Seminar},
-           familyi={S\bibinitperiod},
-           given={O\bibnamedelima I\bibnamedelimb T\bibnamedelimb a\bibnamedelima F},
-           giveni={O\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Grenoble}%
-      }
-      \strng{namehash}{235bcb5f0fba013f0e604120eed8b42b}
-      \strng{fullhash}{696eff45bd05be33ea37cff9663166a6}
-      \strng{bibnamehash}{696eff45bd05be33ea37cff9663166a6}
-      \strng{authorbibnamehash}{696eff45bd05be33ea37cff9663166a6}
-      \strng{authornamehash}{235bcb5f0fba013f0e604120eed8b42b}
-      \strng{authorfullhash}{696eff45bd05be33ea37cff9663166a6}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{005}
-      \field{journaltitle}{O.I.T.A.F SEMINAR}
-      \field{number}{April}
-      \field{title}{{Cables vibrations due to wind action}}
-      \field{year}{2006}
-    \endentry
     \entry{blevins1990van}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b506c893a93a676bb709d31ce40f9bd4}{%
@@ -583,47 +528,6 @@
       \field{year}{1988}
       \field{pages}{2403\bibrangedash 2438}
       \range{pages}{36}
-    \endentry
-    \entry{cengel2007termodinamica}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=79f385d6d0c865582b06bd4aa78febd4}{%
-           family={Çengel},
-           familyi={Ç\bibinitperiod},
-           given={Y\bibnamedelima A},
-           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a65c0641bcb7cd8c0b66afbeb63b097d}{%
-           family={Boles},
-           familyi={B\bibinitperiod},
-           given={M\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {MCGRAW HILL}%
-      }
-      \strng{namehash}{372b163fe43a3af429a10fa112e5dd6a}
-      \strng{fullhash}{372b163fe43a3af429a10fa112e5dd6a}
-      \strng{bibnamehash}{372b163fe43a3af429a10fa112e5dd6a}
-      \strng{authorbibnamehash}{372b163fe43a3af429a10fa112e5dd6a}
-      \strng{authornamehash}{372b163fe43a3af429a10fa112e5dd6a}
-      \strng{authorfullhash}{372b163fe43a3af429a10fa112e5dd6a}
-      \field{sortinit}{Ç}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9789701056110}
-      \field{title}{{Termodinamica}}
-      \field{year}{2007}
-      \verb{urlraw}
-      \verb https://books.google.com.uy/books?id=1xhpOgAACAAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.com.uy/books?id=1xhpOgAACAAJ
-      \endverb
     \endentry
     \entry{chabart1998galloping}{article}{}
       \name{author}{2}{}{%
@@ -971,8 +875,8 @@
     \endentry
     \entry{duranona2019first}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=dedecc9392bb0f429615b7b04d140ada}{%
-           family={Duranona},
+        {{un=0,uniquepart=base,hash=c12baacea62467d9447a70a6c0197e80}{%
+           family={Durañona},
            familyi={D\bibinitperiod},
            given={V},
            giveni={V\bibinitperiod},
@@ -993,17 +897,16 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{45497a01cf188da8dc140850fab97e3a}
-      \strng{fullhash}{30c91aec7f119a7f97e02ef25a320c67}
-      \strng{bibnamehash}{30c91aec7f119a7f97e02ef25a320c67}
-      \strng{authorbibnamehash}{30c91aec7f119a7f97e02ef25a320c67}
-      \strng{authornamehash}{45497a01cf188da8dc140850fab97e3a}
-      \strng{authorfullhash}{30c91aec7f119a7f97e02ef25a320c67}
+      \strng{namehash}{68ed6bec85cd4bc3cf8ef299bf5b7f5a}
+      \strng{fullhash}{3a6b916b0e1a3d352fcf7d765757f551}
+      \strng{bibnamehash}{3a6b916b0e1a3d352fcf7d765757f551}
+      \strng{authorbibnamehash}{3a6b916b0e1a3d352fcf7d765757f551}
+      \strng{authornamehash}{68ed6bec85cd4bc3cf8ef299bf5b7f5a}
+      \strng{authorfullhash}{3a6b916b0e1a3d352fcf7d765757f551}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Wind Engineering and Industrial Aerodynamics}
@@ -1032,7 +935,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 14th International Conference on Wind Engineering, Porto Alegre, Brasil}
@@ -1066,7 +968,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 11th Americas Conference on Wind Engineering}
@@ -1101,7 +1002,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Bluff and body action},{Apuntes del curso Elementos Aerodinámica y Aerolatsicdad Estrcutrul}}
@@ -2833,44 +2733,6 @@
       \field{pages}{125\bibrangedash 161}
       \range{pages}{37}
     \endentry
-    \entry{Son2016}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=d80c8fadb035a7f46a6b9bc0425c807c}{%
-           family={Son},
-           familyi={S\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d889073e2d2fff68c26da1bcd146bd0e}{%
-           family={Cetiner},
-           familyi={C\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \strng{fullhash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \strng{bibnamehash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \strng{authorbibnamehash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \strng{authornamehash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \strng{authorfullhash}{bc99bf01ff1f4256940d92b11fb9d5cc}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{17353645}
-      \field{journaltitle}{Journal of Applied Fluid Mechanics}
-      \field{number}{4}
-      \field{title}{{Drag prediction in the near wake of a circular cylinder based on DPIV data}}
-      \field{volume}{9}
-      \field{year}{2016}
-      \field{pages}{1963\bibrangedash 1968}
-      \range{pages}{6}
-      \keyw{Circular cylinder,DPIV,Drag prediction,Momentum deficit}
-    \endentry
     \entry{Starossek1991}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e02a1124d23fca7ac599c172a5f4ea7}{%
@@ -3069,6 +2931,37 @@
       \field{year}{2016}
       \field{pages}{490\bibrangedash 500}
       \range{pages}{11}
+    \endentry
+    \entry{zienkiewicz1970finite}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4ed6475051825aec46468d5afb061d6c}{%
+           family={Zienkiewicz},
+           familyi={Z\bibinitperiod},
+           given={Olgierd\bibnamedelima C},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae8c7bc8dab243155495305a44fb7fbe}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={YK},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \strng{fullhash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \strng{bibnamehash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \strng{authorbibnamehash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \strng{authornamehash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \strng{authorfullhash}{d900de6324cfcacb1442a4bbdcb5423d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The finite element method in structural and continuum mechanics}
+      \field{year}{1970}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,7 +1,7 @@
 \chapter{Preliminares}\label{Cap:Preliminares}
 \linenumbers
 
-A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto en \cite{Le2014}, \cite{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen la caracterización de magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional, para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
+A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto en \citep{Le2014}, \citep{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen la caracterización de magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional, para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
 
 
 \section{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
@@ -206,7 +206,7 @@ Análogamente se debe transcribir la fuerza axial en función de las coordenadas
 \end{equation}
 
 \section{Formulación local}\label{Sec:PRE:LocalFormul}
-La fundamental ventaja y atractivo de la formulación corrotacional es su versatilidad ante diferentes tipos de elementos. Esto se debe al desacoplamiento analítico en la caracterización de los desplazamientos locales y globales. En este apartado. se detallan las magnitudes cinemáticas en la configuración local para el cálculo de los vectores y matrices dinámicas de la Sección \ref{Subsec:PRE:DinamicCorrot}.
+La fundamental ventaja y atractivo de la formulación corrotacional es su versatilidad ante diferentes tipos de elementos. Esto se debe al desacoplamiento analítico en la caracterización de los desplazamientos locales y globales. En esta sección se detallan las magnitudes cinemáticas en la configuración local para el cálculo de los vectores y matrices dinámicas de la Sección \ref{Subsec:PRE:DinamicCorrot}.
 
 Sea una sección transversal de un punto G ubicado a una distancia $x$ del nodo 1 en la configuración rotada, el movimiento local de una sección ubicada a una distancia \gls{CentroideX} de la viga, desde su configuración inicial, se define a partir de la rotación y traslación de dicha sección. Una ilustración de esto se muestra en la Figura \ref{fig:PRE:IlusLocalDisp}, donde la configuración de deformación rígida se identifica en punteado y la configuración deformada en color naranja.
 
@@ -438,11 +438,11 @@ A partir de esto, se compacta la expresión de la Ecuación \eqref{Eqn:PRE:AcelA
 	\bf{C}_2&=&\widetilde{\bf{w}_r}\bf{H}_2+\bf{\dot{H}_2}-\bf{H}_2\bf{E}_t\\
 \end{eqnarray}
 
-Una descripción detallada puede encontrarse en \cite{Le2014}. Dentro del apéndice de este trabajo, se desglosa las operaciones para calcular las derivadas temporales de las matrices $\bf{H}_1$ y $\bf{H}_2$. También es posible escudriñar la deducción de las matrices $\bf{C_1}$, $\bf{C_2}$, $\bf{C_3}$ y $\bf{C_4}$.
+Una descripción detallada puede encontrarse en \citep{Le2014}. Dentro del apéndice de este trabajo, se desglosa las operaciones para calcular las derivadas temporales de las matrices $\bf{H}_1$ y $\bf{H}_2$. También es posible escudriñar la deducción de las matrices $\bf{C_1}$, $\bf{C_2}$, $\bf{C_3}$ y $\bf{C_4}$.
 
 \subsection{Fuerza interna y matriz tangente}\label{Sec:PRE:Interna}
 
-En este apartado se buscan obtener las expresiones de fuerza interna del elemento y su matriz tangente estática. El vector de fuerza interna \gls{FuerzaIntLocal} para el nodo $i$ se compone, de acuerdo a la nomenclatura desplazamiento-ángulo, por la fuerza axial \gls{FuerzaAxial}, dos momentos flectores \gls{MomentoFlector1}, \gls{MomentoFlector2} y un momento torsor \gls{MomentoTorsor} para cada nodo en su configuración deformada. Esta elección de nomenclatura para el vector \gls{FuerzaIntLocal} de fuerza interna se presenta a continuación:
+En esta sección se buscan obtener las expresiones de fuerza interna del elemento y su matriz tangente estática. El vector de fuerza interna \gls{FuerzaIntLocal} para el nodo $i$ se compone, de acuerdo a la nomenclatura desplazamiento-ángulo, por la fuerza axial \gls{FuerzaAxial}, dos momentos flectores \gls{MomentoFlector1}, \gls{MomentoFlector2} y un momento torsor \gls{MomentoTorsor} para cada nodo en su configuración deformada. Esta elección de nomenclatura para el vector \gls{FuerzaIntLocal} de fuerza interna se presenta a continuación:
 
 \begin{equation}\label{Eqn:PRE:FuerzElem}
 \bf{ f_l^{int}} =\text{$[~fl_1 ~M^1_1~ M^1_2~ M^1_3~ M^2_1~ M^2_2~ M^2_3~]$} = [\text{$~fl_1$}~\boldsymbol{m}].
@@ -516,11 +516,11 @@ Operando con la regla del producto al diferencial de fuerza interna de la Ecuaci
 \end{equation}
 
 Se destaca que la matriz tangente de la Ecuación  \eqref{Eqn:PRE:MatrizKest2} es asimétrica, sin embargo según \cite{Nour-Omid1991} esta puede ser simetrizada sin perder la convergencia cuadrática
-para el método de  \gls{N-R}, siempre y cuando momentos externos nodales no sean aplicados. En este trabajo se simetrizó la matriz tangente, ya que en la aplicación los elementos serán cargados con fuerzas, esto conlleva a un numero mayor de iteraciones en converger para un determinado nivel de carga. No obstante, debido a la precisión y consistencia del vector de fuerza interna el método debe converger \cite{rankin1988use}.
+para el método de  \gls{N-R}, siempre y cuando momentos externos nodales no sean aplicados. En este trabajo se simetrizó la matriz tangente, ya que en la aplicación los elementos serán cargados con fuerzas, esto conlleva a un numero mayor de iteraciones en converger para un determinado nivel de carga. No obstante, debido a la precisión y consistencia del vector de fuerza interna el método debe converger según lo publicado en \citep{rankin1988use}.
 
 \subsection{Fuerza inercial y matrices de masa tangentes}\label{Sec:PRE:Inercial}
 
-A continuación se explayan las ecuaciones y razonamientos fundamentales para la deducción del vector de fuerzas inerciales y sus matrices tangentes asociadas. El atractivo principal de la referencia de \cite{Le2014} se fragua en la consistencia de las matrices tangentes. Según el autor y otros el grado de complejidad matemático no permitía desarrollarlas \cite{Crisfield}. Esta consistencia se debe al encare analítico del vector de fuerzas inerciales, según el planteo cinemático de las variables descritas en la Sección \ref{Subsec:PRE:CinematicCorrot}. El abordaje será análogo al desarrollado para fuerzas internas y su matriz tangente. Se calculará primeramente la fuerza inercial y luego sus derivadas, con la salvedad de que la magnitud primaria será la energía cinética del elemento \gls{EnergiaCineticaElem}. Esta propiedad escalar depende de las velocidades y aceleraciones de traslación globales ($\dot{\bf{u}}$,$\ddot{\bf{u}}$) como también angulares ($\dot{\bf{w}}$,$\ddot{\bf{w}}$) según la siguiente ecuación:
+A continuación se explayan las ecuaciones y razonamientos fundamentales para la deducción del vector de fuerzas inerciales y sus matrices tangentes asociadas. El atractivo principal de la referencia de \cite{Le2014} se fragua en la consistencia de las matrices tangentes. Según el autor y otros el grado de complejidad matemático no permitía desarrollarlas \citep{Crisfield}. Esta consistencia se debe al encare analítico del vector de fuerzas inerciales, según el planteo cinemático de las variables descritas en la Sección \ref{Subsec:PRE:CinematicCorrot}. El abordaje será análogo al desarrollado para fuerzas internas y su matriz tangente. Se calculará primeramente la fuerza inercial y luego sus derivadas, con la salvedad de que la magnitud primaria será la energía cinética del elemento \gls{EnergiaCineticaElem}. Esta propiedad escalar depende de las velocidades y aceleraciones de traslación globales ($\dot{\bf{u}}$,$\ddot{\bf{u}}$) como también angulares ($\dot{\bf{w}}$,$\ddot{\bf{w}}$) según la siguiente ecuación:
 \begin{equation}
 	\label{Eqn:PRE:EnergiaCinetica}
 	\textit{K}=\frac{1}{2}\int_{l_0} \dot{\bf{u}}^T A_{\rho} \dot{\bf{u}} +
