@@ -490,6 +490,40 @@
       \field{pages}{104\bibrangedash 110}
       \range{pages}{7}
     \endentry
+    \entry{bruno2017introduccion}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=89213a5698950672149159a9f6ce8a20}{%
+           family={Bruno\bibnamedelima Bazzano},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a3e4fda56ad4c44d625e5801aa50e3b}{%
+           family={Pérez\bibnamedelima Zerpa},
+           familyi={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Udelar. FI}%
+      }
+      \strng{namehash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \strng{fullhash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \strng{bibnamehash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \strng{authorbibnamehash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \strng{authornamehash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \strng{authorfullhash}{70ff197604ee8d733c0e4ddfafdaad6b}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introducción al Análisis No Lineal de Estructuras: texto del curso Análisis No Lineal de Estructuras}
+      \field{year}{2017}
+    \endentry
     \entry{cardona1988beam}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a121e33286470fa3d3d6e2dfac7c83ac}{%
