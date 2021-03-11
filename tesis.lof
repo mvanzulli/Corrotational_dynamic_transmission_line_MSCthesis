@@ -79,7 +79,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Angulo de balanceo $\Phi $ en función de la velocidad media $W(t)$.\relax }}{66}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Ilustración de desplazamientos y ángulos de balanceo.\relax }}{67}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Esquema del sistema de transmisión.\relax }}{67}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Esquema geométrico de cotas principales en la torre. \relax }}{68}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
@@ -95,15 +95,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo \text {A}, \text {D}.}}}{71}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Desplazamientos de los nodos medios B y C. \relax }}{72}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Desplazamientos de los nodos medios B y C. \relax }}{71}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos B,C. }}}{72}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desplazamientos en $x$ nodos B,C. }}}{71}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo B, C.}}}{72}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Desplazamientos en $z$ nodo B, C.}}}{71}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{73}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Curva analítica y numérica carga desplazamiento.\relax }}{72}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Estructura indeformada y deformada para $t=400$ s.\relax }}{74}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Estructura indeformada y deformada para $t=400$ s.\relax }}{73}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 
