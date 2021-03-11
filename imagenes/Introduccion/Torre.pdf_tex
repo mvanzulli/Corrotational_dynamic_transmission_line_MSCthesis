@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{272.32697296bp}%
+    \setlength{\unitlength}{149.46153259bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,11 +50,10 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.81409366)%
+  \begin{picture}(1,1.38204115)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Torre.pdf}}%
-    \put(0.04907174,0.40851895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Viento\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{Torre.pdf}}%
+    \put(0.02029923,0.85369623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Viento\end{tabular}}}}%
   \end{picture}%
 \endgroup%

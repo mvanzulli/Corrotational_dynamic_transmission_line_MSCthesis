@@ -26,6 +26,7 @@ nopostdot 											 % Quita el punto final en los acrónimos.
 \usepackage[backend=biber,style=apa,sortcites,natbib=true]{biblatex}
 \usepackage{estilos_bibliograficos/udelartex_apa}
 
+
 %VANCOUVER%%%%%%%%%%
 %\usepackage[backend=biber,style=numeric,sortcites,natbib=true,%
 %terseinits=true,firstinits=true]{biblatex}
@@ -54,7 +55,8 @@ nopostdot 											 % Quita el punto final en los acrónimos.
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{multirow} 
-\usepackage{multicol} 
+\usepackage{multicol}
+\usepackage{enumitem} 
 
 \usepackage{listings}
 \usepackage{xcolor}
@@ -105,7 +107,7 @@ nopostdot 											 % Quita el punto final en los acrónimos.
 \author{Mauricio Camilo}{Vanzulli Pena}
 \escritura{en} % Se indica que el programa de Posgrado sea "en" o "de" tal área.
 %%
-\director{Prof.}{Jorge}{Pérez Zerpa}{Dr.}
+\director{Prof.}{Jorge}{Pérez Zerpa}{D.Sc.}
 \directoracademico{Prof.}{Gabriel}{Usera}{D.Sc.}
 %%
 \examiner{Prof.}{Gonzalo}{Cetrangolo}{D.Sc.}
@@ -113,16 +115,15 @@ nopostdot 											 % Quita el punto final en los acrónimos.
 \examiner{Prof.}{Marcelo}{Forets}{D.Sc.}
 %%
 \graduatename{Ingeniería Estructural}
-\institute{Instituto de Estructuras y Transporte}{Facultad de Ingeniaría de la Universidad de la Repíblica del Uruguay}  % La primer institución es la principal.
+\institute{Instituto de Estructuras y Transporte de la Facultad de Ingeniaría}{}  % La primer institución es la principal.
 
 \graduatelocation{Montevideo}{Uruguay}
 %%
 \date{02}{03}{2021} % Fecha del documento: día/mes/año
 % Palabras claves en español
-\keyword{Elementos de viga corrotacional}
+\keyword{Formulación corrotacional}
 \keyword{Método de los Elementos Finitos}
 \keyword{Dinámica estructural} 
-\keyword{Cables de alta tensión}
 \keyword{Transmisión electrica}
 %
 \maketitle  % Comando que genera el título de la tesis.

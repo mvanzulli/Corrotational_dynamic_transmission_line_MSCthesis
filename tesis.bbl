@@ -1156,35 +1156,6 @@
       \field{note}{Accessed: 2020-02-24}
       \field{title}{El tornado de Canelones del año 2002 (Uruguay)}
     \endentry
-    \entry{foti2013corotational}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=416b14591ff55667854b5532ce40f21c}{%
-           family={Foti},
-           familyi={F\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Doctoral Dissertation, Politecnico di Milano, Milan (Italy)}%
-      }
-      \strng{namehash}{416b14591ff55667854b5532ce40f21c}
-      \strng{fullhash}{416b14591ff55667854b5532ce40f21c}
-      \strng{bibnamehash}{416b14591ff55667854b5532ce40f21c}
-      \strng{authorbibnamehash}{416b14591ff55667854b5532ce40f21c}
-      \strng{authornamehash}{416b14591ff55667854b5532ce40f21c}
-      \strng{authorfullhash}{416b14591ff55667854b5532ce40f21c}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A corotational beam element and a refined mechanical model for the nonlinear dynamic analysis of cables}
-      \field{type}{phdthesis}
-      \field{year}{2013}
-    \endentry
     \entry{Foti2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=416b14591ff55667854b5532ce40f21c}{%
@@ -3003,58 +2974,6 @@
       \verb{doi}
       \verb 10.1093/qjmam/37.3.421
       \endverb
-    \endentry
-    \entry{viana2020formulation}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=726dbc2055456966fbef8e6170ed04d3}{%
-           family={Viana},
-           familyi={V\bibinitperiod},
-           given={Harley\bibnamedelima Francisco},
-           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f140e0f88e986da2ed26e8bfc1768de6}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={Renata\bibnamedelimb Gomes\bibnamedelima Lanna},
-           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0,
-           prefix={da},
-           prefixi={d\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=48b2ea008a540408456352710e94e110}{%
-           family={Costa},
-           familyi={C\bibinitperiod},
-           given={Rodrigo\bibnamedelima Sernizon},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4fe1b40a783e4ecfaaf156cafc42a55}{%
-           family={Lavall},
-           familyi={L\bibinitperiod},
-           given={Armando\bibnamedelimb Cesar\bibnamedelima Campos},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{0018cc7ebb1c21f014bbacbf35df959a}
-      \strng{fullhash}{fe308a164952be3a85d91a41b2452e19}
-      \strng{bibnamehash}{fe308a164952be3a85d91a41b2452e19}
-      \strng{authorbibnamehash}{fe308a164952be3a85d91a41b2452e19}
-      \strng{authornamehash}{0018cc7ebb1c21f014bbacbf35df959a}
-      \strng{authorfullhash}{fe308a164952be3a85d91a41b2452e19}
-      \field{sortinit}{V}
-      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Engineering Structures}
-      \field{title}{Formulation for nonlinear dynamic analysis of steel frames considering the plastic zone method}
-      \field{volume}{223}
-      \field{year}{2020}
-      \field{pages}{111197}
-      \range{pages}{1}
     \endentry
     \entry{yan2009numerical}{article}{}
       \name{author}{5}{}{%
