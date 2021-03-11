@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  11 MAR 2021 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  11 MAR 2021 14:12
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1664,13 +1664,13 @@ Package biblatex Info: Reference segment=0 on input line 102.
 <imagenes/logo_institucion1.png, id=225, 149.05687pt x 148.10596pt>
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
-Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 129
+Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 130
 .
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
 <imagenes/logo_udelar.pdf, id=226, 207.28883pt x 59.6364pt>
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
-Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 129.
+Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 130.
 (pdftex.def)             Requested size: 179.61234pt x 51.67139pt.
  [1
 
@@ -1679,19 +1679,19 @@ Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 129.
 go_institucion1.png (PNG copy)> <./imagenes/logo_udelar.pdf>]
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
-Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 131
+Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 132
 .
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
-Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 131.
+Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 132.
 (pdftex.def)             Requested size: 179.61234pt x 51.67139pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 131
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 131
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132
 .
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1793,11 +1793,6 @@ Package pdftex.def Info: ./imagenes/Introduccion/Torre.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 314.59492pt.
 ) [2 <./imagenes/Introduccion/Torre.pdf>]
-Overfull \hbox (109.89554pt too wide) in paragraph at lines 27--27
-[][][]\OT1/cmr/m/n/10 https://www.fing.edu.uy/es/instituto-de-estructuras-y-tra
-nsporte/investigaci$ $%C3$ $%B3n/finalizados/modelado-
- []
-
 [3]) [4]
 \openout2 = `capitulos/EstadoDelArte.aux'.
 
@@ -1825,7 +1820,7 @@ Cap\'{\i }tulo 3.
 
 
 ] (imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=796, page=1, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=794, page=1, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1833,7 +1828,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=797, page=2, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=795, page=2, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1841,7 +1836,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=798, page=3, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=796, page=3, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1849,7 +1844,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=799, page=4, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=797, page=4, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1857,7 +1852,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page4 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=800, page=5, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=798, page=5, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1865,7 +1860,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page5 used on input line 67.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=801, page=6, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=799, page=6, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1873,7 +1868,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page6 used on input line 69.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=802, page=7, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=800, page=7, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1881,7 +1876,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page7 used on input line 71.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=803, page=8, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=801, page=8, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1926,7 +1921,7 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
 rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >] (imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=834, page=1, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=832, page=1, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1934,7 +1929,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=835, page=2, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=833, page=2, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1942,7 +1937,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=836, page=3, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=834, page=3, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1950,7 +1945,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=837, page=4, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=835, page=4, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1958,7 +1953,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=838, page=5, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=836, page=5, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1966,7 +1961,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=839, page=6, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=837, page=6, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1974,7 +1969,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page6 used on input line 76.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=840, page=7, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=838, page=7, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -2025,7 +2020,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
 (imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=911, page=1, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=909, page=1, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2033,7 +2028,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=912, page=2, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=910, page=2, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2041,7 +2036,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=913, page=3, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=911, page=3, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2049,7 +2044,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page3 used on input line 62.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=914, page=4, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=912, page=4, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2057,7 +2052,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=915, page=5, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=913, page=5, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2067,7 +2062,7 @@ f , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
 )
 (imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=916, page=1, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=914, page=1, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2075,7 +2070,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=917, page=2, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=915, page=2, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2083,7 +2078,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=918, page=3, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=916, page=3, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2091,7 +2086,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page3 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=919, page=4, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=917, page=4, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2099,7 +2094,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=920, page=5, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=918, page=5, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2107,7 +2102,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=921, page=6, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=919, page=6, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2196,28 +2191,28 @@ Cap\'{\i }tulo 4.
 
 
 ] (imagenes/Metodologia/EsquemaInicial.pdf_tex
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1073, page=1, 593.30098pt x 391.
+<./imagenes/Metodologia/EsquemaInicial.pdf, id=1071, page=1, 593.30098pt x 391.
 66653pt>
 File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaInicial.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page1 used
  on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1074, page=2, 593.30098pt x 391.
+<./imagenes/Metodologia/EsquemaInicial.pdf, id=1072, page=2, 593.30098pt x 391.
 66653pt>
 File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaInicial.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page2 used
  on input line 60.
 (pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1075, page=3, 593.30098pt x 391.
+<./imagenes/Metodologia/EsquemaInicial.pdf, id=1073, page=3, 593.30098pt x 391.
 66653pt>
 File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaInicial.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page3 used
  on input line 63.
 (pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1076, page=4, 593.30098pt x 391.
+<./imagenes/Metodologia/EsquemaInicial.pdf, id=1074, page=4, 593.30098pt x 391.
 66653pt>
 File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaInicial.pdf, page 4>
@@ -2238,14 +2233,14 @@ PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaInicial.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >] [39] (imagenes/Metodologia/EsquemaViento.pdf_tex
-<./imagenes/Metodologia/EsquemaViento.pdf, id=1100, page=1, 558.00475pt x 397.4
+<./imagenes/Metodologia/EsquemaViento.pdf, id=1098, page=1, 558.00475pt x 397.4
 1847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page1 used 
 on input line 56.
 (pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
-<./imagenes/Metodologia/EsquemaViento.pdf, id=1101, page=2, 558.00475pt x 397.4
+<./imagenes/Metodologia/EsquemaViento.pdf, id=1099, page=2, 558.00475pt x 397.4
 1847pt>
 File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/EsquemaViento.pdf, page 2>
@@ -2254,21 +2249,21 @@ on input line 60.
 (pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
 )
 (imagenes/Metodologia/DragLift.pdf_tex
-<./imagenes/Metodologia/DragLift.pdf, id=1102, page=1, 262.4226pt x 303.64412pt
+<./imagenes/Metodologia/DragLift.pdf, id=1100, page=1, 262.4226pt x 303.64412pt
 >
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=1103, page=2, 262.4226pt x 303.64412pt
+<./imagenes/Metodologia/DragLift.pdf, id=1101, page=2, 262.4226pt x 303.64412pt
 >
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=1104, page=3, 262.4226pt x 303.64412pt
+<./imagenes/Metodologia/DragLift.pdf, id=1102, page=3, 262.4226pt x 303.64412pt
 >
 File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/DragLift.pdf, page 3>
@@ -2293,42 +2288,42 @@ clusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] (imagenes/Metodologia/VelAbs.pdf_tex
-<./imagenes/Metodologia/VelAbs.pdf, id=1119, page=1, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1117, page=1, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1120, page=2, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1118, page=2, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1121, page=3, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1119, page=3, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1122, page=4, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1120, page=4, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 4>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page4 used on inpu
 t line 63.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1123, page=5, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1121, page=5, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 5>
 Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page5 used on inpu
 t line 65.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1124, page=6, 281.43771pt x 182.25304pt>
+<./imagenes/Metodologia/VelAbs.pdf, id=1122, page=6, 281.43771pt x 182.25304pt>
 
 File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelAbs.pdf, page 6>
@@ -2336,43 +2331,43 @@ Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page6 used on inpu
 t line 70.
 (pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
 ) (imagenes/Metodologia/VelRel.pdf_tex
-<./imagenes/Metodologia/VelRel.pdf, id=1126, page=1, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1124, page=1, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1127, page=2, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1125, page=2, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 2>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1128, page=3, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1126, page=3, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 3>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1129, page=4, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1127, page=4, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 4>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
 t line 62.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1130, page=5, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1128, page=5, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 5>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
 t line 69.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1131, page=6, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1129, page=6, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 6>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
 t line 73.
 (pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1132, page=7, 330.7165pt x 175.85223pt>
+<./imagenes/Metodologia/VelRel.pdf, id=1130, page=7, 330.7165pt x 175.85223pt>
 File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
 <use ./imagenes/Metodologia/VelRel.pdf, page 7>
 Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page7 used on inpu
@@ -2465,7 +2460,7 @@ put line 385.
 Cap\'{\i }tulo 5.
 (imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf_tex
 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-7, page=1, 430.91672pt x 373.53741pt>
+5, page=1, 430.91672pt x 373.53741pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
@@ -2474,7 +2469,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
 stracion2Dxy.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-8, page=2, 430.91672pt x 373.53741pt>
+6, page=2, 430.91672pt x 373.53741pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
@@ -2483,7 +2478,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
 stracion2Dxy.pdf , page2 used on input line 63.
 (pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-9, page=3, 430.91672pt x 373.53741pt>
+7, page=3, 430.91672pt x 373.53741pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
@@ -2493,8 +2488,8 @@ stracion2Dxy.pdf , page3 used on input line 65.
 (pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
 )
 (imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=135
-0, page=1, 306.78197pt x 377.72128pt>
+<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=134
+8, page=1, 306.78197pt x 377.72128pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
@@ -2502,8 +2497,8 @@ ge 1>
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
 stracion2Dyz.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=135
-1, page=2, 306.78197pt x 377.72128pt>
+<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=134
+9, page=2, 306.78197pt x 377.72128pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
@@ -2512,7 +2507,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
 stracion2Dyz.pdf , page2 used on input line 63.
 (pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=135
-2, page=3, 306.78197pt x 377.72128pt>
+0, page=3, 306.78197pt x 377.72128pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
 aphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
@@ -2552,33 +2547,33 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
 ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
 >] (imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1372, page=
+<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1370, page=
 1, 331.10977pt x 249.98132pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
 le (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 1>
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
 rzaZ.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1373, page=
+(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
+<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1371, page=
 2, 331.10977pt x 249.98132pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
 le (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 2>
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
 rzaZ.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1374, page=
+(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
+<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1372, page=
 3, 331.10977pt x 249.98132pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
 le (type pdf)
 <use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 3>
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
 rzaZ.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 171.85791pt.
+(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
 )
 (imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1378, pa
+<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1376, pa
 ge=1, 584.1825pt x 488.57532pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf Graphic
  file (type pdf)
@@ -2587,7 +2582,7 @@ File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf Graphic
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Def
 ormadas.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 285.56566pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1379, pa
+<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1377, pa
 ge=2, 584.1825pt x 488.57532pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf Graphic
  file (type pdf)
@@ -2608,7 +2603,7 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
 ilever/FuerzaZ.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png, id=1389
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png, id=1387
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png Gra
 phic file (type png)
@@ -2616,7 +2611,7 @@ phic file (type png)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
 Dispy_NodeA.png  used on input line 61.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png, id=1390
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png, id=1388
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png Gra
 phic file (type png)
@@ -2634,7 +2629,7 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
 ilever/Deformadas.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png, id=1406
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png, id=1404
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png Gra
 phic file (type png)
@@ -2642,7 +2637,7 @@ phic file (type png)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
 Dispy_NodeB.png  used on input line 74.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png, id=1407
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png, id=1405
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png Gra
 phic file (type png)
@@ -2655,7 +2650,7 @@ G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png
  (PNG copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB
 .png (PNG copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_N
 odeB.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png, id=1420
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png, id=1418
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png Gra
 phic file (type png)
@@ -2663,7 +2658,7 @@ phic file (type png)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
 Dispx_NodeB.png  used on input line 94.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png, id=1421
+<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png, id=1419
 , 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png Gra
 phic file (type png)
@@ -2675,7 +2670,7 @@ Dispx_NodeA.png  used on input line 95.
 G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png
  (PNG copy)>]
 (imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1433, page=1, 
+<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1431, page=1, 
 536.0025pt x 470.50781pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
 (type pdf)
@@ -2683,7 +2678,7 @@ File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
 e.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1434, page=2, 
+<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1432, page=2, 
 536.0025pt x 470.50781pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
 (type pdf)
@@ -2691,7 +2686,7 @@ File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
 e.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1435, page=3, 
+<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1433, page=3, 
 536.0025pt x 470.50781pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
 (type pdf)
@@ -2699,7 +2694,7 @@ File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
 e.pdf , page3 used on input line 65.
 (pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1436, page=4, 
+<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1434, page=4, 
 536.0025pt x 470.50781pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
 (type pdf)
@@ -2707,7 +2702,7 @@ File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
 e.pdf , page4 used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1437, page=5, 
+<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1435, page=5, 
 536.0025pt x 470.50781pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
 (type pdf)
@@ -2717,7 +2712,7 @@ e.pdf , page5 used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
 )
 (imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, id=1439, page=1, 2
+<./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, id=1437, page=1, 2
 30.42435pt x 150.1833pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf Graphic file (
 type pdf)
@@ -2747,7 +2742,7 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
 squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png, id=1466, 421.
+<./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png, id=1464, 421.
 575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png Graphic f
 ile (type png)
@@ -2756,7 +2751,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL
 _Foti.png  used on input line 154.
 (pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
  [62 <./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf>]
-<./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png, id=1480, 4
+<./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png, id=1478, 4
 21.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png Graphi
 c file (type png)
@@ -2768,7 +2763,7 @@ Z_TLFoti.png  used on input line 166.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png, id=1481, 421.575p
+<./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png, id=1479, 421.575p
 t x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png Graphic file 
 (type png)
@@ -2776,7 +2771,7 @@ File: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png Graphic file
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Fot
 i.png  used on input line 181.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png, id=1482, 421.575p
+<./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png, id=1480, 421.575p
 t x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png Graphic file 
 (type png)
@@ -2785,7 +2780,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Fot
 i.png  used on input line 182.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
 (imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1484, page=1, 3
+<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1482, page=1, 3
 51.45792pt x 341.24495pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
 type pdf)
@@ -2793,7 +2788,7 @@ type pdf)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
 .pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1485, page=2, 3
+<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1483, page=2, 3
 51.45792pt x 341.24495pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
 type pdf)
@@ -2801,7 +2796,7 @@ type pdf)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
 .pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1486, page=3, 3
+<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1484, page=3, 3
 51.45792pt x 341.24495pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
 type pdf)
@@ -2809,7 +2804,7 @@ type pdf)
 Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
 .pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1487, page=4, 3
+<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1485, page=4, 3
 51.45792pt x 341.24495pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
 type pdf)
@@ -2824,7 +2819,7 @@ Underfull \vbox (badness 6078) has occurred while \output is active []
  [64 <./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png (PNG c
 opy)> <./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png (PNG copy)> 
 <./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png, id=1503, 421.575pt
+<./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png, id=1501, 421.575pt
  x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png Graphic file (
 type png)
@@ -2851,7 +2846,7 @@ gle page
 > <./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png (PNG copy)>]
 (imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf_tex
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1782, page=1, 896.46901pt x 621.33614pt>
+d=1780, page=1, 896.46901pt x 621.33614pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
 df Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
@@ -2860,7 +2855,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionTormenta.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1783, page=2, 896.46901pt x 621.33614pt>
+d=1781, page=2, 896.46901pt x 621.33614pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
 df Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
@@ -2869,7 +2864,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionTormenta.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1784, page=3, 896.46901pt x 621.33614pt>
+d=1782, page=3, 896.46901pt x 621.33614pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
 df Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
@@ -2878,7 +2873,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionTormenta.pdf , page3 used on input line 65.
 (pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1785, page=4, 896.46901pt x 621.33614pt>
+d=1783, page=4, 896.46901pt x 621.33614pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
 df Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
@@ -2887,7 +2882,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionTormenta.pdf , page4 used on input line 67.
 (pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1786, page=5, 896.46901pt x 621.33614pt>
+d=1784, page=5, 896.46901pt x 621.33614pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
 df Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
@@ -2918,7 +2913,7 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
 ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
 included in a single page
 >] (imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, id=1796, pa
+<./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, id=1794, pa
 ge=1, 624.86476pt x 758.37306pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf Graphic
  file (type pdf)
@@ -2930,7 +2925,7 @@ usTorre.pdf , page1 used on input line 56.
 )
 [67 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf>]
 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png, id=18
-09, 421.575pt x 316.0608pt>
+07, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png G
 raphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png>
@@ -2938,7 +2933,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
 erzaNodalX_TS.png  used on input line 245.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png, id
-=1810, 421.575pt x 316.0608pt>
+=1808, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.pn
 g Graphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png
@@ -2952,7 +2947,7 @@ NG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_
 TS.png (PNG copy)>]
 (imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf_tex
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1820, page=1, 143.50446pt x 139.31094pt>
+1818, page=1, 143.50446pt x 139.31094pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
  Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
@@ -2961,7 +2956,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionAngulo.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1821, page=2, 143.50446pt x 139.31094pt>
+1819, page=2, 143.50446pt x 139.31094pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
  Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
@@ -2970,7 +2965,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
 ustracionAngulo.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1822, page=3, 143.50446pt x 139.31094pt>
+1820, page=3, 143.50446pt x 139.31094pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
  Graphic file (type pdf)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
@@ -2992,7 +2987,7 @@ ormenta/IlustracionAngulo.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
 >]
 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png, id=183
-3, 421.575pt x 316.0608pt>
+1, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png Gr
 aphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png>
@@ -3000,7 +2995,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
 spXTS_NodeAD.png  used on input line 272.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png, id=183
-4, 421.575pt x 316.0608pt>
+2, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png Gr
 aphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png>
@@ -3008,7 +3003,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
 spZTS_NodeAD.png  used on input line 273.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png, id=183
-6, 421.575pt x 316.0608pt>
+4, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png Gr
 aphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png>
@@ -3016,7 +3011,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
 spXTS_NodeCB.png  used on input line 285.
 (pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png, id=183
-7, 421.575pt x 316.0608pt>
+5, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png Gr
 aphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png>
@@ -3029,7 +3024,7 @@ ng (PNG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_Nod
 eCB.png (PNG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZT
 S_NodeCB.png (PNG copy)>]
 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png, id=18
-55, 421.575pt x 316.0608pt>
+53, 421.575pt x 316.0608pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png G
 raphic file (type png)
 <use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png>
@@ -3037,7 +3032,7 @@ Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
 erzaAngulo_TS.png  used on input line 300.
 (pdftex.def)             Requested size: 284.52756pt x 213.31737pt.
  [71]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png, id=1863, 8
+<./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png, id=1861, 8
 32.91174pt x 413.74574pt>
 File: ./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png Graphi
 c file (type png)
@@ -3065,7 +3060,7 @@ Cap\'{\i }tulo 6.
 
 Package glossaries Warning: Empty glossary for \printnoidxglossary[type={glosar
 io}]. Rerun may be required (or you may have forgotten to use commands like \gl
-s) on input line 165.
+s) on input line 166.
 
 [89] [90
 
@@ -3076,7 +3071,7 @@ Ap\'{e}ndice 1.
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 23.
+nput line 22.
  (elementBeamForces.m
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
@@ -3106,23 +3101,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [98]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [100]))
-(apendice/apendice_B.tex [101]
+ [99]))
+(apendice/apendice_B.tex [100]
 Ap\'{e}ndice 2.
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [102
+ [101
 
 ]
-[103]) 
+[102]) 
 AED: lastpage setting LastPage
-[104]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+[103]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (tesis.aux
 LaTeX Info: Redefining \sptext on input line 34.
 LaTeX Info: Redefining \. on input line 34.
@@ -3132,20 +3124,20 @@ igrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
 (capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
 (capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
 (capitulos/Conclusiones.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 07669DA853138152ED0770B8EAF0D71A;3531.
+(rerunfilecheck)             Checksum: CF56745121DE657225C619E7C38E7AFE;3531.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 43603 strings out of 481199
- 841428 string characters out of 2904657
- 1850826 words of memory out of 3000000
- 57306 multiletter control sequences out of 15000+200000
+ 43581 strings out of 481199
+ 841096 string characters out of 2904657
+ 1876787 words of memory out of 3000000
+ 57304 multiletter control sequences out of 15000+200000
  552333 words of font info for 92 fonts, out of 3000000 for 9000
  1152 hyphenation exceptions out of 8191
  114i,22n,107p,1700b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3181,9 +3173,9 @@ m/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public
 pe1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Usuario/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (124 pages, 2573720 bytes).
+Output written on tesis.pdf (123 pages, 2566464 bytes).
 PDF statistics:
- 2787 PDF objects out of 2984 (max. 8388607)
- 941 named destinations out of 1000 (max. 500000)
+ 2759 PDF objects out of 2984 (max. 8388607)
+ 921 named destinations out of 1000 (max. 500000)
  1001 words of extra memory for PDF output out of 10000 (max. 10000000)
 

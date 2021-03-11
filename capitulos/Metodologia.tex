@@ -374,7 +374,7 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
 		´				\STATE Actualizar fuerzas: 	$\bf{f}_{ine}^{k+1}(\bf{d}^{k+1},\bf{\dot{d}}^{k+1},\bf{\ddot{d}}^{k+1})$,  $\bf{f}_{int}^{k+1}(\bf{u}^{k+1})$ y $\bf{res}(\bf{d}^{k+1})$. 
 		\STATE Calcular: 
 		\IF {$\left \| \Delta \bf{d}^{k+1} \right \|< tol_d \left \| 
-			\bf{d}^{k+1} \right \| $  $~V~$ $\left \| \bf{res}(\bf{d}^{k+1}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~V~$ $ \text{k}\geq \text{max}_{iter}$ }
+			\bf{d}^{k+1} \right \| $  $~OR~$ $\left \| \bf{res}(\bf{d}^{k+1}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~OR~$ $ \text{k}\geq \text{max}_{iter}$ }
 		\STATE finDisp = 1
 		\ENDIF
 		\ENDWHILE

@@ -1,37 +1,37 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'tesis.blg'
-[140] biber-MSWIN64:330> INFO - === 
-[167] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[360] Biber.pm:952> INFO - Found 80 citekeys in bib section 0
-[383] Biber.pm:4334> INFO - Processing section 0
-[402] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/AnalyticConductores.bib' for section 0
-[430] bibtex.pm:1682> INFO - LaTeX decoding ...
-[458] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/AnalyticConductores.bib'
-[537] Utils.pm:395> WARN - month field 'May' in entry 'MoralesAisladores' is not an integer - this will probably not sort properly.
-[545] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Corrotacional.bib' for section 0
-[584] bibtex.pm:1682> INFO - LaTeX decoding ...
-[626] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Corrotacional.bib'
-[733] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/HistoriaCables.bib' for section 0
-[760] bibtex.pm:1682> INFO - LaTeX decoding ...
-[788] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/HistoriaCables.bib'
-[853] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/SimuConductores.bib' for section 0
-[880] bibtex.pm:1682> INFO - LaTeX decoding ...
-[918] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/SimuConductores.bib'
-[1037] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/TormentasConvectivas.bib' for section 0
-[1064] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1085] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/TormentasConvectivas.bib'
-[1149] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/MetodosNumericos_Softwares.bib' for section 0
-[1177] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1198] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/MetodosNumericos_Softwares.bib'
-[1260] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Filosofia.bib' for section 0
-[1299] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1309] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Filosofia.bib'
-[1325] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Anexo.bib' for section 0
-[1344] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1360] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Anexo.bib'
-[1566] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1566] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1567] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1739] bbl.pm:651> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1808] bbl.pm:754> INFO - Output to tesis.bbl
-[1815] Biber.pm:128> INFO - WARNINGS: 1
+[166] biber-MSWIN64:330> INFO - === 
+[208] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[479] Biber.pm:952> INFO - Found 80 citekeys in bib section 0
+[506] Biber.pm:4334> INFO - Processing section 0
+[528] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/AnalyticConductores.bib' for section 0
+[554] bibtex.pm:1682> INFO - LaTeX decoding ...
+[588] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/AnalyticConductores.bib'
+[666] Utils.pm:395> WARN - month field 'May' in entry 'MoralesAisladores' is not an integer - this will probably not sort properly.
+[676] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Corrotacional.bib' for section 0
+[704] bibtex.pm:1682> INFO - LaTeX decoding ...
+[748] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Corrotacional.bib'
+[867] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/HistoriaCables.bib' for section 0
+[892] bibtex.pm:1682> INFO - LaTeX decoding ...
+[919] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/HistoriaCables.bib'
+[985] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/SimuConductores.bib' for section 0
+[1010] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1046] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/SimuConductores.bib'
+[1187] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/TormentasConvectivas.bib' for section 0
+[1211] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1232] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/TormentasConvectivas.bib'
+[1299] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/MetodosNumericos_Softwares.bib' for section 0
+[1324] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1345] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/MetodosNumericos_Softwares.bib'
+[1408] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Filosofia.bib' for section 0
+[1445] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1453] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Filosofia.bib'
+[1469] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliografia/Anexo.bib' for section 0
+[1476] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1493] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia/Anexo.bib'
+[1706] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1706] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1706] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1845] bbl.pm:651> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[1914] bbl.pm:754> INFO - Output to tesis.bbl
+[1922] Biber.pm:128> INFO - WARNINGS: 1
