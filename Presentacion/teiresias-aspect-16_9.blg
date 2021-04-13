@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'teiresias-aspect-16_9.blg'
+[223] biber-MSWIN64:340> INFO - === 
+[851] Utils.pm:411> ERROR - Cannot find 'teiresias-aspect-16_9.bcf'!
+[851] Biber.pm:132> INFO - ERRORS: 1

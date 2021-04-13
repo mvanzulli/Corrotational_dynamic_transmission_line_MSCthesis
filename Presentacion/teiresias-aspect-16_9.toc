@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Introducción y preliminares}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Agradecimientos}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Introducción}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Preliminares}{17}{0}{1}
+\beamer@sectionintoc {2}{Metodología}{30}{0}{2}
+\beamer@subsectionintoc {2}{1}{Modelado estructural}{31}{0}{2}
+\beamer@subsectionintoc {2}{2}{Modelo de viento}{36}{0}{2}
+\beamer@sectionintoc {3}{Resultados Numéricos}{39}{0}{3}
+\beamer@subsectionintoc {3}{1}{Viga en voladizo con ángulo recto}{40}{0}{3}
+\beamer@subsectionintoc {3}{2}{Modelo simplificado de una línea}{46}{0}{3}
+\beamer@subsectionintoc {3}{3}{Viga en voladizo con péndulo}{51}{0}{3}
+\beamer@subsectionintoc {3}{4}{Sistema de transmisión}{54}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{59}{0}{4}

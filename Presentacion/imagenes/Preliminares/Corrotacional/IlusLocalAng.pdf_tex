@@ -1,0 +1,77 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'IlusLocalAng.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{618.85177492bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.4391782)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{IlusLocalAng.pdf}}%
+    \put(0.41053809,0.16278647){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}G\end{tabular}}}}%
+    \put(0.07301673,0.18712688){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.66372382,0.02834283){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{IlusLocalAng.pdf}}%
+    \put(0.73677168,0.08051407){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bar{u}$\end{tabular}}}}%
+    \put(0.56655299,0.33496702){\color[rgb]{0.9372549,0.43529412,0}\rotatebox{-29.222218}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}G\end{tabular}}}}}%
+    \put(0.81063414,-0.00000002){\color[rgb]{0.88235294,0.51372549,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{IlusLocalAng.pdf}}%
+    \put(-0.00068646,0.17646729){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_3$\\\end{tabular}}}}}%
+    \put(0.12015193,0.33975415){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_2$\\\end{tabular}}}}}%
+    \put(0.17754094,0.23893765){\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{r}_1$\\\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{IlusLocalAng.pdf}}%
+    \put(0.48489099,0.19313637){\color[rgb]{0,0,0}\rotatebox{-31.735626}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_3$\\\end{tabular}}}}}%
+    \put(0.67249331,0.30431319){\color[rgb]{0,0,0}\rotatebox{-14.951072}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_2$\\\end{tabular}}}}}%
+    \put(0.50148601,0.38440737){\color[rgb]{0,0,0}\rotatebox{19.041659}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{t}^G_1$\\\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{IlusLocalAng.pdf}}%
+    \put(0.37124075,0.29950606){\rotatebox{30.301341}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bf{\overline{R}}_G$\\\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{IlusLocalAng.pdf}}%
+    \put(0.19798413,0.13709604){\color[rgb]{0,0,0}\rotatebox{-15}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%
