@@ -98,7 +98,6 @@
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The visualization handbook}
@@ -107,7 +106,7 @@
       \field{volume}{717}
       \field{year}{2005}
     \endentry
-    \entry{ahrens2014image}{article}{}
+    \entry{ahrens2014image}{inproceedings}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=65098aea2cdfbcc039bbe90d7c894133}{%
            family={Ahrens},
@@ -118,7 +117,7 @@
         {{un=0,uniquepart=base,hash=bf9d7e6aa2149d3d2d7261a71bde7246}{%
            family={Jourdain},
            familyi={J\bibinitperiod},
-           given={Sébastien},
+           given={S{é}bastien},
            giveni={S\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=8ffeaa636c574e007ef5ad7713aff22f}{%
@@ -160,10 +159,9 @@
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{SC'14: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis}
+      \field{booktitle}{SC'14: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis}
       \field{title}{An image-based approach to extreme scale in situ visualization and analysis}
       \field{year}{2014}
       \field{pages}{424\bibrangedash 434}
@@ -499,7 +497,7 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=7a3e4fda56ad4c44d625e5801aa50e3b}{%
-           family={Pérez\bibnamedelima Zerpa},
+           family={P{é}rez\bibnamedelima Zerpa},
            familyi={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
            given={Jorge},
            giveni={J\bibinitperiod},
@@ -521,7 +519,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Introducción al Análisis No Lineal de Estructuras: texto del curso Análisis No Lineal de Estructuras}
+      \field{title}{Introducci{ó}n al An{á}lisis No Lineal de Estructuras: texto del curso An{á}lisis No Lineal de Estructuras}
       \field{year}{2017}
     \endentry
     \entry{cardona1988beam}{article}{}
@@ -750,7 +748,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Journal of the Structural Division, ASCE}
@@ -784,7 +781,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Wind Loads on Structures}}
@@ -910,7 +906,7 @@
     \entry{duranona2019first}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c12baacea62467d9447a70a6c0197e80}{%
-           family={Durañona},
+           family={Dura{ñ}ona},
            familyi={D\bibinitperiod},
            given={V},
            giveni={V\bibinitperiod},
@@ -950,10 +946,10 @@
       \field{pages}{128\bibrangedash 138}
       \range{pages}{11}
     \endentry
-    \entry{duranona2015significance}{article}{}
+    \entry{duranona2015significance}{inproceedings}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6376183c3f6b1d3b6f344b2cc936aa12}{%
-           family={Durañona},
+           family={Dura{ñ}ona},
            familyi={D\bibinitperiod},
            given={Valeria},
            giveni={V\bibinitperiod},
@@ -971,16 +967,16 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 14th International Conference on Wind Engineering, Porto Alegre, Brasil}
+      \field{booktitle}{Proceedings of the 14th International Conference on Wind Engineering, Porto Alegre, Brasil}
       \field{title}{The significance of non-synoptic winds in the extreme wind climate of Uruguay}
       \field{year}{2015}
       \field{pages}{21\bibrangedash 26}
       \range{pages}{6}
     \endentry
-    \entry{duranona2009analysis}{article}{}
+    \entry{duranona2009analysis}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6376183c3f6b1d3b6f344b2cc936aa12}{%
-           family={Durañona},
+           family={Dura{ñ}ona},
            familyi={D\bibinitperiod},
            given={Valeria},
            giveni={V\bibinitperiod},
@@ -988,7 +984,7 @@
         {{un=0,uniquepart=base,hash=92a277f2fe06238ef607caef6be19b90}{%
            family={Cataldo},
            familyi={C\bibinitperiod},
-           given={José},
+           given={Jos{é}},
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
@@ -1004,14 +1000,14 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 11th Americas Conference on Wind Engineering}
+      \field{booktitle}{Proceedings of the 11th Americas Conference on Wind Engineering}
       \field{title}{Analysis of severe storms in Uruguay and their effect on high voltage transmission lines}
       \field{year}{2009}
     \endentry
     \entry{Duranona2018}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6376183c3f6b1d3b6f344b2cc936aa12}{%
-           family={Durañona},
+           family={Dura{ñ}ona},
            familyi={D\bibinitperiod},
            given={Valeria},
            giveni={V\bibinitperiod},
@@ -1116,7 +1112,6 @@
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{001}
@@ -1168,7 +1163,6 @@
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vibration and Control}
@@ -1216,7 +1210,7 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=3e73104992eeabc5b6c235432d14cba1}{%
-           family={Légeron},
+           family={L{é}geron},
            familyi={L\bibinitperiod},
            given={F},
            giveni={F\bibinitperiod},
@@ -1408,7 +1402,7 @@
     \entry{ibrahimbegovic1998finite}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d5ae9bc4c6c16e1bf8ef3d218c9a3b06}{%
-           family={Ibrahimbegović},
+           family={Ibrahimbegovi{ć}},
            familyi={I\bibinitperiod},
            given={Adnan},
            giveni={A\bibinitperiod},
@@ -1606,7 +1600,7 @@
     \entry{Kloppel1942}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cd58cef7a37a55782eb75cea796ec671}{%
-           family={Klöppel},
+           family={Kl{ö}ppel},
            familyi={K\bibinitperiod},
            given={K},
            giveni={K\bibinitperiod},
@@ -1636,7 +1630,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Bauingenieur}
       \field{edition}{23}
-      \field{title}{{Die lotrecheten Eigenschwingungen der Hängerbrücken}}
+      \field{title}{{Die lotrecheten Eigenschwingungen der H{ä}ngerbr{ü}cken}}
       \field{volume}{23}
       \field{year}{1942}
       \field{pages}{277}
@@ -1684,13 +1678,13 @@
     \entry{kovzar1995finite}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e26dce6118b22c3950fdc1f9dae5aa89}{%
-           family={Kožar},
+           family={Ko{ž}ar},
            familyi={K\bibinitperiod},
            given={Ivica},
            giveni={I\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=d5ae9bc4c6c16e1bf8ef3d218c9a3b06}{%
-           family={Ibrahimbegović},
+           family={Ibrahimbegovi{ć}},
            familyi={I\bibinitperiod},
            given={Adnan},
            giveni={A\bibinitperiod},
@@ -1816,7 +1810,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{007}
@@ -1865,7 +1858,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer Methods in Applied Mechanics and Engineering}
@@ -1943,7 +1935,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Sound and Vibration}
@@ -1989,7 +1980,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Non-Linear Mechanics}
@@ -2035,7 +2025,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Mechanics of Materials and Structures}
@@ -2081,7 +2070,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Structures}
@@ -2121,7 +2109,7 @@
       \field{type}{phdthesis}
       \field{year}{2007}
     \endentry
-    \entry{Martinelli2004}{article}{}
+    \entry{Martinelli2004}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=29fc52110f7269c972c7a49aca0bba27}{%
            family={Martinelli},
@@ -2152,7 +2140,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Struct. Eng. Mech. {\&} Comput. (SEMC 2004)}
+      \field{booktitle}{Struct. Eng. Mech. {\&} Comput. (SEMC 2004)}
       \field{title}{{Numerical analysis of the dynamic behavior of cables under turbulent wind}}
       \field{year}{2004}
     \endentry

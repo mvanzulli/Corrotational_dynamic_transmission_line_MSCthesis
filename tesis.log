@@ -1,47 +1,47 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  11 MAR 2021 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.21)  21 APR 2021 18:57
 entering extended mode
-**./tesis.tex
-(tesis.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-09-03> (udelar.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tesis.tex
+(./tesis.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./udelar.cls
 Document Class: udelar 2020/05/17\ v2.4.0\ Fing Dissertations and Thesis
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count168
-\c@chapter=\count169
-\c@section=\count170
-\c@subsection=\count171
-\c@subsubsection=\count172
-\c@paragraph=\count173
-\c@subparagraph=\count174
-\c@figure=\count175
-\c@table=\count176
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
-g
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
-File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks15
+\FN@temptoken=\toks14
 \footnotemargin=\dimen135
-\c@pp@next@reset=\count177
-\c@@fnserial=\count178
+\c@pp@next@reset=\count176
+\c@@fnserial=\count177
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -51,89 +51,83 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language79
+\langwohyphens=\language85
 LaTeX Info: Redefining \_ on input line 43.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count179
-\c@@ppsavesec=\count180
-\c@@ppsaveapp=\count181
+\c@@pps=\count178
+\c@@ppsavesec=\count179
+\c@@ppsaveapp=\count180
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/09/01 3.48 The Babel package
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2020/09/01 3.48 Babel common definitions
-\babel@savecnt=\count182
-\U@D=\dimen136
-\l@babelnohyphens=\language80
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
 )
-\bbl@dirlevel=\count183
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
-.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count181
+\U@D=\dimen136
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count182
+)
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language73) on input line 105.
+(babel)             (\language60) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language73) on input line 108.
+(babel)             (\language60) on input line 108.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish
-.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks16
-\es@quotdepth=\count184
+\es@quottoks=\toks15
+\es@quotdepth=\count183
 Package babel Info: Making " an active character on input line 561.
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks18
 \ex@=\dimen137
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count185
+\inf@bad=\count184
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count186
-\leftroot@=\count187
+\uproot@=\count185
+\leftroot@=\count186
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count188
-\DOTSCASE@=\count189
+\classnum@=\count187
+\DOTSCASE@=\count188
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -142,55 +136,57 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen139
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count190
-\c@MaxMatrixCols=\count191
+\macc@depth=\count189
+\c@MaxMatrixCols=\count190
 \dotsspace@=\muskip16
-\c@parentequation=\count192
-\dspbrk@lvl=\count193
-\tag@help=\toks20
-\row@=\count194
-\column@=\count195
-\maxfields@=\count196
-\andhelp@=\toks21
+\c@parentequation=\count191
+\dspbrk@lvl=\count192
+\tag@help=\toks19
+\row@=\count193
+\column@=\count194
+\maxfields@=\count195
+\andhelp@=\toks20
 \eqnshift@=\dimen140
 \alignsep@=\dimen141
 \tagshift@=\dimen142
 \tagwidth@=\dimen143
 \totwidth@=\dimen144
 \lineht@=\dimen145
-\@envbody=\toks22
+\@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
+\KV@toks@=\toks23
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
-.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -198,19 +194,20 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen146
 \Gin@req@width=\dimen147
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count197
-\float@exts=\toks25
+\c@float@type=\count196
+\float@exts=\toks24
 \float@box=\box47
-\@float@everytoks=\toks26
+\@float@everytoks=\toks25
 \@floatcapt=\box48
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/09/02 v3.5a Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen148
 \captionmargin@=\dimen149
 \captionwidth=\dimen150
@@ -220,21 +217,22 @@ Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
 \caption@hangindent=\dimen154
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count198
-\c@continuedfloat=\count199
+\c@caption@flags=\count197
+\c@continuedfloat=\count198
 Package caption Info: float package is loaded.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen155
 \ar@mcellbox=\box49
 \extrarowheight=\dimen156
-\NC@list=\toks27
+\NC@list=\toks26
 \extratabsurround=\skip52
 \backup@length=\skip53
 \ar@cellbox=\box50
@@ -244,132 +242,125 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@old@col=\dimen159
 \TX@target=\dimen160
 \TX@delta=\dimen161
-\TX@cols=\count266
-\TX@ftn=\toks28
+\TX@cols=\count199
+\TX@ftn=\toks27
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/eqparbox\eqparbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eqparbox/eqparbox.sty
 Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
 \eqp@tempdima=\skip54
 \eqp@tempdimb=\skip55
 \eqp@tabular@box=\box51
 \eqp@list@box=\box52
 \eqp@list@indent=\skip56
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen162
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
-ds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
-.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys
-.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
-nekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
-.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
-ro.sty
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
-ty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count267
-\Hy@pagecounter=\count268
+\Hy@linkcounter=\count266
+\Hy@pagecounter=\count267
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count269
-Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
-Package hyperref Info: Option `linktocpage' set `true' on input line 4338.
-Package hyperref Info: Option `hyperfootnotes' set `true' on input line 4338.
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+\Hy@SavedSpaceFactor=\count268
+\pdfmajorversion=\count269
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4421.
+Package hyperref Info: Option `hyperfootnotes' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
+Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count270
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen164
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
-lc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count271
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring ON on input line 6365.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count272
@@ -378,23 +369,20 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.s
-ty
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count275
 \c@bookmark@seq@number=\count276
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
-ilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
-ecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -402,9 +390,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count277
@@ -418,13 +407,12 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen172
 \Gm@layouthoffset=\dimen173
 \Gm@layoutvoffset=\dimen174
-\Gm@dimlist=\toks29
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
-)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+\Gm@dimlist=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count280
-\output=\toks30
+\output=\toks29
 \linenoprevgraf=\count281
 \linenumbersep=\dimen175
 \linenumberwidth=\dimen176
@@ -438,11 +426,11 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen179
 \bframebox=\box53
 LaTeX Info: Redefining \\ on input line 3056.
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
-g
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -457,78 +445,60 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.s
-ty
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.s
-ty
-Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
+) (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
 Package: todonotes 2018/11/22
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
-x
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
 )
 \XKV@depth=\count287
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
-z.sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
-y
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
-sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
-il-common.tex
-\pgfutil@everybye=\toks33
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen180
 \pgfutil@tempdimb=\dimen181
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
-il-common-lists.tex))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
-il-latex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box54
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/ms\everyshi.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
-s.code.tex
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
-x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
-e.sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
-s.sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-sys.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
-ys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
-ysfiltered.code.tex
-\pgfkeys@tmptoks=\toks36
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen182
 \pgf@y=\dimen183
@@ -546,80 +516,69 @@ ysfiltered.code.tex
 \c@pgf@countb=\count289
 \c@pgf@countc=\count290
 \c@pgf@countd=\count291
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
 \pgf@sys@id@count=\count292
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-.cfg
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-sys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-sys-common-pdf.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-syssoftpath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count293
 \pgfsyssoftpath@bigbuffer@items=\count294
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
-sysprotocol.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-ore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
-de.tex
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
-c.code.tex
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
-l.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
-ser.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
 \pgfmath@count=\count295
 \pgfmath@box=\box55
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.code.tex
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.basic.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.trigonometric.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.random.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.comparison.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.base.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.round.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.misc.code.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
-ctions.integerarithmetics.code.tex)))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
-at.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count296
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
-e.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orepoints.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen193
 \pgf@picmaxx=\dimen194
@@ -636,132 +595,117 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zx=\dimen261
 \pgf@zy=\dimen262
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orepathconstruct.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen263
 \pgf@path@lasty=\dimen264
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orepathusage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen265
 \pgf@shorten@start@additional=\dimen266
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orescopes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
 \pgf@picture@serial@count=\count297
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oregraphicstate.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen267
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oretransformations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen268
 \pgf@pt@y=\dimen269
 \pgf@pt@temp=\dimen270
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orequick.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oreobjects.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orepathprocessing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orearrows.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen271
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oreshade.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen272
 \pgf@sys@shading@range@num=\count298
 \pgf@shadingcount=\count299
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oreimage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oreexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box59
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orelayers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-oretransparency.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orepatterns.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
-orerdf.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
-leshapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodeparttextbox=\box60
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
-leplot.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
-comp-version-0-65.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen273
 \pgf@nodesepend=\dimen274
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
-comp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
-sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
-ys.code.tex))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
-de.tex))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
-r.code.tex
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
-de.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen275
 \pgffor@skip=\dimen276
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
-ikz\tikz.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
-braryplothandlers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count300
 \pgfplotmarksize=\dimen277
@@ -783,8 +727,7 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count303
 \tikz@fig@count=\count304
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
-lematrix.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count305
 \pgfmatrixcurrentcolumn=\count306
@@ -792,27 +735,26 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 \tikz@expandcount=\count308
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
-ikz/libraries\tikzlibrarytopaths.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
-ikz/libraries\tikzlibrarypositioning.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
-ikz/libraries\tikzlibraryshadows.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
-ikz/libraries\tikzlibraryfadings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
-braryfadings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count309
 \calc@Bcount=\count310
@@ -845,45 +787,44 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \@apenarabicnumbering=\count327
 \@anexarabicnumbering=\count328
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
-aries.sty
-Package: glossaries 2020/03/19 v4.46 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/02/13 v4.45 (NLCT)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count329
 )
-\@glsmfirst=\toks45
-\@glsmrest=\toks46
+\@glsmfirst=\toks44
+\@glsmrest=\toks45
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
-e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count330
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count331
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count332
 \FP@xia=\count333
@@ -895,35 +836,35 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count339
 \FP@times=\count340
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count341
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks47
+\@dtl@toks=\toks46
 \@dtl@tmpcount=\count342
 \dtl@tmplength=\skip61
 \dtl@sortresult=\count343
@@ -933,52 +874,44 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count347
 \@dtl@foreach@level=\count348
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
-aries-compatible-307.sty
-Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.s
-ty
-Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
+307.sty
+Package: glossaries-compatible-307 2020/02/13 v4.45 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang
-.tex))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator
-.sty
-Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\gl
-ossaries-spanish.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.
+ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\gl
-ossaries-spanish-utf8.ldf))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\gl
-ossaries-english.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-
+utf8.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries-english/glossaries-english.
+ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count349
-\@gls@tmpb=\toks48
+\@gls@tmpb=\toks47
 \gls@tmplen=\skip62
-\glskeylisttok=\toks49
-\glslabeltok=\toks50
-\glsshorttok=\toks51
-\glslongtok=\toks52
+\glskeylisttok=\toks48
+\glslabeltok=\toks49
+\glsshorttok=\toks50
+\glslongtok=\toks51
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
-ssary-hypernav.sty
-Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
-ssary-list.sty
-Package: glossary-list 2020/03/19 v4.46 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
+y
+Package: glossary-hypernav 2020/02/13 v4.45 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2020/02/13 v4.45 (NLCT)
 \glslistdottedwidth=\skip63
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
-ssary-long.sty
-Package: glossary-long 2020/03/19 v4.46 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2020/02/13 v4.45 (NLCT)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip64
 \LTright=\skip65
@@ -994,17 +927,15 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count352
 \c@LT@tables=\count353
 \c@LT@chunks=\count354
-\LT@p@ftn=\toks53
+\LT@p@ftn=\toks52
 )
 \glsdescwidth=\skip68
 \glspagelistwidth=\skip69
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
-ssary-super.sty
-Package: glossary-super 2020/03/19 v4.46 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2020/02/13 v4.45 (NLCT)
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
-ular.sty
+(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count355
 \ST@wd=\dimen290
@@ -1022,20 +953,20 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@dimen=\dimen299
 \ST@pbox=\box69
 ))
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
-ssary-tree.sty
-Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2020/02/13 v4.45 (NLCT)
 \glstreeindent=\skip73
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count356
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count357
@@ -1079,7 +1010,6 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@parenlevel@foot=\count395
 \blx@sectionciteorder@0=\count396
 \blx@entrysetcounter=\count397
-\blx@biblioinstance=\count398
 \labelnumberwidth=\skip74
 \labelalphawidth=\skip75
 \biblabelsep=\skip76
@@ -1090,104 +1020,104 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip81
 \blx@bcfin=\read4
 \blx@bcfout=\write4
-\blx@langwohyphens=\language81
-\c@mincomprange=\count399
-\c@maxcomprange=\count400
-\c@mincompwidth=\count401
+\blx@langwohyphens=\language86
+\c@mincomprange=\count398
+\c@maxcomprange=\count399
+\c@mincompwidth=\count400
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
-File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2020/02/01 v9.5 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count402
-\c@savedafterword=\count403
-\c@annotator=\count404
-\c@savedannotator=\count405
-\c@author=\count406
-\c@savedauthor=\count407
-\c@bookauthor=\count408
-\c@savedbookauthor=\count409
-\c@commentator=\count410
-\c@savedcommentator=\count411
-\c@editor=\count412
-\c@savededitor=\count413
-\c@editora=\count414
-\c@savededitora=\count415
-\c@editorb=\count416
-\c@savededitorb=\count417
-\c@editorc=\count418
-\c@savededitorc=\count419
-\c@foreword=\count420
-\c@savedforeword=\count421
-\c@holder=\count422
-\c@savedholder=\count423
-\c@introduction=\count424
-\c@savedintroduction=\count425
-\c@namea=\count426
-\c@savednamea=\count427
-\c@nameb=\count428
-\c@savednameb=\count429
-\c@namec=\count430
-\c@savednamec=\count431
-\c@translator=\count432
-\c@savedtranslator=\count433
-\c@shortauthor=\count434
-\c@savedshortauthor=\count435
-\c@shorteditor=\count436
-\c@savedshorteditor=\count437
-\c@groupauthor=\count438
-\c@savedgroupauthor=\count439
-\c@narrator=\count440
-\c@savednarrator=\count441
-\c@execproducer=\count442
-\c@savedexecproducer=\count443
-\c@execdirector=\count444
-\c@savedexecdirector=\count445
-\c@with=\count446
-\c@savedwith=\count447
-\c@labelname=\count448
-\c@savedlabelname=\count449
-\c@institution=\count450
-\c@savedinstitution=\count451
-\c@lista=\count452
-\c@savedlista=\count453
-\c@listb=\count454
-\c@savedlistb=\count455
-\c@listc=\count456
-\c@savedlistc=\count457
-\c@listd=\count458
-\c@savedlistd=\count459
-\c@liste=\count460
-\c@savedliste=\count461
-\c@listf=\count462
-\c@savedlistf=\count463
-\c@location=\count464
-\c@savedlocation=\count465
-\c@organization=\count466
-\c@savedorganization=\count467
-\c@origlocation=\count468
-\c@savedoriglocation=\count469
-\c@origpublisher=\count470
-\c@savedorigpublisher=\count471
-\c@publisher=\count472
-\c@savedpublisher=\count473
-\c@language=\count474
-\c@savedlanguage=\count475
-\c@origlanguage=\count476
-\c@savedoriglanguage=\count477
-\c@citation=\count478
-\c@savedcitation=\count479
-\c@pageref=\count480
-\c@savedpageref=\count481
+\c@afterword=\count401
+\c@savedafterword=\count402
+\c@annotator=\count403
+\c@savedannotator=\count404
+\c@author=\count405
+\c@savedauthor=\count406
+\c@bookauthor=\count407
+\c@savedbookauthor=\count408
+\c@commentator=\count409
+\c@savedcommentator=\count410
+\c@editor=\count411
+\c@savededitor=\count412
+\c@editora=\count413
+\c@savededitora=\count414
+\c@editorb=\count415
+\c@savededitorb=\count416
+\c@editorc=\count417
+\c@savededitorc=\count418
+\c@foreword=\count419
+\c@savedforeword=\count420
+\c@holder=\count421
+\c@savedholder=\count422
+\c@introduction=\count423
+\c@savedintroduction=\count424
+\c@namea=\count425
+\c@savednamea=\count426
+\c@nameb=\count427
+\c@savednameb=\count428
+\c@namec=\count429
+\c@savednamec=\count430
+\c@translator=\count431
+\c@savedtranslator=\count432
+\c@shortauthor=\count433
+\c@savedshortauthor=\count434
+\c@shorteditor=\count435
+\c@savedshorteditor=\count436
+\c@groupauthor=\count437
+\c@savedgroupauthor=\count438
+\c@narrator=\count439
+\c@savednarrator=\count440
+\c@execproducer=\count441
+\c@savedexecproducer=\count442
+\c@execdirector=\count443
+\c@savedexecdirector=\count444
+\c@with=\count445
+\c@savedwith=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@citation=\count477
+\c@savedcitation=\count478
+\c@pageref=\count479
+\c@savedpageref=\count480
 \shorthandwidth=\skip82
 \shortjournalwidth=\skip83
 \shortserieswidth=\skip84
@@ -1205,190 +1135,153 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
-ef
-File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2020-09-03 L3 programming layer (loader) 
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count482
-\l__pdf_internal_box=\box70
-))
-Package biblatex Info: expl3
-(biblatex)             2020-09-03 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-Package biblatex Info: Trying to load expl3 case changing code...
-Package biblatex Info: ... file 'blx-case-expl3.def' found.
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
-l3.def
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
-rse.sty
-Package: xparse 2020-05-15 L3 Experimental document command parser
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
-rse-generic.tex
-\l__xparse_current_arg_int=\count483
-\g__xparse_grabber_int=\count484
-\l__xparse_m_args_int=\count485
-\l__xparse_v_nesting_int=\count486
-))
-File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count487
-\c@textcitetotal=\count488
-\c@textcitemaxnames=\count489
-\c@biburlbigbreakpenalty=\count490
-\c@biburlbreakpenalty=\count491
-\c@biburlnumpenalty=\count492
-\c@biburlucpenalty=\count493
-\c@biburllcpenalty=\count494
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count481
+\c@textcitetotal=\count482
+\c@textcitemaxnames=\count483
+\c@biburlbigbreakpenalty=\count484
+\c@biburlbreakpenalty=\count485
+\c@biburlnumpenalty=\count486
+\c@biburlucpenalty=\count487
+\c@biburllcpenalty=\count488
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count495
+\c@smartand=\count489
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.d
-ef
-File: blx-natbib.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
-File: apa.bbx 2020/08/28 v9.14 APA biblatex references style
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2020/02/01 v9.5 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
-.bbx
-File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count496
-\c@bbx:relatedtotal=\count497
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count490
+\c@bbx:relatedtotal=\count491
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
-File: apa.cbx 2020/08/28 v9.14 APA biblatex citation style
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2020/02/01 v9.5 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
 defined, overwriting.
 Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
 , overwriting.
+Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\citeauthor'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (estilos_bibliograficos/udelartex_apa.sty
+))
+(./estilos_bibliograficos/udelartex_apa.sty
 Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
 , overwriting on input line 13.
 )
-(glosario_listas_indices/simbolos.tex) (glosario_listas_indices/siglas.tex)
-(glosario_listas_indices/notacion.tex) (glosario_listas_indices/glosario.tex)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.s
-ty
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
+(./glosario_listas_indices/simbolos.tex) (./glosario_listas_indices/siglas.tex)
+(./glosario_listas_indices/notacion.tex)
+(./glosario_listas_indices/glosario.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip96
 \subfigcapskip=\skip97
 \subfigcaptopadj=\dimen300
 \subfigbottomskip=\skip98
 \subfigcapmargin=\dimen301
 \subfiglabelskip=\skip99
-\c@subfigure=\count498
-\c@lofdepth=\count499
-\c@subtable=\count500
-\c@lotdepth=\count501
+\c@subfigure=\count492
+\c@lofdepth=\count493
+\c@subtable=\count494
+\c@lotdepth=\count495
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.c
-fg)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip100
 \subfig@bottom=\skip101
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-\@float@every@algorithm=\toks54
-\c@algorithm=\count502
+\@float@every@algorithm=\toks53
+\c@algorithm=\count496
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmi
-c.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count503
-\c@ALC@line=\count504
-\c@ALC@rem=\count505
-\c@ALC@depth=\count506
+\c@ALC@unique=\count497
+\c@ALC@line=\count498
+\c@ALC@rem=\count499
+\c@ALC@depth=\count500
 \ALC@tlm=\skip102
 \algorithmicindent=\skip103
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip104
-\multirow@cntb=\count507
+\multirow@cntb=\count501
 \multirow@dima=\skip105
 \bigstrutjot=\dimen302
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count508
-\mult@box=\box71
+\c@tracingmulticols=\count502
+\mult@box=\box70
 \multicol@leftmargin=\dimen303
-\c@unbalance=\count509
-\c@collectmore=\count510
-\doublecol@number=\count511
-\multicoltolerance=\count512
-\multicolpretolerance=\count513
+\c@unbalance=\count503
+\c@collectmore=\count504
+\doublecol@number=\count505
+\multicoltolerance=\count506
+\multicolpretolerance=\count507
 \full@width=\dimen304
 \page@free=\dimen305
 \premulticols=\dimen306
 \postmulticols=\dimen307
 \multicolsep=\skip106
 \multicolbaselineskip=\skip107
-\partial@page=\box72
-\last@line=\box73
+\partial@page=\box71
+\last@line=\box72
 \maxbalancingoverflow=\dimen308
-\mult@rightbox=\box74
-\mult@grightbox=\box75
-\mult@gfirstbox=\box76
-\mult@firstbox=\box77
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
+\@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
 \@tempa=\box80
@@ -1425,64 +1318,69 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box111
 \@tempa=\box112
 \@tempa=\box113
-\@tempa=\box114
-\c@minrows=\count514
-\c@columnbadness=\count515
-\c@finalcolumnbadness=\count516
+\c@minrows=\count508
+\c@columnbadness=\count509
+\c@finalcolumnbadness=\count510
 \last@try=\dimen309
 \multicolovershoot=\dimen310
 \multicolundershoot=\dimen311
-\mult@nat@firstbox=\box115
-\colbreak@box=\box116
-\mc@col@check@num=\count517
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count511
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip108
 \enit@outerparindent=\dimen312
-\enit@toks=\toks55
-\enit@inbox=\box117
-\enit@count@id=\count518
-\enitdp@description=\count519
+\enit@toks=\toks54
+\enit@inbox=\box116
+\enit@count@id=\count512
+\enitdp@description=\count513
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count520
-\lst@gtempboxa=\box118
-\lst@token=\toks56
-\lst@length=\count521
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count514
+\lst@gtempboxa=\box117
+\lst@token=\toks55
+\lst@length=\count515
 \lst@currlwidth=\dimen313
-\lst@column=\count522
-\lst@pos=\count523
+\lst@column=\count516
+\lst@pos=\count517
 \lst@lostspace=\dimen314
 \lst@width=\dimen315
-\lst@newlines=\count524
-\lst@lineno=\count525
+\lst@newlines=\count518
+\lst@lineno=\count519
 \lst@maxwidth=\dimen316
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count526
-\lst@skipnumbers=\count527
-\lst@framebox=\box119
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count520
+\lst@skipnumbers=\count521
+\lst@framebox=\box118
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count528
-\@quotereset=\count529
-(tesis.aux
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
- (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux)
-(ded_agr_epi/epigrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
-(capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
-(capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
-(capitulos/Conclusiones.aux))
+\@quotelevel=\count522
+\@quotereset=\count523
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count524
+\l__pdf_internal_box=\box119
+)
+(./tesis.aux
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ (./ded_agr_epi/dedicacion.aux) (./ded_agr_epi/agradecimientos.aux) (./ded_agr_
+epi/epigrafe.aux) (./resumen/resumen.aux)
+(./capitulos/Introduccion.aux) (./capitulos/EstadoDelArte.aux)
+(./capitulos/Preliminares.aux) (./capitulos/Metodologia.aux)
+(./capitulos/ResultadosNumericos.aux) (./capitulos/Conclusiones.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -1502,27 +1400,28 @@ LaTeX Font Info:    ... okay on input line 102.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count530
+\scratchcounter=\count525
 \scratchdimen=\dimen317
 \scratchbox=\box120
-\nofMPsegments=\count531
-\nofMParguments=\count532
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count533
+\nofMPsegments=\count526
+\nofMParguments=\count527
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count528
 \MPscratchDim=\dimen318
-\MPnumerator=\count534
-\makeMPintoPDFobject=\count535
-\everyMPtoPDFconversion=\toks58
-)
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
+\MPnumerator=\count529
+\makeMPintoPDFobject=\count530
+\everyMPtoPDFconversion=\toks57
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 102.
@@ -1533,8 +1432,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: subfigure package is loaded.
 Package caption Info: supertabular package is loaded.
@@ -1542,22 +1441,22 @@ Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box121
 Package hyperref Info: Link coloring ON on input line 102.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
-itlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count536
+\c@section@level=\count531
 )
 LaTeX Info: Redefining \ref on input line 102.
 LaTeX Info: Redefining \pageref on input line 102.
 LaTeX Info: Redefining \nameref on input line 102.
- (tesis.out) (tesis.out)
+
+(./tesis.out) (./tesis.out)
 \@outlinefile=\write5
 \openout5 = `tesis.out'.
 
@@ -1601,54 +1500,46 @@ ABD: EveryShipout initializing macros
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-
-apa.lbx
-File: spanish-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
+File: spanish-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.
-lbx
-File: spanish.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.
-lbx
-File: spanish.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-
-apa.lbx
-File: english-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
-lbx
-File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american
--apa.lbx
-File: american-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american
-.lbx
-File: american.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
-lbx
-File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 ))))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1657,46 +1548,48 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis.bbl' found.
- (tesis.bbl)
+
+(./tesis.bbl)
 Package biblatex Info: Reference section=0 on input line 102.
 Package biblatex Info: Reference segment=0 on input line 102.
-\c@lstlisting=\count537
-<imagenes/logo_institucion1.png, id=225, 149.05687pt x 148.10596pt>
+\c@lstlisting=\count532
+<imagenes/logo_institucion1.png, id=227, 149.05687pt x 148.10596pt>
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
-Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 130
+Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 129
 .
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
-<imagenes/logo_udelar.pdf, id=226, 207.28883pt x 59.6364pt>
+<imagenes/logo_udelar.pdf, id=228, 207.28883pt x 59.6364pt>
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
-Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 130.
+Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 129.
 (pdftex.def)             Requested size: 179.61234pt x 51.67139pt.
  [1
 
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./imagenes/lo
-go_institucion1.png (PNG copy)> <./imagenes/logo_udelar.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imagenes/logo_institucio
+n1.png (PNG copy)> <./imagenes/logo_udelar.pdf>]
 File: imagenes/logo_institucion1.png Graphic file (type png)
 <use imagenes/logo_institucion1.png>
-Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 132
+Package pdftex.def Info: imagenes/logo_institucion1.png  used on input line 131
 .
 (pdftex.def)             Requested size: 52.00237pt x 51.67139pt.
 File: imagenes/logo_udelar.pdf Graphic file (type pdf)
 <use imagenes/logo_udelar.pdf>
-Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 132.
+Package pdftex.def Info: imagenes/logo_udelar.pdf  used on input line 131.
 (pdftex.def)             Requested size: 179.61234pt x 51.67139pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131
 .
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131
 .
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[2
+) [2
 
 ] [3
 
@@ -1705,34 +1598,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `ded_agr_epi/dedicacion.aux'.
 
- (ded_agr_epi/dedicacion.tex) [5
+
+(./ded_agr_epi/dedicacion.tex) [5
 
 
 ]
 \openout2 = `ded_agr_epi/agradecimientos.aux'.
 
- (ded_agr_epi/agradecimientos.tex)
-[6
+ (./ded_agr_epi/agradecimientos.tex) [6
 
 
 
-] [7]
+]
+[7]
 \openout2 = `ded_agr_epi/epigrafe.aux'.
 
- (ded_agr_epi/epigrafe.tex) [8
+ (./ded_agr_epi/epigrafe.tex) [8
 
 
 
 ]
 \openout2 = `resumen/resumen.aux'.
 
- (resumen/resumen.tex [9
+ (./resumen/resumen.tex [9
 
 
 
 ]) [10]
-(tesis.lof
-LaTeX Info: Redefining \sptext on input line 2.
+(./tesis.lof
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [11
@@ -1742,8 +1635,7 @@ LaTeX Info: Redefining \% on input line 2.
 \tf@lof=\write6
 \openout6 = `tesis.lof'.
 
- [12] (tesis.lot
-LaTeX Info: Redefining \sptext on input line 2.
+ [12] (./tesis.lot
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
@@ -1762,8 +1654,7 @@ Using TeX to sort glossary entries---this may take a while
 [17] [18
 
 
-] (tesis.toc
-LaTeX Info: Redefining \sptext on input line 2.
+] (./tesis.toc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [19
@@ -1775,52 +1666,48 @@ LaTeX Info: Redefining \% on input line 2.
  [20]
 \openout2 = `capitulos/Introduccion.aux'.
 
- (capitulos/Introduccion.tex
+ (./capitulos/Introduccion.tex
 Cap\'{\i }tulo 1.
 
-Underfull \vbox (badness 1342) has occurred while \output is active []
+Underfull \vbox (badness 2318) has occurred while \output is active []
 
  [1
 
 
 
 ]
-(imagenes/Introduccion/Torre.pdf_tex
-<./imagenes/Introduccion/Torre.pdf, id=557, page=1, 150.02202pt x 207.33661pt>
+(./imagenes/Introduccion/Torre.pdf_tex
+<./imagenes/Introduccion/Torre.pdf, id=560, page=1, 150.02202pt x 207.33661pt>
 File: ./imagenes/Introduccion/Torre.pdf Graphic file (type pdf)
 <use ./imagenes/Introduccion/Torre.pdf, page 1>
 Package pdftex.def Info: ./imagenes/Introduccion/Torre.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 314.59492pt.
 ) [2 <./imagenes/Introduccion/Torre.pdf>]
-[3]) [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+[4]
 \openout2 = `capitulos/EstadoDelArte.aux'.
 
- (capitulos/EstadoDelArte.tex
+ (./capitulos/EstadoDelArte.tex
 Cap\'{\i }tulo 2.
 [5
 
 
 
-] [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8] [9] [10] [11] [12] [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-[15] [16] [17]) [18]
+] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]) [18]
 \openout2 = `capitulos/Preliminares.aux'.
 
- (capitulos/Preliminares.tex
+
+(./capitulos/Preliminares.tex
 Cap\'{\i }tulo 3.
 [19
 
 
 
-] (imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=794, page=1, 
+] (./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=801, page=1, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1828,7 +1715,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=795, page=2, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=802, page=2, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1836,7 +1723,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=796, page=3, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=803, page=3, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1844,7 +1731,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=797, page=4, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=804, page=4, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1852,7 +1739,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page4 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=798, page=5, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=805, page=5, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1860,7 +1747,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page5 used on input line 67.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=799, page=6, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=806, page=6, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1868,7 +1755,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page6 used on input line 69.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=800, page=7, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=807, page=7, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1876,7 +1763,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page7 used on input line 71.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=801, page=8, 
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf, id=808, page=8, 
 683.51215pt x 564.35127pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
  (type pdf)
@@ -1884,44 +1771,45 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l2.pdf , page8 used on input line 73.
 (pdftex.def)             Requested size: 284.52756pt x 234.92476pt.
-) [20 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf> <./imagene
-s/Preliminares/Corrotacional/IlusCorrotacional2.pdf
+)
+[20 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf> <./imagenes/
+Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional2.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
->] (imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=832, page=1, 6
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional2.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] (./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=839, page=1, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1929,7 +1817,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=833, page=2, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=840, page=2, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1937,7 +1825,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=834, page=3, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=841, page=3, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1945,7 +1833,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=835, page=4, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=842, page=4, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1953,7 +1841,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=836, page=5, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=843, page=5, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1961,7 +1849,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=837, page=6, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=844, page=6, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1969,7 +1857,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusCorrotaciona
 l.pdf , page6 used on input line 76.
 (pdftex.def)             Requested size: 284.52756pt x 250.46667pt.
-<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=838, page=7, 6
+<./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf, id=845, page=7, 6
 30.99098pt x 555.44887pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf Graphic file 
 (type pdf)
@@ -1980,34 +1868,34 @@ l.pdf , page7 used on input line 78.
 ) [21 <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf> <./imagenes
 /Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusCo
-rrotacional.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusCorrotacional.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2019,8 +1907,8 @@ Underfull \vbox (badness 2443) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-(imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=909, page=1, 622.6
+[26] (./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf_tex
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=927, page=1, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2028,7 +1916,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=910, page=2, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=928, page=2, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2036,7 +1924,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=911, page=3, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=929, page=3, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2044,7 +1932,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page3 used on input line 62.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=912, page=4, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=930, page=4, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2052,7 +1940,7 @@ e pdf)
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=913, page=5, 622.6
+<./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf, id=931, page=5, 622.6
 63pt x 250.86653pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf Graphic file (typ
 e pdf)
@@ -2061,8 +1949,8 @@ Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pd
 f , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 114.63441pt.
 )
-(imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf_tex
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=914, page=1, 621.17
+(./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf_tex
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=932, page=1, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2070,7 +1958,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page1 used on input line 56.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=915, page=2, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=933, page=2, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2078,7 +1966,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page2 used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=916, page=3, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=934, page=3, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2086,7 +1974,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page3 used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=917, page=4, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=935, page=4, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2094,7 +1982,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page4 used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=918, page=5, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=936, page=5, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2102,7 +1990,7 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page5 used on input line 72.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=919, page=6, 621.17
+<./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf, id=937, page=6, 621.17
 244pt x 272.80539pt>
 File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
  pdf)
@@ -2110,1072 +1998,32 @@ File: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf Graphic file (type
 Package pdftex.def Info: ./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
  , page6 used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 124.95917pt.
-) [26] [27 <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf> <./imagene
-s/Preliminares/Corrotacional/IlusLocalDisp.pdf
+) [27 <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf> <./imagenes/Pre
+liminares/Corrotacional/IlusLocalDisp.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusLocalDisp.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
 > <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusLocalDisp.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
 > <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusLocalDisp.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
 > <./imagenes/Preliminares/Corrotacional/IlusLocalDisp.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calDisp.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusLocalDisp.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
 > <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Preliminares/Corrotacional/IlusLo
-calAng.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
->]
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
- [28]
-[29] [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [35]
-[36])
-\openout2 = `capitulos/Metodologia.aux'.
-
- (capitulos/Metodologia.tex
-Cap\'{\i }tulo 4.
-[37
-
-
-
-] (imagenes/Metodologia/EsquemaInicial.pdf_tex
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1071, page=1, 593.30098pt x 391.
-66653pt>
-File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaInicial.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page1 used
- on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1072, page=2, 593.30098pt x 391.
-66653pt>
-File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaInicial.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page2 used
- on input line 60.
-(pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1073, page=3, 593.30098pt x 391.
-66653pt>
-File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaInicial.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page3 used
- on input line 63.
-(pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-<./imagenes/Metodologia/EsquemaInicial.pdf, id=1074, page=4, 593.30098pt x 391.
-66653pt>
-File: ./imagenes/Metodologia/EsquemaInicial.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaInicial.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaInicial.pdf , page4 used
- on input line 68.
-(pdftex.def)             Requested size: 227.62204pt x 150.26317pt.
-) [38 <./imagenes/Metodologia/EsquemaInicial.pdf> <./imagenes/Metodologia/Esque
-maInicial.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaInicial.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/EsquemaInicial.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaInicial.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/EsquemaInicial.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaInicial.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
->] [39] (imagenes/Metodologia/EsquemaViento.pdf_tex
-<./imagenes/Metodologia/EsquemaViento.pdf, id=1098, page=1, 558.00475pt x 397.4
-1847pt>
-File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaViento.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page1 used 
-on input line 56.
-(pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
-<./imagenes/Metodologia/EsquemaViento.pdf, id=1099, page=2, 558.00475pt x 397.4
-1847pt>
-File: ./imagenes/Metodologia/EsquemaViento.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/EsquemaViento.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/EsquemaViento.pdf , page2 used 
-on input line 60.
-(pdftex.def)             Requested size: 170.71652pt x 121.58539pt.
-)
-(imagenes/Metodologia/DragLift.pdf_tex
-<./imagenes/Metodologia/DragLift.pdf, id=1100, page=1, 262.4226pt x 303.64412pt
->
-File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/DragLift.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page1 used on in
-put line 56.
-(pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=1101, page=2, 262.4226pt x 303.64412pt
->
-File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/DragLift.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page2 used on in
-put line 58.
-(pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-<./imagenes/Metodologia/DragLift.pdf, id=1102, page=3, 262.4226pt x 303.64412pt
->
-File: ./imagenes/Metodologia/DragLift.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/DragLift.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Metodologia/DragLift.pdf , page3 used on in
-put line 63.
-(pdftex.def)             Requested size: 142.26378pt x 164.60939pt.
-) [40 <./imagenes/Metodologia/EsquemaViento.pdf> <./imagenes/Metodologia/Esquem
-aViento.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/EsquemaViento.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/DragLift.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/DragLift.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/DragLift.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/DragLift.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->] (imagenes/Metodologia/VelAbs.pdf_tex
-<./imagenes/Metodologia/VelAbs.pdf, id=1117, page=1, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page1 used on inpu
-t line 56.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1118, page=2, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page2 used on inpu
-t line 58.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1119, page=3, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page3 used on inpu
-t line 60.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1120, page=4, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page4 used on inpu
-t line 63.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1121, page=5, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page5 used on inpu
-t line 65.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-<./imagenes/Metodologia/VelAbs.pdf, id=1122, page=6, 281.43771pt x 182.25304pt>
-
-File: ./imagenes/Metodologia/VelAbs.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelAbs.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Metodologia/VelAbs.pdf , page6 used on inpu
-t line 70.
-(pdftex.def)             Requested size: 170.71652pt x 110.55681pt.
-) (imagenes/Metodologia/VelRel.pdf_tex
-<./imagenes/Metodologia/VelRel.pdf, id=1124, page=1, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 1>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page1 used on inpu
-t line 56.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1125, page=2, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 2>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page2 used on inpu
-t line 58.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1126, page=3, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 3>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page3 used on inpu
-t line 60.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1127, page=4, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 4>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page4 used on inpu
-t line 62.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1128, page=5, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 5>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page5 used on inpu
-t line 69.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1129, page=6, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 6>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page6 used on inpu
-t line 73.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-<./imagenes/Metodologia/VelRel.pdf, id=1130, page=7, 330.7165pt x 175.85223pt>
-File: ./imagenes/Metodologia/VelRel.pdf Graphic file (type pdf)
-<use ./imagenes/Metodologia/VelRel.pdf, page 7>
-Package pdftex.def Info: ./imagenes/Metodologia/VelRel.pdf , page7 used on inpu
-t line 75.
-(pdftex.def)             Requested size: 227.62204pt x 121.03763pt.
-)
-[41 <./imagenes/Metodologia/VelAbs.pdf> <./imagenes/Metodologia/VelAbs.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelAbs.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelAbs.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelAbs.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelAbs.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelAbs.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42 <./imagenes/Metodologia/VelRel.pdf> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./imagenes/Metodologia/VelRel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/Metodologia/VelRel.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->] [43] [44]
-Overfull \hbox (21.43697pt too wide) detected at line 177
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-[46]
-Overfull \hbox (43.26361pt too wide) detected at line 241
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Underfull \vbox (badness 6236) has occurred while \output is active []
-
- [48]
-Overfull \hbox (59.93146pt too wide) detected at line 333
-[]
- []
-
-
-Underfull \vbox (badness 7344) has occurred while \output is active []
-
- [49]
-[50]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 385.
- [51] [52] [53]) [54]
-\openout2 = `capitulos/ResultadosNumericos.aux'.
-
- (capitulos/ResultadosNumericos.tex
-Cap\'{\i }tulo 5.
-(imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-5, page=1, 430.91672pt x 373.53741pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
-ge 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dxy.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-6, page=2, 430.91672pt x 373.53741pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
-ge 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dxy.pdf , page2 used on input line 63.
-(pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, id=134
-7, page=3, 430.91672pt x 373.53741pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf, pa
-ge 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dxy.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 170.71652pt x 147.98738pt.
-)
-(imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=134
-8, page=1, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=134
-9, page=2, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page2 used on input line 63.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, id=135
-0, page=3, 306.78197pt x 377.72128pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf Gr
-aphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf, pa
-ge 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Ilu
-stracion2Dyz.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 116.6563pt x 143.63354pt.
-)
-[55
-
-
-
-] [56 <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf> 
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dxy.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dxy.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Ilustracion2Dyz.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
->] (imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1370, page=
-1, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1371, page=
-2, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, id=1372, page=
-3, 331.10977pt x 249.98132pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf Graphic fi
-le (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Fue
-rzaZ.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 256.0748pt x 193.3368pt.
-)
-(imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf_tex
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1376, pa
-ge=1, 584.1825pt x 488.57532pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf Graphic
- file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, page 1>
-
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Def
-ormadas.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 341.43306pt x 285.56566pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, id=1377, pa
-ge=2, 584.1825pt x 488.57532pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf Graphic
- file (type pdf)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf, page 2>
-
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/Def
-ormadas.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 341.43306pt x 285.56566pt.
-) [57 <./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf> <./image
-nes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/FuerzaZ.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./imagenes/ResultadosNumericos/RightAngeCantilever/FuerzaZ.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/FuerzaZ.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png, id=1387
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispy_NodeA.png  used on input line 61.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png, id=1388
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispz_NodeA.png  used on input line 62.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58 <./imagenes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf> <./ima
-genes/ResultadosNumericos/RightAngeCantilever/Deformadas.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/RightAngeCant
-ilever/Deformadas.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png, id=1404
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispy_NodeB.png  used on input line 74.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png, id=1405
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispz_NodeB.png  used on input line 75.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
- [59 <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeA.png (PN
-G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_NodeA.png
- (PNG copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispy_NodeB
-.png (PNG copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispz_N
-odeB.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png, id=1418
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispx_NodeB.png  used on input line 94.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png, id=1419
-, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png Gra
-phic file (type png)
-<use ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/RightAngeCantilever/RA_
-Dispx_NodeA.png  used on input line 95.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
- [60 <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png (PN
-G copy)> <./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png
- (PNG copy)>]
-(imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1431, page=1, 
-536.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page1 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1432, page=2, 
-536.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1433, page=3, 
-536.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1434, page=4, 
-536.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page4 used on input line 67.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-<./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, id=1435, page=5, 
-536.0025pt x 470.50781pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf Graphic file 
-(type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf, page 5>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/EsquemaCabl
-e.pdf , page5 used on input line 69.
-(pdftex.def)             Requested size: 227.62204pt x 199.8088pt.
-)
-(imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, id=1437, page=1, 2
-30.42435pt x 150.1833pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/PerfilCable
-.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 148.35652pt.
-) [61 <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf> <./imagenes
-/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
+pdfTeX warning: /usr/bin/pdflatex (file ./imagenes/Preliminares/Corrotacional/I
+lusLocalAng.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
-> <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
+> <./imagenes/Preliminares/Corrotacional/IlusLocalAng.pdf
 
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
-> <./imagenes/ResultadosNumericos/SimpleCable/EsquemaCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/E
-squemaCable.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
->]
-<./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png, id=1464, 421.
-575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png Graphic f
-ile (type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL
-_Foti.png  used on input line 154.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
- [62 <./imagenes/ResultadosNumericos/SimpleCable/PerfilCable.pdf>]
-<./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png, id=1478, 4
-21.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png Graphi
-c file (type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodal
-Z_TLFoti.png  used on input line 166.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png, id=1479, 421.575p
-t x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png Graphic file 
-(type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Fot
-i.png  used on input line 181.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png, id=1480, 421.575p
-t x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png Graphic file 
-(type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Fot
-i.png  used on input line 182.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-(imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf_tex
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1482, page=1, 3
-51.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1483, page=2, 3
-51.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1484, page=3, 3
-51.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-<./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, id=1485, page=4, 3
-51.45792pt x 341.24495pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf Graphic file (
-type pdf)
-<use ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/AnguloCable
-.pdf , page4 used on input line 65.
-(pdftex.def)             Requested size: 227.62204pt x 221.0099pt.
-) [63 <./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png (PNG cop
-y)>]
-Underfull \vbox (badness 6078) has occurred while \output is active []
-
- [64 <./imagenes/ResultadosNumericos/SimpleCable/FuerzaNodalZ_TLFoti.png (PNG c
-opy)> <./imagenes/ResultadosNumericos/SimpleCable/DispZTL_Foti.png (PNG copy)> 
-<./imagenes/ResultadosNumericos/SimpleCable/DispYTL_Foti.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png, id=1501, 421.575pt
- x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png Graphic file (
-type png)
-<use ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti
-.png  used on input line 204.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
- [65 <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf> <./imagenes/R
-esultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/AnguloCable.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/SimpleCable/A
-nguloCable.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
-> <./imagenes/ResultadosNumericos/SimpleCable/Angulo_Foti.png (PNG copy)>]
-(imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1780, page=1, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1781, page=2, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1782, page=3, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page3 used on input line 65.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1783, page=4, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 4>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page4 used on input line 67.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf, i
-d=1784, page=5, 896.46901pt x 621.33614pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pd
-f, page 5>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionTormenta.pdf , page5 used on input line 71.
-(pdftex.def)             Requested size: 341.43306pt x 236.65059pt.
-) [66 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.
-pdf> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.p
-df
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionTormenta.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionTormenta.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
->] (imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, id=1794, pa
-ge=1, 624.86476pt x 758.37306pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf Graphic
- file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf, page 1>
-
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-usTorre.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 276.25421pt.
-)
-[67 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlusTorre.pdf>]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png, id=18
-07, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png G
-raphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
-erzaNodalX_TS.png  used on input line 245.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png, id
-=1808, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.pn
-g Graphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png
->
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Ve
-locidadNodalX_TS.png  used on input line 246.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-
-[68 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png (P
-NG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_
-TS.png (PNG copy)>]
-(imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf_tex
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1818, page=1, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 1>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1819, page=2, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 2>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf, id=
-1820, page=3, 143.50446pt x 139.31094pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
- Graphic file (type pdf)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf,
- page 3>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Il
-ustracionAngulo.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 220.97615pt.
-)
-[69 <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf>
- <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionAngulo.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <./imagenes/ResultadosNumericos/TransmissionTormenta/IlustracionAngulo.pdf
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/ResultadosNumericos/TransmissionT
-ormenta/IlustracionAngulo.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png, id=183
-1, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spXTS_NodeAD.png  used on input line 272.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png, id=183
-2, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spZTS_NodeAD.png  used on input line 273.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png, id=183
-4, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spXTS_NodeCB.png  used on input line 285.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
-<./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png, id=183
-5, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png Gr
-aphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Di
-spZTS_NodeCB.png  used on input line 286.
-(pdftex.def)             Requested size: 191.20082pt x 143.34973pt.
- [70 <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeAD.png (P
-NG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeAD.p
-ng (PNG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_Nod
-eCB.png (PNG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/DispZT
-S_NodeCB.png (PNG copy)>]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png, id=18
-53, 421.575pt x 316.0608pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png G
-raphic file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/Fu
-erzaAngulo_TS.png  used on input line 300.
-(pdftex.def)             Requested size: 284.52756pt x 213.31737pt.
- [71]
-<./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png, id=1861, 8
-32.91174pt x 413.74574pt>
-File: ./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png Graphi
-c file (type png)
-<use ./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png>
-Package pdftex.def Info: ./imagenes/ResultadosNumericos/TransmissionTormenta/De
-formadas.png  used on input line 310.
-(pdftex.def)             Requested size: 341.43306pt x 169.60529pt.
-) [72 <./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png 
-(PNG copy)> <./imagenes/ResultadosNumericos/TransmissionTormenta/Deformadas.png
->]
-\openout2 = `capitulos/Conclusiones.aux'.
-
- (capitulos/Conclusiones.tex
-Cap\'{\i }tulo 6.
-[73
-
-
-
-] [74] [75] [76] [77] [78] [79] [80] [81]) [82] [83
-
-
-
-] [84] [85] [86] [87]
-[88]
-
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={glosar
-io}]. Rerun may be required (or you may have forgotten to use commands like \gl
-s) on input line 166.
-
-[89] [90
-
-] (apendice/apendice_A.tex
-Ap\'{e}ndice 1.
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 22.
- (elementBeamForces.m
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [91
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [95]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [98]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99]))
-(apendice/apendice_B.tex [100]
-Ap\'{e}ndice 2.
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [101
-
-]
-[102]) 
-AED: lastpage setting LastPage
-[103]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
- (tesis.aux
-LaTeX Info: Redefining \sptext on input line 34.
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
- (ded_agr_epi/dedicacion.aux) (ded_agr_epi/agradecimientos.aux) (ded_agr_epi/ep
-igrafe.aux) (resumen/resumen.aux) (capitulos/Introduccion.aux)
-(capitulos/EstadoDelArte.aux) (capitulos/Preliminares.aux)
-(capitulos/Metodologia.aux) (capitulos/ResultadosNumericos.aux)
-(capitulos/Conclusiones.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: CF56745121DE657225C619E7C38E7AFE;3531.
-Package logreq Info: Writing requests to 'tesis.run.xml'.
-\openout1 = `tesis.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
- ) 
-Here is how much of TeX's memory you used:
- 43581 strings out of 481199
- 841096 string characters out of 2904657
- 1876787 words of memory out of 3000000
- 57304 multiletter control sequences out of 15000+200000
- 552333 words of font info for 92 fonts, out of 3000000 for 9000
- 1152 hyphenation exceptions out of 8191
- 114i,22n,107p,1700b,4865s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi720\cmbc
-sc10.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm1200.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/Usuario/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Usuario/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users
-/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Usu
-ario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.p
-fb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Usuario/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/User
-s/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pf
-b><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Usuario/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (123 pages, 2566464 bytes).
-PDF statistics:
- 2759 PDF objects out of 2984 (max. 8388607)
- 921 named destinations out of 1000 (max. 500000)
- 1001 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+pdfTeX 

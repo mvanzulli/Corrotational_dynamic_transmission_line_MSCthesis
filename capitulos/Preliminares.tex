@@ -1,13 +1,13 @@
-\chapter{Preliminares}\label{Cap:Preliminares}
+\chapter{Conceptos preliminares}\label{Cap:Preliminares}
 \linenumbers
 
-A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto en \citep{Le2014}, \citep{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen la caracterización de magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional, para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
+A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto por \cite{Le2014}, \citep{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen la caracterización de magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional, para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
 
 
 \section{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
 
 
-El planteo corrotacional para elementos de viga 3D binodales, se basa en escindir la cinemática del movimiento en dos componentes. La primera de ellas representa grandes rotaciones y desplazamientos, dados por el movimiento de la viga consideradola como un elemento rígido. La segunda componente tiene en cuenta los desplazamientos locales asociados a la flexibilidad del material. Este enfoque se suele aplicar en casos estáticos, donde resulta intuitivo imaginar inicialmente como se deformaría la estructura de manera rígida para luego aplicarle la componente no rígida. Para poder realizar esta descomposición, hace falta introducir una serie de sistemas de coordenadas que permiten representar los desplazamientos de cada una de las componentes. Para encontrar la curva deformada que describe el elemento, hace falta la orientación y traslación de un sistema de coordenadas solidario a cada punto. Estas magnitudes se obtienen a partir de transformaciones representables matemáticamente con la artillería del álgebra matricial para rotaciones. Una presentación de la temática puede hallarse en la publicación \citep{kovzar1995finite}.
+El planteo corrotacional para elementos de viga 3D binodales, se basa en escindir la cinemática del movimiento en dos componentes. La primera de ellas representa grandes rotaciones y desplazamientos, dados por el movimiento de la viga consideradola como un elemento rígido. La segunda componente tiene en cuenta los desplazamientos locales asociados a la flexibilidad del material. Este enfoque se suele aplicar en casos estáticos, donde resulta intuitivo imaginar inicialmente como se deformaría la estructura de manera rígida para luego aplicarle la componente no rígida. Para poder realizar esta descomposición, hace falta introducir una serie de sistemas de coordenadas que permiten representar los desplazamientos de cada una de las componentes. Para encontrar la curva deformada que describe el elemento, hace falta la orientación y traslación de un sistema de coordenadas solidario a cada punto. Estas magnitudes se obtienen a partir de transformaciones representables matemáticamente con la artillería del álgebra matricial para rotaciones. Una presentación de la temática puede hallarse en el trabajo de \cite{kovzar1995finite}.
 
 \subsection{Matrices de rotación}
 
@@ -42,7 +42,7 @@ Primeramente se define un sistema de referencia canónico integrado por el siste
 %Se hace énfasis en el hecho de que tanto la configuración inicial como la de deformación rígida requieren un único sistema de coordenadas. Por el contrario, la configuración deformada debido a la flexibilidad del elemento, requiere dos sistemas, denotados con la letra $\bf{t}_j^i$ donde el supra-indice $i$ identifica el nodo y el sub-indice $j$ la dirección.
 
 
-La definición de los sistemas de coordenadas mencionados en el párrafo anterior no es arbitraria. Una vez definidas las matrices de rotación resulta, intuitivo y oportuno escribirlas a partir de los sistemas de coordenadas solidarios a cada configuración. Esa relación intrínseca entre matrices y los sistemas de referencia se establece en la Tabla a continuación:
+La definición de los sistemas de coordenadas mencionados en el párrafo anterior no es arbitraria. Una vez definidas las matrices de rotación resulta, intuitivo y oportuno escribirlas a partir de los sistemas de coordenadas solidarios a cada configuración. Esa relación intrínseca entre matrices y los sistemas de referencia se establecen en la Tabla \ref{Table:PRE:RelacionVM}:
 
 \begin{table}[htbp]
 	\begin{center}
@@ -67,7 +67,7 @@ La definición de los sistemas de coordenadas mencionados en el párrafo anterio
 \end{table}
 
 
-Los vínculos descritos en la tabla anterior se desprenden de las definiciones para cada matriz. Los vectores a la izquierda y derecha hacen referencia a la y a su respectiva imagen. A modo de ejemplo para la primera fila se tiene: $\bf{R}_0$. $(\bf{E_1})$ = $\bf{e_1}^T$. Al plantear este tipo de vínculos entre el sistema de coordenadas $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ se puede hallar a partir del sistema de coordenadas canónico $(\bf{E_1},\bf{E_2},\bf{E_3})$ de dos formas. La primera consiste aplicar consecutivamente las rotaciones $\bf{R}_0$ y $\bf{R}_i^g$ y la segunda en aplicar $\bf{R_r}$ y luego ${\bf{R_i}}$. Esto se muestra en la ecuación a continuación: 
+Los vínculos descritos en la Tabla \ref{Table:PRE:RelacionVM} se desprenden de las definiciones para cada matriz. Los vectores a la izquierda refieren al dominio de la matriz y a su derecha hacen a su respectiva imagen. A modo de ejemplo para la primera fila se tiene: $\bf{R}_0$. $(\bf{E_1})$ = $\bf{e_1}^T$. Al plantear este tipo de vínculos entre el sistema de coordenadas $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ se puede hallar a partir del sistema de coordenadas canónico $(\bf{E_1},\bf{E_2},\bf{E_3})$ de dos formas. La primera consiste aplicar consecutivamente las rotaciones $\bf{R}_0$ y $\bf{R}_i^g$ y la segunda en aplicar $\bf{R_r}$ y luego ${\bf{R_i}}$. Esto se muestra en la ecuación a continuación: 
 
 \begin{equation}
 	\label{eq:PRE:Vincul1}
@@ -86,7 +86,7 @@ A partir de la Ecuación \eqref{eq:PRE:Vincul1} se puede obtener la matriz de ro
 El propósito de la descripción anterior, responde a la necesidad de crear herramientas analíticas que permitan vincular los desplazamientos lineales y angulares, para las distintas configuraciones, ubicando a cada elemento en coordenadas locales y globales. Las coordenadas globales se referencian al sistema de vectores (\gls{e1},\gls{e2},\gls{e3}) mientras que las locales a (\gls{t1i},\gls{t2i},\gls{t3i}). El vector de desplazamientos locales del elemento es compuesto por: el desplazamiento axial, etiquetado con la letra \gls{uloc}, y sus desplazamientos angulares nodales con el nombre \gls{theta1} y \gls{theta2}. El escalar \gls{uloc} representa el estiramiento del elemento respecto de su largo inicial ($l_0$). A su vez, el ángulo \gls{theta1} se asocia con la rotación del sistema de coordenadas (\gls{t11},\gls{t21},\gls{t31}) respecto de $(\bf{r_1},\bf{r_2},\bf{r_3})$ indicados en la Figura \ref{fig:PRE:IlusCorrot}. Estos siete grados de libertad se compactan en el vector \gls{DispLocal}=(\gls{uloc},\gls{theta1},\gls{theta2}). 
 
 
-El vector de desplazamiento axial \gls{uloc} se descompone en tres componentes según el sistema de vectores $\bf{r_i}$, solidario a la configuración de deformación rígida. A este vector de desplazamientos se le denomina \gls{dispAxialLocalRigid}. Además, los desplazamientos de la viga se pueden expresar en coordenadas globales.  Para esto se utilizan las 6 magnitudes clásicas \gls{GlobalDisp}$=($\gls{GlobalDispU},\gls{GlobalDispW}$)$. Estas tienen origen en la configuración de referencia y permiten encontrar los desplazamientos en la configuración deformada. Para el nodo 1 los $\bf{\delta{w_1^g}^T}$ hacen referencia a la rotación de los vectores $(\bf{e_1},\bf{e_2},\bf{e_3})$ hasta (\gls{t11},\gls{t21},\gls{t31}). Además, los desplazamientos globales del nodo 1 $\bf{\delta u_1^g}$ se corresponden con los desplazamientos del este nodo desde su configuración de referencia hasta la deformada. Esto se puede observar en la Figura \ref{fig:PRE:IlusCorrot}.
+El vector de desplazamiento axial \gls{uloc} se descompone en tres componentes según el sistema de vectores $\bf{r_i}$, solidario a la configuración de deformación rígida. A este vector de desplazamientos se le denomina \gls{dispAxialLocalRigid}. Además, los desplazamientos de la viga se pueden expresar en coordenadas globales.  Para esto se utilizan las 6 magnitudes clásicas \gls{GlobalDisp}$=($\gls{GlobalDispU},\gls{GlobalDispW}$)$. Estas tienen origen en la configuración de referencia y permiten encontrar los desplazamientos en la configuración deformada. Para el nodo 1 los $\bf{\delta{w_1^g}^T}$ hacen referencia a la rotación de los vectores $(\bf{e_1},\bf{e_2},\bf{e_3})$ hasta (\gls{t11},\gls{t21},\gls{t31}). Además, los desplazamientos globales del nodo 1 $\bf{\delta u_1^g}$ se corresponden con los desplazamientos del nodo desde su configuración de referencia hasta la deformada. Esto se puede observar en la Figura \ref{fig:PRE:IlusCorrot}.
 %%BorrandoEspacio
 %\begin{figure}[htbp]
 %	\centering
@@ -104,7 +104,7 @@ Para resolver el problema mediante métodos numéricos, es necesario definir var
 	\bf{\delta d_g} &=& [\bf{\delta u_1^g}^T, \bf{\delta u_2^g}^T, \bf{\delta{w_1^g}^T}, \bf{\delta{w_2^g}^T}]^T
 \end{eqnarray}
 
-Consecuente con los desplazamientos infinitesimales, los diferenciales asociados a las transformaciones de giro $\bf{R_r^g}$, $\bf{R_i^g}$, $\bf{R_0}$ y $\bf{\overline{R}}_i$.
+Consecuente con los desplazamientos infinitesimales presentados en las Ecuaciones \eqref{eq:PRE:DifDisps1} y \eqref{eq:PRE:DifDisps2}, se deben calcular los diferenciales asociados a las transformaciones de giro $\bf{R_r^g}$, $\bf{R_i^g}$, $\bf{R_0}$ y $\bf{\overline{R}}_i$.
 Para esto, primeramente deben obtenerse las matrices según lo explicitado en la Tabla \ref{Table:PRE:RelacionVM}. Las entradas de $\bf{R}_r$ y  $\bf{R}_i^g$ se hallan siguiendo las ecuaciones:
 %tieneqandar
 \begin{eqnarray}
@@ -146,7 +146,7 @@ En la Ecuación \eqref{eq:PRE:DifMatrix} se aplica la regla de la cadena para el
 	\delta \bf{R_r^g} &=& \widetilde{\delta\bf{w}_r^g}~\bf{R}_r.
 \end{eqnarray}
 
-En las Ecuaciones \eqref{eq:PRE:DifMatrix2} y \eqref{eq:PRE:DifMatrix3} el término $\widetilde{\delta\bf{w}_r^g}$ refiere a la operación skew del vector $\delta\bf{w}_r^g$. Esta operación simplifica el producto vectorial de forma matricial y es sumamente útil para el cálculo de diferenciales asociados a matrices de rotación. La función \gls{Skew} aplicada al vector $\bf{\Omega}=(\Omega_1,\Omega_2,\Omega_3)$ toma la siguiente forma:
+En las Ecuaciones \eqref{eq:PRE:DifMatrix2} y \eqref{eq:PRE:DifMatrix3} el término $\widetilde{\delta\bf{w}_r^g}$ refiere a la operación \textit{skew} del vector $\delta\bf{w}_r^g$. Esta operación simplifica el producto vectorial de forma matricial y es sumamente útil para el cálculo de diferenciales asociados a matrices de rotación. La función \gls{Skew} aplicada al vector $\bf{\Omega}=(\Omega_1,\Omega_2,\Omega_3)$ toma la siguiente forma:
 
 \begin{equation}\label{eq:PRE:Skew}
 	(\bf{\Omega})=\widetilde{\bf{\Omega}}
@@ -167,22 +167,21 @@ Para vincular los diferenciales de ángulos locales en términos de las variacio
 		\bf{0}  & \bf{0}   & \bf{0}   & \bf{R_r}
 	\end{bmatrix}\rightarrow \delta \bf{d_g}=E^T \bf{d_g},
 \end{equation}
- Según los cocientes entre las componentes de los vectores $\bf{p}_j$ y $\bf{p_{ij}}$ de la Ecuación \eqref{Eqn:Corrot:DefAuxp}, el vector  $\bf{p_{ij}}=(\bf{R_r}^T\bf{p})\bf{p_{ij}}$ y  $\bf{p_{j}}=\bf{R_r}^T\bf{p}_i$ se calcula matriz $\bf{G}$ de acuerdo con la siguiente expresión:
-\begin{equation}\label{Eqn:PRE:Corrot:DefG}
-	\begin{array}{r@{}l}
-		\bf{G}&{}=\frac{\partial \bf{w_r^g}}{\partial \bf{d}^g}=[\bf{G}_1 ~~ \bf{G}_2]\\
-		\bf{G}_1&{}=\begin{bmatrix}
+ Según los cocientes entre las componentes de los vectores auxiliares $\bf{p}_j$ y $\bf{p_{ij}}$ de la Ecuación \eqref{Eqn:Corrot:DefAuxp}, el vector  $\bf{p_{j}}=(\bf{R_r}^T\bf{p})$ y  $\bf{p_{ij}}=\bf{R_r}^T\bf{p}_i$ se calcula la matriz $\bf{G}$ de acuerdo con las siguientes expresiones:
+
+\begin{eqnarray}\label{Eqn:PRE:Corrot:DefG}
+		\bf{G}&=&\frac{\partial \bf{w_r^g}}{\partial \bf{d}^g}=[\bf{G}_1 ~~ \bf{G}_2]\\
+		\bf{G}_1&=&\begin{bmatrix}
 			0 &  0      &  \frac{p_1}{p_2 l_n} &  \frac{p_{12}}{2p_2} &-\frac{p_{11}}{2p_2}  &  0  \\
 			0 &  0      &   1/l_n   &       0       &      0       &  0   \\
 			0 & -1/l_n  &      0    &       0       &      0       &  0
 		\end{bmatrix}\\
-		\bf{G}_2&{}=\begin{bmatrix}
+		\bf{G}_2&=&\begin{bmatrix}
 			0  &  0    &   -1/l_n   &      0      &     0        &    0 \\
 			0  &  0     &-\frac{p_1}{p_2 l_n}  & \frac{p_{2}}{2p_2} &-\frac{p_{21}}{2p_2} &    0 \\
 			0  &  1/l_n &       0   &      0      &     0        &    0
 		\end{bmatrix}
-	\end{array}
-\end{equation}
+\end{eqnarray}
 
 Notoese que las matrices $\bf{R}_r$ tiene dimensión 3x3. Para respetar dichas dimensiones, $\bf{0}$ es una matriz nula de 3x3 e $\bf{I}$ una matriz identidad del mismo número de filas y columnas. La relación entre los diferenciales anteriores, se pueden combinar de manera matricial, logrando así expresar los incrementos de ángulos locales en términos globales, según la siguiente ecuación:
 
@@ -249,7 +248,7 @@ Las interpolaciones para los puntos interiores al elemento se basan en las hipó
     \label{Eqn:PRE:FuncInterpol1}
 	N_1 = 1 - \frac{x}{l_0},   		~~~~ 	N_2= \frac{x}{l_0}.
 \end{equation}
-Por la contraria, tanto para los desplazamientos transversales $\bar{u}_2$ y $\bar{u}_3$  como para los ángulos de flexión $\bar{\theta}_2^G$ y $\bar{\theta}_3^G$, las interpolaciones se realizan través de los siguientes polinomios cúbicos:
+Tanto para los desplazamientos transversales $\bar{u}_2$ y $\bar{u}_3$  como para los ángulos de flexión $\bar{\theta}_2^G$ y $\bar{\theta}_3^G$, las interpolaciones se realizan través de los polinomios cúbicos expresados en las ecuaciones a continuación:
 
 \begin{eqnarray}
  		\label{Eqn:PRE:FuncInterpol2}
@@ -258,7 +257,7 @@ Por la contraria, tanto para los desplazamientos transversales $\bar{u}_2$ y $\b
  		N_5 = \left(1 - \frac{3x}{l_0}\right) \left(1 - \frac{x}{l_0}\right) 	&~~~~&  N_6 =\left( \frac{3x}{l_0}-2\right) \left(\frac{x}{l_0}\right).
 \end{eqnarray}
 
-Para el punto G que se desplazó en el sistemas de coordenadas locales según el vector $\bf{d_l}^G$. Los valores en términos de la componente de deformación rígida $\bf{r_i}$ se calculan aplicando la siguiente ecuación:
+Los desplazamientos del baricentro G de la sección, respecto del sistemas de coordenadas locales, se expresan en el vector $\bf{d_l}^G$. Los valores en términos de la componente de deformación rígida $\bf{r_i}$ se calculan aplicando la siguiente ecuación:
 
 \begin{equation}\label{Eqn:PRE:LocalDispsTransform}
 	\begin{bmatrix}
@@ -301,10 +300,10 @@ Debido a que la matriz anterior presenta una gran cantidad de entradas nulas es 
 	\end{bmatrix} \\
 	\label{Eqn:PRE:CompactTransversalAngs}
 		\begin{bmatrix}
-			\boldsymbol{\bar{\theta}_1^G}\\
-			\boldsymbol{\bar{\theta}_2^G} \\
-			\boldsymbol{\bar{\theta}_3^G}
-		\end{bmatrix}=\bf{\theta_l}=\bf{P}_2
+			\bar{\theta}_1^G\\
+			\bar{\theta}_2^G \\
+			\bar{\theta}_3^G
+		\end{bmatrix}=\boldsymbol{\theta_l}=\bf{P}_2
 		\begin{bmatrix}
 			\boldsymbol{\overline{\bf{\theta_1}}}\\
 			\boldsymbol{\overline{\bf{\theta_2}}}
@@ -319,7 +318,7 @@ Debido a que la matriz anterior presenta una gran cantidad de entradas nulas es 
 %Las hipótesis de Bernoulli desprecian las deformaciones por fuerzas cortantes, esto se refleja en sus polinomios de interpolación. Esta premisa no tiene perjucios sobre la aplicación con la que se modelará el elemento. La estructura de cables es extremadamente esbelta, con relaciones de diámetro respecto a largo ínfimas. Por la tanto, las deformaciones por cortante son efectivamente despreciables respecto a las inducidas por los momentos flectores.
 
 \subsection{Variaciones en desplazamientos} \label{Sec:PRE:VariacionesDesplazamientos}
-Ya se ha remarcado en reiteradas ocasiones la importancia de los desplazamientos diferenciales para el desarrollo de matrices tangentes y fuerzas. Antes de introducir al lector en la siguiente Sección, es preciso realizar una descripción previa para el cálculo de variaciones. En función de la Figura \ref{fig:PRE:IlusLocalDisp} queda definida la ubicación del baricentro OG partiendo desde el nodo 1. Esto se expresa según la siguiente ecuación con notación simplificada:
+Ya se ha remarcado en reiteradas ocasiones la importancia de los desplazamientos diferenciales para el desarrollo de matrices tangentes y fuerzas. Antes de introducir al lector en la siguiente sección, es preciso realizar una descripción previa para el cálculo de variaciones. En función de la Figura \ref{fig:PRE:IlusLocalDisp} queda definida la ubicación del baricentro OG partiendo desde el nodo 1. Esto se expresa según la siguiente ecuación con notación simplificada:
 
 \begin{equation}\label{Eqn:PRE:DispsOG}
  	\text{OG} = \bf{x}_1^g+\bf{u}_1^g + (x+\text{$\bar{u}_1$}) \bf{r_1} + (\text{$\bar{u}_2$})\bf{r_2}+ (\text{$\bar{u}_3$})\bf{r_3}
@@ -340,7 +339,7 @@ y su diferencial asociado se calcula de la siguiente forma:
  La Ecuación \eqref{Eq:PRE:DifOG} depende de los desplazamientos locales. Esto dificulta el cálculo de su magnitud, ya que dicha variable es solidaria a sistemas de coordenadas móviles. Para solucionar este problema, se sustituyen las Ecuaciones \eqref{Eqn:PRE:Corrot:DefE}, \eqref{Eqn:PRE:Corrot:DefG}, \eqref{Eqn:RPE:IncrementosAngulos} y \eqref{eq:PRE:DifMatrix2} lográndose de este modo, escribir a $ \delta \bf{u}$ en coordenadas globales según la siguiente ecuación:
 
  \begin{equation}
-	\delta \bf{u} = \bf{R}_r(\bf{N}+\bf{P}_1\bf{P}-\widetilde{\bf{u}_l}\bf{G}^T)\bf{E}^T \delta \bf{d}_g.
+	 \bf{H}_1 = \bf{R}_r(\bf{N}+\bf{P}_1\bf{P}-\widetilde{\bf{u}_l}\bf{G}^T)\bf{E}^T \delta \bf{d}_g.
  \end{equation}
 
  Además se compacta la notación definiendo la matriz $\bf{H}_1$ según la ecuación a continuación:
@@ -350,7 +349,7 @@ y su diferencial asociado se calcula de la siguiente forma:
 	\delta \bf{u}= \bf{R}_r \bf{H}_1 \bf{E}^T \delta \bf{d}_g.
  \end{equation}
 
- Para deducir la igualdad anterior se asumió que los incrementos angulares de las componentes locales, definidas en la Ecuación \eqref{eq:PRE:DifDisps1}, son despreciables frente a los de la componente de deformación rígida. Para el autor \cite{Le2014}, debido a las reducidas variaciones en la geometría de dos iteraciones consecutivas, no hay diferencias asociadas a los incrementos de ángulos locales y rígidos, matemáticamente : ($\delta \overline{\boldsymbol{\theta}_{ri}}= \overline{\delta \bf{w}_i}$ ).
+ Para deducir la igualdad anterior se asumió que los incrementos angulares de las componentes locales, definidas en la Ecuación \eqref{eq:PRE:DifDisps1}, son despreciables frente a los de la componente de deformación rígida. Para el autor \cite{Le2014}, debido a las reducidas variaciones en la geometría de dos iteraciones consecutivas, no hay diferencias asociadas a los incrementos de ángulos locales y rígidos, matemáticamente : $\delta \overline{\boldsymbol{\theta}_{ri}}= \overline{\delta \bf{w}_i}$.
 
  Un procedimiento similar se aplicará en los siguientes párrafos a las magnitudes angulares. Consecuentemente el diferencial rotación del centro de masa se puede calcular en función de los desplazamientos nodales globales según:
 
@@ -369,8 +368,8 @@ Análogamente a la Ecuación \eqref{Eqn:PRE:DifUDefH1}, se compacta la notación
 
 \section{Dinámica corrotacional}\label{Subsec:PRE:DinamicCorrot}
 
-Una vez descritas las magnitudes cinemáticas de la Sección \label{Subsec:PRE:CinematicCorrot} resulta plausible calcular los efectos dinámicos que generan sus variaciones. A continuación se presentan brevemente las variables más relevantes y una explicación concisa de su obtención. Estas
-variables son el vector de fuerzas internas, inerciales y sus respectivas matrices tangentes según las referencias \citep{Le2014} y \citep{Battini2002}. Acompasando con el desarrollo histórico de la materia, resulta natural analizar primeramente definir las velocidades y aceleraciones para luego obtener los vectores de fuerza interna e inercial y sus matrices tangentes asociadas. 
+Una vez descritas las magnitudes cinemáticas de la Sección \ref{Subsec:PRE:CinematicCorrot} resulta plausible calcular los efectos dinámicos que generan sus variaciones. A continuación se presentan brevemente las variables más relevantes y una explicación concisa de su obtención. Estas
+variables son el vector de fuerzas internas, inerciales y sus respectivas matrices tangentes según las referencias  \citep{Le2014} y \citep{Battini2002}. Acompasando con el desarrollo histórico de la materia, resulta natural definir las velocidades y aceleraciones para luego obtener los vectores de fuerza interna e inercial y sus matrices tangentes asociadas. 
 
 \subsection{Velocidades y aceleraciones}\label{Sec:PRE:VelAc}
 
@@ -378,7 +377,7 @@ Las magnitudes dinámicas despeñan un papel primordial en el análisis implemen
 \begin{equation}
 \dot{\bf{R}_r} = \bf{R_r}\widetilde{\dot{\bf{w}}_r}.
 \end{equation}
- Al sustituir esta ecuación en $\dot{\bf{E}}$ se deduce su según la siguiente expresión:
+ Al sustituir esta ecuación en $\dot{\bf{E}}$ se deduce a partir de la siguiente expresión:
 
 \begin{equation}
 	\dot{\bf{E}}=\begin{bmatrix}
@@ -396,17 +395,17 @@ Las magnitudes dinámicas despeñan un papel primordial en el análisis implemen
  Derivando respecto al tiempo la Ecuación \eqref{Eqn:PRE:DifUDefH1} se deduce la siguiente expresión para la velocidad lineal \gls{VelocidadLineal}:
 \begin{equation}
 	\label{Eqn:PRE:Udot}
-	\dot{\bf{u}} =\bf{R}_r \bf{H}_1 \bf{E}^T \delta \bf{d}_g.
+	\dot{\bf{u}} =\bf{R}_r \bf{H}_1 \bf{E}^T \dot{\bf{d}_g}.
 \end{equation}
 %fixing space
 Aplicando la regla del producto a la Ecuación \eqref{Eqn:PRE:Udot} se halla la aceleración lineal \gls{AceleracionLineal} del baricentro:
 %fixing space
 \begin{equation}
 	\label{Eqn:PRE:Udotdot}
-	\ddot{\bf{u}} = \bf{R}_r \bf{H}_1 \bf{E}^T \delta  \bf{d}_g + (\dot{\bf{R}_r} \bf{H}_1 \bf{E}^T+\bf{R}_r \dot{\bf{H}_1} \bf{E}^T+\bf{R}_r \bf{H}_1 \dot{\bf{E}^T})\delta  \bf{d}_g.
+	\ddot{\bf{u}} = \bf{R}_r \bf{H}_1 \bf{E}^T \ddot{\bf{d}_g} + (\dot{\bf{R}_r} \bf{H}_1 \bf{E}^T+\bf{R}_r \dot{\bf{H}_1} \bf{E}^T+\bf{R}_r \bf{H}_1 \dot{\bf{E}^T})\dot{\bf{d}_g}.
 \end{equation}
 
-El valor skew de las velocidades angulares sobre la componente de deformación rígida $\widetilde{\dot{\bf{w}}_r}$ se obtiene a partir del operador definido en la Ecuación \eqref{eq:PRE:Skew}, aplicado al vector $\dot{\bf{w}}_r=\bf{G}^T\bf{E}^T\dot{\bf{d}_g}$. Además para simplificar la notación a futuro, se condensa la Expresión \eqref{Eqn:PRE:Udotdot} definiendo la matriz $\bf{C}_1$ como se escribe a continuación:
+El valor \textit{skew} de las velocidades angulares sobre la componente de deformación rígida $\widetilde{\dot{\bf{w}}_r}$ se obtiene a partir del operador definido en la Ecuación \eqref{eq:PRE:Skew}, aplicado al vector $\dot{\bf{w}}_r=\bf{G}^T\bf{E}^T\dot{\bf{d}_g}$. Además para simplificar la notación a futuro, se condensa la Ecuación \eqref{Eqn:PRE:Udotdot} definiendo la matriz $\bf{C}_1$ como se escribe a continuación:
 
 \begin{equation}
 	\label{Eqn:PRE:DefC1}
@@ -429,16 +428,16 @@ Utilizando la regla del producto se deduce la siguiente expresión para la acele
 
 \begin{equation}
 	\label{Eqn:PRE:AcelAngular}
-	\ddot{\bf{w}}=\bf{R}_r\bf{H}_2\bf{E}^T\ddot{{\bf{d_g}}}+ \dot{\bf{R}_r} \bf{C}_2 \dot{\bf{E}^T} \dot{ \bf{d}_g }
+	\ddot{\bf{w}}=\bf{R}_r\bf{H}_2\bf{E}^T\ddot{{\bf{d_g}}}+ (\dot{\bf{R}_r} \bf{C}_2 \bf{E}^T + \bf{R}_r \dot{\bf{C}_2} \bf{E}^T + \bf{R}_r \bf{C}_2 \dot{\bf{E}^T}   ) \dot{ \bf{d}_g }
 \end{equation}
-A partir de esto, se compacta la expresión de la Ecuación \eqref{Eqn:PRE:AcelAngular} defiendo la matriz $bf{C}_2$ de la siguiente manera:
+A partir de esto, se compacta la expresión de la Ecuación \eqref{Eqn:PRE:AcelAngular} defiendo la matriz $\bf{C}_2$ de la siguiente manera:
 
 \begin{eqnarray}
 	\label{Eqn:PRE:DefC}
 	\bf{C}_2&=&\widetilde{\bf{w}_r}\bf{H}_2+\bf{\dot{H}_2}-\bf{H}_2\bf{E}_t\\
 \end{eqnarray}
 
-Una descripción detallada puede encontrarse en \citep{Le2014}. Dentro del apéndice de este trabajo, se desglosa las operaciones para calcular las derivadas temporales de las matrices $\bf{H}_1$ y $\bf{H}_2$. También es posible escudriñar la deducción de las matrices $\bf{C_1}$, $\bf{C_2}$, $\bf{C_3}$ y $\bf{C_4}$.
+Una descripción detallada puede encontrarse en \citep{Le2014}. Dentro del apéndice de este trabajo, se desglosa las operaciones para calcular las derivadas temporales de las matrices $\bf{H}_1$ y $\bf{H}_2$. También es posible profundizar en la deducción de las matrices $\bf{C_1}$, $\bf{C_2}$, $\bf{C_3}$ y $\bf{C_4}$.
 
 \subsection{Fuerza interna y matriz tangente}\label{Sec:PRE:Interna}
 
@@ -448,7 +447,7 @@ En esta sección se buscan obtener las expresiones de fuerza interna del element
 \bf{ f_l^{int}} =\text{$[~fl_1 ~M^1_1~ M^1_2~ M^1_3~ M^2_1~ M^2_2~ M^2_3~]$} = [\text{$~fl_1$}~\boldsymbol{m}].
 \end{equation}
 
-La fuerza interna calculará inicialmente para coordenadas locales denominada \gls{FuerzaIntLocal}, donde su obtención es relativamente sencilla, para luego transcribir estos resultados en términos globales \gls{FuerzaIntGlobal}. Con este cometido se define la matriz $\bf{B}$ de cambio de base según la siguiente expresión:
+La fuerza interna se calculará inicialmente para coordenadas locales denominada \gls{FuerzaIntLocal}, donde su obtención es relativamente sencilla, para luego transcribir estos resultados en términos globales \gls{FuerzaIntGlobal}. Con este cometido se define la matriz $\bf{B}$ de cambio de base según la siguiente expresión:
 
 \begin{equation}\label{Eqn:PRE:CambioCoord}
 	\bf{\delta d_l}=\bf{B}~\bf{\delta d_g} ~~~~~~ 	\bf{f_g^{int}}=\bf{B}^T~\bf{ f_l^{int}}.
@@ -475,7 +474,7 @@ Una vez calculadas las fuerzas internas es de sumo interés, para la resolución
 
 La matriz $\bf{B}$ permite realizar el cambio de coordenadas $\delta \bf{d_a}$ a  $\delta \bf{d_g}$, de acuerdo con lo definido en \eqref{Eqn:PRE:CambioCoord}. A su vez, se define la variable \gls{MatrizTangenteLocal} correspondiente al aporte de rigidez local del elemento. Esta depende de los estiramientos y rotaciones de la viga en su configuración local y también de la ley material implementada. Esto evidencia la versatilidad del planteo corrotacional ante diferentes tipos de elementos, donde solo hace falta modificar la matriz $\bf{K_l}$.
 
-Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétrica y se calcula en función de los productos internos de los vectores $\bf{e_i}$, esta aporta la rigidez no lineal correspondiente al a fuerza axial $f_l1$ de la barra. Esta se calcula según la siguiente expresión:
+Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétrica y se calcula en función de los productos internos de los vectores $\bf{e_i}$, esta aporta la rigidez no lineal correspondiente al a fuerza axial $f_l1$ de la barra. Esta se calcula según las siguiente ecuaciones:
 
 \begin{equation}
 	\label{Eqn:PRE:DefD}
@@ -484,7 +483,7 @@ Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétr
 	\bf{0}  & \bf{0} & \bf{0}   & \bf{0}\\
 	-\bf{D_3}  & \bf{0}   & \bf{D_3} & \bf{0} \\
 	\bf{0}  & \bf{0}   & \bf{0}   & \bf{0}
-\end{bmatrix}~~~\bf{D_3}=\frac{1}{\text{$l_n$}}(\bf{I}-\bf{r_1}\bf{r_1}^T)
+\end{bmatrix},~~~~\bf{D_3}=\frac{1}{\text{$l_n$}}(\bf{I}-\bf{r_1}\bf{r_1}^T)
 \end{equation}
 
  Por otra parte, se define matriz auxiliar $\bf{Q}$  a partir del producto de $\bf{P}$ y los momentos nodales respecto de las coordenadas globales, de acuerdo con la ecuación:
@@ -497,7 +496,7 @@ Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétr
  		\widetilde{\bf{p}^T\boldsymbol{m}} ~(4)
  	\end{bmatrix}
  \end{equation}
-Ademas el vector auxiliar $\bf{a} $se construye de la siguiente forma:
+Ademas el vector auxiliar $\bf{a}$ se construye de la siguiente forma:
 \begin{equation}
 	\label{Eqn:PRE:Defa}
 \bf{a} =\begin{bmatrix}
@@ -516,7 +515,7 @@ Operando con la regla del producto al diferencial de fuerza interna de la Ecuaci
 \end{equation}
 
 Se destaca que la matriz tangente de la Ecuación  \eqref{Eqn:PRE:MatrizKest2} es asimétrica, sin embargo según \cite{Nour-Omid1991} esta puede ser simetrizada sin perder la convergencia cuadrática
-para el método de  \gls{N-R}, siempre y cuando momentos externos nodales no sean aplicados. En este trabajo se simetrizó la matriz tangente, ya que en la aplicación los elementos serán cargados con fuerzas, esto conlleva a un numero mayor de iteraciones en converger para un determinado nivel de carga. No obstante, debido a la precisión y consistencia del vector de fuerza interna el método debe converger según lo publicado en \citep{rankin1988use}.
+para el método de  \gls{N-R}, siempre y cuando los momentos externos nodales no sean aplicados. En este trabajo se simetrizó numericamente la matriz tangente, ya que en la aplicación los elementos serán cargados con fuerzas, esto conlleva a un numero mayor de iteraciones en converger para un determinado nivel de carga. No obstante, debido a la precisión y consistencia del vector de fuerza interna el método debe converger según lo publicado en \citep{rankin1988use}.
 
 \subsection{Fuerza inercial y matrices de masa tangentes}\label{Sec:PRE:Inercial}
 
@@ -537,7 +536,7 @@ A continuación se explayan las ecuaciones y razonamientos fundamentales para la
 \end{equation}
 
 
-Se hace notar que por conveniencia se omitieron los subindices "g" para las magnitudes dinámicas ($\bf{u}$,$\bf{w}$) y sus respectivas derivadas. De igual forma, las variables del integrando en las Ecuaciones  \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} se omitió la nomenclatura OG referida al centroide del área transversal a la viga, que si el elemento es de densidad uniforme conincide con el centro de masa de la sección. Los elementos serán de área constante siendo  $A_{\rho}$  el producto del área transversal y la densidad del material, análogamente la matriz \gls{Inercia} es el tensor de inercia en la configuración deformada. Si se conoce el tensor en la configuración de referencia este se puede obtener al aplicarle las rotaciones $\bf{R}^g$ y $\bf{R}_o$ consecutivamente.
+Se hace notar que por conveniencia se omitieron los subindices "g" para las magnitudes dinámicas ($\bf{u}$,$\bf{w}$) y sus respectivas derivadas. De igual forma, las variables del integrando en las Ecuaciones  \eqref{Eqn:PRE:EnergiaCinetica} y \eqref{Eqn:PRE:DifEnergiaCinetica} se omitió la nomenclatura OG referida al centroide del área transversal a la viga, que si el elemento es de densidad uniforme conincide con el centro de masa de la sección. Los elementos serán de área constante siendo  $A_{\rho}$  el producto del área transversal y la densidad del material, análogamente la matriz \gls{Inercia} es el tensor de inercia en la configuración deformada. Si se conoce el tensor en la configuración de referencia éste se puede obtener al aplicarle las rotaciones $\bf{R}^g$ y $\bf{R}_o$ consecutivamente.
 
 Análogo al vector de fuerzas internas, los términos dinámicos son responsables del cambio de energía cinética del elemento. De igual forma, al diferenciar el vector de fuerza inercial \gls{FuerzaInercial} se obtienen las matrices tangentes dinámicas según las siguientes ecuaciones:
 
@@ -550,7 +549,7 @@ Análogo al vector de fuerzas internas, los términos dinámicos son responsable
 \end{eqnarray}
 
 
-En la Ecuación \ref{Eqn:DefFuerzaInercial} se diferencian tres matrices tangentes. Cada una de ellas asociada a la derivada parcial de la energía cinética respecto de los desplazamientos, velocidades y aceleraciones. Evidentemente, la matriz de masa consistente \gls{MatrizMasa} se corresponde con la derivada respecto de la aceleración, consecutivamente la matriz \gls{MatrizGiroscopica} giroscópica se asocia la velocidad. Por ultimo \gls{MatrizCentrifuga}, se le llama a la derivada en desplazamientos y recibe el nombre de matriz centrifuga. Determinados autores \cite{cardona1988beam} y \cite{hsiao1999consistent} proponen considerar unicamente $\bf{M}$, sin embargo exhaustivos estudios en \citep{hsiao1999consistent} prueban que agregar la matriz $\bf{C_k}$ mejora el desempeño computacional para numerosos casos.
+En la Ecuación \ref{Eqn:DefFuerzaInercial} se diferencian tres matrices tangentes. Cada una de ellas asociada a la derivada parcial de la energía cinética respecto de los desplazamientos, velocidades y aceleraciones. Evidentemente, la matriz de masa consistente \gls{MatrizMasa} se corresponde con la derivada respecto de la aceleración, consecutivamente la matriz \gls{MatrizGiroscopica} giroscópica se asocia la velocidad. Por ultimo \gls{MatrizCentrifuga}, se le llama a la derivada en desplazamientos y recibe el nombre de matriz centrifuga. Determinados autores como \cite{cardona1988beam} y \cite{hsiao1999consistent} proponen considerar unicamente $\bf{M}$, sin embargo exhaustivos estudios en \citep{hsiao1999consistent} prueban que agregar la matriz $\bf{C_k}$ mejora el desempeño computacional para numerosos casos.
 
 Las expresiones detalladas de estas matrices, en conjunto con el vector de fuerzas, se deducen aplicando cambios de variables sucesivos. Esto resulta idéntico a la metodología aplicada para fuerzas internas. A diferencia de la energía elástica, la energía cinética depende, no solo de desplazamientos sino también de velocidades y aceleraciones del elemento, detalladas en la Sección \ref{Sec:PRE:VelAc}.
 
@@ -560,7 +559,7 @@ Sustituyendo la Ecuación \eqref{Eqn:DefFuerzaInercial} en \eqref{Eqn:PRE:DifEne
 \bf{f}_k=\left [ \int _{l_0} \left \{ \bf{H}_1^T\bf{R_r}^T \text{$A_\rho$}\ddot{\bf{u}} +\bf{H}_2^T \bf{R_r} [\bf{I}_\rho\ddot{\bf{w}}+\widetilde{\dot{\bf{w}}}\bf{I}_\rho\dot{w}] \right \} \text{$d_l$} \right  ]
 \end{equation}
 
-Como se mencionó anteriormente para el obtener analíticamente las expresiones de la matriz consistente y giroscópica hace falta hallar analíticamente el diferencial fuerza interna. Una vez identificadas los términos que multiplican a cada incrementos de las magnitudes cinemáticas, se deducen ambas matrices. Finalmente, esto se expresa de forma matemática en las siguientes expresiones:
+Como se mencionó anteriormente para obtener analíticamente las expresiones de la matriz consistente y giroscópica hace falta hallar analíticamente el diferencial fuerza interna. Una vez identificadas los términos que multiplican a cada incrementos de las magnitudes cinemáticas, se deducen ambas matrices. Finalmente, esto se expresa de forma matemática en las siguientes expresiones:
 
 \begin{eqnarray}
 	\Delta \bf{f_k}&= &\bf{M} \Delta \ddot{\bf{d}_g}+\bf{C}_k \Delta \dot{\bf{d}_g}+\bf{K}_k \Delta \bf{d}_g\approx \bf{M} \Delta \ddot{\bf{d}_g}+\bf{C}_k \Delta \dot{\bf{d}_g}\\
