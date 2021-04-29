@@ -1,7 +1,7 @@
 \chapter{Conceptos preliminares}\label{Cap:Preliminares}
 \linenumbers
 
-A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto por \cite{Le2014}, \citep{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen la caracterización de magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional, para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
+A continuación se presenta una descripción cualitativa y cuantitativa de la formulación corrotacional según lo propuesto por \cite{Le2014}, \citep{Battini2002}. La temática se abordará progresivamente según la naturaleza de las variables. En primera instancia, se describen las magnitudes cinemáticas en las Secciones \ref{Subsec:PRE:CienmaticCorrot} y \ref{Sec:PRE:LocalFormul}. Una vez presentadas las magnitudes cinemáticas se desarrolla el análisis corrotacional para las variables estáticas y dinámicas en la Sección \ref{Subsec:PRE:DinamicCorrot}.
 
 
 \section{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
@@ -32,7 +32,7 @@ Habiendo descrito las rotaciones del elemento, para deducir las matrices asociad
 	\centering
 	\def\svgwidth{100mm}
 	\input{./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex}
-	\caption{Descripción de las sistemas de coordenadas corrotacionales.}
+	\caption{Descripción de los sistemas de coordenadas corrotacionales.}
 	\label{fig:PRE:IlusCorrot}
 \end{figure}
 
@@ -98,11 +98,11 @@ El vector de desplazamiento axial \gls{uloc} se descompone en tres componentes s
 
 Para resolver el problema mediante métodos numéricos, es necesario definir variaciones. Estas emplearán un rol esencial para el cálculo de matrices tangentes y fuerzas internas. Las variaciones infinitesimales de los desplazamientos se definen según:
 
-\begin{eqnarray}\label{eq:PRE:DifDisps1}
-		\bf{\delta d_l} &=& [\delta\bar{u}, \boldsymbol{\delta\overline{ \theta _1}^T},	\boldsymbol{\delta \overline{ \theta _2}^T}]^T\\
-	\label{eq:PRE:DifDisps2}
-	\bf{\delta d_g} &=& [\bf{\delta u_1^g}^T, \bf{\delta u_2^g}^T, \bf{\delta{w_1^g}^T}, \bf{\delta{w_2^g}^T}]^T
-\end{eqnarray}
+%\begin{eqnarray}\label{eq:PRE:DifDisps1}
+%		\bf{\delta d_l} &=& [\delta\bar{u}, \boldsymbol{\delta\overline{ \theta _1}^T},	\boldsymbol{\delta \overline{ \theta _2}^T}]^T\\
+%	\label{eq:PRE:DifDisps2}
+%	\bf{\delta d_g} &=& [\bf{\delta u_1^g}^T, \bf{\delta u_2^g}^T, \bf{\delta{w_1^g}^T}, \bf{\delta{w_2^g}^T}]^T
+%\end{eqnarray}
 
 Consecuente con los desplazamientos infinitesimales presentados en las Ecuaciones \eqref{eq:PRE:DifDisps1} y \eqref{eq:PRE:DifDisps2}, se deben calcular los diferenciales asociados a las transformaciones de giro $\bf{R_r^g}$, $\bf{R_i^g}$, $\bf{R_0}$ y $\bf{\overline{R}}_i$.
 Para esto, primeramente deben obtenerse las matrices según lo explicitado en la Tabla \ref{Table:PRE:RelacionVM}. Las entradas de $\bf{R}_r$ y  $\bf{R}_i^g$ se hallan siguiendo las ecuaciones:
@@ -146,7 +146,7 @@ En la Ecuación \eqref{eq:PRE:DifMatrix} se aplica la regla de la cadena para el
 	\delta \bf{R_r^g} &=& \widetilde{\delta\bf{w}_r^g}~\bf{R}_r.
 \end{eqnarray}
 
-En las Ecuaciones \eqref{eq:PRE:DifMatrix2} y \eqref{eq:PRE:DifMatrix3} el término $\widetilde{\delta\bf{w}_r^g}$ refiere a la operación \textit{skew} del vector $\delta\bf{w}_r^g$. Esta operación simplifica el producto vectorial de forma matricial y es sumamente útil para el cálculo de diferenciales asociados a matrices de rotación. La función \gls{Skew} aplicada al vector $\bf{\Omega}=(\Omega_1,\Omega_2,\Omega_3)$ toma la siguiente forma:
+En las Ecuaciones \eqref{eq:PRE:DifMatrix2} y \eqref{eq:PRE:DifMatrix3} el término $\widetilde{\delta\bf{w}_r^g}$ refiere a la operación \textit{skew} del vector $\delta\bf{w}_r^g$. Esta operación simplifica el producto vectorial de forma matricial y es sumamente útil para el cálculo de diferenciales asociados a matrices de rotación. La función \gls{Skew} aplicada al vector $\bf{\Omega}=\text{$(\Omega_1,\Omega_2,\Omega_3)$}$ toma la siguiente forma:
 
 \begin{equation}\label{eq:PRE:Skew}
 	(\bf{\Omega})=\widetilde{\bf{\Omega}}
@@ -373,7 +373,7 @@ variables son el vector de fuerzas internas, inerciales y sus respectivas matric
 
 \subsection{Velocidades y aceleraciones}\label{Sec:PRE:VelAc}
 
-Las magnitudes dinámicas despeñan un papel primordial en el análisis implementado y tanto velocidades como aceleraciones deben ser calculadas en términos globales. Para calcular estas expresiones hace falta expresar las derivadas temporales de las matrices $\bf{E}$ y $\bf{R}_r$. Esta operatoria matricial, se traduce en derivar cada una de las entradas que integran la matriz. Dado que variable $\bf{E}$ depende de $\bf{R}_r$ se calculan inicialmente sus derivadas según La \eqref{eq:PRE:DifMatrix3}. Al derivar se obtiene: 
+Las magnitudes dinámicas despeñan un papel primordial en el análisis implementado y tanto velocidades como aceleraciones deben ser calculadas en términos globales. Para calcular estas expresiones hace falta expresar las derivadas temporales de las matrices $\bf{E}$ y $\bf{R}_r$. Esta operatoria matricial, se traduce en derivar cada una de las entradas que integran la matriz. Dado que variable $\bf{E}$ depende de $\bf{R}_r$ se calculan inicialmente sus derivadas según la Ecuación \eqref{eq:PRE:DifMatrix3}. Al derivar se obtiene: 
 \begin{equation}
 \dot{\bf{R}_r} = \bf{R_r}\widetilde{\dot{\bf{w}}_r}.
 \end{equation}
@@ -455,7 +455,7 @@ La fuerza interna se calculará inicialmente para coordenadas locales denominada
 
 Haciendo uso de la descomposición corrotacional, el cambio de variables se realiza en dos etapas sucesivas. El primer cambio de coordenadas permite expresar los grados de libertad locales referenciados a la configuración de deformación rígida. Para clarificar, se ejemplificarán estos cambios de base para los desplazamientos, siendo análogo para el resto de las magnitudes. Según los sistemas de referencia de la Figura \ref{fig:PRE:IlusCorrot}, los cambios de variables refieren a escribir primeramente los desplazamientos locales en términos de los rígidos ($\bf{t_i}$ $\rightarrow$ $\bf{r_i}$). Consecutivamente, el segundo cambio de variables, transforma los desplazamientos desde la configuración de deformación rígida a la de referencia ($\delta \bf{d_l}$ $\rightarrow$ $\delta \bf{d_g}$). De esta manera se logra expresar todas las magnitudes relevantes en función de coordenadas inmóviles y globales.
 
-Con la ayuda algebraica de la matrices auxiliares $\bf{G}$ y $\bf{E}$, definidas en las Ecuaciones \eqref{Eqn:PRE:Corrot:DefE} y \eqref{Eqn:PRE:Corrot:DefG} es posible vincular los ángulos diferenciales locales $\delta\bf{\overline{\theta_i}}$ con los incrementos globales $\delta \bf{d_g}$. Esto permite conocer los momentos flectores y torsores de la viga en coordenadas globales. Análogamente el vector auxiliar $\bf{r}$ contiene a $\bf{r}_1$ según el sentido axial de la barra, por lo que reescribir este último permite expresar la fuerza de directa $fa1$  en términos de la base $\bf{E_i}$. Estos razonamientos se plasman en las ecuaciones a continuación:
+Con la ayuda algebraica de la matrices auxiliares $\bf{G}$ y $\bf{E}$, definidas en las Ecuaciones \eqref{Eqn:PRE:Corrot:DefE} y \eqref{Eqn:PRE:Corrot:DefG} es posible vincular los ángulos diferenciales locales $\delta\bf{\overline{\theta_i}}$ con los incrementos globales $\delta \bf{d_g}$. Esto permite conocer los momentos flectores y torsores de la viga en coordenadas globales. Análogamente el vector auxiliar $\bf{r}$ contiene a $\bf{r}_1$ según el sentido axial de la barra, por lo que reescribir este último permite expresar la fuerza de directa del elemento $fl_1$ en términos de la base $\bf{E_i}$. Estos razonamientos se plasman en las ecuaciones a continuación:
 \begin{eqnarray}\label{Eqn:PRE:FuerzaInterna}
 	\bf{f_g^{int}}&=&\bf{B}^T\bf{f_l^{int}}= \begin{bmatrix}
 		\bf{r}\\
@@ -474,7 +474,7 @@ Una vez calculadas las fuerzas internas es de sumo interés, para la resolución
 
 La matriz $\bf{B}$ permite realizar el cambio de coordenadas $\delta \bf{d_a}$ a  $\delta \bf{d_g}$, de acuerdo con lo definido en \eqref{Eqn:PRE:CambioCoord}. A su vez, se define la variable \gls{MatrizTangenteLocal} correspondiente al aporte de rigidez local del elemento. Esta depende de los estiramientos y rotaciones de la viga en su configuración local y también de la ley material implementada. Esto evidencia la versatilidad del planteo corrotacional ante diferentes tipos de elementos, donde solo hace falta modificar la matriz $\bf{K_l}$.
 
-Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétrica y se calcula en función de los productos internos de los vectores $\bf{e_i}$, esta aporta la rigidez no lineal correspondiente al a fuerza axial $f_l1$ de la barra. Esta se calcula según las siguiente ecuaciones:
+Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétrica y se calcula en función de los productos internos de los vectores $\bf{e_i}$, esta aporta la rigidez no lineal correspondiente al a fuerza axial $fl_1$ de la barra. Esta se calcula según las siguiente ecuaciones:
 
 \begin{equation}
 	\label{Eqn:PRE:DefD}
@@ -483,7 +483,7 @@ Para calcular las matrices tangentes se define la matriz  $\bf{D}$  anti-simétr
 	\bf{0}  & \bf{0} & \bf{0}   & \bf{0}\\
 	-\bf{D_3}  & \bf{0}   & \bf{D_3} & \bf{0} \\
 	\bf{0}  & \bf{0}   & \bf{0}   & \bf{0}
-\end{bmatrix},~~~~\bf{D_3}=\frac{1}{\text{$l_n$}}(\bf{I}-\bf{r_1}\bf{r_1}^T)
+\end{bmatrix},~~~~\bf{D_3}=\frac{\text{1}}{\text{$l_n$}}(\bf{I}-\bf{r_1}\bf{r_1}^T)
 \end{equation}
 
  Por otra parte, se define matriz auxiliar $\bf{Q}$  a partir del producto de $\bf{P}$ y los momentos nodales respecto de las coordenadas globales, de acuerdo con la ecuación:
@@ -544,8 +544,8 @@ Análogo al vector de fuerzas internas, los términos dinámicos son responsable
 		\label{Eqn:PRE:defFuerzaInercial}
 	\delta\textit{K}&=&\bf{f_k^T}\delta\bf{d}_g\\
 	\label{Eqn:DefFuerzaInercial}
-	\delta\bf{f_k}&=& \bf{M}\delta \ddot{\bf{d_g}}+\bf{C}\delta
-	\dot{\bf{d_g}}+\bf{K}\delta{\bf{d_g}}.
+	\delta\bf{f_k}&=& \bf{M}_k\delta \ddot{\bf{d_g}}+\bf{C}_k\delta
+	\dot{\bf{d_g}}+\bf{K}_k\delta{\bf{d_g}}.
 \end{eqnarray}
 
 

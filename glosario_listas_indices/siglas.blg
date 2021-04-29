@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'siglas.blg'
+[76] biber:322> INFO - === jue abr 29, 2021, 11:55:50
+[213] Utils.pm:309> ERROR - Cannot find 'siglas.bcf'!
+[214] Biber.pm:132> INFO - ERRORS: 1
