@@ -409,7 +409,7 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
 		\STATE finDisp = 1
 		\ENDIF
 		\ENDWHILE
-		\STATE Actualizar $\bf{d_{t}}\xleftarrow[]{}\bf{d^{k+1}_{t+\Delta T}}$, $\bf{\dot{d}_{t}}\xleftarrow[]{}\bf{\dot{d}^{k+1}_{t+\Delta T}}$, $\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}^{k+1}_{t+\Delta T}}$.
+		\STATE Actualizar $\bf{d_{t}}\xleftarrow[]{}\bf{d^\text{$k+1$}_{t+\Delta T}}$, $\bf{\dot{d}_{t}}\xleftarrow[]{}\bf{\dot{d}^\text{$k+1$}_{t+\Delta T}}$, $\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}^\text{$k+1$}_{t+\Delta T}}$.
 		\STATE $t = t+\Delta T$	
 		\ENDWHILE
 	\end{algorithmic}
@@ -439,9 +439,9 @@ Habiendo explicado la estructura general del código, resulta importante profund
 		\STATE --------- $\text{Cálculo de fuerza interna y matriz tangente } $---------
 		\STATE Calcular largos iniciales, actuales y estiramiento $l_0$ y $l$ $u=l-l_0$
 		\STATE Invertir $\bf{R}_i$ y hallar ángulos locales $\bf{\bar{\theta}_i}$.
-		\STATE Ejecutar \emph{beamLocalStaticForces } para fuerza interna $\bf{f}_{int}^{loc}$ y matriz tangente local $\bf{K}_{T}^{loc}$.
+		\STATE Ejecutar \emph{beamLocalStaticForces } para fuerza interna $\bf{f}_{l}^{int}$ y matriz tangente local $\bf{K}_{l}^{T}$.
 		\STATE Construir matrices auxiliares: $\bf{H}$ $\bf{G}$ $\bf{P}$ $\bf{B}$  $\bf{r}$ 
-		\STATE Transformar a coordenadas globales:  $\bf{K}_{T}^{g}\leftarrow\bf{K}_{T}^{loc}$ y $\bf{f}_{int}^{g}\leftarrow\bf{f}_{int}^{loc}$.
+		\STATE Transformar a coordenadas globales:  $\bf{K}^{T}_{g}\leftarrow\bf{K}^{T}_{l}$ y $\bf{f}_{g}^{int}\leftarrow\bf{f}^{int}_{l}$.
 		\STATE -----------------------------------------------------------------------------  
 		\STATE ------ $\text{Cálculo de fuerza inerciales y matrices dinámcias} $------
 		\STATE Todas las variables dependen de la coordenada (x)
@@ -451,7 +451,7 @@ Habiendo explicado la estructura general del código, resulta importante profund
 		\STATE Calcular matrices auxiliares: $\bf{H}_1$, $\dot{\bf{H}}_1$, $\bf{H}_2$, $\dot{\bf{H}}_2$, $\bf{C}_1$, $\bf{C}_2$, $\bf{C}_3$ y $\bf{C}_4$.        
 		\STATE Hallar las aceleraciones: $\ddot{\bf{w}}$  $\ddot{\bf{u}}$.
 		\STATE Girar el tensor de inercia a la configuración deformada: $\bf{I}_{\rho}$ $\leftarrow$ $\bf{I}_{\rho}^{ref}$
-		\STATE Hallar expresiones e integrar en el elemento: $\bf{f}_{ine}$ $\bf{M}$ y $\bf{C}_k$
+		\STATE Hallar expresiones e integrar en el elemento: $\bf{f}_{ine}$ $\bf{M}_k$ y $\bf{C}_k$
 		\STATE  Ensamblar : $\bf{f}_{ine}$ $\bf{M}$, $\bf{C}_k$ $\bf{K}_{T}^{g}$ $\bf{f}_{int}^{g}$
 		\STATE -----------------------------------------------------------------------------  
 		\ENDFOR 
