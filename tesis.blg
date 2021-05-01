@@ -1,53 +1,53 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'tesis.blg'
-[78] biber:322> INFO - === vie abr 30, 2021, 13:43:04
-[93] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[184] Biber.pm:943> INFO - Found 80 citekeys in bib section 0
-[198] Biber.pm:4256> INFO - Processing section 0
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/AnalyticConductores.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/AnalyticConductores.bib' to bibliografia/AnalyticConductores.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/Corrotacional.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/Corrotacional.bib' to bibliografia/Corrotacional.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/HistoriaCables.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/HistoriaCables.bib' to bibliografia/HistoriaCables.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/SimuConductores.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/SimuConductores.bib' to bibliografia/SimuConductores.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/TormentasConvectivas.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/TormentasConvectivas.bib' to bibliografia/TormentasConvectivas.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/MetodosNumericos_Softwares.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/MetodosNumericos_Softwares.bib' to bibliografia/MetodosNumericos_Softwares.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/Filosofia.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'bibliografia/Filosofia.bib' to bibliografia/Filosofia.bib
-[199] Utils.pm:75> INFO - Globbing data source 'bibliografia/Anexo.bib'
-[200] Utils.pm:91> INFO - Globbed data source 'bibliografia/Anexo.bib' to bibliografia/Anexo.bib
-[209] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/AnalyticConductores.bib' for section 0
-[210] bibtex.pm:1653> INFO - LaTeX decoding ...
-[225] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/AnalyticConductores.bib'
-[285] Utils.pm:293> WARN - month field 'May' in entry 'MoralesAisladores' is not an integer - this will probably not sort properly.
-[290] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Corrotacional.bib' for section 0
-[291] bibtex.pm:1653> INFO - LaTeX decoding ...
-[317] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Corrotacional.bib'
-[406] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/HistoriaCables.bib' for section 0
-[407] bibtex.pm:1653> INFO - LaTeX decoding ...
-[422] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/HistoriaCables.bib'
-[467] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/SimuConductores.bib' for section 0
-[468] bibtex.pm:1653> INFO - LaTeX decoding ...
-[490] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/SimuConductores.bib'
-[578] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/TormentasConvectivas.bib' for section 0
-[579] bibtex.pm:1653> INFO - LaTeX decoding ...
-[591] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/TormentasConvectivas.bib'
-[636] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/MetodosNumericos_Softwares.bib' for section 0
-[637] bibtex.pm:1653> INFO - LaTeX decoding ...
-[647] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/MetodosNumericos_Softwares.bib'
-[692] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Filosofia.bib' for section 0
-[692] bibtex.pm:1653> INFO - LaTeX decoding ...
-[695] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Filosofia.bib'
-[706] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Anexo.bib' for section 0
-[706] bibtex.pm:1653> INFO - LaTeX decoding ...
-[722] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Anexo.bib'
-[873] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[873] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[873] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[955] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1000] bbl.pm:755> INFO - Output to tesis.bbl
-[1000] Biber.pm:128> INFO - WARNINGS: 1
+[97] biber:322> INFO - === sáb may  1, 2021, 13:08:02
+[114] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[234] Biber.pm:943> INFO - Found 80 citekeys in bib section 0
+[250] Biber.pm:4256> INFO - Processing section 0
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/AnalyticConductores.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibliografia/AnalyticConductores.bib' to bibliografia/AnalyticConductores.bib
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/Corrotacional.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibliografia/Corrotacional.bib' to bibliografia/Corrotacional.bib
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/HistoriaCables.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibliografia/HistoriaCables.bib' to bibliografia/HistoriaCables.bib
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/SimuConductores.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibliografia/SimuConductores.bib' to bibliografia/SimuConductores.bib
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/TormentasConvectivas.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibliografia/TormentasConvectivas.bib' to bibliografia/TormentasConvectivas.bib
+[251] Utils.pm:75> INFO - Globbing data source 'bibliografia/MetodosNumericos_Softwares.bib'
+[252] Utils.pm:91> INFO - Globbed data source 'bibliografia/MetodosNumericos_Softwares.bib' to bibliografia/MetodosNumericos_Softwares.bib
+[252] Utils.pm:75> INFO - Globbing data source 'bibliografia/Filosofia.bib'
+[252] Utils.pm:91> INFO - Globbed data source 'bibliografia/Filosofia.bib' to bibliografia/Filosofia.bib
+[252] Utils.pm:75> INFO - Globbing data source 'bibliografia/Anexo.bib'
+[252] Utils.pm:91> INFO - Globbed data source 'bibliografia/Anexo.bib' to bibliografia/Anexo.bib
+[263] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/AnalyticConductores.bib' for section 0
+[264] bibtex.pm:1653> INFO - LaTeX decoding ...
+[283] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/AnalyticConductores.bib'
+[365] Utils.pm:293> WARN - month field 'May' in entry 'MoralesAisladores' is not an integer - this will probably not sort properly.
+[373] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Corrotacional.bib' for section 0
+[374] bibtex.pm:1653> INFO - LaTeX decoding ...
+[402] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Corrotacional.bib'
+[513] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/HistoriaCables.bib' for section 0
+[513] bibtex.pm:1653> INFO - LaTeX decoding ...
+[532] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/HistoriaCables.bib'
+[593] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/SimuConductores.bib' for section 0
+[594] bibtex.pm:1653> INFO - LaTeX decoding ...
+[621] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/SimuConductores.bib'
+[728] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/TormentasConvectivas.bib' for section 0
+[729] bibtex.pm:1653> INFO - LaTeX decoding ...
+[742] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/TormentasConvectivas.bib'
+[793] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/MetodosNumericos_Softwares.bib' for section 0
+[794] bibtex.pm:1653> INFO - LaTeX decoding ...
+[806] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/MetodosNumericos_Softwares.bib'
+[869] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Filosofia.bib' for section 0
+[870] bibtex.pm:1653> INFO - LaTeX decoding ...
+[873] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Filosofia.bib'
+[885] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia/Anexo.bib' for section 0
+[885] bibtex.pm:1653> INFO - LaTeX decoding ...
+[895] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia/Anexo.bib'
+[1076] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1076] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1076] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1215] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[1275] bbl.pm:755> INFO - Output to tesis.bbl
+[1275] Biber.pm:128> INFO - WARNINGS: 1

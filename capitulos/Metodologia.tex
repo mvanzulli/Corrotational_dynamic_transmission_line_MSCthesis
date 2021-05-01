@@ -3,7 +3,7 @@
 
 En este capítulo se exponen los métodos centrales desarrollados durante este trabajo de tesis. Este desarrollo, representa, según la revisión de literatura realizada, una contribución original al conocimiento sobre la aplicación de la formulación corrotacional de vigas a problemas de interacción con el viento. El problema de modelado computacional de líneas eléctricas afectadas por fenómenos de vientos extremos se construyó sobre dos etapas sucesivas. En primer lugar, se explican cuestiones sobre el modelado físico y en segundo lugar sobre el modelado computacional.
 
-Se describen las condiciones iniciales y de borde consideradas para el modelado estructural en la Sección \ref{Sec:MET:ModeladoEstructural}. Posteriormente en la Sección \ref{Sec:PRE:Modeloviento} se presenta el campo de velocidades absoluto, relativo y las fuerzas que el viento genera sobre el conductor. Luego, dentro de la Sección \ref{Sec:MET:ModeladoComput} se explica la deducción del algoritmo de HHT aplicado a la formulación corrotacional para modelado de conductores con fuerzas aerodinámicas.
+Se describen las condiciones de borde e iniciales consideradas para el modelado estructural en la Sección \ref{Sec:MET:ModeladoEstructural}. Posteriormente en la Sección \ref{Sec:PRE:Modeloviento} se presenta el campo de velocidades absoluto, relativo y las fuerzas que el viento genera sobre el conductor. Luego, dentro de la Sección \ref{Sec:MET:ModeladoComput} se explica la deducción del algoritmo de HHT aplicado a la formulación corrotacional para modelado de conductores con fuerzas aerodinámicas.
 
 \section{Aspectos de modelado físico}
 
@@ -30,7 +30,7 @@ Una vez aislado el objeto de su entorno, es necesario imponer determinadas condi
 	\item Consecuente con el inciso anterior, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $x$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impuestas por la simetría del sistema.
 	\item Dado que los puntos B y C no se deforman según el eje $x$, ergo sus trayectorias pertenecen al plano $z$-$y$, lo que se impone en los nodos B y C. 
 	\item La exigua resistencia a flexión de los elementos aisladores DC y AB, obliga a instalarlos con sus extremos articulados. Es por esto que se modelaron a partir de barras de Green según \cite{Crisfield}. 
-	\item A partir de la configuración de referencia, dibujada con línea punteada en La Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento \gls{InitialConditionU0}. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $-y$ de la gravedad.
+	\item A partir de la configuración de referencia, dibujada con línea punteada en la Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento \gls{InitialConditionU0}. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $-y$ de la gravedad.
 	\item No se consideran formaciones de hielo depositadas sobre las líneas, por las evidentes condiciones climáticas del territorio uruguayo.
 \end{enumerate} 
 
@@ -113,7 +113,7 @@ Sustituyendo la Ecuación \eqref{Eq:MET:Binomio} en \eqref{Eq:MET:VrelTot} y div
 \end{equation}
 
 
-Tomando como hipótesis que los cuadrados de: la componente alternante del viento y la velocidad del rígido en $z$ y la velocidad relativa en $y$, son mucho menores que las asociadas al flujo medio () $(q-\bf{\dot{u}}_{y})^2,\text{$w_a$} ^2 , \bf{\dot{u}}_{z}} ^2, <<\text{$w_m$}$, se llega a la siguiente ecuación:
+Tomando como hipótesis que los cuadrados de: la componente alternante del viento y la velocidad del rígido en $z$ y la velocidad relativa en $y$, son mucho menores que las asociadas al flujo medio $(q-\bf{\dot{u}}_{y})^2,\text{$w_a$} ^2 , \bf{\dot{u}}_{z}} ^2, <<\text{$w_m$}$, se llega a la siguiente ecuación:
 
 \begin{equation}
 	\label{Eq:MET:VerlTotRatio}
@@ -179,7 +179,7 @@ Discretizando el cuerpo mediante el MEF, para cada nodo y en cada instante, debe
 	\end{split}.
 \end{equation}
 
-La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta T$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: el desplazamientos $\bf{d}$ $(t+\Delta T)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta T)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta T)$.
+La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta T$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: los desplazamientos $\bf{d}$ $(t+\Delta T)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta T)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta T)$.
 
 Los métodos numéricos, a groso modo, si son consistentes y estables construyen una sucesión que al iterar infinitamente deben converge a la solución exacta. Al realizar una aproximación de Taylor de primer orden en la Ecuación \eqref{Eq:MET:EquilibrioExacto} esta ya no será nula sino igual a un resto $\bf{r}$. Para diferenciar las variables aproximadas de las exactas, se distingue con la siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta T)$}$ $\rightarrow$ $\bf{d}_{t+\Delta T}$), ($\dot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta T}$) y ($\ddot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta T}$). Rescribiendo acorde a esto la Ecuación \eqref{Eq:MET:EquilibrioExacto} se obtiene:
 \begin{equation}\label{Eq:MET:Resto}
