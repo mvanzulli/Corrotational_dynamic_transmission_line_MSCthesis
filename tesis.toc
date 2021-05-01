@@ -79,9 +79,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Viga en voladizo con ángulo recto}{57}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Modelo simplificado de una línea}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Viga en voladizo con péndulo}{62}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Sistema de transmisión eléctrica }{68}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Modelo simplificado de una línea}{62}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Sistema de transmisión eléctrica }{69}{section.5.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusiones}{76}{chapter.6}%
 \defcounter {refsection}{0}\relax 
@@ -93,11 +95,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.1}Reflexión personal}{83}{subsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{86}{chapter*.45}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{86}{chapter*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glosario}{92}{chapter*.45}%
+\contentsline {chapter}{Glosario}{92}{chapter*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textbf {Apéndices}}{93}{section*.46}%
+\contentsline {chapter}{\textbf {Apéndices}}{93}{section*.47}%
 \defcounter {refsection}{0}\relax 
 \ttl@change@i {\@ne }{chapter}{13pt}{}{ Apéndice\ \thecontentslabel \quad }{}{\titlerule *[1pc]{.}\contentspage }\relax 
 \defcounter {refsection}{0}\relax 

@@ -4,7 +4,7 @@ En este capítulo se presentan los resultados numéricos obtenidos durante el de
 
 
 \section{Viga en voladizo con ángulo recto}\label{Sec:RN:RightAngle}
-Este ejemplo fue publicado por primera vez por \cite{simo1988dynamics} y es usualmente considerado en la literatura para validar implementaciones de elementos de viga tridimensionales aplicadas a estructuras no lineales (\citep{albino2018co} \citep{Le2014}). El mismo consta de dos barras idénticas en ángulo recto formando una forma de L. Cada miembro que la integra, mide un largo $L=10$ m tal y como se ilustra en la Figura \ref{fig:RN:RA:esquemas}.
+Este ejemplo fue publicado por primera vez por \cite{simo1988dynamics} y es usualmente considerado en la literatura para validar implementaciones de elementos de viga tridimensionales aplicadas a estructuras no lineales (\citep{albino2018co} y \citep{Le2014}). El mismo consta de dos barras idénticas en ángulo recto formando una forma de L. Cada miembro que la integra, mide un largo $L=10$ m tal y como se ilustra en la Figura \ref{fig:RN:RA:esquemas}.
 
 \begingroup
 \centering
@@ -64,7 +64,7 @@ Con el objetivo de comparar los resultados del artículo de referencia se grafic
 \end{figure}
 \endgroup
 
-Por otra parte al analizar en la Figura \ref{fig:RN:RA:DispyA} se observa que los desplazamientos en $y$, son menores a cero para todo instante, esto se vincula al sentido de la fuerza aplicada. Al observar la estructura desde un plano $yz$ con el versor $x$ saliente, el movimiento del nodo $A$ es análogo al de una viga empotrada con una fuerza cortante en su extremo. De esta manera, el desplazamiento de A es siempre en el sentido de $-y$, lo que se refleja en La Figura \ref{fig:RN:RA:DispyA} y condice con la respuesta esperada. Contrastando los resultados de la implementación con los presentados en la bibliografía de \cite{Le2014}, se observan similares valores de máximos y mínimos alcanzados durante el movimiento respecto a las Figuras \ref{fig:RN:RA:DispsA} y \ref{fig:RN:RA:DispsB}. También así los valles y las crestas de la curvas se suceden en tiempos muy próximos. Congruentemente, es posible afirmar que las funciones implementadas en \href{https://github.com/ONSAS/ONSAS/}{ONSAS} reproducen correctamente el ejemplo y es capaz de capturar movimientos de flexo-torsión para grandes desplazamientos y rotaciones cabalmente. 
+Por otra parte al analizar en la Figura \ref{fig:RN:RA:DispyA} se observa que los desplazamientos en $y$, son menores a cero para todo instante, esto se vincula al sentido de la fuerza aplicada. Al observar la estructura desde un plano $yz$ con el versor $x$ saliente, el movimiento del nodo $A$ es análogo al de una viga empotrada con una fuerza cortante en su extremo. De esta manera, el desplazamiento de A es siempre en el sentido de $-y$, lo que se refleja en la Figura \ref{fig:RN:RA:DispyA} y condice con la respuesta esperada. Contrastando los resultados de la implementación con los presentados en la bibliografía de \cite{Le2014}, se observan similares valores de máximos y mínimos alcanzados durante el movimiento respecto a las Figuras \ref{fig:RN:RA:DispsA} y \ref{fig:RN:RA:DispsB}. También así los valles y las crestas de la curvas se suceden en tiempos muy próximos. Congruentemente, es posible afirmar que las funciones implementadas en \href{https://github.com/ONSAS/ONSAS/}{ONSAS} reproducen correctamente el ejemplo y es capaz de capturar movimientos de flexo-torsión para grandes desplazamientos y rotaciones cabalmente. 
 
 
 \begingroup
@@ -77,7 +77,7 @@ Por otra parte al analizar en la Figura \ref{fig:RN:RA:DispyA} se observa que lo
 \end{figure}
 \endgroup
 
-Resulta oportuno analizar los movimientos en el nodo B. En la Figura \ref{fig:RN:RA:DispzB} se muestra una oscilación de 16 metros de amplitud aproximadamente, y una forma que se asemeja a una sinusoide. Esto podría vincularse al modo flector en el plano $xz$ de la barra A-B excitado por la fuerza externa en la dirección $z$. Una vez retirada la carga se manifiestan los modos torsionales de AC superpuestos con los flexionales de A-B C-B incidiendo en el movimiento. El autor del trabajo \textcite{Le2014} publicó el desplazamiento en $z$ de B y los resultados de este trabajo ajustan con exactitud a dicha curva. 
+Resulta oportuno analizar los movimientos en el nodo B. En la Figura \ref{fig:RN:RA:DispzB} se muestra una oscilación de 16 metros de amplitud aproximadamente, y una forma que se asemeja a una sinusoide. Esto podría vincularse al modo flector en el plano $xz$ de la barra A-B excitado por la fuerza externa en la dirección $z$. Una vez retirada la carga se manifiestan los modos torsionales de AC superpuestos con los flexionales de A-B C-B incidiendo en el movimiento. El autor \cite{Le2014} publicó el desplazamiento en $z$ de B y los resultados de este trabajo ajustan con exactitud a dicha curva. 
 
 Habiéndose ahondado en las variables cinemáticas, resta por analizar las magnitudes dinámicas. Para esto se colorearon los esfuerzos normales inmanentes a cada elemento en la Figura \ref{fig:RN:RA:Deformadas}. En esta se identifica que el esfuerzo alcanza valores de compresión y tracción en similar magnitud presentando considerables fluctuaciones temporales. En simultáneo, la viga horizontal $\text{A-B}$ desarrolla fuerzas normales en todo su largo. 
 
@@ -93,9 +93,21 @@ El modelo implementado desarrolla magnitudes no despreciables de desplazamientos
 	\subfigure[Desplazamiento según $x$ del nodo B]
 	{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeB.png}}\label{fig:RN:RA:DispxB}
 	\subfigure[Desplazamiento según $x$ del nodo A ] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/RightAngeCantilever/RA_Dispx_NodeA.png}}\label{fig:RN:RA:DispxA}
-	\caption{Desplazamientos en x de los nodos A y B} \label{fig:RN:RA:DispsXAB}
+	\caption{Desplazamientos en x de los nodos A y B.} \label{fig:RN:RA:DispsXAB}
 \end{figure}
 \endgroup
+
+\section{Viga en voladizo con péndulo}\label{Sec:RN:cantileverPendulum}
+
+\begin{figure}[htbp]
+	\centering
+	\def\svgwidth{100mm}
+	\input{./imagenes/ResultadosNumericos/cantileverPendulum/Ilustracion2D.pdf_tex}
+	\caption{Esquema del ejemplo viga en voladizo con péndulo.}
+	\label{fig:RN:CP:Ilustracion}
+\end{figure}
+
+
 
 \section{Modelo simplificado de una línea}\label{Sec:RN:FotiCable}
 En esta sección se presenta un primer modelo simplificado del enfoque central de esta tesis. El mismo fue contrastado con el trabajo de \cite{foti2018finite} aunque ha sido abordado por destacados investigadores en el pasado, como ser el caso de: \cite{luongo1998non}, \cite{martinelli2001numerical}. El ejemplo consiste en un conductor de transmisión eléctrica reforzado con núcleo de acero sometido a un perfil de viento artificial. 
@@ -130,7 +142,7 @@ El material que constituye al cable tiene un módulo de elasticidad $E$, coefici
 			2.81 & 1.8 & 29700 &2100 &159   \\ \hline
 		\end{tabular}
 	\end{center}
-	\caption{Propiedades mecánicas del conductor DRAKE ASCR 7/26 }
+	\caption{Propiedades mecánicas del conductor DRAKE ASCR 7/26. }
 	\label{table:RN:FotiCable:propiedadesCable}
 \end{table}
 
@@ -144,7 +156,7 @@ Existen diferencias sustancial respecto al ejemplos originales postulados por \c
 			$0.22$ &$0.3$ m & $8$ m     \\ \hline
 		\end{tabular}
 	\end{center}
-	\caption{Parámetros del flujo tipo CLA para $W_{max}$ }
+	\caption{Parámetros del flujo tipo CLA para $W_{max}$. }
 	\label{table:RN:propiedadesFlujo}
 \end{table}
 
