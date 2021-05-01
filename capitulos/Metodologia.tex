@@ -398,14 +398,14 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
 		\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^\text{$k$}$ $\bf{M}_k^\text{$k$}$  $\bf{C}_k^\text{$k$}$, $\bf{C}_{vis}$. 
 		\STATE Despejar $\Delta \bf{d}^\text{$k+1$}$ 
 		\STATE Actualizar desplazamientos globales:  $\bf{d}^\text{$k+1$} = \bf{d}^\text{$k$} + \Delta\bf{d}^\text{$k+1$}$ 
-		\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^{k+1}$), ($\bf{\ddot{u}}^{k+1}$).
-		\STATE Recalcular velocidades y aceleraciones angulares: ($\bf{\dot{w}}^{k+1}$), ($\bf{\ddot{w}}^{k+1}$).
-		\STATE Ensamblar velocidades: $\bf{\dot{d}}^{k+1}$ $\leftarrow$ ($\bf{\dot{u}}^{k+1}$,$\bf{\dot{w}}^{k+1}$)
-		\STATE Ensamblar aceleraciones: $\bf{\ddot{d}}^{k+1}$ $\leftarrow$ ($\bf{\ddot{u}}^{k+1}$,$\bf{\ddot{w}}^{k+1}$)
-		´				\STATE Actualizar fuerzas: 	$\bf{f}_{ine}^{k+1}(\bf{d}^{k+1},\bf{\dot{d}}^{k+1},\bf{\ddot{d}}^{k+1})$,  $\bf{f}_{int}^{k+1}(\bf{u}^{k+1})$ y $\bf{res}(\bf{d}^{k+1})$. 
+		\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^\text{$k+1$}$), ($\bf{\ddot{u}}^\text{$k+1$}$).
+		\STATE Recalcular velocidades y aceleraciones angulares: ($\bf{\dot{w}}^\text{$k+1$}$), ($\bf{\ddot{w}}^\text{$k+1$}$).
+		\STATE Ensamblar velocidades: $\bf{\dot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\dot{u}}^\text{$k+1$}$,$\bf{\dot{w}}^\text{$k+1$}$)
+		\STATE Ensamblar aceleraciones: $\bf{\ddot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\ddot{u}}^\text{$k+1$}$,$\bf{\ddot{w}}^\text{$k+1$}$)
+		´				\STATE Actualizar fuerzas: 	$\bf{f}_{ine}^\text{$k+1$}(\bf{d}^\text{$k+1$},\bf{\dot{d}}^\text{$k+1$},\bf{\ddot{d}}^\text{$k+1$})$,  $\bf{f}_{int}^\text{$k+1$}(\bf{u}^\text{$k+1$})$ y $\bf{res}(\bf{d}^\text{$k+1$})$. 
 		\STATE Calcular: 
-		\IF {$\left \| \Delta \bf{d}^{k+1} \right \|< tol_d \left \| 
-			\bf{d}^{k+1} \right \| $  $~OR~$ $\left \| \bf{res}(\bf{d}^{k+1}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~OR~$ $ \text{k}\geq \text{max}_{iter}$ }
+		\IF {$\left \| \Delta \bf{d}^\text{$k+1$} \right \|< tol_d \left \| 
+			\bf{d}^\text{$k+1$} \right \| $  $~OR~$ $\left \| \bf{res}(\bf{d}^\text{$k+1$}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~OR~$ $ \text{k}\geq \text{max}_{iter}$ }
 		\STATE finDisp = 1
 		\ENDIF
 		\ENDWHILE
