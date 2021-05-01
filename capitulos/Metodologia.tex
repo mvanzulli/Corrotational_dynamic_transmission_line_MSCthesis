@@ -391,11 +391,11 @@ Las líneas de código relacionadas con la formulación local, las funciones mat
 		\STATE Iniciar tiempo: $t\xleftarrow{}t_0$
 		\WHILE {$t<t_f$}
 		\STATE finDisp = $0$
-		\STATE Definir: $\bf{d^k}\xleftarrow[]{}\bf{d_t}$, $\bf{\dot{d}^k}\xleftarrow[]{}\bf{\dot{d}_t}$, $\bf{\ddot{d}^k}\xleftarrow[]{}\bf{\ddot{d}_t}$.
+		\STATE Definir: $\bf{d^\text{$k$}}\xleftarrow[]{}\bf{d_t}$, $\bf{\dot{d}^\text{$k$}}\xleftarrow[]{}\bf{\dot{d}_t}$, $\bf{\ddot{d}^\text{$k$}}\xleftarrow[]{}\bf{\ddot{d}_t}$.
 		\STATE Evaluar $\bf{f_{ext,t+\Delta t}}$	
 		\WHILE{FinDisp = 0}
-		\STATE Calcular fuerzas: $\bf{f}_{ine}^k(\bf{d}^k,\bf{\dot{d}}^k,\bf{\ddot{d}}^k)$,  $\bf{f}_{int}^k(\bf{d}^k)$ y $\bf{res}^{k}(\bf{d}^k,\bf{\dot{d}}^k,\bf{\ddot{d}}^k)$. 
-		\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^k$ $\bf{M}^k$  $\bf{C}_k^k$, $\bf{C}_{vis}$. 
+		\STATE Calcular fuerzas: $\bf{f}_{ine}^\text{$k$}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$,  $\bf{f}_{int}^\text{$k$}(\bf{d}^\text{$k$})$ y $\bf{res}^{\text{$k$}}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$. 
+		\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^k$ $\bf{M}^k$  $\bf{C}^k$, $\bf{C}_{vis}$. 
 		\STATE Despejar $\Delta \bf{d}^{k+1}$ 
 		\STATE Actualizar desplazamientos globales:  $\bf{d}^{k+1} = \bf{d}^{k} + \Delta\bf{d}^{k+1}$ 
 		\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^{k+1}$), ($\bf{\ddot{u}}^{k+1}$).
