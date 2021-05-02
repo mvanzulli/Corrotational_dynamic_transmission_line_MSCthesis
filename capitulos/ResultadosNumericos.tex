@@ -13,7 +13,7 @@ Este ejemplo fue publicado por primera vez por \cite{simo1988dynamics} y es usua
 	\subfigure[Vista frontal ]{	\def\svgwidth{60mm}
 		\input{./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dxy.pdf_tex}}\label{fig:RN:RA:Ilusxy}
 	\subfigure[Vista lateral ]{	\def\svgwidth{41mm}
-	\input{./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf_tex}}\label{fig:RN:RA:Ilusyz}
+		\input{./imagenes/ResultadosNumericos/RightAngeCantilever/Ilustracion2Dyz.pdf_tex}}\label{fig:RN:RA:Ilusyz}
 	\caption{Disposición geométrica de la estructura.} 	\label{fig:RN:RA:esquemas}
 \end{figure}
 \endgroup
@@ -98,6 +98,9 @@ El modelo implementado desarrolla magnitudes no despreciables de desplazamientos
 \endgroup
 
 \section{Viga en voladizo con péndulo}\label{Sec:RN:cantileverPendulum}
+Este ejemplo tiene como objetivo validar la respuesta dinámica del acople entre elementos de viga corrotacional y de biela. Esto es necesario ya que las lineas eléctricas (que se modelarán como vigas) son sujetadas en suspensión por cadenas aisladoras modeladas como barras. Previo al desarrollo de este caso se validaron ambas formulaciones de forma independiente, para los elementos de viga corrotacional se utilizó el modelo de la Sección \ref{Sec:RN:RightAngle} y para los elementos de biela tipo Green un péndulo simple extraído del libro de \cite{Crisfield}. Una vez culminada esta etapa se acoplaron ambas formulaciones en \href{https://github.com/ONSAS/ONSAS.m/}{ONSAS} y se validaron estéticamente. Luego se estudió el comportamiento dinámico del acople en el modelo presentado en esta sección.
+
+Tal y como se observa en la Figura \ref{fig:RN:CP:Ilustracion}, la estructura esta compuesta por una viga en voladizo empotrada en C y un péndulo anidado a la viga en A. Ambos elementos son de largo $L=3.04$ y los nodos etiquetados con las letras A y B se encuentran libres.
 
 \begin{figure}[htbp]
 	\centering
@@ -106,6 +109,45 @@ El modelo implementado desarrolla magnitudes no despreciables de desplazamientos
 	\caption{Esquema del ejemplo viga en voladizo con péndulo.}
 	\label{fig:RN:CP:Ilustracion}
 \end{figure}
+
+Las propiedades del péndulo se extrajeron del libro de \cite{Crisfield} mientras que para la viga sus propiedades mecánicas se ajustaron artificialmente hasta encontrar una dinámica flexible de esta. Estas propiedades tienen un fin únicamente de validación, por lo que sus unidades carecen de sentido físico. A continuación la rigidez a flexión ($EI$), a directa ($EA$), la densidad $\rho$ y la cantidad de elementos $N_{elem}$ se presentan en la Tabla \ref{table:RN:cantileverPendulum:propiedadesElementos}:
+
+\begin{table}[ht!]
+	\begin{center}
+		\begin{tabular}{ | m{2cm} || m{1cm} | m{1cm} | m{1cm} |  m{1cm} | m{1cm} |  }
+			\hline Elemento & $A$ & $\rho$ & $EA$& $EI$ & $N_{elem}$  \\ \hline
+			Viga&0.1 & 65.7 & 10$^{10}$  &-& 10   \\ \hline
+			Péndulo&0.1 & 65.7 & 10$^{10}$ &1300 &1 \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Propiedades mecánicas de los elementos.}
+	\label{table:RN:cantileverPendulum:propiedadesElementos}
+\end{table}
+
+El forzante del ejemplo es únicamente la fuerza peso según la dirección $z$. La estructura parte de su configuración inicial horizontalmente donde no encuentra el equilibrio y comienza a oscilar generando un movimiento plano con desplazamientos de traslación en los ejes $z$ y $x$ como también angulares en el eje saliente $y$. Este movimiento se simuló para un tiempo final $T_f=10$ s con pasos de $\Delta_T=0.25$ s. Para el método numérico de HHT se eligió un parámetro característico de $\alpha_{HHT}=-0.05$ y unas tolerancias en fuerza residuales y desplazamientos de $tol_r=10^{-5}$ y $tol_u=10^{-5}$ respectivamente. 
+
+Como salida de control del ejemplo se eligieron los desplazamientos en $z$ del nodo A y B respectivamente obteniéndose los resultados que se muestran en las figuras que prosiguen:
+
+\begingroup
+\centering
+\begin{figure}[htbp]
+	\centering
+	\subfigure[Desplazamiento según $z$ del nodo A ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/cantileverPendulum/DispZnodeA.png}\label{fig:RN:CP:DispzA}}
+	\subfigure[Desplazamiento según $z$ del nodo B ] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/cantileverPendulum/DispZnodeB.png}\label{fig:CP:RA:DispzB}}
+	\caption{Desplazamientos de control de los nodos nodo A y B.} \label{fig:RN:CP:DispzAB}
+\end{figure}
+\endgroup
+
+En la Figura \ref{fig:RN:CP:DispzA} se presenta un movimiento oscilatorio donde se encuentra presente el modo de flexión de la viga intervenido por la inercia y el movimiento que el péndulo le imprime a la viga en el acople y las amplitudes parecen ser asimétricas respecto a 0 ya que el péndulo en toda su trayectoria presenta desplazamientos en positivos en $z$. Por otra parte en la Figura \ref{fig:CP:RA:DispzB}, el movimiento de vibración del péndulo es relativamente armónico en comparación con la viga. No obstante las amplitudes del movimiento parecen ir variando con el tiempo y la respuesta no se corresponde con el movimiento de un péndulo armónico simple. La dinámica generada en el ejemplo se consideró aceptable y representativa de acuerdo al movimiento esperado. Para ilustrar al lector se generó la Figura \ref{fig:RN:CP:Deformadas} con el modelo en su estado indeformado en lineas azules y con una barra de colores en desplazamientos para la estructura deformada en diferentes tiempos de simulación. 
+
+
+\begin{figure}[htbp]
+	\centering
+	\def\svgwidth{120mm}
+	\input{./imagenes/ResultadosNumericos/cantileverPendulum/DeformadasCP.pdf_tex}
+	\caption{Estructura deformada en los instantes $2$ s, $4.25$ s, $8.15$ s y $14.4$ s.}
+	\label{fig:RN:CP:Deformadas}
+\end{figure}  
 
 
 
@@ -146,7 +188,7 @@ El material que constituye al cable tiene un módulo de elasticidad $E$, coefici
 	\label{table:RN:FotiCable:propiedadesCable}
 \end{table}
 
-Existen diferencias sustancial respecto al ejemplos originales postulados por \cite{luongo1998non} y \cite{martinelli2001numerical}, en donde se resolvió mediante elementos de barra trinodal y de viga corrotacional, respectivamente. Para ambos trabajos se consideraron efectos de turbulencia generada artificialmente mediante procesos estocásticos, mientras que para este estudio se desprecia las componentes fluctuantes, teniendo en cuenta el mismo flujo medio $W$  en la coordenada axial del conductor. Este perfil es parabólico y alcanza la velocidad media máxima $W_{max}$ en $20$ segundos. Este valor de velocidad se calculó según \citep{IEC60826} considerando un flujo tipo CLA con las propiedades indicadas en la siguiente Tabla considerando a un tipo de terreno sub-urbano o industrial:
+Existen diferencias sustancial respecto al ejemplo original postulados por \cite{luongo1998non} y \cite{martinelli2001numerical}, en donde se resolvió mediante elementos de barra trinodal y de viga corrotacional, respectivamente. Para ambos trabajos se consideraron efectos de turbulencia generada artificialmente mediante procesos estocásticos, mientras que para este estudio se desprecia las componentes fluctuantes, teniendo en cuenta el mismo flujo medio $W$  en la coordenada axial del conductor. Este perfil es parabólico y alcanza la velocidad media máxima $W_{max}$ en $20$ segundos. Este valor de velocidad se calculó según \citep{IEC60826} considerando un flujo tipo CLA con las propiedades indicadas en la siguiente Tabla considerando a un tipo de terreno sub-urbano o industrial:
 
 
 \begin{table}[htbp]
@@ -160,7 +202,7 @@ Existen diferencias sustancial respecto al ejemplos originales postulados por \c
 	\label{table:RN:propiedadesFlujo}
 \end{table}
 
-La simulación consta de dos etapas, primeramente se aplica la fuerza gravitatoria según el eje $-z$  y luego las fuerzas del viento tal e las direcciones que se muestra en la Figura \ref{fig:RN:FotiCable:Ilustracion}. No se muestran los resultados de esta etapa debido a que carecen de relevancia y en el trabajo de referencia se toma la catenaria como condición inicial. Una vez estabilizada la respuesta del sistema por el amortiguamiento interno, se aplica una fuerza lineal de media positiva según el eje $-z$ desde cero hasta $W_{max}$. Esta forma del perfil podría emular el aumento modulado de presiones en un túnel de viento entre las bocas de entrada y descarga. La forma del perfil se muestra en la siguiente figura:
+La simulación consta de dos etapas, primeramente se aplica la fuerza gravitatoria según el eje $-z$  y luego las fuerzas del viento según direcciones que se muestra en la Figura \ref{fig:RN:FotiCable:Ilustracion}. No se muestran los resultados de esta etapa debido a que carecen de relevancia y en el trabajo de referencia se toma la catenaria como condición inicial. Una vez estabilizada la respuesta del sistema por el amortiguamiento interno, se aplica una fuerza lineal de media positiva según el eje $-z$ desde cero hasta $W_{max}$. Esta forma del perfil podría emular el aumento modulado de presiones en un túnel de viento entre las bocas de entrada y descarga. La forma del perfil se muestra en la Figura \ref{fig:RN:FotiCable:VelocidadCable}.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=80mm]{./imagenes/ResultadosNumericos/SimpleCable/PerfilVm_TL_Foti.png}
@@ -170,7 +212,7 @@ La simulación consta de dos etapas, primeramente se aplica la fuerza gravitator
 
 Para este estudio no se considerará la fuerza de \textit{lift}. Esta es despreciada por diferentes autores \cite{lee1992nonlinear}, \cite{Foti2016} y \cite{Papailiou1997} principalmente porque la razón de fuerzas en las componentes perpendiculares a los flujos está relacionada con posibles asimetrías tangenciales en el perfil. Para conductores sin formaciones de hielo en su superficie, la circulación del campo de velocidades relativo circundante es próxima a cero, lo que se traduce en una fuerza de \textit{lift}. nula. Esta es la principal diferencia de este caso en comparación por lo propuesto en la literatura por \cite{luongo1984planar} y \cite{foti2018finite} donde los perfiles presentan formaciones de hielo.
 
-Se considera un flujo transversal al eje del cable, con una historia de velocidad media mostrada en la Figura \ref{fig:RN:FotiCable:VelocidadCable}. Los valores de $C_d=1.5$ se extrajeron la referencia de \citep{foti2018finite}. Se aclara que el ángulo de ataque varía durante la trayectoria del cable, no obstante, el coeficiente $C_d$ permanece constate debido a la simetría de revolución del perfil. Se muestran entonces las fuerzas sobre cada nodo del conductor en la figura a continuación:
+Se considera un flujo transversal al eje del cable, con una historia de velocidad media mostrada en la Figura \ref{fig:RN:FotiCable:VelocidadCable}. Los valores de $C_d=1.5$ se extrajeron del trabajo de \cite{foti2018finite}. Se aclara que el ángulo de ataque varía durante la trayectoria del cable, no obstante, el coeficiente $C_d$ permanece constate debido a la simetría de revolución del perfil. Se muestran entonces las fuerzas sobre cada nodo del conductor en la Figura \ref{fig:RN:FotiCable:FuerzaZ}.
 
 
 \begin{figure}[h]
@@ -183,7 +225,7 @@ Se considera un flujo transversal al eje del cable, con una historia de velocida
 
 %A continuación se exponen los desplazamientos verticales y horizontales del nodo $\text{A}$. En estos se observa un comportamiento inercial y una relación entre el perfil de fuerza y desplazamientos. Esta homología entre los perfiles de ambas magnitudes es explicable mediante un análisis de Fourier del sistema. Haciendo referencia a la función de transferencia que relaciona a ambas variables, la misma produce únicamente en desfasaje en estado estacionario. Como la curva de carga es de manera gradual y no presenta exabruptos en el tiempo, se supone que la respuesta es cuasi-estática. 
 
-Se presentan a continuación los desplazamientos en vertical y transversal del nodo A, respectivamente, situado en el punto medio del vano :
+En las Figura \ref{fig:RN:FotiCable:DispsA} se presentan los desplazamientos en vertical y transversal del nodo A, respectivamente, situado en el punto medio del vano.
 
 \begingroup
 \centering
@@ -196,7 +238,7 @@ Se presentan a continuación los desplazamientos en vertical y transversal del n
 \end{figure}
 \endgroup
 
-Con el objetivo de contrastar los resultados tomando como referencia la literatura fuente (\textcite{foti2018finite}), se capturo el ángulo de balanceo del punto $\text{A}$ para todo tiempo. Esta variable se halla mediante la función tangente que vincula el ángulo respecto da la deformada en el eje $x$ con los desplazamientos en $z$ e $y$. Para ilustrar al lector se realizó el siguiente esquema del ángulo $\Phi$:
+Con el objetivo de contrastar los resultados tomando como referencia la literatura fuente (\textcite{foti2018finite}), se capturo el ángulo de balanceo del punto $\text{A}$ para todo tiempo. Esta variable se halla mediante la función tangente que vincula el ángulo respecto da la deformada en el eje $x$ con los desplazamientos en $z$ e $y$. Para ilustrar al muestra en la Figura \ref{fig:RN:FotiCable:Angulo} un esquema del ángulo $\Phi$.
 
 \begin{figure}[htbp]
 	\centering
@@ -208,7 +250,7 @@ Con el objetivo de contrastar los resultados tomando como referencia la literatu
 
 
 Se graficaron las trayectorias del ángulo para diferentes valores de velocidad media de viento, generando así una curva carga desplazamiento aerodinámica. Es posible notar que la forma de la Figura \ref{fig:RN:FotiCable:Angulo} describe un perfil semejante al que desarrollan tanto la fuerza, como los desplazamientos en las Figuras \ref{fig:RN:FotiCable:DispsA} y \ref{fig:RN:FotiCable:FuerzaZ}. Esta similitud se fundamenta en que la velocidad es lineal con el tiempo y por tanto, su escala es proporcional a la temporal.
-Por otra parte, en comparación con los resultados presentados por \cite{foti2018finite} se observan valores similares de ángulo para las diferentes velocidades. Asimismo, la forma del perfil es idéntica para todo el dominio temporal. Sin embargo, el valor máximo de ángulo alcanzado en este modelo es mayor comparativamente, lo que se puede atribuir al menos a dos factores. En primera instancia la turbulencia introducida en la bibliografía atenúa los desplazamientos debido a que las fluctuaciones axiales en el perfil de viento, se ejercen fuerzas desincronizadas a lo largo del vano mientras que en este modelo las fuerzas se acompasan produciendo mayores amplitudes. El segundo factor se vincula a la presencia del \ y la variación del ángulo de ataque con el ángulo. Como en la referencia \citep{foti2018finite} se toman en cuenta un perfil con formaciones de hielo, y por tanto sin simetría de revolución, las fuerzas generadas afectan de diferente forma al conductor de estudio produciendo resultados discordantes. 
+Por otra parte, en comparación con los resultados presentados por \cite{foti2018finite} se observan valores similares de ángulo para las diferentes velocidades. Asimismo, la forma del perfil es idéntica para todo el dominio temporal. Sin embargo, el valor máximo de ángulo alcanzado en este modelo es mayor comparativamente, lo que se puede atribuir al menos a dos factores. En primera instancia la turbulencia introducida en la bibliografía atenúa los desplazamientos debido a que las fluctuaciones axiales en el perfil de viento, se ejercen fuerzas desincronizadas a lo largo del vano mientras que en este modelo las fuerzas se acompasan produciendo mayores amplitudes. El segundo factor se vincula a la presencia del \emph{lift} y la variación del ángulo de ataque con el ángulo. Como en el trabajo de \cite{foti2018finite} se toman en cuenta un perfil con formaciones de hielo, y por tanto sin simetría de revolución, las fuerzas generadas afectan de diferente forma al conductor de estudio produciendo resultados discordantes. 
 
 
 \begin{figure}[htbp]
@@ -234,10 +276,10 @@ Este ejemplo ataca el objetivo central de este trabajo: modelar sistemas de tran
 	\label{fig:Transmission:EsquemaGeneral}
 \end{figure}
 
-En Uruguay los tendidos eléctricos de alta tensión son aquellos que transportan un voltaje mayor a $72.5$ kV. Este valor de tensión es eminentemente peligroso y para asegurar que la torre se encuentre aterrada se utilizan elementos aisladores. Para el modelar las cadenas se utilizaron elementos de barras tipo Green presentados en \citep{Crisfield}. Además, se consideró un módulo de elasticidad aproximado $E = 70$ GPa según los estudios experimentales realizados por  \cite{MoralesAisladores}.
+En Uruguay los tendidos eléctricos de alta tensión son aquellos que transportan un voltaje mayor a $72.5$ kV. Este valor de tensión es eminentemente peligroso y para asegurar que la torre se encuentre a voltaje nulo se utilizan elementos aisladores. Para el modelar las cadenas se utilizaron elementos de barras tipo Green presentados en el libro de \cite{Crisfield}. Además, para las cadenas aisladoras se consideró un módulo de elasticidad aproximado $E = 70$ GPa según los estudios experimentales realizados por  \cite{MoralesAisladores}.
 
 
-Al igual que los aisladores, las barras de las torres metálicas se modelaron con elementos de Green, con una ley material Saint-Venant-Kirchhoff con $E= 300$ GPa y $\nu=0.3$. Su geometría fue suministrada por el Ingeniero Agustín Téliz, cuya tesis de maestría consiste en el modelado y optimizado estructural de las mismas.  Estos valores se corresponden con un acero ASTM A 572 laminado en caliente, usual en este tipo de estructuras, junto al A36 y ASTM º65. Estas torres tienen una altura máxima de $44$ m y un ancho entre los opuestos de la cercha de $14.8$ m. Además, estas son capaces de soportar 6 lineas,  a cada altura sostienen cada una de las fases eléctricas. Las líneas se encuentran colocadas a tres cotas distintas $L_1=$ 31.75 $m$, $L_2=$ 26.03 $m$, $L_3=$ 39.76 $m$, tal y como se muestra en \ref{fig:RN:Transmission:Torre}. 
+Al igual que los aisladores, las barras de las torres metálicas se modelaron con elementos de Green, con una ley material Saint-Venant-Kirchhoff con $E= 300$ GPa y $\nu=0.3$. Su geometría fue suministrada por el Ingeniero Agustín Téliz, cuya tesis de maestría consiste en el modelado y optimizado estructural de las mismas.  Estos valores se corresponden con un acero ASTM A 572 laminado en caliente, usual en este tipo de estructuras, junto al A36 y ASTM grado 65. Estas torres tienen una altura máxima de $44$ m y un ancho entre los opuestos de la cercha de $14.8$ m. Además, estas son capaces de soportar 6 lineas,  a cada altura sostienen cada una de las fases eléctricas. Las líneas se encuentran colocadas a tres cotas distintas $L_1=$ 31.75 $m$, $L_2=$ 26.03 $m$, $L_3=$ 39.76 $m$, tal y como se muestra en la Figura \ref{fig:RN:Transmission:Torre}. 
 
 \begin{figure}[h]
 	\centering
@@ -255,14 +297,15 @@ Posteriormente se aplica una fuerza correspondiente a un perfil de tormenta conv
 \begin{figure}[htbp]
 	\centering
 	\subfigure[Carga aplicada sobre los nodos. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaNodalX_TS.png}\label{fig:RN:Transmission:FuerzaTormentaX}}
-	\subfigure[Perfil de velocidades de viento.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png}\label{fig:RN:Transmission:VelocidadTormentaX}}	
+	\subfigure[Perfil de velocidades de viento.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/VelocidadNodalX_TS.png}\label{fig:RN:Transmission:VelocidadTormentaX}}
+	\caption{Perfil de velocidad y fuerza extraído del trabajo de \cite{stengel2017measurements}.}	
 	\label{fig:RN:Transmission:ForceVelTormenta}
 \end{figure}
 \endgroup
 
 %Las tormentas severas generan CD donde las velocidades aumentan vertiginosamente en pequeños intervalos de tiempo, alcanzando umbrales de hasta 270 km/h \cite{fujita1985downburst}. Para este modelo, el perfil representado es de menor tenor, mas no el aumento súbito del fenómeno. La velocidad se eleva del valor nulo a 80 km/h en menos de 3 minutos, tal y como se observa en la Figura \ref{fig:RN:Transmission:VelocidadTormentaX}. Debido al impacto de del viento sobre el conductor se generan fuerzas, estas se calcularon con los valores de coeficiente drag y fórmula detalladas en el Ejemplo \ref{Sec:RN:FotiCable} anterior extraídos de la referencia \cite{Foti2016}.
 
-Se compararon cuantitativamente las oscilaciones entre fases (A-A', X-X', Z-Z') de la Figura \ref{fig:RN:Transmission:Torre}, no apreciándose sensibles diferencias, tanto en desplazamientos lineales como angulares. Por otra parte, no existen apreciables variaciones a ambos lados del plano transversal de simetría (entre A-A'). Esto se explica debido a la distribución espejada de la geometría y el hecho de omitir las variaciones en el flujo de aire aguas abajo del cable que recibe antes el impacto del flujo. Aclarados los aspectos mencionados, y considerando que los desplazamientos de la torre aumentan con la cota, se eligió el nodo \textit{A} como variable de control. Para este nodo se registraron su desplazamiento en los ejes $x$ y $z$ como también el ángulo de oscilación \gls{AnguloEj3} tal y cual se observa en la Figura \ref{fig:RN:Transmission:Angulo}.
+Se compararon cuantitativamente las oscilaciones entre fases (A-A', X-X', Z-Z') de la Figura \ref{fig:RN:Transmission:Torre}, no apreciándose sensibles diferencias, tanto en desplazamientos lineales como angulares. Por otra parte, no existen apreciables variaciones a ambos lados del plano transversal de simetría (entre A-A'). Esto se explica debido a la distribución espejada de la geometría y el hecho de omitir las variaciones en el flujo luego de la interacción con el conductor. Aclarados los aspectos mencionados, y considerando que los desplazamientos de la torre aumentan con la cota, se eligió el nodo \textit{A} como variable de control. Para este nodo se registraron su desplazamiento en los ejes $x$ y $z$ como también el ángulo de oscilación \gls{AnguloEj3} tal y cual se observa en la Figura \ref{fig:RN:Transmission:Angulo}.
 
 \begin{figure}[htbp]
 	\centering
@@ -300,17 +343,17 @@ Además de los elementos aisladores, los puntos medios en el vano del conductor 
 \end{figure}
 \endgroup
 
-En la Figura \ref{fig:RN:Transmission:DispXCB} se aprecia que el orden de los movimientos, para ambos nodos, es menor $8$ m durante el dominio temporal. Como la separación entre estos es de unos 14 metros lo que garantiza que no habrá impactos entre conductores, aun sin considerar desplazamientos sincrónicos entre ambas líneas. No obstante, otras arquitecturas de torres poseen un conductor central, para este caso las posibilidades de choque son mayores y la amenaza debe considerarse a la hora del diseño. En la Figura \ref{fig:RN:Transmission:DispZCB} se muestra que el descenso máximo de la línea se presenta en la primer etapa de simulación, alcanzando un valor de $5.2$ m. Esto resulta evidente y trivial dado el sentido de la fuerza ejercida por el viento, pero es una magnitud relevante de seguridad al momento de la instalación, para regular la fuerza de pre-tensado. Al igual que en el par de Figuras \ref{fig:RN:Transmission:DispsAD}, en \ref{fig:RN:Transmission:DispsCB} se aprecian comportamientos morfológicos semejantes en las historias de desplazamiento entre nodos. Cabe notar que, a pesar de que los perfiles son análogos entre los distintos puntos, los desplazamientos en puntos medios representados en las Figuras \ref{fig:RN:Transmission:DispsCB} presentan una mayor fluctuación temporal respecto los de las cadenas aisladoras mostradas en las Figuras \ref{fig:RN:Transmission:DispsAD}.
+En la Figura \ref{fig:RN:Transmission:DispXCB} se aprecia que el orden de los movimientos, para ambos nodos, es menor a $8$ m durante el dominio temporal. Como la separación entre estos es de unos $14$ metros lo que garantiza que no habrá impactos entre conductores, aun sin considerar desplazamientos sincrónicos entre ambas líneas. No obstante, otras arquitecturas de torres poseen un conductor central, para este caso las posibilidades de choque son mayores y la amenaza debe considerarse a la hora del diseño. En la Figura \ref{fig:RN:Transmission:DispZCB} se muestra que el descenso máximo de la línea se presenta en la primer etapa de simulación, alcanzando un valor de $5.2$ m. Esto resulta evidente y trivial dado el sentido de la fuerza ejercida por el viento, pero es una magnitud relevante de seguridad al momento de la instalación, para regular la fuerza de pre-tensado. Al igual que en el par de Figuras \ref{fig:RN:Transmission:DispsAD}, en \ref{fig:RN:Transmission:DispsCB} se aprecian comportamientos morfológicos semejantes en las historias de desplazamiento entre nodos. Cabe notar que, a pesar de que los perfiles son análogos entre los distintos puntos, los desplazamientos en puntos medios representados en las Figuras \ref{fig:RN:Transmission:DispsCB} presentan una mayor fluctuación temporal respecto a los de las cadenas aisladoras mostradas en las Figuras \ref{fig:RN:Transmission:DispsAD}.
 
 Por otra parte, en las Figuras \ref{fig:RN:Transmission:DispsCB} se observan indicios de inestabilidades numéricas, debido a altas frecuencias inducidas por el método computacional o modos de resonancia.
 
-En virtud de escudriñar la relación entre los perfiles de fuerza y las variables cinemáticas se elaboró la Figura \ref{fig:RN:Trnamission:CurvaCargaDisp} carga desplazamiento para el nodo A. En abscisas, se colocó el valor del ángulo de balanceo, y en ordenadas la fuerza nodal originada por la tormenta. Además de plasmar los resultados numéricos se graficó un cálculo estático ampliamente utilizado en la bibliografía, sobre todo en el área de ingeniería del viento \citep{stengel2017measurements}, \citep{duranona2009analysis} \citep{yang2016nonlinear}.
+En virtud de escudriñar la relación entre los perfiles de fuerza y las variables cinemáticas se elaboró la Figura \ref{fig:RN:Trnamission:CurvaCargaDisp} carga-desplazamiento para el nodo A. En las abscisas, se colocó el valor del ángulo de balanceo, y en ordenadas la fuerza nodal originada por la tormenta. Además de plasmar los resultados numéricos se graficó un cálculo estático ampliamente utilizado en la bibliografía, sobre todo en el área de ingeniería del viento \citep{stengel2017measurements}, \citep{duranona2009analysis} \citep{yang2016nonlinear}.
 
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=100mm]{./imagenes/ResultadosNumericos/TransmissionTormenta/FuerzaAngulo_TS.png}
-	\caption{Curva analítica y numérica carga desplazamiento.}
+	\caption{Curva analítica y numérica carga-desplazamiento.}
 	\label{fig:RN:Trnamission:CurvaCargaDisp}
 \end{figure}
 
