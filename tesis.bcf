@@ -2727,16 +2727,16 @@
     <bcf:citekey order="162">Foti2016</bcf:citekey>
     <bcf:citekey order="163">Papailiou1997</bcf:citekey>
     <bcf:citekey order="164">mendina2014general</bcf:citekey>
-    <bcf:citekey order="165">descartes2004discurso</bcf:citekey>
-    <bcf:citekey order="166">nietzsche2018voluntad</bcf:citekey>
-    <bcf:citekey order="167">kuhn2019estructura</bcf:citekey>
-    <bcf:citekey order="168">IEC60826</bcf:citekey>
-    <bcf:citekey order="169">Davenport1960</bcf:citekey>
+    <bcf:citekey order="165">IEC60826</bcf:citekey>
+    <bcf:citekey order="166">Davenport1960</bcf:citekey>
+    <bcf:citekey order="167">Davenport1960</bcf:citekey>
+    <bcf:citekey order="168">Oke2000</bcf:citekey>
+    <bcf:citekey order="169">Oke2000</bcf:citekey>
     <bcf:citekey order="170">Davenport1960</bcf:citekey>
-    <bcf:citekey order="171">Oke2000</bcf:citekey>
-    <bcf:citekey order="172">Oke2000</bcf:citekey>
-    <bcf:citekey order="173">Davenport1960</bcf:citekey>
-    <bcf:citekey order="174">Davenport1960</bcf:citekey>
+    <bcf:citekey order="171">Davenport1960</bcf:citekey>
+    <bcf:citekey order="172">descartes2004discurso</bcf:citekey>
+    <bcf:citekey order="173">nietzsche2018voluntad</bcf:citekey>
+    <bcf:citekey order="174">kuhn2019estructura</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

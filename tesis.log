@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.21)  3 MAY 2021 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.21)  3 MAY 2021 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3035,22 +3035,25 @@ formadas.png  used on input line 365.
 
  (./capitulos/Conclusiones.tex
 Cap\'{\i }tulo 6.
+
+LaTeX Warning: Reference `Sec:Intro:Objetivos' on page 78 undefined on input li
+ne 9.
+
 [78
 
 
 
-] [79] [80] [81] [82] [83] [84] [85] [86]) [87] [88
+] [79] [80] [81] [82] [83]) [84] [85
 
 
 
-] [89] [90] [91] [92]
-[93]
+] [86] [87] [88] [89] [90]
 
 Package glossaries Warning: Empty glossary for \printnoidxglossary[type={glosar
 io}]. Rerun may be required (or you may have forgotten to use commands like \gl
 s) on input line 165.
 
-[94] [95
+[91] [92
 
 ] (./apendice/apendice_A.tex
 Ap\'{e}ndice 1.
@@ -3063,9 +3066,18 @@ nput line 22.
 (./elementBeamForces.m
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [96
+ [93
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97]
@@ -3080,25 +3092,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [102]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104]))
-(./apendice/apendice_B.tex [105]
+ [101]))
+(./apendice/apendice_B.tex [102]
 Ap\'{e}ndice 2.
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [106
+ [103
 
 ]
-[107]) 
+[104]) (./apendice/apendice_C.tex [105]
+Ap\'{e}ndice 3.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+[106
+
+] [107]) 
 AED: lastpage setting LastPage
 [108]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
@@ -3115,7 +3126,10 @@ LaTeX Info: Redefining \% on input line 33.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: A24ADE4DE2A440917597B0DCAD2C99E5;3675.
+(rerunfilecheck)             Checksum: E1FACCA2EE2770931F6D19CE48ACCEB6;3690.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3126,10 +3140,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 42760 strings out of 481239
- 807413 string characters out of 5920377
- 1831430 words of memory out of 5000000
- 56143 multiletter control sequences out of 15000+600000
+ 42766 strings out of 481239
+ 807531 string characters out of 5920377
+ 1831254 words of memory out of 5000000
+ 56146 multiletter control sequences out of 15000+600000
  549583 words of font info for 87 fonts, out of 8000000 for 9000
  1152 hyphenation exceptions out of 8191
  114i,22n,107p,1787b,4788s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3160,10 +3174,10 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesis.pdf (128 pages, 2511211 bytes).
+Output written on tesis.pdf (128 pages, 2511867 bytes).
 PDF statistics:
- 2870 PDF objects out of 2984 (max. 8388607)
- 2461 compressed objects within 25 object streams
+ 2872 PDF objects out of 2984 (max. 8388607)
+ 2463 compressed objects within 25 object streams
  939 named destinations out of 1000 (max. 500000)
  1057 words of extra memory for PDF output out of 10000 (max. 10000000)
 

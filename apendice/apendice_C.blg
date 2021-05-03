@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'apendice_C.blg'
+[77] biber:322> INFO - === lun may  3, 2021, 12:12:46
+[203] Utils.pm:309> ERROR - Cannot find 'apendice_C.bcf'!
+[203] Biber.pm:132> INFO - ERRORS: 1
