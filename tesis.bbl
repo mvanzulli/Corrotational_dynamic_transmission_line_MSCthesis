@@ -454,40 +454,6 @@
       \field{pages}{151\bibrangedash 161}
       \range{pages}{11}
     \endentry
-    \entry{blevins1990van}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b506c893a93a676bb709d31ce40f9bd4}{%
-           family={Blevins},
-           familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima D},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=31cb1c26d2010a0b2d88eb36c07cb3ee}{%
-           family={Vibrations},
-           familyi={V\bibinitperiod},
-           given={Flow-Induced},
-           giveni={F\bibinithyphendelim I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{59bf552a731336359b9244c3bda745ef}
-      \strng{fullhash}{59bf552a731336359b9244c3bda745ef}
-      \strng{bibnamehash}{59bf552a731336359b9244c3bda745ef}
-      \strng{authorbibnamehash}{59bf552a731336359b9244c3bda745ef}
-      \strng{authornamehash}{59bf552a731336359b9244c3bda745ef}
-      \strng{authorfullhash}{59bf552a731336359b9244c3bda745ef}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New York}
-      \field{title}{Van Nostrand Reinhold}
-      \field{year}{1990}
-      \field{pages}{104\bibrangedash 110}
-      \range{pages}{7}
-    \endentry
     \entry{bruno2017introduccion}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=89213a5698950672149159a9f6ce8a20}{%
@@ -1598,16 +1564,10 @@
       \range{pages}{16}
     \endentry
     \entry{Kloppel1942}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cd58cef7a37a55782eb75cea796ec671}{%
-           family={Kl{ö}ppel},
-           familyi={K\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=009334a01d1e1e8e01edb94931bd9e58}{%
-           family={H.},
-           familyi={H\bibinitperiod},
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a241e2359718aec9262f29784d1b43b}{%
+           family={Kl{ö}ppel\bibnamedelima H},
+           familyi={K\bibinitperiod\bibinitdelim H\bibinitperiod},
            given={Lie\bibnamedelima K},
            giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
@@ -1615,12 +1575,12 @@
       \list{location}{1}{%
         {Bauingenieur}%
       }
-      \strng{namehash}{76e675d220f68743700d64dd85fa8d0c}
-      \strng{fullhash}{76e675d220f68743700d64dd85fa8d0c}
-      \strng{bibnamehash}{76e675d220f68743700d64dd85fa8d0c}
-      \strng{authorbibnamehash}{76e675d220f68743700d64dd85fa8d0c}
-      \strng{authornamehash}{76e675d220f68743700d64dd85fa8d0c}
-      \strng{authorfullhash}{76e675d220f68743700d64dd85fa8d0c}
+      \strng{namehash}{3a241e2359718aec9262f29784d1b43b}
+      \strng{fullhash}{3a241e2359718aec9262f29784d1b43b}
+      \strng{bibnamehash}{3a241e2359718aec9262f29784d1b43b}
+      \strng{authorbibnamehash}{3a241e2359718aec9262f29784d1b43b}
+      \strng{authornamehash}{3a241e2359718aec9262f29784d1b43b}
+      \strng{authorfullhash}{3a241e2359718aec9262f29784d1b43b}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
@@ -2606,6 +2566,34 @@
       \field{year}{1997}
       \field{pages}{113\bibrangedash 132}
       \range{pages}{20}
+    \endentry
+    \entry{blevins1990van}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b84186aa98f5549e24bf38807e7ab370}{%
+           family={Robert\bibnamedelimb D.\bibnamedelimi Blevins},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Van\bibnamedelimb Nostrand\bibnamedelima Reinhold},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b84186aa98f5549e24bf38807e7ab370}
+      \strng{fullhash}{b84186aa98f5549e24bf38807e7ab370}
+      \strng{bibnamehash}{b84186aa98f5549e24bf38807e7ab370}
+      \strng{authorbibnamehash}{b84186aa98f5549e24bf38807e7ab370}
+      \strng{authornamehash}{b84186aa98f5549e24bf38807e7ab370}
+      \strng{authorfullhash}{b84186aa98f5549e24bf38807e7ab370}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New York}
+      \field{title}{Flow induced vibrations}
+      \field{year}{1990}
+      \field{pages}{104\bibrangedash 110}
+      \range{pages}{7}
     \endentry
     \entry{routh1955dynamics}{book}{}
       \true{moreauthor}
