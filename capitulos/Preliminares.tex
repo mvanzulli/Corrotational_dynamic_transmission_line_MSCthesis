@@ -7,7 +7,7 @@ A continuación se presenta una descripción cualitativa y cuantitativa de la fo
 \section{Cinemática corrotacional}\label{Subsec:PRE:CienmaticCorrot}
 
 
-El planteo corrotacional para elementos de viga 3D binodales, se basa en escindir la cinemática del movimiento en dos componentes. La primera de ellas representa grandes rotaciones y desplazamientos, dados por el movimiento de la viga consideradola como un elemento rígido. La segunda componente tiene en cuenta los desplazamientos locales asociados a la flexibilidad del material. Este enfoque se suele aplicar en casos estáticos, donde resulta intuitivo imaginar inicialmente como se deformaría la estructura de manera rígida para luego aplicarle la componente no rígida. Para poder realizar esta descomposición, hace falta introducir una serie de sistemas de coordenadas que permiten representar los desplazamientos de cada una de las componentes. Para encontrar la curva deformada que describe el elemento, hace falta la orientación y traslación de un sistema de coordenadas solidario a cada punto. Estas magnitudes se obtienen a partir de transformaciones representables matemáticamente con la artillería del álgebra matricial para rotaciones. Una presentación de la temática puede hallarse en el trabajo de \cite{kovzar1995finite}.
+El planteo corrotacional para elementos de viga 3D binodales, se basa en escindir la cinemática del movimiento en dos componentes. La primera de ellas representa grandes rotaciones y desplazamientos, dados por el movimiento de la viga considerándola como un elemento rígido. La segunda componente tiene en cuenta los desplazamientos locales asociados a la flexibilidad del material. Este enfoque se suele aplicar en casos estáticos, donde resulta intuitivo imaginar inicialmente como se deformaría la estructura de manera rígida para luego aplicarle la componente no rígida. Para poder realizar esta descomposición, hace falta introducir una serie de sistemas de coordenadas que permiten representar los desplazamientos de cada una de las componentes. Para encontrar la curva deformada que describe el elemento, hace falta la orientación y traslación de un sistema de coordenadas solidario a cada punto. Estas magnitudes se obtienen a partir de transformaciones representables matemáticamente con la artillería del álgebra matricial para rotaciones. Una presentación de la temática puede hallarse en el trabajo de \cite{kovzar1995finite}.
 
 \subsection{Matrices de rotación}
 
@@ -37,7 +37,7 @@ Habiendo descrito las rotaciones del elemento, para deducir las matrices asociad
 \end{figure}
 
 
-Primeramente se define un sistema de referencia canónico integrado por el sistema de coordenadas ortogonal (\gls{E1},\gls{E2},\gls{E3}). Al aplicarle a estos vectores la transformación \gls{R0}, se obtienen los vectores (\gls{e1},\gls{e2},\gls{e3}). Estos permiten ubicar al elemento en su configuración de referencia. Consecuentemente, para definir el sistema de coordenadas (\gls{r1},\gls{r2},\gls{r3}) solidario a la configuración de deformación rígida, basta con aplicar la transformación \gls{R1g}. Por último, para los nodos 1 y 2, denominado arbitrariamente con el subíndice $i$, el sistema de coordenadas (\gls{t1i},\gls{t2i},\gls{t3i}) permite identificar la orientación y posición del nodo $i$ en su configuración deformada. Esta es posible obtenerla rotando el sistema de coordenados (\gls{e1},\gls{e2},\gls{e3}) por la matriz $\bf{R}_i^g$. 
+Primeramente se define un sistema de referencia canónico integrado por el sistema de coordenadas ortogonal (\gls{E1},\gls{E2},\gls{E3}). Al aplicarle a estos vectores la transformación \gls{R0}, se obtienen los vectores (\gls{e1},\gls{e2},\gls{e3}). Estos permiten ubicar al elemento en su configuración de referencia. Consecuentemente, para definir el sistema de coordenadas (\gls{r1},\gls{r2},\gls{r3}) solidario a la configuración de deformación rígida, basta con aplicar la transformación \gls{R1g}. Por último, para los nodos 1 y 2, denominados arbitrariamente con el subíndice $i$, el sistema de coordenadas (\gls{t1i},\gls{t2i},\gls{t3i}) permite identificar la orientación y posición del nodo $i$ en su configuración deformada. Esta es posible obtenerla rotando el sistema de coordenadas (\gls{e1},\gls{e2},\gls{e3}) por la matriz $\bf{R}_i^g$. 
 
 %Se hace énfasis en el hecho de que tanto la configuración inicial como la de deformación rígida requieren un único sistema de coordenadas. Por el contrario, la configuración deformada debido a la flexibilidad del elemento, requiere dos sistemas, denotados con la letra $\bf{t}_j^i$ donde el supra-indice $i$ identifica el nodo y el sub-indice $j$ la dirección.
 
@@ -67,7 +67,7 @@ La definición de los sistemas de coordenadas mencionados en el párrafo anterio
 \end{table}
 
 
-Los vínculos descritos en la Tabla \ref{Table:PRE:RelacionVM} se desprenden de las definiciones para cada matriz. Los vectores a la izquierda refieren al dominio de la matriz y a su derecha hacen a su respectiva imagen. A modo de ejemplo para la primera fila se tiene: $\bf{R}_0$. $(\bf{E_1})$ = $\bf{e_1}^T$. Al plantear este tipo de vínculos entre el sistema de coordenadas $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ se puede hallar a partir del sistema de coordenadas canónico $(\bf{E_1},\bf{E_2},\bf{E_3})$ de dos formas. La primera consiste aplicar consecutivamente las rotaciones $\bf{R}_0$ y $\bf{R}_i^g$ y la segunda en aplicar $\bf{R_r}$ y luego ${\bf{R_i}}$. Esto se muestra en la ecuación a continuación: 
+Los vínculos descritos en la Tabla \ref{Table:PRE:RelacionVM} se desprenden de las definiciones para cada matriz. Los vectores a la izquierda refieren al dominio de la matriz y a su derecha hacen a su respectiva imagen. A modo de ejemplo para la primera fila se tiene: $\bf{R}_0$. $(\bf{E_1})$ = $\bf{e_1}^T$. Al plantear este tipo de vínculos entre el sistema de coordenadas $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ se puede hallar a partir del sistema de coordenadas canónico $(\bf{E_1},\bf{E_2},\bf{E_3})$ de dos formas. La primera consiste en aplicar consecutivamente las rotaciones $\bf{R}_0$ y $\bf{R}_i^g$ y la segunda en aplicar $\bf{R_r}$ y luego ${\bf{R_i}}$. Esto se muestra en la ecuación a continuación: 
 
 \begin{equation}
 	\label{eq:PRE:Vincul1}
@@ -77,7 +77,7 @@ Los vínculos descritos en la Tabla \ref{Table:PRE:RelacionVM} se desprenden de 
 A partir de la Ecuación \eqref{eq:PRE:Vincul1} se puede obtener la matriz de rotación $\bar{\bf{R_i}}$. Para esto se hace uso de la propiedad de matrices ortonormales $\bf{R}^T=\bf{R}^{-1}$ y se obtiene la ecuación que prosigue: 
 \begin{equation}
 	\label{eq:PRE:Vincul2}
-	\bar{\bf{R_i}}=(\bf{R_r})^T\bf{R_i^g}\bf{R_o}\\
+	\bar{\bf{R_i}}=(\bf{R_r})^T\bf{R_i^g}\bf{R_o}.\\
 \end{equation}
 
 
@@ -99,9 +99,9 @@ El vector de desplazamiento axial \gls{uloc} se descompone en tres componentes s
 Para resolver el problema mediante métodos numéricos, es necesario definir variaciones. Estas emplearán un rol esencial para el cálculo de matrices tangentes y fuerzas internas. Las variaciones infinitesimales de los desplazamientos se definen según:
 
 \begin{eqnarray}\label{eq:PRE:DifDisps1}
-		\bf{\delta d_l} &=& [\delta\bar{u}, \boldsymbol{\delta\overline{ \theta _1}^T},	\boldsymbol{\delta \overline{ \theta _2}^T}]^{\bf{T}}\\
+		\bf{\delta d_l} &=& [\delta\bar{u}, \boldsymbol{\delta\overline{ \theta _1}^T},	\boldsymbol{\delta \overline{ \theta _2}^T}]^{\bf{T}},\\
 	\label{eq:PRE:DifDisps2}
-	\bf{\delta d_g} &=& [\bf{\delta u_1^g}^T, \bf{\delta u_2^g}^T, \bf{\delta{w_1^g}^T}, \bf{\delta{w_2^g}^T}]^T
+	\bf{\delta d_g} &=& [\bf{\delta u_1^g}^T, \bf{\delta u_2^g}^T, \bf{\delta{w_1^g}^T}, \bf{\delta{w_2^g}^T}]^T.
 \end{eqnarray}
 
 Consecuente con los desplazamientos infinitesimales presentados en las Ecuaciones \eqref{eq:PRE:DifDisps1} y \eqref{eq:PRE:DifDisps2}, se deben calcular los diferenciales asociados a las transformaciones de giro $\bf{R_r^g}$, $\bf{R_i^g}$, $\bf{R_0}$ y $\bf{\overline{R}}_i$.
