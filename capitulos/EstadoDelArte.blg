@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'EstadoDelArte.blg'
+[77] biber:322> INFO - === vie may  7, 2021, 12:33:28
+[205] Utils.pm:309> ERROR - Cannot find 'EstadoDelArte.bcf'!
+[206] Biber.pm:132> INFO - ERRORS: 1

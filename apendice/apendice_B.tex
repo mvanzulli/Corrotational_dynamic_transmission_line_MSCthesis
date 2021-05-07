@@ -1,13 +1,13 @@
 \chapter{}\label{Ape2}
 
-En esta sección se exponen las secciones destacadas de la norma internacional \cite{IEC60826}, explicitándose las hipótesis fundamentales y el procedimiento para el diseño de elementos de trasmisión eléctrica. También se corroboró efectivamente que la norma estudiada considera exclusivamente vientos tipo CLA.
+En esta sección se exponen las secciones destacadas de la norma internacional \cite{IEC60826}, explicitándose las hipótesis fundamentales y el procedimiento para el diseño de elementos de transmisión eléctrica. También se corroboró efectivamente que la norma estudiada considera exclusivamente vientos tipo CLA.
 
 \section{Campo de aplicación}
-El campo de aplicación de la norma esta sujeto a los siguientes requerimientos sobre el conductor y el terreno:
+El campo de aplicación de la norma está sujeto a los siguientes requerimientos sobre el conductor y el terreno:
 
 \begin{itemize}
 	\item La longitud de vano debe pertenecer al intervalo ($200$ m, $800$ m). Para longitudes fuera de ese rango deben analizarse coeficientes de racha diferentes a los presentados, sin embargo para vanos más largos a $800$ m el análisis de la norma resulta sobrestimado.
-	\item Altura de soportes menores a $60$ m y ya que los soportes de una altura mayor podrían inducir factores de amplificación dinámicos en la respuesta.
+	\item Altura de soportes menores a $60$ m ya que los soportes de una altura mayor podrían inducir factores de amplificación dinámicos en la respuesta.
 	\item La línea debe estar a una altura menor a los $1300$ msnm.
 	\item Los terrenos no pueden tener características topográficas singulares cuyo tamaño y forma puedan afectar las consideraciones respecto al flujo.
 \end{itemize}
@@ -35,7 +35,7 @@ Se establecen diferentes tipos de terrenos según las condiciones topográficas 
 	\label{TablaTerrenos} 
 \end{table}
 
-Considerando un flujo medio plano tipo CLA, una atmósfera neutra y diferentes constantes de terreno $\alpha$, entonces la velocidad media en altura $v(z)$ se puede calcularse de la siguiente manera:
+Considerando un flujo medio plano tipo CLA, una atmósfera neutra y diferentes constantes de terreno $\alpha$, entonces la velocidad media en altura $v(z)$ se puede calcular de la siguiente manera:
 
 \begin{equation}\label{LeyPotencial}
 	V(z)=V_{G}\left(\frac{z}{z_{G}}\right)^\alpha
@@ -47,7 +47,7 @@ Medidas de velocidad utilizando artefactos, como anemómetros o sensores de ultr
 	V(z)=V_{ref1}\left(\frac{z_{G1}}{z_{ref}}\right)^{\alpha_1}\left(\frac{z}{z_{G2}}\right)^{\alpha_2}.
 \end{equation}
 
-En la Ecuación \eqref{RelacionPotencial} se introduce un factor $K_R$ el cual permite obtener la relación entre las velocidades de referencia para distintos terrenos $V_{rX}=K_RV_{rB}$. Además se presentan a continuación las diferentes alturas de rugosidad media de obstáculos $z_0$:
+En la Ecuación \eqref{RelacionPotencial} se introduce un factor $K_R$ el cual permite obtener la relación entre las velocidades de referencia para distintos terrenos $V_{rX}=K_RV_{rB}$. En la Tabla \ref{Tab:laValoresTerrenos} las diferentes alturas de rugosidad media de obstáculos $z_0$.
 
 
 \begin{table}[h] 
@@ -67,9 +67,9 @@ En la Ecuación \eqref{RelacionPotencial} se introduce un factor $K_R$ el cual p
 	\end{footnotesize} 
 \end{table}
 
-Los datos presentados en la Tabla \ref{Tab:laValoresTerrenos} los valores de $\alpha$ se asemejan con lo presentado por \cite{Davenport1960}, para la categoría A y B el número de $\alpha$ considerado por la norma es menor, esto se fundamente en que valores menores de $\alpha$, es decir terrenos menos rugosos, inducen una velocidad mayor para la misma cota. En el caso de la categoría C y D el valor es exactamente idéntico a lo propuesto en \citep{Davenport1960} . De igual forma el termino $z_0$ se coincide con la tabla publicada en \citep{Oke2000}.
+En los datos presentados en la Tabla \ref{Tab:laValoresTerrenos}, los valores de $\alpha$ se asemejan con lo presentado por \cite{Davenport1960}, para la categoría A y B el número de $\alpha$ considerado por la norma es menor, esto se fundamente en que valores menores de $\alpha$, es decir terrenos menos rugosos, inducen una velocidad mayor para la misma cota. En el caso de la categoría C y D el valor es exactamente idéntico a lo propuesto en \citep{Davenport1960} . De igual forma el término $z_0$ se condice con la Tabla publicada en \citep{Oke2000}.
 
-Desglosando el factor $K_R$ para dos puntos de referencia, colocados a una cota de $z_{ref1}=z_{ref2}=10m$ en función de la Ecuación \eqref{RelacionPotencial} y combinándola con la definición de $K_r$ se obtiene la siguiente expresión: 
+Desglosando el factor $K_R$ para dos puntos de referencia, colocados a una cota de $z_{ref1}=z_{ref2}=10$ m en función de la Ecuación \eqref{RelacionPotencial} y combinándola con la definición de $K_r$ se obtiene la siguiente expresión: 
 
 \begin{equation}\label{ValorKR}
 	V_{ref2}(10m)=V_{ref1}\left(\frac{z_{G1}}{z_{ref1}}\right)^{\alpha_1}\left(\frac{z_{ref2}}{z_{G2}}\right)^{\alpha_2}\rightarrow K_r=\left(\frac{z_{G1}}{z_{ref1}}\right)^{\alpha_1}\left(\frac{z_{ref2}}{z_{G2}}\right)^{\alpha_2}
