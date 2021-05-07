@@ -17,7 +17,7 @@ El abordaje científico computacional consiste en abstraer un fenómeno de la re
 	\label{fig:MET:EsquemaCondiciones}
 \end{figure}
 
-Una vez aislado el objeto de su entorno, es necesario imponer determinadas condiciones que representan la interacción del entorno sobre el sistema. Estas imposiciones efectuadas por el contexto, del cual el objeto está siendo desvinculado, se nominan condiciones de borde. En particular, para esta investigación, se consideraron las siguientes hipótesis del modelado estructural respecto a sus condiciones de borde y e iniciales.
+Una vez aislado el objeto de su entorno, es necesario imponer determinadas condiciones que representan la interacción del entorno sobre el sistema. Estas imposiciones efectuadas por el contexto, del cual el objeto está siendo desvinculado, se nominan condiciones de borde. En particular, para esta investigación, se consideraron las siguientes hipótesis del modelado estructural respecto a sus condiciones de borde e iniciales.
 
 
 \subsection{Condiciones iniciales y de borde para la estructura}\label{Sec:MET:ModeladoEstructural}
@@ -27,15 +27,15 @@ Una vez aislado el objeto de su entorno, es necesario imponer determinadas condi
 	\item Las torres del sistema de transmisión se encuentran a la misma altura, ignorándose cualquier variación en el perfil topográfico del terreno. Como consecuencia, los puntos de anclaje que unen las cadenas a las torres (D y A), pertenecen a un mismo plano paralelo a la superficie terrestre.
 	\item  El conductor es conformado por un único cable continuo que discurre el espacio sujetado por aisladores eléctricos. Su proceso de fabricación es mediante una trenza con lingas de acero y aluminio, que poseen una significativa rigidez a flexión. Esta razón conduce inevitablemente a modelarlo con elementos de vigas, las cuales tienen un variación de ángulo continuo.
 	\item Se supone que no existe deslizamiento relativo entre las hebras que componen al conductor.  
-	\item Consecuente con el inciso anterior, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $x$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impuestas por la simetría del sistema.
+	\item Consecuente con el inciso anterior, al escindir el vano BC de su continuación (en color gris), se deben imponer las condiciones de ángulo nulo en $z$ para los nodos C y B. Esta condición es la única que respeta las condiciones de deformación angulares impuestas por la simetría del sistema.
 	\item Dado que los puntos B y C no se deforman según el eje $x$, ergo sus trayectorias pertenecen al plano $z$-$y$, lo que se impone en los nodos B y C. 
 	\item La exigua resistencia a flexión de los elementos aisladores DC y AB, obliga a instalarlos con sus extremos articulados. Es por esto que se modelaron a partir de barras de Green según \cite{Crisfield}. 
-	\item A partir de la configuración de referencia, dibujada con línea punteada en la Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento \gls{InitialConditionU0}. Esta se corresponde con la solución estática del sistema cargado por el preso propio en la dirección de $-y$ de la gravedad.
+	\item A partir de la configuración de referencia, dibujada con línea punteada en la Figura \ref{fig:MET:EsquemaCondiciones}, se aplica una condición inicial de desplazamiento \gls{InitialConditionU0}. Esta se corresponde con la solución estática del sistema cargado por el peso propio en la dirección de $-y$ de la gravedad.
 	\item No se consideran formaciones de hielo depositadas sobre las líneas, por las evidentes condiciones climáticas del territorio uruguayo.
 \end{enumerate} 
 
 \subsection{Modelo de viento}\label{Sec:PRE:Modeloviento}
-Un cuerpo inmerso en un fluido en movimiento sufre determinadas cargas debido al campo de presiones en su superficie. Este campo suele producir fuerzas de arrastre (\textit{drag}), en la dirección del flujo y fuerzas perpendiculares de (\textit{lift}). Las cargas de \textit{drag} son el resultado de integrar las tensiones rasantes en la capa límite a lo largo de la frontera del cuerpo y luego proyectar este resultado en la dirección del flujo medio. Las fuerzas de \textit{lift} que aparecen sobre el sólido, se deben a la asimetría del campo de presiones entre el intradós (zona de menor presión) y el extradós del sólido inmerso. Esta diferencia de presiones puntales entre dos superficies contrarias, genera una circulación circundante en el campo de velocidades relativos. Al integrar ese campo en la curva cerrada que delimita el cuerpo, correspondiente a la silueta del cuerpo, se induce una fuerza. Ambos efectos dinámicos sobre el cable se ilustran en la Figura \ref{fig:MET:Viento:DragLift}. 
+Un cuerpo inmerso en un fluido en movimiento sufre determinadas cargas debido al campo de presiones en su superficie. Este campo suele producir fuerzas de arrastre (\textit{drag}), en la dirección del flujo y fuerzas perpendiculares de (\textit{lift}). Las cargas de \textit{drag} son el resultado de integrar las tensiones rasantes en la capa límite a lo largo de la frontera del cuerpo y luego proyectar este resultado en la dirección del flujo medio. Las fuerzas de \textit{lift} que aparecen sobre el sólido, se deben a la asimetría del campo de presiones entre el intradós (zona de menor presión) y el extradós del sólido inmerso. Esta diferencia de presiones puntuales entre dos superficies contrarias, genera una circulación circundante en el campo de velocidades relativos. Al integrar ese campo en la curva cerrada que delimita el cuerpo, correspondiente a la silueta del cuerpo, se induce una fuerza. Ambos efectos dinámicos sobre el cable se ilustran en la Figura \ref{fig:MET:Viento:DragLift}. 
 
 Para cuerpos perfectamente simétricos, en términos tangenciales, la competente de \textit{lift} es nula.  Esto se debe a la simetría de revolución del cuerpo que garantiza una circulación del campo de velocidades nula, pues no hay diferencias, ni geométricas, ni dinámicas, entre las superficies del sólido. 
 
@@ -50,7 +50,7 @@ Para cuerpos perfectamente simétricos, en términos tangenciales, la competente
 \end{figure}
 \endgroup
 
-La componente unidireccional del flujo a una altura dada, puede ser desglosada en un término medido y otro fluctuante $w_v(t)=w_m(t)+{w}'(t)$. A su vez, la fuerza de ``\textit{drag}'' que ejerce el aire como un fluido No Newtoneano, con determinada densidad \gls{DenisdadAire}, coeficiente de drag en función del Reynolds \gls{Drag}, sobre un elemento cilíndrico en reposo de diámetro \gls{DiametroConductor} y largo $l_e$ se calcula según la expresión:
+La componente unidireccional del flujo a una altura dada, puede ser desglosada en un término medio y otro fluctuante $w_v(t)=w_m(t)+{w}'(t)$. A su vez, la fuerza de ``\textit{drag}'' que ejerce el aire como un fluido No Newtoneano, con determinada densidad \gls{DenisdadAire}, coeficiente de drag en función del Reynolds \gls{Drag}, sobre un elemento cilíndrico en reposo de diámetro \gls{DiametroConductor} y largo $l_e$ se calcula según la expresión:
 
 \begin{equation}
 	\label{Eq:MET:FuerzaViento}
@@ -60,7 +60,7 @@ La componente unidireccional del flujo a una altura dada, puede ser desglosada e
 Para este cálculo se asumieron uniformes las magnitudes al interior del elemento, es por esto, que el valor de la integral, es simplemente el producto de la fuerza por unidad de longitud por el largo del intervalo. Por otra parte, la carga del viento sobre el elemento se modeló como una fuerza nodal equivalente a la mitad de $F_v$. Si bien la fuerza del viento es distribuida, los momentos nodales que estas cargas inducen en los nodos, se cancelan en los elementos interiores. Por otra parte, los valores de $C_d$ se extrajeron de \citep{Foti2016} y se verificaron con el estudio para estos coeficientes durante TC de \citep{mara2007effects}. 
 
 \subsubsection{Campo de velocidades relativos, absolutos y fuerzas asociadas.}\label{SubSec:MET:CampoVelRealt}
-Dada una sección transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la Figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre \gls{VelocidadW} y \gls{VelocidadQ}. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto en un sistema de coordenadas absoluto. Asimismo, en esta imagen se representan las velocidades media y fluctuante $w_m$ y $w_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Las velocidades globales del baricentro de la sección según $z$ e $y$ se identifican con las letras $\bf{\dot{u}}_{y}$ y $\bf{\dot{u}}_{z}$ respectivamente y se corresponden con las descritas en la Sección \ref{Sec:PRE:VelAc}. Las magnitudes identificadas anteriormente se ilustran en la siguiente figura:
+Dada una sección transversal al cable arbitraria, donde el viento tiene determinada componente transversal según $z$ y perpendicular (según $y$). En la Figura \ref{fig:MET:Viento:VelAbs} se indican con el nombre \gls{VelocidadW} y \gls{VelocidadQ}. En esta figura las velocidades se referencian a un observador solidario con la tierra y por tanto en un sistema de coordenadas absoluto. Asimismo, en esta imagen se representan las velocidades media y fluctuante $w_m$ y $w_a$, que sumada a la velocidad $v$, resulta en el vector $V_{tot}$ formando un ángulo $\beta$ con la horizontal. Las velocidades globales del baricentro de la sección según $z$ e $y$ se identifican con las letras $\bf{\dot{u}}_{y}$ y $\bf{\dot{u}}_{z}$ respectivamente y se corresponden con las descritas en la Sección \ref{Sec:PRE:VelAc}. Las magnitudes identificadas anteriormente se ilustran en la Figura \ref{fig:MET:Viento:VelAbs}.
 % 
 %\begingroup
 %\begin{figure}[htbp]
@@ -80,7 +80,7 @@ Dada una sección transversal al cable arbitraria, donde el viento tiene determi
 	\label{fig:MET:Viento:VelAbs}
 \end{figure}
 
-Si el observador se encuentra solidario al rígido, en un sistema de referencia anidado a el, la velocidad percibida de viento, sería la diferencia entre las velocidades absolutas y las rígidas. Esto se muestra en la Figura \ref{fig:MET:Viento:VelRel}. Este campo de velocidades relativos es el responsable de las fuerzas de \textit{drag} \gls{FuerzaDrag} y  de \textit{lift} \gls{FuerzaLift}. Estas pueden ser proyectada en el sistema de ejes globales, ocasionando dos fuerzas $F_z$ y $F_y$.
+Si el observador se encuentra solidario al rígido, en un sistema de referencia anidado a el, la velocidad percibida de viento, sería la diferencia entre las velocidades absolutas y las rígidas. Esto se muestra en la Figura \ref{fig:MET:Viento:VelRel}. Este campo de velocidades relativos es el responsable de las fuerzas de \textit{drag} \gls{FuerzaDrag} y  de \textit{lift} \gls{FuerzaLift}. Estas pueden ser proyectadas en el sistema de ejes globales, ocasionando dos fuerzas $F_z$ y $F_y$.
 
 
 \begin{figure}[htbp]
@@ -101,48 +101,48 @@ Habiendo descrito las variables que intervienen en este análisis plano, donde n
 Desarrollando el término $(w_m+w_a-\bf{\dot{u}}_{z})^2$ de la Ecuación \eqref{Eq:MET:VrelTot} se deduce la siguiente expresión:
 
 \begin{equation}
-\label{Eq:MET:Binomio}
+	\label{Eq:MET:Binomio}
 	(w_m+w_a-\bf{\dot{u}}_{z})^2= \text{$w_m^2+w_a^2$} + \bf{\dot{u}}_{z}^2 +  (\text{$w_a $} - \bf{\dot{u}}_{z})\text{$2w_m $}  +\text{$w_a^2$}- \text{$2w_a $} \bf{\dot{u}}_{z}. 
 \end{equation}
 
 Sustituyendo la Ecuación \eqref{Eq:MET:Binomio} en \eqref{Eq:MET:VrelTot} y dividiendo entre la velocidad media $w_m$ se obtiene:
 
 \begin{equation}
-\label{Eq:MET:Binomio}
-\frac{V_{rel}^2}{w_m}=\frac{\text{$w_m^2+w_a^2$} + \bf{\dot{u}}_{z}^2}{w_m}  +  2(\text{$w_a $} - \bf{\dot{u}}_{z}) + \frac{\text{$w_a^2$}- \text{$2w_a $} \bf{\dot{u}}_{z}}{\text{$w_m$}}+ \frac{(\text{q}-\bf{\dot{u}}_{y})^2 }{\text{$w_m$}}
+	\label{Eq:MET:Binomio}
+	\frac{V_{rel}^2}{w_m}=\frac{\text{$w_m^2+w_a^2$} + \bf{\dot{u}}_{z}^2}{w_m}  +  2(\text{$w_a $} - \bf{\dot{u}}_{z}) + \frac{\text{$w_a^2$}- \text{$2w_a $} \bf{\dot{u}}_{z}}{\text{$w_m$}}+ \frac{(\text{q}-\bf{\dot{u}}_{y})^2 }{\text{$w_m$}}
 \end{equation}
 
 
 Tomando como hipótesis que los cuadrados de: la componente alternante del viento y la velocidad del rígido en $z$ y la velocidad relativa en $y$, son mucho menores que las asociadas al flujo medio $(q-\bf{\dot{u}}_{y})^2,\text{$w_a$} ^2 , \bf{\dot{u}}_{z}} ^2, <<\text{$w_m$}$, se llega a la siguiente ecuación:
 
 \begin{equation}
-	\label{Eq:MET:VerlTotRatio}
-	\frac{V_{rel}^2}{w_m}=w_m + 2 (w_a-\bf{\dot{u}}_{z}).
+\label{Eq:MET:VerlTotRatio}
+\frac{V_{rel}^2}{w_m}=w_m + 2 (w_a-\bf{\dot{u}}_{z}).
 \end{equation}
 
-Las hipótesis formulada anteriormente tiene consecuencias sobre el ángulo de ataque y la fuerza por unidad de longitud según las ecuaciones a continuación:
+Las hipótesis formuladas anteriormente tiene consecuencias sobre el ángulo de ataque y la fuerza por unidad de longitud según las ecuaciones a continuación:
 
 \begin{eqnarray}
-	\label{Eq:MET:AngleBeta}
-	\tan (\beta_r) = \frac{v-\bf{\dot{u}}_{y}}{w_m - \bf{\dot{u}}_{z} + \text{$w_a$}}=\frac{\frac{v-\bf{\dot{u}}_{y}}{w_m}}{1+ \frac{\text{$w_a$}}{w_m}- \bf{\dot{u}}_{z}}\approx 0 \\
-	\label{Eq:MET:DragPerLength}
-	F_d = \frac{\rho d_c C_d}{2} (w_m + 2 (w_a-\bf{\dot{u}}_{z}))\text{$w_m$}
+\label{Eq:MET:AngleBeta}
+\tan (\beta_r) = \frac{v-\bf{\dot{u}}_{y}}{w_m - \bf{\dot{u}}_{z} + \text{$w_a$}}=\frac{\frac{v-\bf{\dot{u}}_{y}}{w_m}}{1+ \frac{\text{$w_a$}}{w_m}- \bf{\dot{u}}_{z}}\approx 0 \\
+\label{Eq:MET:DragPerLength}
+F_d = \frac{\rho d_c C_d}{2} (w_m + 2 (w_a-\bf{\dot{u}}_{z}))\text{$w_m$}
 \end{eqnarray}
 
 Resulta relevante descomponer la fuerza de arrastre según las componentes $z$ e $y$. Estas son importantes ya que permiten, en un sistema de coordenadas absoluto, calcular la fuerza que se ejerce sobre el conductor. A partir de estas se hallan el campo de desplazamientos, velocidad y aceleraciones del sólido. Considerando que el ángulo $\beta$ es ínfimo y por lo tanto $\tan(\beta)\approx\sin(\beta)\approx 0$ y $\cos(\beta)=1$ al aplicar trigonometría se obtienen los siguientes valores de fuerza:
 
 \begin{eqnarray}
-	F_z &=& \frac{\rho d_c C_d}{2} (u_m^2+w_a^2-2 w_m \text{$\bf{\dot{u}}_{z}$})\cos(\beta_r)=\bar{F_x}+F_a-F_{vis}\\
-	F_y &=& \frac{\rho d_c C_d}{2} (w_m^2+w_a^2-2 w_m \text{$\bf{\dot{u}}_{z}$})\sin(\beta_r)\approx 0
+F_z &=& \frac{\rho d_c C_d}{2} (u_m^2+w_a^2-2 w_m \text{$\bf{\dot{u}}_{z}$})\cos(\beta_r)=\bar{F_x}+F_a-F_{vis},\\
+F_y &=& \frac{\rho d_c C_d}{2} (w_m^2+w_a^2-2 w_m \text{$\bf{\dot{u}}_{z}$})\sin(\beta_r)\approx 0
 \end{eqnarray}
 
-Al igual que las variables cinemáticas, las dinámicas se pueden desglosar en componentes alternantes y medias. La parte media de cada magnitud, es un promedio móvil a lo largo del tiempo y naturalmente, las fuerzas de este tipo, se vinculan con las velocidades medias. En contraste, los términos alternantes tienen media nula y emanan de las velocidades fluctuantes. Ahora bien, un tercer término surge al desarrollar la Ecuación \eqref{Eq:MET:DragPerLength}. Este factor depende del producto entre la velocidad media de viento y la velocidad media del rígido en la dirección del flujo medio ($z$). Como este término depende de la dinámica del rígido y del viento, recibe el nombre de amortiguamiento aerodinámico. Por otra parte, desde la perspectiva del autor resulta sorpresivo el sentido de esta fuerza, siendo contrario a la ejercida por el viento.  A esta descomposición de fuerzas según $z$ se le llaman $\bar{F_x}$, $F_a$, $-F_{vis}$ a la componente media, alternante y de amoritguamentio dinámico respectivamente. Sus expresiones se detallan a continuación: 
+Al igual que las variables cinemáticas, las dinámicas se pueden desglosar en componentes alternantes y medias. La parte media de cada magnitud, es un promedio móvil a lo largo del tiempo y naturalmente, las fuerzas de este tipo, se vinculan con las velocidades medias. En contraste, los términos alternantes tienen media nula y emanan de las velocidades fluctuantes. Ahora bien, un tercer término surge al desarrollar la Ecuación \eqref{Eq:MET:DragPerLength}. Este factor depende del producto entre la velocidad media de viento y la velocidad media del rígido en la dirección del flujo medio ($z$). Dado que este término depende de la dinámica del rígido y del viento, recibe el nombre de amortiguamiento aerodinámico. Por otra parte, desde la perspectiva del autor resulta sorpresivo el sentido de esta fuerza, siendo contrario a la ejercida por el viento.  A esta descomposición de fuerzas según $z$ se le llaman $\bar{F_x}$, $F_a$, $-F_{vis}$ a la componente media, alternante y de amortiguamiento dinámico respectivamente. Sus expresiones se detallan a continuación: 
 
 \begin{eqnarray}
-	\bar{F_x} &=&  \frac{\rho d_c C_d}{2} (w_m^2)\\
-	F_a &=&  \frac{\rho d_c C_d}{2} (w_a^2)\\
-	\label{Eq:MET:AmortAerodniamic}
-	F_{vis}  &=& \frac{\rho d_c C_d}{2} (2 \text{$\bf{\dot{u}}_{z}$} w_m)
+\bar{F_x} &=&  \frac{\rho d_c C_d}{2} (w_m^2),\\
+F_a &=&  \frac{\rho d_c C_d}{2} (w_a^2),\\
+\label{Eq:MET:AmortAerodniamic}
+F_{vis}  &=& \frac{\rho d_c C_d}{2} (2 \text{$\bf{\dot{u}}_{z}$} w_m).
 \end{eqnarray}  
 
 
@@ -150,11 +150,11 @@ Al igual que las variables cinemáticas, las dinámicas se pueden desglosar en c
 Una vez descrito el análisis general de los anteriores párrafos, se postulan las premisas en las cual se fragua este trabajo. Estas evidencian las limitaciones de la metodología sobre el modelado de viento. Este si bien no es el eje central de la investigación, es el agente externo principal y el causante de este estudio. Dicho esto es menester establecer las hipótesis del modelo y sus implicancias:
 
 \begin{enumerate}
-	\item El viento inicide con velocidad en el sentido $z$ de forma perpendicular a la línea. Esta hipótesis proviene de diferentes trabajos publicados como \citep{duranona2009analysis}, \citep{yang2016nonlinear} y \citep{stengel2017measurements}.
-	\item La velocidad relativa transversal $v-\bf{\dot{u}}_{y}$ al igual que la componente alternante son mucho menores en magnitud a la velocidad media en el sentido de $z$ llamada $w_m$.
-	\item Considerando la simetría de revolución del conductor y el flujo alrededor del mismo, se desprecia la fuerza de \textit{lift} frente al \textit{drag}.
-	\item Se desprecia la fuerza alternante en el sentido de $z$ dada por la Ecuación \eqref{Eq:MET:AmortAerodniamic}. Esto es equivalente a despreciar la componente alternante del flujo $w_a$.
-	\item Para el cálculo del amortiguamiento aerodinámico $F_{vis}$ se promedió la velocidad media en un valor constante igual al valor medio para todo el dominio temporal de simulación.
+\item El viento inicide con velocidad en el sentido $z$ de forma perpendicular a la línea. Esta hipótesis proviene de diferentes trabajos publicados como \citep{duranona2009analysis}, \citep{yang2016nonlinear} y \citep{stengel2017measurements}.
+\item La velocidad relativa transversal $v-\bf{\dot{u}}_{y}$ al igual que la componente alternante son mucho menores en magnitud a la velocidad media en el sentido de $z$ llamada $w_m$.
+\item Considerando la simetría de revolución del conductor y el flujo alrededor del mismo, se desprecia la fuerza de \textit{lift} frente al \textit{drag}.
+\item Se desprecia la fuerza alternante en el sentido de $z$ dada por la Ecuación \eqref{Eq:MET:AmortAerodniamic}. Esto es equivalente a despreciar la componente alternante del flujo $w_a$.
+\item Para el cálculo del amortiguamiento aerodinámico $F_{vis}$ se promedió la velocidad media en un valor constante igual al valor medio para todo el dominio temporal de simulación.
 \end{enumerate}
 
 \section{Aspectos de modelado computacional}\label{Sec:MET:ModeladoComput}
@@ -170,68 +170,68 @@ Una vez descrito el análisis general de los anteriores párrafos, se postulan l
 %
 %La fuerza externa es la responsable del cambio de trabajo aportando al sistema por lo que $\delta W_{ext}=(\delta \bf{d}^g)^T\bf{f}_{ext}$, análogamente $\delta W_{int}=(\delta \bf{d}^g)^T\bf{f}_{int}$ y también así para la fuerza inercial definida en la Ecuación \eqref{Eqn:PRE:defFuerzaInercial}. Sustituyendo estas expresiones para el instante $t + \Delta T$ y partiendo que debe satisfacerse para todo desplazamiento $ \delta \bf{d}^g$, se obtiene la ecuación de equilibrio: 
 
-Discretizando el cuerpo mediante el MEF, para cada nodo y en cada instante, debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico \gls{FuerzaViscosa} que depende de la velocidad lineal del rígido. Este término debe tratarse aparte ya que su naturaleza, a pesar de ser externa, es una función de el estado cinemático del sólido. La ecuación de equilibrio de fuerzas en el instante $t+\Delta T$ resulta:
+Discretizando el cuerpo mediante el MEF, para cada nodo y en cada instante, debe cumplirse el balance vectorial entre fuerzas internas $\bf{f}_{int}$, inerciales $\bf{f}_{ine}$ y externas $\bf{f}_{ext}$. Además según la Ecuación \eqref{Eq:MET:AmortAerodniamic} dentro de las fuerzas externas aparece un término aerodinámico \gls{FuerzaViscosa} que depende de la velocidad lineal del rígido. Este término debe tratarse aparte ya que su naturaleza, a pesar de ser externa, es una función del estado cinemático del sólido. La ecuación de equilibrio de fuerzas en el instante $t+\Delta T$ resulta:
 
 \begin{equation}\label{Eq:MET:EquilibrioExacto}
-	\begin{split}
-		\bf{f}_{ext,t+\Delta T}+&\bf{f}_{vis,}(\dot{\bf{d}}\text{$(t+\Delta T)$})-\bf{f}_{int}(\bf{d}\text{$(t+\Delta T)$})...\\
-		...~&-\bf{f}_{ine}(\bf{d} \text{$(t+\Delta T)$},\dot{\bf{d}}\text{$(t+\Delta T)$},\ddot{\bf{d}}\text{$(t+\Delta T)$})=0
-	\end{split}.
+\begin{split}
+	\bf{f}_{ext,t+\Delta T}+&\bf{f}_{vis}(\dot{\bf{d}}\text{$(t+\Delta T)$})-\bf{f}_{int}(\bf{d}\text{$(t+\Delta T)$})...\\
+	...~&-\bf{f}_{ine}(\bf{d} \text{$(t+\Delta T)$},\dot{\bf{d}}\text{$(t+\Delta T)$},\ddot{\bf{d}}\text{$(t+\Delta T)$})=0.
+\end{split}
 \end{equation}
 
 La Ecuación de balance \eqref{Eq:MET:EquilibrioExacto} debe satisfacerse para todo instante temporal, en particular para $t+\Delta T$. Dadas determinadas propiedades materiales y geométricas en la configuración de referencia, las fuerzas dependen de las magnitudes cinemáticas globales en ese instante. Estas son: los desplazamientos $\bf{d}$ $(t+\Delta T)$, las velocidades $\dot{\bf{d}}$ $(t+\Delta T)$ y aceleraciones $\ddot{\bf{d}}$ $(t+\Delta T)$.
 
-Los métodos numéricos, a groso modo, si son consistentes y estables construyen una sucesión que al iterar infinitamente deben converge a la solución exacta. Al realizar una aproximación de Taylor de primer orden en la Ecuación \eqref{Eq:MET:EquilibrioExacto} esta ya no será nula sino igual a un resto $\bf{r}$. Para diferenciar las variables aproximadas de las exactas, se distingue con la siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta T)$}$ $\rightarrow$ $\bf{d}_{t+\Delta T}$), ($\dot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta T}$) y ($\ddot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta T}$). Rescribiendo acorde a esto la Ecuación \eqref{Eq:MET:EquilibrioExacto} se obtiene:
+Los métodos numéricos, a groso modo, si son consistentes y estables, construyen una sucesión que al iterar infinitamente deben converger a la solución exacta. Al realizar una aproximación de Taylor de primer orden en la Ecuación \eqref{Eq:MET:EquilibrioExacto} esta ya no será nula sino igual a un resto $\bf{r}$. Para diferenciar las variables aproximadas de las exactas, se distingue con las siguiente nomenclatura: ($\bf{d}\text{$(t+\Delta T)$}$ $\rightarrow$ $\bf{d}_{t+\Delta T}$), ($\dot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\dot{\bf{d}}_{t+\Delta T}$) y ($\ddot{\bf{d}}\text{$(t+\Delta T)$}$ $\rightarrow$ $\ddot{\bf{d}}_{t+\Delta T}$). Rescribiendo acorde a esto la Ecuación \eqref{Eq:MET:EquilibrioExacto} se obtiene:
 \begin{equation}\label{Eq:MET:Resto}
-	\begin{split}
-		\bf{r}(\bf{d}_{t+\Delta T})&=(-\bf{f}_{ext,t+\Delta T}+\bf{f}_{int}(\bf{d}_{t+\Delta T})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta T})...\\	
-		&...+\bf{f}_{ine}(\bf{d_{t+\Delta T}},\dot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}),
-		\ddot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}))
-		\approx 0
-	\end{split}
+\begin{split}
+	\bf{r}(\bf{d}_{t+\Delta T})&=(-\bf{f}_{ext,t+\Delta T}+\bf{f}_{int}(\bf{d}_{t+\Delta T})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta T})...\\	
+	&...+\bf{f}_{ine}(\bf{d_{t+\Delta T}},\dot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}),
+	\ddot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}))
+	\approx 0
+\end{split}
 \end{equation}
 Los métodos numéricos para la solución de problemas dinámicos, escriben las variables de aceleración y velocidad, en el instante $t +\Delta T$, en función de los desplazamientos para ese tiempo y las magnitudes cinemáticas del paso anterior. Para esto, se definen las funciones $F_a$ y $F_v$ según se establece en las siguientes expresiones:
 \begin{eqnarray}\label{Eq:MET:AproxVel}
-	\dot{\bf{d}}_{t+\Delta T}&=&F_v(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})\\
-	\label{Eq:MET:AproxAcel}
-	\ddot{\bf{d}}_{t+\Delta T}&=&F_a(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}).
+\dot{\bf{d}}_{t+\Delta T}&=&F_v(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t})\\
+\label{Eq:MET:AproxAcel}
+\ddot{\bf{d}}_{t+\Delta T}&=&F_a(\bf{d_{t+\Delta T}},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}).
 \end{eqnarray}
 Dadas las funciones de las Ecuaciones \eqref{Eq:MET:AproxVel} y \eqref{Eq:MET:AproxAcel}, como los vectores desplazamiento, velocidad y aceleración para el instante $t$ se encuentran dados, la única incógnita en el vector resto para el instante $t+\Delta T$ es el vector desplazamientos para ese mismo tiempo. Por lo tanto, al aplicar el método iterativo de Newton en $k$, para ecuaciones no lineales, al vector residuo definido en la Ecuación \eqref{Eq:MET:Resto} se obtiene:
 
 \begin{equation}\label{Eq:MET:Residuo}
-	\bf{r}(\bf{d}^{k+1}_{t+\Delta T})=\bf{r}(\bf{d}^k_{t+\Delta T}) +
-	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial
-		\bf{d}_{t+\Delta T}}|_k~\Delta \bf{d}^{k+1}_{t+\Delta T}=0.
+\bf{r}(\bf{d}^{k+1}_{t+\Delta T})=\bf{r}(\bf{d}^k_{t+\Delta T}) +
+\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial
+	\bf{d}_{t+\Delta T}}|_k~\Delta \bf{d}^{k+1}_{t+\Delta T}=0.
 \end{equation}
 
 Para calcular la derivada del residuo, se utiliza la regla de la cadena aplicada a las funciones de velocidades y aceleraciones, expresando las derivadas en función de los desplazamientos. Esta operatoria en términos analíticos, se presenta en la siguientes ecuaciones: 
 \begin{equation}\label{Eq:MET:DerivadaResiduo}
-	\begin{split}
-		\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial
-			\bf{d}_{t+\Delta T}}&=\frac{\partial  \bf{r}}{\partial
-			\bf{\dot{d}}_{t+\Delta T}}\frac{\partial 
-			\bf{\bf{\dot{d}}_{t+\Delta T}}}{\partial \bf{{d}}_{t+\Delta T}}+ \frac{\partial 
-			\bf{r}}{\partial \bf{\ddot{d}}_{t+\Delta T}}\frac{\partial 
-			\bf{\bf{\ddot{d}}_{t+\Delta T}}}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial 
-			\bf{r}}{\partial \bf{{d}}_{t+\Delta T}}\\
-		\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial \bf{d}_{t+\Delta T}}&= \frac{\partial  \bf{r}}{\partial\bf{\dot{d}}_{t+\Delta T}}\frac{\partial F_v}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial  \bf{r}}{\partial\bf{\ddot{d}}_{t+\Delta T}}\frac{\partial F_a}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial 
-			\bf{r}}{\partial \bf{{d}}_{t+\Delta T}}
-	\end{split}
+\begin{split}
+	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial
+		\bf{d}_{t+\Delta T}}&=\frac{\partial  \bf{r}}{\partial
+		\bf{\dot{d}}_{t+\Delta T}}\frac{\partial 
+		\bf{\bf{\dot{d}}_{t+\Delta T}}}{\partial \bf{{d}}_{t+\Delta T}}+ \frac{\partial 
+		\bf{r}}{\partial \bf{\ddot{d}}_{t+\Delta T}}\frac{\partial 
+		\bf{\bf{\ddot{d}}_{t+\Delta T}}}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial 
+		\bf{r}}{\partial \bf{{d}}_{t+\Delta T}}\\
+	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial \bf{d}_{t+\Delta T}}&= \frac{\partial  \bf{r}}{\partial\bf{\dot{d}}_{t+\Delta T}}\frac{\partial F_v}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial  \bf{r}}{\partial\bf{\ddot{d}}_{t+\Delta T}}\frac{\partial F_a}{\partial \bf{{d}}_{t+\Delta T}}+\frac{\partial 
+		\bf{r}}{\partial \bf{{d}}_{t+\Delta T}}
+\end{split}
 \end{equation}
 
-En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de las magnitudes globales: desplazamientos, velocidades y aceleraciones. Según el vector residuo de la Ecuación \eqref{Eq:MET:Residuo}, estas derivadas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual presentada en la Ecuación \eqref{Eq:MET:Residuo} aparece un termino \gls{MatrizViscosa} correspondiente la derivada de la fuerza viscosa respecto de la velocidad del sólido. Esto resulta una matriz diagonal con valores principalmente nulos, salvo en las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$.
+En las expresiones anteriores se distinguen varios factores. En primer lugar las derivadas de la función residuo respecto de las magnitudes globales: desplazamientos, velocidades y aceleraciones. Según el vector residuo de la Ecuación \eqref{Eq:MET:Residuo}, estas derivadas son las matrices tangentes $\bf{K_g}$ $\bf{M}$ y $\bf{C_k}$ descritas en el Capítulo \ref{Cap:Preliminares}. Asimismo, al derivar la función de fuerza residual presentada en la Ecuación \eqref{Eq:MET:Residuo} aparece un término \gls{MatrizViscosa} correspondiente a la derivada de la fuerza viscosa respecto de la velocidad del sólido. Esto resulta una matriz diagonal con valores principalmente nulos, salvo en las entradas correspondientes a la dirección del viento, con valor $\rho d_c C_d w_m$.
 
-Incorporando estas matrices se obtiene a la siguiente ecuación:
+Incorporando estas matrices se obtiene la siguiente ecuación:
 
 \begin{equation}\label{Eq:PRE:DerivadaResiduo}
-	\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial \bf{d}_{t+\Delta T}}\Big|_k~
-	= \left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis}) \right)\Big|_k
+\frac{\partial  \bf{r}(\bf{d}_{t+\Delta T})}{\partial \bf{d}_{t+\Delta T}}\Big|_k~
+= \left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis}) \right)\Big|_k
 \end{equation}
 
 Sustituyendo la expresión anterior en la Ecuación \eqref{Eq:MET:Residuo} se halla el paso en desplazamientos en $k+1$ a partir de las magnitudes en k $\Delta \bf{d}^{k+1}_{t+\Delta T}$. Matemáticamente:
 
 \begin{equation}\label{Eq:Pre:Incremento}
-	\left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis} )  \right)\Big|_k^{-1} \left(-\bf{r}(\bf{d}^k_{t+\Delta T})\right)=  \Delta\bf{d}^{k+1}_{t+\Delta T}
+\left (\bf{K}_g+\frac{\partial\text{$ F_a$}}{\partial \bf{{d}}_{t+\Delta T}}\bf{M} + \frac{\partial\text{$ F_v$}}{\partial \bf{{d}}_{t+\Delta T}}(\bf{C}_k+\bf{C}_{vis} )  \right)\Big|_k^{-1} \left(-\bf{r}(\bf{d}^k_{t+\Delta T})\right)=  \Delta\bf{d}^{k+1}_{t+\Delta T}
 \end{equation}
 
 Esta sección se desarrolló para determinada función de residuo, sin embargo el Método de HHT implementado considera una expresión diferente. Además, propone determinadas funciones de aproximación para las velocidades y aceleraciones que se describen en la sección a continuación. 
@@ -240,60 +240,60 @@ Esta sección se desarrolló para determinada función de residuo, sin embargo e
 \subsection{Resolución numérica mediante HHT}\label{Sec:MET:HHT}
 Este método consiste en una innovadora propuesta respecto del algoritmo de Newmark presentado en \citep{newmark1959method}. Según el artículo \citep{hilber1977improved} el método de HHT, es incondicionalmente estable para la integración de ecuaciones dinámicas lineales en el área estructural. Esto implica que el paso de tiempo puede incrementarse considerablemente conservando la convergencia numérica del método. Además de esta ventaja, cuando se buscan representar modos de baja frecuencia, el factor de disipación que atenúa la energía del sistema, no depende del incremento de tiempo elegido. Complementario a esto, evita la aparición indeseada de altas frecuencias numéricas, sin eliminar los modos de baja frecuencia endógenos a la estructura. 
 
-En la publicación \citep{hilber1977improved} se compara el método de HHT con otros métodos clásicos en el área de análisis numérico estructural, como ser: el Método del Trapecio, el de Wilson y la familia de algoritmos de Newmark. El autor concluye que HHT además de su mayor grado de ajuste, es más preciso para bajas frecuencias. Dado que esto se ajusta a la perfección para la aplicación de conductores, superpuesto que este se implementó en \citep{Le2014}, resulta oportuno aplicarlo a esta investigación.
+En la publicación \citep{hilber1977improved} se compara el método de HHT con otros métodos clásicos en el área de análisis numérico estructural, como ser: el Método del Trapecio, el de Wilson y la familia de algoritmos de Newmark. El autor concluye que HHT además de su mayor grado de ajuste, es más preciso para bajas frecuencias. Dado que esto se ajusta a la perfección para la aplicación de conductores, superpuesto a que este se implementó en \citep{Le2014}, resulta oportuno aplicarlo a esta investigación.
 
 El parámetro característico del método se lo identifica con el nombre $\alpha_{HHT}$. Este permite expresar el vector de fuerzas residuales de HHT al ponderar el vector residuo definido en la Ecuación \eqref{Eq:MET:Residuo} en $t+\Delta T$ y $t$ según la siguiente expresión:
 
 \begin{equation}
-	\label{Eq:MET:ResHHT}
-	\begin{split}
-		\bf{r}^{\text{$HHT$}}(\bf{d}_{t+\Delta T})&=(1+\alpha_\text{$HHT$})(-\bf{f}_{ext,t+\Delta T}+\bf{f}_{int}(\bf{d}_{t+\Delta T})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta T}))...\\	
-		&...+\alpha_\text{$HHT$}(-\bf{f}_{ext,t}+\bf{f}_{int}(\bf{d}_{t})+\bf{f}_{vis}(\dot{\bf{d}}_{t}))...\\
-		&...+\bf{f}_{ine}(\bf{d_{t+\Delta T}},\dot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}),
-		\ddot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}))
-		\approx 0
-	\end{split}
+\label{Eq:MET:ResHHT}
+\begin{split}
+	\bf{r}^{\text{$HHT$}}(\bf{d}_{t+\Delta T})&=(1+\alpha_\text{$HHT$})(-\bf{f}_{ext,t+\Delta T}+\bf{f}_{int}(\bf{d}_{t+\Delta T})+\bf{f}_{vis}(\dot{\bf{d}}_{t+\Delta T}))...\\	
+	&...+\alpha_\text{$HHT$}(-\bf{f}_{ext,t}+\bf{f}_{int}(\bf{d}_{t})+\bf{f}_{vis}(\dot{\bf{d}}_{t}))...\\
+	&...+\bf{f}_{ine}(\bf{d_{t+\Delta T}},\dot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}),
+	\ddot{\bf{d}}_{t+\Delta T}(d_{t+\Delta T},\bf{d_t},\bf{\dot{d}_t},\bf{\ddot{d}_t}))
+	\approx 0
+\end{split}
 \end{equation}
 
 
 Se presentan las funciones de aproximación para aceleraciones y velocidades lineales globales en función de los desplazamientos. Estas ecuaciones se escribirán inicialmente en términos de los parámetros de Newmark \gls{AlphaNW} y \gls{BetaNW} para luego vincularlo con el método de HHT. Esto permite ejecutar fácilmente uno u otro, dependiendo de las necesidades. Consecuentemente, las funciones de actualización para el instante $t+\Delta T$ se escriben:
 
 \begin{align}
-	\ddot{\bf{u}}_{t+\Delta t} &=
-	\begin{aligned}[t]
-		\frac{1}{\alpha_{NW}(\Delta t)^2} \bf{u}_{t+\Delta t} - \frac{1}{\alpha_{NW} (\Delta t)^2} \bf{u}_{t} 	- \frac{1}{\alpha_{NW} (\Delta t)  }& \dot{\bf{u}}_{t}-... \\
-		...-\frac{1}{2 \alpha_{NW}}  (1-2\alpha_{NW} ) &\ddot{\bf{u}}_{t} \\
-	\end{aligned}
-	\label{Eq:MET:AproxAceleracion} \\[\jot]
-	\dot{\bf{u}}_{t+\Delta t} &=
-	\begin{aligned}[t]
-		\frac{\beta_{NW}}{\alpha_{NW} (\Delta t)} \bf{u}_{t+\Delta t}
-		- \frac{\beta_{NW}}{\alpha_{NW} (\Delta t)} \bf{u}_{t}
-		+ \left( 1 - \frac{\beta_{NW}}{\alpha_{NW}} \right) &\dot{\bf{u}}_{t}+... \\
-		+ ...\left( 1- \frac{\beta_{NW}}{2 \alpha_{NW}} \right) &\ddot{\bf{u}}_{t} \Delta t
-	\end{aligned}
-	\label{Eq:MET:AproxVelcoity}
+\ddot{\bf{u}}_{t+\Delta t} &=
+\begin{aligned}[t]
+	\frac{1}{\alpha_{NW}(\Delta t)^2} \bf{u}_{t+\Delta T} - \frac{1}{\alpha_{NW} (\Delta T)^2} \bf{u}_{t} 	- \frac{1}{\alpha_{NW} (\Delta T)  }& \dot{\bf{u}}_{t}-... \\
+	...-\frac{1}{2 \alpha_{NW}}  (1-2\alpha_{NW} ) &\ddot{\bf{u}}_{t} \\
+\end{aligned}
+\label{Eq:MET:AproxAceleracion} \\[\jot]
+\dot{\bf{u}}_{t+\Delta t} &=
+\begin{aligned}[t]
+	\frac{\beta_{NW}}{\alpha_{NW} (\Delta T)} \bf{u}_{t+\Delta T}
+	- \frac{\beta_{NW}}{\alpha_{NW} (\Delta T)} \bf{u}_{t}
+	+ \left( 1 - \frac{\beta_{NW}}{\alpha_{NW}} \right) &\dot{\bf{u}}_{t}+... \\
+	+ ...\left( 1- \frac{\beta_{NW}}{2 \alpha_{NW}} \right) &\ddot{\bf{u}_{t}\Delta T} 
+\end{aligned}
+\label{Eq:MET:AproxVelcoity}
 \end{align}
 
 
-Para implementar HHT basta con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de \gls{AlphaHHT} y calcular las matrices tangentes del según el vector de fuerzas residuales definidas en \ref{Eq:MET:ResHHT}. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
+Para implementar HHT basta con definir los parámetros $\alpha_{NW}$ y $\beta_{NW}$ en términos del valor de \gls{AlphaHHT} y calcular las matrices tangentes asociadas al vector de fuerzas residuales definidas en \ref{Eq:MET:ResHHT}. Esto se realiza mediante las Ecuaciones \eqref{Eq:MET:betaNW} y \eqref{Eq:MET:alphaNW}. En estas funciones, es posible notar las similitudes entre los métodos. El de Newmark clásico con $\beta_{NW}=1/2$ y $\alpha_{NW} =1/4$ se logra ajustando el parámetro $\alpha_{HHT}=0$. 
 
 \begin{eqnarray}
-	\label{Eq:MET:betaNW}
-	\beta_{NW} &=& \frac{1-2\alpha_{HHT}}{2}\\
-	\label{Eq:MET:alphaNW}
-	\alpha_{NW} &=& \frac{(1-\alpha_{HHT})^2}{4}
+\label{Eq:MET:betaNW}
+\beta_{NW} &=& \frac{1-2\alpha_{HHT}}{2}\\
+\label{Eq:MET:alphaNW}
+\alpha_{NW} &=& \frac{(1-\alpha_{HHT})^2}{4}
 \end{eqnarray}
 
 Se calculan entonces las derivadas respecto al desplazamiento para las funciones de aproximación. Estas se expresan a partir del parámetro $\alpha_{HHT}$ y el incremento \gls{DeltaT} entre dos tiempos consecutivos $t$ y $t+\Delta T$.
 
 \begin{eqnarray}
-	\label{Eq:Met:DerivadasAcelLinear}
-	\frac{\partial \bf{\ddot{u}_{t+\Delta t}}}{\partial \bf{{u}_{t+\Delta T}}}& = &
-	\frac{4}{(1-\alpha_{HHT})^2 \Delta T^2}\\
-	\label{Eq:Met:DerivadasVelLinear}
-	\frac{\partial \bf{\dot{u}_{t+\Delta T}}}{\partial \bf{{u}_{t+\Delta T}}}& = &
-	\frac{1-\alpha_{HHT}}{2\Delta T}
+\label{Eq:Met:DerivadasAcelLinear}
+\frac{\partial \bf{\ddot{u}_{t+\Delta t}}}{\partial \bf{{u}_{t+\Delta T}}}& = &
+\frac{4}{(1-\alpha_{HHT})^2 \Delta T^2}\\
+\label{Eq:Met:DerivadasVelLinear}
+\frac{\partial \bf{\dot{u}_{t+\Delta T}}}{\partial \bf{{u}_{t+\Delta T}}}& = &
+\frac{1-\alpha_{HHT}}{2\Delta T}
 \end{eqnarray}
 
 A diferencia de la aproximación para velocidades y aceleraciones lineales, las magnitudes angulares deben actualizarse mediante otras funciones. Este tipo de variables no cumple la propiedad de conmutatividad. De acuerdo con los artículos publicados por \cite{ibrahimbegovic1998finite} y \cite{ibrahimbegovic2002energy}, los vectores de velocidades y aceleraciones angulares para el paso $k+1$, en el instante $t+\Delta T$, deben calcularse según las siguientes Ecuaciones:
@@ -311,45 +311,45 @@ A diferencia de la aproximación para velocidades y aceleraciones lineales, las 
 \begin{equation}
 \label{Eq:MET:ActualizacionesAngulares1}
 \begin{aligned}
-\dot{\bf{w}}_{t+\Delta t} ={} & \bf{R}^g_{t+ \text{$\Delta T$}}(\bf{R}^g_{t})^T\left[\frac{\alpha}{\beta\text{$\Delta T$}}\bf{\theta}_{t+\text{$\Delta T$}}+
-\frac{\beta-\alpha}{\beta}\bf{\dot{w_t}+\frac{(\beta-0.5\alpha)\text{$\Delta T$}}{\beta}}	\ddot{\bf{w}}_{t} \right ] \\
+	\dot{\bf{w}}_{t+\Delta t} ={} & \bf{R}^g_{t+ \text{$\Delta T$}}(\bf{R}^g_{t})^T\left[\frac{\alpha}{\beta\text{$\Delta T$}}\bf{\theta}_{t+\text{$\Delta T$}}+
+	\frac{\beta-\alpha}{\beta}\bf{\dot{w_t}+\frac{(\beta-0.5\alpha)\text{$\Delta T$}}{\beta}}	\ddot{\bf{w}}_{t} \right ] \\
 \end{aligned}
 \end{equation}
 \vspace{-.5cm}
 \begin{equation}
 \label{Eq:MET:ActualizacionesAngulares2}
 \begin{aligned}
-\ddot{\bf{w}}_{t+\Delta t}={} &\bf{R}^g_{t+\Delta T}(\bf{R}^g_{t})^T\left[\frac{1}{\beta\text{$\Delta T$}^2}\bf{\theta}_{t+\text{$\Delta T$}}-	\frac{1}{\beta \Delta T}\bf{\dot{w_t}-\frac{(0.5-\beta)}{\beta}}	\ddot{\bf{w}}_{t+\text{$\Delta T$}} \right ] \\
+	\ddot{\bf{w}}_{t+\Delta t}={} &\bf{R}^g_{t+\Delta T}(\bf{R}^g_{t})^T\left[\frac{1}{\beta\text{$\Delta T$}^2}\bf{\theta}_{t+\text{$\Delta T$}}-	\frac{1}{\beta \Delta T}\bf{\dot{w_t}-\frac{(0.5-\beta)}{\beta}}	\ddot{\bf{w}}_{t+\text{$\Delta T$}} \right ] \\
 \end{aligned}
 \end{equation}
 
-Un procedimiento análogo al de las funciones lineales se aplican a las angulares de las Ecuaciones expresadas en \eqref{Eq:MET:ActualizacionesAngulares1} y \eqref{Eq:MET:ActualizacionesAngulares2}. Sus derivadas se presentan en las siguientes ecuaciones:
+Un procedimiento análogo al de las funciones lineales se aplica a las angulares de las Ecuaciones expresadas en \eqref{Eq:MET:ActualizacionesAngulares1} y \eqref{Eq:MET:ActualizacionesAngulares2}. Sus derivadas se presentan en las siguientes ecuaciones:
 
 \begin{eqnarray}
-	\label{Eq:MET:DerivadasAngulares1}
-	\frac{\partial \bf{\ddot{w}_{t+\Delta T}}}{\partial \bf{{w}_{t+\Delta T}}}& = 
-	\frac{4}{(1-\alpha_{HHT})^2 \Delta T^2}&  \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}})\\
-	\label{Eq:MET:DerivadasAngulares2}
-	\frac{\partial \bf{\dot{w}_{t+\Delta T}}}{\partial \bf{{w}_{t+\Delta t}}}& = 
-	\frac{1-\alpha_{HHT}}{2\Delta T}& \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}})
+\label{Eq:MET:DerivadasAngulares1}
+\frac{\partial \bf{\ddot{w}_{t+\Delta T}}}{\partial \bf{{w}_{t+\Delta T}}}& = 
+\frac{4}{(1-\alpha_{HHT})^2 \Delta T^2}&  \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}})\\
+\label{Eq:MET:DerivadasAngulares2}
+\frac{\partial \bf{\dot{w}_{t+\Delta T}}}{\partial \bf{{w}_{t+\Delta t}}}& = 
+\frac{1-\alpha_{HHT}}{2\Delta T}& \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}})
 \end{eqnarray}
 
 Es posible compactar las derivadas lineales y angulares de las Ecuaciones \eqref{Eq:MET:DerivadasAngulares1}, \eqref{Eq:MET:DerivadasAngulares2}, \eqref{Eq:Met:DerivadasAcelLinear} y \eqref{Eq:Met:DerivadasVelLinear} al definir convenientemente la matriz $\bf{B_t}$. En función de esta es posible escribir los incrementos de velocidades y aceleraciones globales en términos del vector de desplazamientos incremental. Estas relaciones se expresan a continuación:
 
 \begin{eqnarray}
-	\label{Eq:MET:DefBt}
-	\bf{B}_t & = & \bf{\begin{bmatrix}
-			I& 0 & 0 & 0\\ 
-			0 & \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}}) & 0 & 0\\ 
-			0& 0 & I & 0\\ 
-			0 & 0 & 0 & \bf{T_s^{-T}}(\bf{\theta^g_{2,{t+\Delta T}}})
-	\end{bmatrix}}\\
-	\label{Eq:MET:IncrementoVelGlobalBt}
-	\Delta \dot{\bf{d_g}}&=& \left(\frac{1-\alpha_{HHT}}{2\Delta T} \bf{B_t}\right) \Delta
-	\bf{d_{g,{t+\Delta T}}}\\
-	\label{Eq:MET:IncrementoAcelGlobalBt}
-	\Delta \ddot{\bf{d_g}}&=& \left( \frac{4}{(1-\alpha_{HHT})^2 \Delta T^2} \bf{B_t} \right)\Delta
-	\bf{d_{g,{t+\Delta T}}}
+\label{Eq:MET:DefBt}
+\bf{B}_t & = & \bf{\begin{bmatrix}
+		I& 0 & 0 & 0\\ 
+		0 & \bf{T_s^{-T}}(\bf{\theta^g_{1,{t+\Delta T}}}) & 0 & 0\\ 
+		0& 0 & I & 0\\ 
+		0 & 0 & 0 & \bf{T_s^{-T}}(\bf{\theta^g_{2,{t+\Delta T}}})
+\end{bmatrix}}\\
+\label{Eq:MET:IncrementoVelGlobalBt}
+\Delta \dot{\bf{d_g}}&=& \left(\frac{1-\alpha_{HHT}}{2\Delta T} \bf{B_t}\right) \Delta
+\bf{d_{g,{t+\Delta T}}}\\
+\label{Eq:MET:IncrementoAcelGlobalBt}
+\Delta \ddot{\bf{d_g}}&=& \left( \frac{4}{(1-\alpha_{HHT})^2 \Delta T^2} \bf{B_t} \right)\Delta
+\bf{d_{g,{t+\Delta T}}}
 \end{eqnarray}	
 
 
@@ -357,10 +357,10 @@ Es posible compactar las derivadas lineales y angulares de las Ecuaciones \eqref
 Al escindir las Ecuaciones \eqref{Eq:MET:IncrementoVelGlobalBt} y \eqref{Eq:MET:IncrementoAcelGlobalBt} se identifican las funciones $F_a$ y $F_v$ de la sección \ref{Sec:MET:EqEquilibrio}. Estas relaciones matemáticas deben integrarse a la ecuación linealizada de equilibrio, con el vector de residuos para HHT definido en   \eqref{Eq:MET:ResHHT}. De esta manera se deduce el incremento en $k+1$ que permite conocer el vector desplazamientos en el paso $k+1$, a partir del vector en $k$, para el instante $t+\Delta T$ según la siguiente ecuación: 
 
 \begin{equation}\label{Eq:MET:FinalIncremento}
-	\begin{split}
-		-&\bf{r}(\bf{d}^k_{t+\Delta T})=\\
-		&\left((1+\alpha_{HHT})\bf{K}_g+\text{$\left( \frac{4}{(1-\alpha_{HHT}^2)\Delta T^2} \right)$} \bf{M}\bf{B}_t + \left(\text{$\frac{1^2+\alpha^2_{HHT}}{2\Delta T}$}\right) (\bf{C}_k+\bf{C}_{vis}) \bf{B}_t \right)\Delta\bf{d}^{k+1}_{t+\Delta T}
-	\end{split}
+\begin{split}
+	-&\bf{r}(\bf{d}^k_{t+\Delta T})=\\
+	&\left((1+\alpha_{HHT})\bf{K}_g+\text{$\left( \frac{4}{(1-\alpha_{HHT}^2)\Delta T^2} \right)$} \bf{M}\bf{B}_t + \left(\text{$\frac{1^2+\alpha^2_{HHT}}{2\Delta T}$}\right) (\bf{C}_k+\bf{C}_{vis}) \bf{B}_t \right)\Delta\bf{d}^{k+1}_{t+\Delta T}
+\end{split}
 \end{equation}
 
 Se aclara que para despejar la Ecuación \eqref{Eq:MET:FinalIncremento} anterior, la matriz entre paréntesis curvos debe invertirse y por tanto ser no singular. De lo contrario, el método podría presentar un número de condición nulo arrojando infinitas soluciones o ninguna. Para esto las matrices tangentes fueron simetrizadas de forma numérica, redefiniendo a la matriz como la semi-suma con su transpuesta. Esto garantiza la no singularidad y mantiene el orden de convergencia cuadrático para N-R.
@@ -368,56 +368,56 @@ Se aclara que para despejar la Ecuación \eqref{Eq:MET:FinalIncremento} anterior
 % Esto se encuentra garantizado por la naturaleza de las matrices que la integran (de masa, centrifuga y tangente).  Las matrices centrifugas y de masa devienen de un potencial asociado (la energía cinética) como los parámetros $\alpha_{HHT}$ son menores a uno, en general en el intervalo $[-0.1;0.1]$, la suma de estas matrices suele ser definidas positivas. Por lo que la matriz tangente total será invertible.
 
 \subsubsection{Hipótesis de modelado numérico}\label{Sec:MET:HipotesisModeladoNumerico}
-Se esclarecen las premisas y simplificaciones durante la implementación numérica de los códigos creados: 
+Se enumeran las premisas y simplificaciones durante la implementación numérica de los códigos creados: 
 \begin{enumerate}
-	\item Los incrementos angulares no se calcularon componiendo dos rotaciones consecutivas sino de forma aditiva, es decir: $\bf{\theta_{t+\Delta T}^{k+1}}=\bf{\theta_{t+\Delta T}^{k}}+\bf{\Delta \theta_{t+\Delta T}^{k+1}}$.
-	\item La matriz de amortiguamiento viscoso $\bf{C}_{vis}$ se considero una diagonal con elementos no nulos en las componentes asociadas a los desplazamientos transaccionales. Se copió el valor del amortiguamiento aerodinámico con el valor correspondiente a la coordenada lineal $\rho d_c C_d w_m$ para el resto de los desplazamientos. Esto garantiza la estabilidad y atenuación de la respuesta en la primera etapa asociada a la acción del peso propio.
-	\item La simulación se separó en dos etapas consecutivas, en primer lugar se carga con la fuerza de la gravedad (a partir de la condición inicial) y una vez que la respuesta es constante se aplica la carga del viento. 
+\item Los incrementos angulares no se calcularon componiendo dos rotaciones consecutivas sino de forma aditiva, es decir: $\bf{\theta_{t+\Delta T}^{k+1}}=\bf{\theta_{t+\Delta T}^{k}}+\bf{\Delta \theta_{t+\Delta T}^{k+1}}$.
+\item La matriz de amortiguamiento viscoso $\bf{C}_{vis}$ se consideró una diagonal con elementos no nulos en las componentes asociadas a los desplazamientos traslacionales. Se copió el valor del amortiguamiento aerodinámico con el valor correspondiente a la coordenada lineal $\rho d_c C_d w_m$ para el resto de los desplazamientos. Esto garantiza la estabilidad y atenuación de la respuesta en la primera etapa asociada a la acción del peso propio.
+\item La simulación se separó en dos etapas consecutivas, en primer lugar se carga con la fuerza de la gravedad (a partir de la condición inicial) y una vez que la respuesta es constante se aplica la carga del viento. 
 \end{enumerate}  
 
 
 
 \subsection{Implementación numérica en ONSAS}\label{Sec:MET:ImplementNumeric}
-En la sección que prosigue se detallan los códigos implementados en el software (\href{https://github.com/ONSAS/ONSAS.m/}{ONSAS}). Este código de carácter abierto y se desarrolló de forma general integrando distintos elementos, materiales y geometrías dentro del mismo modelo. Además permite resolver mediante diversos algoritmos numéricos y visualizar gráficamente sus salida en 3D a través del programa de código abierto \emph{Paraview} difundido en \citep{ahrens2005paraview}.
+En la sección que prosigue se detallan los códigos implementados en el software (\href{https://github.com/ONSAS/ONSAS.m/}{ONSAS}). Este código es abierto y se desarrolló para distintos tipos de elementos, materiales y geometrías dentro del mismo modelo. Además permite resolver mediante diversos algoritmos numéricos y visualizar gráficamente sus salida en 3D a través del programa de código abierto \emph{Paraview} difundido en \citep{ahrens2005paraview}.
 
-Las líneas de código relacionadas con la formulación local, las funciones matemáticas de rotación, las fuerzas internas y sus matrices tangentes fueron aportadas por el Dr. Jean Mark Battini. Su intervención constituye uno de los pilares fundamentales en la construcción de este trabajo, no solo por ser pionero de la formulación corrotacional aplicada a estructuras, publicadas en los trabajos \citep{Battini2002} \citep{Le2014}, sino también por su predisposición a difundir los códigos de su investigación. A continuación en el pseudocódigo \ref{Pseudo:MET:Corrot} se detalla el esquema panorámico sobre el esqueleto del código ejecutado en \href{https://github.com/ONSAS/ONSAS.m/}{ONSAS}. 
+Las líneas de código relacionadas con la formulación local, las funciones matemáticas de rotación, las fuerzas internas y sus matrices tangentes fueron aportadas por el Prof. Jean-Marc Battini. Su contribución al ONSAS constituye uno de los pilares fundamentales en la construcción de este trabajo, no solo por ser pionero de la formulación corrotacional aplicada a estructuras, publicadas en los trabajos \citep{Battini2002} \citep{Le2014}, sino también por su predisposición a difundir los códigos de su investigación. A continuación en el pseudocódigo \ref{Pseudo:MET:Corrot} se detalla el esquema panorámico sobre el esqueleto del código ejecutado en \href{https://github.com/ONSAS/ONSAS.m/}{ONSAS}. 
 
 \begin{algorithm}
-	\begin{algorithmic} 
-		\REQUIRE: $tol_r$, $tol_u$, $\text{maxIter}$, $\Delta T$, $\alpha_{HHT}$
-		\STATE Iniciar cinemáticas: $\bf{d_t}\xleftarrow[]{}\bf{d_0}$
-		$\bf{\dot{d}_t}\xleftarrow[]{}\bf{\dot{d}_0}$
-		$\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}_0}$ 
-		\STATE Iniciar tiempo: $t\xleftarrow{}t_0$
-		\WHILE {$t<t_f$}
-		\STATE finDisp = $0$
-		\STATE Definir: $\bf{d^\text{$k$}}\xleftarrow[]{}\bf{d_t}$, $\bf{\dot{d}^\text{$k$}}\xleftarrow[]{}\bf{\dot{d}_t}$, $\bf{\ddot{d}^\text{$k$}}\xleftarrow[]{}\bf{\ddot{d}_t}$.
-		\STATE Evaluar $\bf{f_{ext,t+\Delta t}}$	
-		\WHILE{FinDisp = 0}
-		\STATE Calcular fuerzas: $\bf{f}_{ine}^\text{$k$}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$,  $\bf{f}_{int}^\text{$k$}(\bf{d}^\text{$k$})$ y $\bf{res}^{\text{$k$}}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$. 
-		\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^\text{$k$}$ $\bf{M}_k^\text{$k$}$  $\bf{C}_k^\text{$k$}$, $\bf{C}_{vis}$. 
-		\STATE Despejar $\Delta \bf{d}^\text{$k+1$}$ 
-		\STATE Actualizar desplazamientos globales:  $\bf{d}^\text{$k+1$} = \bf{d}^\text{$k$} + \Delta\bf{d}^\text{$k+1$}$ 
-		\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^\text{$k+1$}$), ($\bf{\ddot{u}}^\text{$k+1$}$).
-		\STATE Recalcular velocidades y aceleraciones angulares: ($\bf{\dot{w}}^\text{$k+1$}$), ($\bf{\ddot{w}}^\text{$k+1$}$).
-		\STATE Ensamblar velocidades: $\bf{\dot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\dot{u}}^\text{$k+1$}$,$\bf{\dot{w}}^\text{$k+1$}$)
-		\STATE Ensamblar aceleraciones: $\bf{\ddot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\ddot{u}}^\text{$k+1$}$,$\bf{\ddot{w}}^\text{$k+1$}$)
-		´				\STATE Actualizar fuerzas: 	$\bf{f}_{ine}^\text{$k+1$}(\bf{d}^\text{$k+1$},\bf{\dot{d}}^\text{$k+1$},\bf{\ddot{d}}^\text{$k+1$})$,  $\bf{f}_{int}^\text{$k+1$}(\bf{u}^\text{$k+1$})$ y $\bf{res}(\bf{d}^\text{$k+1$})$. 
-		\STATE Calcular: 
-		\IF {$\left \| \Delta \bf{d}^\text{$k+1$} \right \|< tol_d \left \| 
-			\bf{d}^\text{$k+1$} \right \| $  $~OR~$ $\left \| \bf{res}(\bf{d}^\text{$k+1$}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~OR~$ $ \text{k}\geq \text{max}_{iter}$ }
-		\STATE finDisp = 1
-		\ENDIF
-		\ENDWHILE
-		\STATE Actualizar $\bf{d_{t}}\xleftarrow[]{}\bf{d^\text{$k+1$}_{t+\Delta T}}$, $\bf{\dot{d}_{t}}\xleftarrow[]{}\bf{\dot{d}^\text{$k+1$}_{t+\Delta T}}$, $\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}^\text{$k+1$}_{t+\Delta T}}$.
-		\STATE $t = t+\Delta T$	
-		\ENDWHILE
-	\end{algorithmic}
-	\caption{Pseudocódigo de iteración general. }
-	\label{Pseudo:MET:Corrot}
+\begin{algorithmic} 
+	\REQUIRE: $tol_r$, $tol_u$, $\text{maxIter}$, $\Delta T$, $\alpha_{HHT}$
+	\STATE Iniciar cinemáticas: $\bf{d_t}\xleftarrow[]{}\bf{d_0}$
+	$\bf{\dot{d}_t}\xleftarrow[]{}\bf{\dot{d}_0}$
+	$\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}_0}$ 
+	\STATE Iniciar tiempo: $t\xleftarrow{}t_0$
+	\WHILE {$t<t_f$}
+	\STATE finDisp = $0$
+	\STATE Definir: $\bf{d^\text{$k$}}\xleftarrow[]{}\bf{d_t}$, $\bf{\dot{d}^\text{$k$}}\xleftarrow[]{}\bf{\dot{d}_t}$, $\bf{\ddot{d}^\text{$k$}}\xleftarrow[]{}\bf{\ddot{d}_t}$.
+	\STATE Evaluar $\bf{f_{ext,t+\Delta t}}$	
+	\WHILE{FinDisp = 0}
+	\STATE Calcular fuerzas: $\bf{f}_{ine}^\text{$k$}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$,  $\bf{f}_{int}^\text{$k$}(\bf{d}^\text{$k$})$ y $\bf{res}^{\text{$k$}}(\bf{d}^\text{$k$},\bf{\dot{d}}^\text{$k$},\bf{\ddot{d}}^\text{$k$})$. 
+	\STATE Calcular y ensamblar matrices Tangentes: $\bf{K}_g^\text{$k$}$ $\bf{M}_k^\text{$k$}$  $\bf{C}_k^\text{$k$}$, $\bf{C}_{vis}$. 
+	\STATE Despejar $\Delta \bf{d}^\text{$k+1$}$ 
+	\STATE Actualizar desplazamientos globales:  $\bf{d}^\text{$k+1$} = \bf{d}^\text{$k$} + \Delta\bf{d}^\text{$k+1$}$ 
+	\STATE Recalcular velocidades y aceleraciones lineales: ($\bf{\dot{u}}^\text{$k+1$}$), ($\bf{\ddot{u}}^\text{$k+1$}$).
+	\STATE Recalcular velocidades y aceleraciones angulares: ($\bf{\dot{w}}^\text{$k+1$}$), ($\bf{\ddot{w}}^\text{$k+1$}$).
+	\STATE Ensamblar velocidades: $\bf{\dot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\dot{u}}^\text{$k+1$}$,$\bf{\dot{w}}^\text{$k+1$}$)
+	\STATE Ensamblar aceleraciones: $\bf{\ddot{d}}^\text{$k+1$}$ $\leftarrow$ ($\bf{\ddot{u}}^\text{$k+1$}$,$\bf{\ddot{w}}^\text{$k+1$}$)
+	´				\STATE Actualizar fuerzas: 	$\bf{f}_{ine}^\text{$k+1$}(\bf{d}^\text{$k+1$},\bf{\dot{d}}^\text{$k+1$},\bf{\ddot{d}}^\text{$k+1$})$,  $\bf{f}_{int}^\text{$k+1$}(\bf{u}^\text{$k+1$})$ y $\bf{res}(\bf{d}^\text{$k+1$})$. 
+	\STATE Calcular: 
+	\IF {$\left \| \Delta \bf{d}^\text{$k+1$} \right \|< tol_d \left \| 
+		\bf{d}^\text{$k+1$} \right \| $  $~OR~$ $\left \| \bf{res}(\bf{d}^\text{$k+1$}) \right \|<tol_r \left \| \bf{f}_{ext} \right \| $  $~OR~$ $ \text{k}\geq \text{max}_{iter}$ }
+	\STATE finDisp = 1
+	\ENDIF
+	\ENDWHILE
+	\STATE Actualizar $\bf{d_{t}}\xleftarrow[]{}\bf{d^\text{$k+1$}_{t+\Delta T}}$, $\bf{\dot{d}_{t}}\xleftarrow[]{}\bf{\dot{d}^\text{$k+1$}_{t+\Delta T}}$, $\bf{\ddot{d}_t}\xleftarrow[]{}\bf{\ddot{d}^\text{$k+1$}_{t+\Delta T}}$.
+	\STATE $t = t+\Delta T$	
+	\ENDWHILE
+\end{algorithmic}
+\caption{Pseudocódigo de iteración general. }
+\label{Pseudo:MET:Corrot}
 \end{algorithm}
 
-En la estructura de códigos anterior se observan dos bucles en simultáneo. Inicialmente se ejecuta un primer $\bf{while}$ de avance cronológico, que permite incrementar la variable temporal en pasos de $\Delta T$. Además, debe evaluar los valores que son constantes en el tiempo, como ser: la magnitud de $\bf{f}_{ext}$. Para resolver el estado del sistema en el tiempo $t+\Delta T$, hace falta resolver la ecuación no lineal del resto descrita en la Expresión \eqref{Eq:MET:FinalIncremento}. Con este cometido se utiliza el segundo $\bf{while}$ en desplazamientos. Para este bucle en el pseudocódigo \ref{Pseudo:MET:Corrot} se omitió la notación en $t+\Delta T$ para simplificar la notación.
+En la estructura de códigos anterior se observan dos bucles en simultáneo. Inicialmente se ejecuta un primer $\bf{while}$ de avance cronológico, que permite incrementar la variable temporal en pasos de $\Delta T$. Además, debe evaluar los valores que son constantes en el tiempo, como ser: la magnitud de $\bf{f}_{ext}$. Para resolver el estado del sistema en el tiempo $t+\Delta T$, hace falta resolver la ecuación no lineal del resto descrita en la Expresión \eqref{Eq:MET:FinalIncremento}. Con este cometido se utiliza el segundo $\bf{while}$ en desplazamientos. Para este bucle en el pseudocódigo \ref{Pseudo:MET:Corrot} se omitió el subíndice temporal $t+\Delta T$ para simplificar la notación.
 
 Esta parte del código se podría subdividir en dos estructuras, primeramente, el cálculo del incremento que determina el paso $k+1$, a partir de los desplazamientos en el paso actual $k$. Luego se actualizan las variables cinemáticas de desplazamientos, velocidades y aceleraciones. Este conjunto de pasos se realiza mientras que la variable finDisp sea nula. La alteración de estado, se encuentra atada a la operación lógica de la sentencia $\bf{if}$. Esta se rige por la operación lógica disyunta, aplicada a tolerancias en desplazamientos $tol_u$, en vector de fueras residuales $tol_{res}$ y número máximo de iteraciones $max_{Iter}$. Las primeras dos son relativas al valor de fuerzas externas y desplazamientos en ese tiempo, lográndose de este modo independizarse de las magnitudes absolutas desconocidas. Una vez que el segundo bucle en desplazamientos converge, la variable finDisp alcanza la unidad. A partir de esto, se actualizan tanto el valor del tiempo, como las magnitudes cinemáticas para el instante siguiente.
 
@@ -425,44 +425,44 @@ Habiendo explicado la estructura general del código, resulta importante profund
 
 
 \begin{algorithm}
-	\begin{algorithmic} 
-		\REQUIRE $A_{\rho}$ $\bf{I}_{\rho}^{ref}$ $E$ $\nu$ $G$ $\bf{X}_1$ $\bf{X}_2$ $\bf{d}_g^e$
-		\FOR{1 \TO $N_{elem}$ } 
-		\STATE Separar vector desplazamientos $\bf{d}_g=(\bf{u}^g,\bf{w}^g)$
-		\STATE ----------------$ \text{Cálculo de matrices de rotación } $---------------- 
-		\STATE Computar matrices de rotación global $\bf{R}_g^1$ y $\bf{R}_g^2$
-		\STATE Evaluar matriz de rotación de referencia $\bf{R}_o$
-		\STATE Hallar $\bf{q}_1$ $\bf{q}_2$ $\bf{q}$ y calcular $\bf{e}_1$ $\bf{e}_2$ y $\bf{e}_3$.
-		\STATE Evaluar maitrz de rotación rígida $\bf{R_r}$
-		\STATE Calcular matrices de rotación locales $\bf{R}_i = \bf{R}_r^T \bf{R}_g^i \bf{R}_o$
-		\STATE -----------------------------------------------------------------------------  
-		\STATE --------- $\text{Cálculo de fuerza interna y matriz tangente } $---------
-		\STATE Calcular largos iniciales, actuales y estiramiento $l_0$ y $l$ $u=l-l_0$
-		\STATE Invertir $\bf{R}_i$ y hallar ángulos locales $\bf{\bar{\theta}_i}$.
-		\STATE Ejecutar \emph{beamLocalStaticForces } para fuerza interna $\bf{f}_{l}^{int}$ y matriz tangente local $\bf{K}_{l}^{T}$.
-		\STATE Construir matrices auxiliares: $\bf{H}$ $\bf{G}$ $\bf{P}$ $\bf{B}$  $\bf{r}$ 
-		\STATE Transformar a coordenadas globales:  $\bf{K}^{T}_{g}\leftarrow\bf{K}^{T}_{l}$ y $\bf{f}_{g}^{int}\leftarrow\bf{f}^{int}_{l}$.
-		\STATE -----------------------------------------------------------------------------  
-		\STATE ------ $\text{Cálculo de fuerza inerciales y matrices dinámcias} $------
-		\STATE Todas las variables dependen de la coordenada (x)
-		\STATE Definir funciones de interpolación $N_i$
-		\STATE Calcular matrices: $\bf{P_1}(x)$, $\bf{P_2}$, $\bf{N}$ y $\bf{H}_1$.
-		\STATE Hallar velocidades  $\dot{\bf{w}}$, $\dot{\bf{u}}$ y $\dot{\bf{w}}_r$ 
-		\STATE Calcular matrices auxiliares: $\bf{H}_1$, $\dot{\bf{H}}_1$, $\bf{H}_2$, $\dot{\bf{H}}_2$, $\bf{C}_1$, $\bf{C}_2$, $\bf{C}_3$ y $\bf{C}_4$.        
-		\STATE Hallar las aceleraciones: $\ddot{\bf{w}}$  $\ddot{\bf{u}}$.
-		\STATE Girar el tensor de inercia a la configuración deformada: $\bf{I}_{\rho}$ $\leftarrow$ $\bf{I}_{\rho}^{ref}$
-		\STATE Hallar expresiones e integrar en el elemento: $\bf{f}_{ine}$ $\bf{M}_k$ y $\bf{C}_k$
-		\STATE  Ensamblar : $\bf{f}_{ine}$ $\bf{M}$, $\bf{C}_k$ $\bf{K}_{T}^{g}$ $\bf{f}_{int}^{g}$
-		\STATE -----------------------------------------------------------------------------  
-		\ENDFOR 
-	\end{algorithmic}
-	\caption{Pseudocódigo elementBeamForces. }
-	\label{Pseudo:MET:elementBeamForces}
+\begin{algorithmic} 
+	\REQUIRE $A_{\rho}$ $\bf{I}_{\rho}^{ref}$ $E$ $\nu$ $G$ $\bf{X}_1$ $\bf{X}_2$ $\bf{d}_g^e$
+	\FOR{1 \TO $N_{elem}$ } 
+	\STATE Separar vector desplazamientos $\bf{d}_g=(\bf{u}^g,\bf{w}^g)$
+	\STATE ----------------$ \text{Cálculo de matrices de rotación } $---------------- 
+	\STATE Computar matrices de rotación global $\bf{R}_g^1$ y $\bf{R}_g^2$
+	\STATE Evaluar matriz de rotación de referencia $\bf{R}_o$
+	\STATE Hallar $\bf{q}_1$ $\bf{q}_2$ $\bf{q}$ y calcular $\bf{e}_1$ $\bf{e}_2$ y $\bf{e}_3$.
+	\STATE Evaluar maitrz de rotación rígida $\bf{R_r}$
+	\STATE Calcular matrices de rotación locales $\bf{R}_i = \bf{R}_r^T \bf{R}_g^i \bf{R}_o$
+	\STATE -----------------------------------------------------------------------------  
+	\STATE --------- $\text{Cálculo de fuerza interna y matriz tangente } $---------
+	\STATE Calcular largos iniciales, actuales y estiramiento $l_0$ y $l$ $u=l-l_0$
+	\STATE Invertir $\bf{R}_i$ y hallar ángulos locales $\bf{\bar{\theta}_i}$.
+	\STATE Ejecutar \emph{beamLocalStaticForces } para fuerza interna $\bf{f}_{l}^{int}$ y matriz tangente local $\bf{K}_{l}^{T}$.
+	\STATE Construir matrices auxiliares: $\bf{H}$ $\bf{G}$ $\bf{P}$ $\bf{B}$  $\bf{r}$ 
+	\STATE Transformar a coordenadas globales:  $\bf{K}^{T}_{g}\leftarrow\bf{K}^{T}_{l}$ y $\bf{f}_{g}^{int}\leftarrow\bf{f}^{int}_{l}$.
+	\STATE -----------------------------------------------------------------------------  
+	\STATE ------ $\text{Cálculo de fuerza inerciales y matrices dinámcias} $------
+	\STATE Todas las variables dependen de la coordenada (x)
+	\STATE Definir funciones de interpolación $N_i$
+	\STATE Calcular matrices: $\bf{P_1}(x)$, $\bf{P_2}$, $\bf{N}$ y $\bf{H}_1$.
+	\STATE Hallar velocidades  $\dot{\bf{w}}$, $\dot{\bf{u}}$ y $\dot{\bf{w}}_r$ 
+	\STATE Calcular matrices auxiliares: $\bf{H}_1$, $\dot{\bf{H}}_1$, $\bf{H}_2$, $\dot{\bf{H}}_2$, $\bf{C}_1$, $\bf{C}_2$, $\bf{C}_3$ y $\bf{C}_4$.        
+	\STATE Hallar las aceleraciones: $\ddot{\bf{w}}$  $\ddot{\bf{u}}$.
+	\STATE Girar el tensor de inercia a la configuración deformada: $\bf{I}_{\rho}$ $\leftarrow$ $\bf{I}_{\rho}^{ref}$
+	\STATE Hallar expresiones e integrar en el elemento: $\bf{f}_{ine}$ $\bf{M}_k$ y $\bf{C}_k$
+	\STATE  Ensamblar : $\bf{f}_{ine}$ $\bf{M}$, $\bf{C}_k$ $\bf{K}_{T}^{g}$ $\bf{f}_{int}^{g}$
+	\STATE -----------------------------------------------------------------------------  
+	\ENDFOR 
+\end{algorithmic}
+\caption{Pseudocódigo elementBeamForces. }
+\label{Pseudo:MET:elementBeamForces}
 \end{algorithm}
 
-El diagrama presentado en el Pseudocódigo \ref{Pseudo:MET:elementBeamForces}, puede dividirse en tres divisiones principales. Esto ordena el código consecutivamente según el desarrollo constructivo de las variables intervinientes. Primeramente, se hallan las matrices de rotación, que vinculan las configuraciones: de referencia, rígida y deformada. Una vez representadas estas transformaciones, se procede a calcular las fuerzas internas y las matrices tangentes en la configuración local a través de la función \href{https://github.com/ONSAS/ONSAS/blob/master/src/beamLocalStaticForces.m}{beamLocalStaticForces}. Desafortunadamente, tanto entradas como salidas de esta función, se encuentran referidas al sistema de coordenadas locales. Es por esto, que resulta inevitable calcular los ángulos y desplazamientos locales. Asimismo transformar las salidas a coordenadas globales, para luego integrarlas al código general expuesto en el Algoritmo  \ref{Pseudo:MET:Corrot}.
+El diagrama presentado en el Pseudocódigo \ref{Pseudo:MET:elementBeamForces}, puede dividirse en tres divisiones principales. Esto ordena el código consecutivamente según el desarrollo constructivo de las variables intervinientes. Primeramente, se hallan las matrices de rotación, que vinculan las configuraciones: de referencia, rígida y deformada. Una vez representadas estas transformaciones, se procede a calcular las fuerzas internas estáticas y las matrices tangentes en la configuración local a través de la función \href{https://github.com/ONSAS/ONSAS/blob/master/src/beamLocalStaticForces.m}{beamLocalStaticForces}. Tanto entradas como salidas de esta función, se encuentran referidas al sistema de coordenadas locales. Es por esto, que resulta inevitable calcular los ángulos y desplazamientos locales. Asimismo transformar las salidas a coordenadas globales, para luego integrarlas al código general expuesto en el Algoritmo  \ref{Pseudo:MET:Corrot}.
 
-De forma subsiguiente se arman las matrices dinámicas y los vectores de fuerza inercial asociados al elemento. Con este fin, se calculan primero las expresiones analíticas de las magnitudes cinemáticas en cada sección. Estas están referidas a su baricentro, ubicado a una distancia $x$ en la configuración de referencia. Como su obtención directa es algo compleja, se definen una serie de variables auxiliares y sus respectivas derivadas que permiten calcularlas.  
+De forma subsiguiente se arman las matrices dinámicas y los vectores de fuerza inercial asociados al elemento. Con este fin, se calculan primero las expresiones analíticas de las magnitudes cinemáticas en cada sección. Estas están referidas a su baricentro, ubicado a una distancia $x$ en la configuración de referencia. Dado que su obtención directa es algo compleja, se definen una serie de variables auxiliares y sus respectivas derivadas que permiten calcularlas.  
 
 Una vez finalizados estos pasos, se integran las matrices tangentes y el vector de fuerzas inerciales, empleando el método de integración numérica de cuadratura de Gauss. Este se implementó con 3 puntos de integración. Por último, los valores obtenidos tanto para las matrices tangentes dinámicas y estáticas, como para los vectores de fuerza inercial e internas se ensamblan a las matrices de todo el sistema en coordenadas globales.
 
