@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'simbolos.blg'
-[77] biber:322> INFO - === vie abr 30, 2021, 13:37:16
-[215] Utils.pm:309> ERROR - Cannot find 'simbolos.bcf'!
-[215] Biber.pm:132> INFO - ERRORS: 1
+[80] biber:322> INFO - === vie may  7, 2021, 10:56:32
+[218] Utils.pm:309> ERROR - Cannot find 'simbolos.bcf'!
+[218] Biber.pm:132> INFO - ERRORS: 1
