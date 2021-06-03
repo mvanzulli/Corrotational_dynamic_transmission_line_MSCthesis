@@ -1,20 +1,8 @@
 \begin{foreignabstract}
-The overhead transmission lines are frequently affected by severe climate events such as thunderstorms
-10 or heavy snowfalls. Such events might cause the disconnection of the line, with potentially severe consequences. In
-11 the period of 2000- 2007, more than twenty events of disconnection were registered in one of the main transmission
-12 lines in Uruguay. Given the particular features of local winds and temperatures, solutions applied in other countries
-13 might not be applicable. This demonstrates the necessity to develop numerical models to enhance the prediction
-14 capabilities of these events, guaranteeing in that manner a continuous supply of energy.
-15 The Universidad de la Repu´blica (UdelaR) counts with research groups working on this problem. The Com16
-putational Fluid Mechanics Group (GMFC) is working, since 2004, in the development of computational models
-17 of tridimensional fluxes for various applications. The main code developed is called caffa.3d.MBRi and it’s based
-18 on the Finite Volume Method, using MPI parallelization. The group called Modelling and Identification in Solids
-19 and Structures (MISES) is committed, since its creation in 2018, to the development of numerical codes for struc20
-tural analysis. The main code developed is called Open Non-linear Structural Analysis Solver (ONSAS) and it is
-21 publicly available.
-22 In this work a reference formulation for consistent non-linear dynamic analysis of beam structures using a
-23 co-rotational approach is implemented in the ONSAS code. The authors are not aware of any other open imple24
-mentation of this formulation available. The implementation is validated using reference problems and also applied
-25 to the modelling of high voltage transmission lines considering realistic geometries and loadings.
+The overhead transmission lines are frequently affected by severe climate events such as thunderstorms or heavy snowfalls. Such events might cause the disconnection of the line, with potentially severe consequences. In the period of 2000- 2007, more than twenty events of disconnection were registered in one of the main transmission lines in Uruguay. The 10 March of 2002 a thunderstorms affected an area of 6500 km$^2$ in the south of Montevideo. The storm caused massive destruction collapsing 19 500 kV and 48 150 kV transmission towers. The repair costs incurred was millonare. This problem represents a challenge,   given the particular features of local winds and temperatures, solutions applied in other countries might not be applicable. This demonstrates the necessity to develop numerical models to enhance the prediction capabilities of these events, guaranteeing in that manner a continuous supply of energy.
+
+The aim of this work is to develop tools capable to reproduce the response of electrical conductors loaded by  thunderstorm wind profiles. For this reason, a corotational formulation of 3D beams was implemented, considering aerodynamic components caused by the action of the wind. In this work the reference formulation for consistent non-linear dynamic analysis is implemented in the open source software tool  \emph{Open Non-linear Structural Analysis Solver} (\href{https://github.com/ONSAS/ONSAS.m/}{ONSAS}). Four numerical examples are presented: the first one validates the formulation for a classical example in the literature, the second one takes into account the interaction dynamics occurring between the insulator chain and the conductor. The third is a modification of a model proposed by leading researchers in structural simulation of power lines.  Finally, a real and complete example model is implemented, consisting of three towers and six conductors, integrating beam and truss elements. This example is loaded by a downburst wind profile,  extracted from an experimental study in Northern Germany. The results of this model reveal how convective storms are severely affected and may cause potentially serious damage.
+
+Finally, according to the models carryed out in this work, this represent a trigger for future research on the subject, developing native and endogenous capabilities to emulate the phenomenon more accurately. Moreover, the tool developed in this thesis could be included as a complementary tool during the design of the power transmission systems. The methodology of this thesis incorporates aerodynamic terms in a corotational formulation, which is an original contribution of this work.  
 
 \end{foreignabstract}
