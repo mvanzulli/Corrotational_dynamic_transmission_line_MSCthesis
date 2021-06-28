@@ -1,6 +1,9 @@
 # Tex_CorrotationalDynamicTL_TesisMV
 TEX of the thesis "Implementación de una formulación corrotacional en dinámica no lineal y aplicación al modelado de líneas de transmisión eléctrica".Thesis work carried out during the Master in Structural Engineering at UdelaR. This work was carried out by Mauricio Vanzulli with Prof. Jorge Perez Zerpa as thesis tutor and under the academic direction of Prof. Gabriel Usera as Academic Director.
 
+## Official COLIBRI publtiaction:
+https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/28388
+
 ## Abstract
 
 
