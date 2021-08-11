@@ -52,11 +52,11 @@
 \begin{frame}{Agradecimientos:}{}
 	\begin{block}{Gracias a:}
 	\begin{itemize}
-		\item Mis amigos y familia por su apoyo.
-		\pause 
-		\item Flor por ser un alero cuando llueve y dos alas cuando hay sol. 
-		\pause
-		\item Mis tutores por guiarme en este proceso de aprendizaje.
+%		\item Mis amigos y familia por su apoyo.
+%		\pause 
+%		\item A mi novia Flor por ser un alero cuando llueve y dos alas cuando hay sol. 
+%		\pause
+		\item Mis tutores de la Facutlad de Ingeniería UdelaR por guiarme en este proceso de aprendizaje.
 		\pause
 		\item La \emph{Comisión Académica de Posgrado} por financiar este proyecto y permitirme dedicarme a la investigación.
 		\pause
@@ -229,6 +229,40 @@
 \end{block}
 %Hace falta conocor entonces las expresiones en de fine fint, fvis y ademas sus variaciones respecto de desplazamientos, Entonces...
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAM%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Método de HHT}
+	\begin{minipage}[t]{0.4\linewidth}
+		\begin{block}{Características en problemas lineales:}
+			\begin{itemize}
+				\item Incondicionalmente estable para dinámica lineal.
+				\item Amortiguamiento numérico ficticio para altas frecuencias. 
+				\item La disipación no depende del parámetro característico $\alpha_{HHT}$
+				\item Según {\color{blue} (Hilber,1979)} es más preciso para bajas frecuencias en comparación con Newmark y con Wilson
+			\end{itemize}
+		\end{block}
+	\end{minipage}
+	\hspace{1cm}
+	\begin{minipage}[t]{0.5\linewidth}
+		\vspace{-1.8cm}
+		\begin{block}{Ecuación del residuo:}
+			\begin{equation}
+			\begin{split}
+			\bf{r}^{\text{$HHT$}}&=(1+\alpha_\text{$HHT$})(-\bf{f}_{ext,t+\delta_t}+\bf{f}_{int,t+\delta_t}+\bf{f}_{vis,t+\delta_t})...\\
+			&...-\alpha_\text{$HHT$}(-\bf{f}_{ext,t}+\bf{f}_{int,t}+\bf{f}_{vis,t})+...\\
+			&...+\bf{f}_{ine,t+\delta_t}	\approx 0
+			\end{split}
+			\end{equation}
+		\end{block}
+		\begin{block}{Matriz tangente global:}
+			\begin{equation}\label{Eq:MET:FinalIncremento}
+			\begin{split}
+			\bf{K}_{tot}= (1+\alpha_{HHT})&\bf{K}_g+{\left( \frac{4}{(1-\alpha_{HHT}^2) \delta_t^2} \right)} \bf{M}\bf{B}_t...\\ &...\left({\frac{1^2+\alpha^2_{HHT}}{2\delta_t}}\right) (\bf{C}_k+\bf{C}_{vis}) \bf{B}_t 
+			\end{split}
+			\end{equation}
+		\end{block}
+	\end{minipage}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ONSAS:}{}
 	\begin{block}{¿Qué es?}
@@ -300,6 +334,73 @@
 	\end{figure}
 	
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Sistemas de coordenadas corrotacional:}{}
+	\begin{minipage}[t]{0.5\linewidth}
+		\begin{figure}[htbp]
+			\centering
+			\def\svgwidth{60mm}
+			\input{./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex}
+			%	\caption{Descripción de las sistemas de coordenadas corrotacionales.}
+		\end{figure}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{0.5\linewidth}
+		\begin{block}{Bases para cada configuración:}
+			%	\begin{itemize}{Bases para cada configuración:}
+			%		\item  Paramétrica: $(\bf{E_1},\bf{E_2},\bf{E_3})$
+			%		\item  {\color{blue}Configuración de referencia} : $(\bf{r_1},\bf{r_2},\bf{r_3})$
+			%		\item {\color{gray}Configuración de deformación rígida} : $(\bf{r_1},\bf{r_2},\bf{r_3})$
+			%		\item  {\color{orange}Configuración deformada} :  $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$
+			%	\end{itemize}
+			Paramétrica: $(\bf{E_1},\bf{E_2},\bf{E_3})$\\
+			{\color{blue}Configuración de referencia} : $(\bf{e_1},\bf{e_2},\bf{e_3})$\\
+			{\color{gray}Configuración de deformación rígida} : $(\bf{r_1},\bf{r_2},\bf{r_3})$\\
+			{\color{orange}Configuración deformada} :  $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$\\
+		\end{block}
+		\begin{block}{¿Cómo se vinculan las bases? :}
+			Se definen las siguientes matrices de rotación...
+		\end{block}
+	\end{minipage}	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Matrices de rotación:}{}
+	\begin{minipage}[t]{0.5\linewidth}
+		\begin{figure}[htbp]
+			\centering
+			\def\svgwidth{60mm}
+			\input{./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex}
+		\end{figure}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{0.5\linewidth}
+		\begin{table}[htbp]
+			\begin{tabular}{|c|c|}
+				\hline
+				Matriz & Vínculo de sistemas de referencia \\
+				\hline \hline
+				$\bf{R}_0$ &$(\bf{E_1},\bf{E_2},\bf{E_3})$ $\rightarrow$
+				$(\bf{e_1},\bf{e_2},\bf{e_3})$   \\ \hline
+				$\bf{R}_i^g$ & $(\bf{e_1},\bf{e_2},\bf{e_3})$ $\rightarrow$
+				$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ \\ \hline
+				$\bf{\overline{R}}_i$ &
+				$(\bf{r_1},\bf{r_2},\bf{r_3})$$\rightarrow$$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$
+				\\ \hline
+				$\bf{R}_r$ &
+				$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$$\rightarrow$$(\bf{r_1},\bf{r_2},\bf{r_3})$ \\
+				\hline
+			\end{tabular}
+			%		\caption{Caracterización de matrices en términos de los sistemas de referencia.}
+		\end{table}
+		\begin{block}{¿Como calcular $\bf{\overline{R}}_i$? }
+			\begin{eqnarray}
+			\bf{R_i^g}\bf{R_o}&=& \bf{R_r}\overline{\bf{R_i}}\\
+			\bar{\bf{R_i}}&=&(\bf{R_r})^T\bf{R_i^g}\bf{R_o}
+			\end{eqnarray}
+		\end{block}
+	\end{minipage}	
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[t]{Iteración corrotacional en ONSAS:}
 	\begin{columns}[T,onlytextwidth]
@@ -740,6 +841,17 @@
 		\caption{Ángulos de balanceo en cadenas aisladoras.}
 	\end{figure}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAM%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Resultados desplazamientos nodales:}
+	\begin{figure}[htbp]
+		\centering
+		\subfigure[Desplazamientos en $x$ nodos B y C. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png}\label{fig:RN:Transmission:DispXCB}}
+		\subfigure[Desplazamientos en $z$ nodo B y C.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png}\label{fig:RN:Transmission:DispZCB}}
+		\caption{Desplazamientos de los nodos medios B y C. \label{fig:RN:Transmission:DispsCB}}
+	\end{figure}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     SECTION  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section[Conclusiones]{Conclusiones}
 
@@ -836,115 +948,8 @@
  		\item {\color{blue}(Foti,2018)} Foti, F. y Martinelli, L. (2018). Finite element modeling of cable galloping vibrations. Part II: Application to an iced cable in 1: 2 multiple internal resonance. Journal of Vibration and Control, 24 (7), 1322-1340.
 	\end{itemize}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Sistemas de coordenadas corrotacional:}{}
-	\begin{minipage}[t]{0.5\linewidth}
-	\begin{figure}[htbp]
-	\centering
-	\def\svgwidth{60mm}
-	\input{./imagenes/Preliminares/Corrotacional/IlusCorrotacional.pdf_tex}
-%	\caption{Descripción de las sistemas de coordenadas corrotacionales.}
-\end{figure}
-	\end{minipage}\hfill
-	\begin{minipage}[t]{0.5\linewidth}
-\begin{block}{Bases para cada configuración:}
-%	\begin{itemize}{Bases para cada configuración:}
-%		\item  Paramétrica: $(\bf{E_1},\bf{E_2},\bf{E_3})$
-%		\item  {\color{blue}Configuración de referencia} : $(\bf{r_1},\bf{r_2},\bf{r_3})$
-%		\item {\color{gray}Configuración de deformación rígida} : $(\bf{r_1},\bf{r_2},\bf{r_3})$
-%		\item  {\color{orange}Configuración deformada} :  $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$
-%	\end{itemize}
-		 Paramétrica: $(\bf{E_1},\bf{E_2},\bf{E_3})$\\
-		{\color{blue}Configuración de referencia} : $(\bf{e_1},\bf{e_2},\bf{e_3})$\\
-		{\color{gray}Configuración de deformación rígida} : $(\bf{r_1},\bf{r_2},\bf{r_3})$\\
-		{\color{orange}Configuración deformada} :  $(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$\\
-\end{block}
-\begin{block}{¿Cómo se vinculan las bases? :}
-	Se definen las siguientes matrices de rotación...
-\end{block}
-	\end{minipage}	
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAME%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}{Matrices de rotación:}{}
-	\begin{minipage}[t]{0.5\linewidth}
-		\begin{figure}[htbp]
-			\centering
-			\def\svgwidth{60mm}
-			\input{./imagenes/Preliminares/Corrotacional/IlusCorrotacional2.pdf_tex}
-		\end{figure}
-	\end{minipage}\hfill
-	\begin{minipage}[t]{0.5\linewidth}
-		\begin{table}[htbp]
-			\begin{tabular}{|c|c|}
-			\hline
-			Matriz & Vínculo de sistemas de referencia \\
-			\hline \hline
-			$\bf{R}_0$ &$(\bf{E_1},\bf{E_2},\bf{E_3})$ $\rightarrow$
-			$(\bf{e_1},\bf{e_2},\bf{e_3})$   \\ \hline
-			$\bf{R}_i^g$ & $(\bf{e_1},\bf{e_2},\bf{e_3})$ $\rightarrow$
-			$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$ \\ \hline
-			$\bf{\overline{R}}_i$ &
-			$(\bf{r_1},\bf{r_2},\bf{r_3})$$\rightarrow$$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$
-			\\ \hline
-			$\bf{R}_r$ &
-			$(\bf{t_1^i},\bf{t_2^i},\bf{t_3^i})$$\rightarrow$$(\bf{r_1},\bf{r_2},\bf{r_3})$ \\
-			\hline
-			\end{tabular}
-	%		\caption{Caracterización de matrices en términos de los sistemas de referencia.}
-		\end{table}
-		\begin{block}{¿Como calcular $\bf{\overline{R}}_i$? }
-	\begin{eqnarray}
-		\bf{R_i^g}\bf{R_o}&=& \bf{R_r}\overline{\bf{R_i}}\\
-			\bar{\bf{R_i}}&=&(\bf{R_r})^T\bf{R_i^g}\bf{R_o}
-	\end{eqnarray}
-		\end{block}
-	\end{minipage}	
-\end{frame}
-	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FRAM%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Método de HHT}
-%	\begin{minipage}[t]{0.4\linewidth}
-%		\begin{block}{Características en problemas lineales:}
-%			\begin{itemize}
-%				\item Incondicionalmente estable.
-%				\item Amortiguamiento numérico ficticio para altas frecuencias. 
-%				\item La disipación no depende del parámetro característico $\alpha_{HHT}$
-%				\item Según {\color{blue} (Hilber,1979)} es más preciso para bajas frecuencias en comparación con Newmark y con Wilson
-%			\end{itemize}
-%		\end{block}
-%	\end{minipage}
-%	\begin{minipage}[t]{0.5\linewidth}
-%		\vspace{-2cm}
-%		\begin{block}{Ecuación del residuo:}
-%			\begin{equation}
-%			\begin{split}
-%				\bf{r}^{\text{$HHT$}}&=(1+\alpha_\text{$HHT$})(-\bf{f}_{ext,t+\delta_t}+\bf{f}_{int,t+\delta_t}+\bf{f}_{vis,t+\delta_t})...\\
-%				&...-\alpha_\text{$HHT$}(-\bf{f}_{ext,t}+\bf{f}_{int,t}+\bf{f}_{vis,t})+...\\
-%				&...+\bf{f}_{ine,t+\delta_t}	\approx 0
-%			\end{split}
-%		\end{equation}
-%		\end{block}
-%		\begin{block}{Matriz tangente global:}
-%			\begin{equation}\label{Eq:MET:FinalIncremento}
-%			\begin{split}
-%				\bf{K}_{tot}= (1+\alpha_{HHT})&\bf{K}_g+\text{$\left( \frac{4}{(1-\alpha_{HHT}^2)\\delta_t^2} \right)$} \bf{M}\bf{B}_t...\\ &...\left(\text{$\frac{1^2+\alpha^2_{HHT}}{2\delta_t}$}\right) (\bf{C}_k+\bf{C}_{vis}) \bf{B}_t 
-%				\end{split}
-%			\end{equation}
-%		\end{block}
-%	\end{minipage}
-%\end{frame}
 
 
-
-\begin{frame}{Resultados TS desplazamientos:}
-\begin{figure}[htbp]
-	\centering
-	\subfigure[Desplazamientos en $x$ nodos B y C. ]{\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispXTS_NodeCB.png}\label{fig:RN:Transmission:DispXCB}}
-	\subfigure[Desplazamientos en $z$ nodo B y C.] {\includegraphics[width=0.48\textwidth]{./imagenes/ResultadosNumericos/TransmissionTormenta/DispZTS_NodeCB.png}\label{fig:RN:Transmission:DispZCB}}
-	\caption{Desplazamientos de los nodos medios B y C. \label{fig:RN:Transmission:DispsCB}}
-\end{figure}
-\end{frame}
-	
+%%%%%%%End document
 	\end{small}
 \end{document}
