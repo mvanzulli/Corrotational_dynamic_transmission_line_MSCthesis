@@ -1,0 +1,406 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.24)  11 FEB 2021 19:44
+entering extended mode
+**./Static_Tower_Report.tex
+(Static_Tower_Report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count179
+\LTcapwidth=\dimen143
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count180
+\LT@rows=\count181
+\c@LT@tables=\count182
+\c@LT@chunks=\count183
+\LT@p@ftn=\toks17
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count184
+\float@exts=\toks18
+\float@box=\box49
+\@float@everytoks=\toks19
+\@floatcapt=\box50
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.s
+ty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count185
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.st
+y
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox
+.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen146
+\tc@lly=\dimen147
+\tc@urx=\dimen148
+\tc@ury=\dimen149
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.d
+ef
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen150
+\adjbox@Height=\dimen151
+\adjbox@Depth=\dimen152
+\adjbox@Totalheight=\dimen153
+\adjbox@pwidth=\dimen154
+\adjbox@pheight=\dimen155
+\adjbox@pdepth=\dimen156
+\adjbox@ptotalheight=\dimen157
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.s
+ty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count186
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count187
+\@vwid@loff=\dimen158
+\@vwid@roff=\dimen159
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count188
+\@cmidlb=\count189
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count190
+\@lastruleclass=\count191
+\@thisrulewidth=\dimen172
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box53
+\extrarowheight=\dimen174
+\NC@list=\toks22
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box54
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.s
+ty
+Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 484.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertin
+e_I.tex))
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen175
+\dashlinegap=\dimen176
+\adl@box=\box55
+\adl@height=\dimen177
+\adl@heightsave=\dimen178
+\adl@depth=\dimen179
+\adl@depthsave=\dimen180
+\adl@finaldepth=\dimen181
+\adl@columns=\count192
+\adl@ncol=\count193
+\adl@currentcolumn=\count194
+\adl@currentcolumnsave=\count195
+\adl@totalheight=\count196
+\adl@totalheightsave=\count197
+\adl@dash=\count198
+\adl@gap=\count199
+\adl@cla=\count266
+\adl@clb=\count267
+\adl@everyvbox=\toks23
+\adl@LTpagetotal=\dimen182
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box56
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen183
+\ttl@minus=\dimen184
+\ttl@toksa=\toks24
+\titlewidth=\dimen185
+\titlewidthlast=\dimen186
+\titlewidthfirst=\dimen187
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count268
+\l__pdf_internal_box=\box57
+) (Static_Tower_Report.aux)
+\openout1 = `Static_Tower_Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
+on input line 30.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibe
+rtinet-tlf.fd
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
+nuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 30.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen188
+\scratchbox=\box58
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen189
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks26
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\c@mv@tabular=\count275
+\c@mv@boldtabular=\count276
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 37.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 37.
+ (Static_Tower_incrementsOutput.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+ [1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+] [2] [3]) [4] (Static_Tower_Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 4779 strings out of 481199
+ 79044 string characters out of 2904657
+ 378014 words of memory out of 3000000
+ 20321 multiletter control sequences out of 15000+200000
+ 556476 words of font info for 37 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,11n,45p,333b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Usuario/AppData/Local/Progr
+ams/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/Usuario/AppData/
+Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Usuar
+io/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb
+><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/L
+inLibertineTB.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Static_Tower_Report.pdf (4 pages, 213806 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
