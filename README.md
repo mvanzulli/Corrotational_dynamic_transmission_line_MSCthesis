@@ -15,4 +15,7 @@ The results obtained in this work represent a trigger for future research on the
 
 # Mentions
 This work obtaint the award from the [National Engineering Agency of Uruguay](https://aniu.org.uy/es/noticias-y-novedades/ ) for the best master's thesis in the Civil structural area.
-  
+
+# Animations
+
+
