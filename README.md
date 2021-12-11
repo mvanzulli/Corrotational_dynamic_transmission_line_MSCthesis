@@ -14,5 +14,5 @@ The aim of this work is to develop tools capable of reproducing the response of 
 The results obtained in this work represent a trigger for future research on the subject. Moreover, the codes developed in this thesis could be included as a complementary tool during the design of power transmission systems. The methodology of this thesis incorporates aerodynamic terms in a corotational formulation, which is an original contribution of this work.  
 
 # Mentions
-This work obtaint the award from the [https://aniu.org.uy/es/noticias-y-novedades/]( National Engineering Agency of Uruguay) for the best master's thesis in the Civil structural area 
+This work obtaint the award from the [National Engineering Agency of Uruguay](https://aniu.org.uy/es/noticias-y-novedades/ ) for the best master's thesis in the Civil structural area.
   
