@@ -13,10 +13,10 @@ The aim of this work is to develop tools capable of reproducing the response of 
 
 The results obtained in this work represent a trigger for future research on the subject. Moreover, the codes developed in this thesis could be included as a complementary tool during the design of power transmission systems. The methodology of this thesis incorporates aerodynamic terms in a corotational formulation, which is an original contribution of this work.  
 
-# Mentions
+## Mentions
 This work obtaint the award from the [National Engineering Agency of Uruguay](https://aniu.org.uy/es/noticias-y-novedades/ ) for the best master's thesis in the Civil structural area.
 
-# Animations
+## Animations
 ![Transmission line system under a thunderstorm](https://user-images.githubusercontent.com/50339940/145678643-9c7545e1-50f0-4f03-bd8d-0b0856905d3f.gif
 )
 
